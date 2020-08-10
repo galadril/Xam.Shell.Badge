@@ -23,7 +23,6 @@ namespace Xam.Shell.Badge.Sample.iOS
       public override bool FinishedLaunching(UIApplication uiApplication, NSDictionary launchOptions)
       {
          global::Xamarin.Forms.Forms.Init();
-         Xam.Shell.Badge.iOS.Effects.Init();
          LoadApplication(new App());
 
          return base.FinishedLaunching(uiApplication, launchOptions);

@@ -6,16 +6,14 @@ using Xamarin.Forms;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Xam.Effects.iOS")]
+[assembly: AssemblyTitle("Xam.Shell.Badge.iOS")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("JF Hillebrand")]
-[assembly: AssemblyProduct("Xam.Effects.iOS")]
-[assembly: AssemblyCopyright("Copyright ©  2017")]
+[assembly: AssemblyCompany("Mark Heinis")]
+[assembly: AssemblyProduct("Xam.Shell.Badge.iOS")]
+[assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
-
-[assembly: ResolutionGroupName("com.jfhillebrand.effects")]
 
 // Setting ComVisible to false makes the types in this assembly not visible 
 // to COM components.  If you need to access a type in this assembly from 

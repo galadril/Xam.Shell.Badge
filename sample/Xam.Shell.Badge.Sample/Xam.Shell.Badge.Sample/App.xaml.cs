@@ -12,8 +12,7 @@ namespace Xam.Shell.Badge.Sample
 		public App ()
 		{
 			InitializeComponent();
-
-			MainPage = new NavigationPage(new Xam.Shell.Badge.Sample.MainPage());
+			MainPage = new AppShell();
 		}
 
 		protected override void OnStart ()

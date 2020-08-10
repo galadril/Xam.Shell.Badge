@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Shell
+    x:Class="Xam.Shell.Badge.Sample.AppShell"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:views="clr-namespace:Xam.Shell.Badge.Sample">
+    <TabBar x:Name="tabBar">
+        <Tab Title="test 1">
+            <views:MainPage />
+        </Tab>
+        <Tab Title="test 2">
+            <views:MainPage />
+        </Tab>
+        <Tab Title="test 3">
+            <views:MainPage />
+        </Tab>
+    </TabBar>
+</Shell>

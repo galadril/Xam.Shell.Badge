@@ -9,7 +9,7 @@
 
    <PropertyGroup>
       <TargetFramework>netstandard2.0</TargetFramework>
-      <RootNamespace>Xam.Effects</RootNamespace>
+      <RootNamespace>Xam.Shell.Badge</RootNamespace>
       <Company>JF Hillebrand IT</Company>
       <Authors>Erik van den Berg</Authors>
       <Description>Library for Xamarin.Forms related to effects</Description>
@@ -23,20 +23,20 @@
       <FileVersion>1.0.0.1</FileVersion>
       <Version>1.0.1</Version>
       <RepositoryType>git</RepositoryType>
-      <RepositoryUrl>https://jfhillebrand.visualstudio.com/Development/_git/Xam.Effects</RepositoryUrl>
-      <AssemblyName>Xam.Effects</AssemblyName>
+      <RepositoryUrl>https://jfhillebrand.visualstudio.com/Development/_git/Xam.Shell.Badge</RepositoryUrl>
+      <AssemblyName>Xam.Shell.Badge</AssemblyName>
    </PropertyGroup>
 
    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-      <DocumentationFile>bin\Debug\netstandard2.0\Xam.Effects.xml</DocumentationFile>
+      <DocumentationFile>bin\Debug\netstandard2.0\Xam.Shell.Badge.xml</DocumentationFile>
       <DebugType>full</DebugType>
       <DebugSymbols>true</DebugSymbols>
-      <CodeAnalysisRuleSet>Xam.Effects.ruleset</CodeAnalysisRuleSet>
+      <CodeAnalysisRuleSet>Xam.Shell.Badge.ruleset</CodeAnalysisRuleSet>
    </PropertyGroup>
 
    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-      <DocumentationFile>bin\Release\netstandard2.0\Xam.Effects.xml</DocumentationFile>
-      <CodeAnalysisRuleSet>Xam.Effects.ruleset</CodeAnalysisRuleSet>
+      <DocumentationFile>bin\Release\netstandard2.0\Xam.Shell.Badge.xml</DocumentationFile>
+      <CodeAnalysisRuleSet>Xam.Shell.Badge.ruleset</CodeAnalysisRuleSet>
    </PropertyGroup>
 
    <ItemGroup>

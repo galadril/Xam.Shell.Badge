@@ -7,17 +7,15 @@ using Xamarin.Forms;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Xam.Effects.Android")]
+[assembly: AssemblyTitle("Xam.Shell.Badge.Android")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("JF Hillebrand")]
-[assembly: AssemblyProduct("Xam.Effects.Android")]
-[assembly: AssemblyCopyright("Copyright ©  2017")]
+[assembly: AssemblyCompany("Mark Heinis")]
+[assembly: AssemblyProduct("Xam.Shell.Badge.Android")]
+[assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 [assembly: ComVisible(false)]
-
-[assembly: ResolutionGroupName("com.jfhillebrand.effects")]
 
 // Version information for an assembly consists of the following four values:
 //
