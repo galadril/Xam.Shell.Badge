@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RuleSet Name="SonarQube - MyHillebrand.Android Sonar way" ToolsVersion="15.0">
+  <Include Path="..\..\..\myhillebrand.mobile\src\.sonarlint\myhillebrand.androidcsharp.ruleset" Action="Default" />
+</RuleSet>

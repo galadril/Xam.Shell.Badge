@@ -1,0 +1,52 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+   <PropertyGroup Label="Globals">
+      <SccProjectName>SAK</SccProjectName>
+      <SccProvider>SAK</SccProvider>
+      <SccAuxPath>SAK</SccAuxPath>
+      <SccLocalPath>SAK</SccLocalPath>
+   </PropertyGroup>
+
+   <PropertyGroup>
+      <TargetFramework>netstandard2.0</TargetFramework>
+      <RootNamespace>Xam.Effects</RootNamespace>
+      <Company>JF Hillebrand IT</Company>
+      <Authors>Erik van den Berg</Authors>
+      <Description>Library for Xamarin.Forms related to effects</Description>
+      <Copyright>Copyright © JF Hillebrand IT 2018</Copyright>
+      <PackageTags>Xamarin.Forms Effect</PackageTags>
+      <PackageReleaseNotes>Initial version of the package</PackageReleaseNotes>
+      <NeutralLanguage>en-GB</NeutralLanguage>
+      <SignAssembly>false</SignAssembly>
+      <DelaySign>false</DelaySign>
+      <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      <FileVersion>1.0.0.1</FileVersion>
+      <Version>1.0.1</Version>
+      <RepositoryType>git</RepositoryType>
+      <RepositoryUrl>https://jfhillebrand.visualstudio.com/Development/_git/Xam.Effects</RepositoryUrl>
+      <AssemblyName>Xam.Effects</AssemblyName>
+   </PropertyGroup>
+
+   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+      <DocumentationFile>bin\Debug\netstandard2.0\Xam.Effects.xml</DocumentationFile>
+      <DebugType>full</DebugType>
+      <DebugSymbols>true</DebugSymbols>
+      <CodeAnalysisRuleSet>Xam.Effects.ruleset</CodeAnalysisRuleSet>
+   </PropertyGroup>
+
+   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+      <DocumentationFile>bin\Release\netstandard2.0\Xam.Effects.xml</DocumentationFile>
+      <CodeAnalysisRuleSet>Xam.Effects.ruleset</CodeAnalysisRuleSet>
+   </PropertyGroup>
+
+   <ItemGroup>
+      <PackageReference Include="Xamarin.Forms" Version="4.8.0.1269" />
+   </ItemGroup>
+
+   <ItemGroup>
+      <Reference Include="Mono.Android">
+         <HintPath>..\..\..\..\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\ReferenceAssemblies\Microsoft\Framework\MonoAndroid\v8.1\Mono.Android.dll</HintPath>
+      </Reference>
+   </ItemGroup>
+
+</Project>
