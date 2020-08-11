@@ -38,7 +38,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Release\Xam.Effects.Android.xml</DocumentationFile>
+    <DocumentationFile>bin\Release\Xam.Shell.Badge.Android.xml</DocumentationFile>
     <CodeAnalysisRuleSet>Xam.Effects.Android.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
