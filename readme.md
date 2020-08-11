@@ -1,8 +1,10 @@
+
 [![nuget](https://img.shields.io/nuget/v/Xam.Shell.Badge.svg)](https://www.nuget.org/packages/Xam.Shell.Badge/) ![Nuget](https://img.shields.io/nuget/dt/Xam.Shell.Badge)
 
 
 # Xam.Shell.Badge
 Just a simple fix for adding a badge to a Shell Bottom Tabbar for your Xamarin Forms project. 
+Linked issue on Xamarin Forms github:
 https://github.com/xamarin/Xamarin.Forms/issues/6112
 
 
@@ -59,3 +61,13 @@ The first value is the badge position, and the second value is the counter to sh
 
 
 Or you can just look at the code to implement a badge yourself via Shell Renderers!
+
+
+
+
+
+# Donation
+
+If you like to support the Domoticz apps, you could always buy me a cup of coffee!   
+(Thanks!)  
+[![PayPal donate button](https://img.shields.io/badge/paypal-donate-yellow.svg)](https://www.paypal.me/markheinis)
