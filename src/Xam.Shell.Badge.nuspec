@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<package >
+  <!-- See for documentation: https://docs.microsoft.com/nl-nl/nuget/create-packages/overview-and-workflow -->
+  <metadata>
+    <id>Xam.Shell.Badge</id>
+    <version>1.0.1</version>
+    <title>Xam.Shell.Badge</title>
+    <authors>Mark Heinis</authors>
+    <owners>HNO Games</owners>
+    <projectUrl>https://github.com/galadril/Xam.Shell.Badge</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+      A small plugin to ease the use of badges on Shell Bottom Bars 
+    </description>
+    <releaseNotes>
+      Initial version
+    </releaseNotes>
+    <copyright>Copyright @ Mark Heinis 2020</copyright>
+    <tags>Xamarin.Forms Shell Badge</tags>
+
+    <!-- Dependencies are automatically installed when the package is installed -->
+    <dependencies>
+      <group targetFramework="netstandard2.0">
+        <dependency id="Xamarin.Forms" version="3.1" />
+      </group>
+      <group targetFramework="MonoAndroid10">
+        <dependency id="Xamarin.Forms" version="3.1" />
+      </group>
+      <group targetFramework="MonoTouch10">
+        <dependency id="Xamarin.Forms" version="3.1" />
+      </group>
+    </dependencies>
+  </metadata>
+
+  <files>
+    <!-- .NET Standard 2.0 -->
+    <file src="Xam.Controls\bin\$Configuration$\netstandard2.0\Xam.Controls.dll" target="lib\netstandard2.0\Xam.Shell.Badge.dll" />
+    <file src="Xam.Shell.Badge\bin\$Configuration$\netstandard2.0\Xam.Shell.Badge.xml" target="lib\netstandard2.0\Xam.Shell.Badge.xml" />
+
+    <!-- Android -->
+    <file src="Xam.Shell.Badge\bin\$Configuration$\netstandard2.0\Xam.Shell.Badge.dll" target="lib\MonoAndroid10\Xam.Shell.Badge.dll" />
+    <file src="Xam.Shell.Badge\bin\$Configuration$\netstandard2.0\Xam.Shell.Badge.xml" target="lib\MonoAndroid10\Xam.Shell.Badge.xml" />
+    <file src="Xam.Shell.Badge.Android\bin\$Configuration$\Xam.Shell.Badge.Android.dll" target="lib\MonoAndroid10\Xam.Shell.Badge.Android.dll" />
+    <file src="Xam.Shell.Badge.Android\bin\$Configuration$\Xam.Shell.Badge.Android.xml" target="lib\MonoAndroid10\Xam.Shell.Badge.Android.xml" />
+
+    <!-- iOS Unified API -->
+    <file src="Xam.Shell.Badge\bin\$Configuration$\netstandard2.0\Xam.Shell.Badge.dll" target="lib\Xamarin.iOS\Xam.Shell.Badge.dll" />
+    <file src="Xam.Shell.Badge\bin\$Configuration$\netstandard2.0\Xam.Shell.Badge.xml" target="lib\Xamarin.iOS\Xam.Shell.Badge.xml" />
+    <file src="Xam.Shell.Badge.iOS\bin\$Configuration$\Xam.Shell.Badge.iOS.dll" target="lib\Xamarin.iOS\Xam.Shell.Badge.iOS.dll" />
+    <file src="Xam.Shell.Badge.iOS\bin\$Configuration$\Xam.Shell.Badge.iOS.xml" target="lib\Xamarin.iOS\Xam.Shell.Badge.iOS.xml" />
+
+    <!-- iOS Classic API-->
+    <file src="Xam.Shell.Badge\bin\$Configuration$\netstandard2.0\Xam.Shell.Badge.dll" target="lib\MonoTouch10\Xam.Shell.Badge.dll" />
+    <file src="Xam.Shell.Badge\bin\$Configuration$\netstandard2.0\Xam.Shell.Badge.xml" target="lib\MonoTouch10\Xam.Shell.Badge.xml" />
+    <file src="Xam.Shell.Badge.iOS\bin\$Configuration$\Xam.Shell.Badge.iOS.dll" target="lib\MonoTouch10\Xam.Shell.Badge.iOS.dll" />
+    <file src="Xam.Shell.Badge.iOS\bin\$Configuration$\Xam.Shell.Badge.iOS.xml" target="lib\MonoTouch10\Xam.Shell.Badge.iOS.xml" />
+  </files>
+</package>
