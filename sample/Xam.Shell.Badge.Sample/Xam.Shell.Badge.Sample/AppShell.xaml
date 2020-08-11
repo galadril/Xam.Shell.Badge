@@ -3,17 +3,20 @@
     x:Class="Xam.Shell.Badge.Sample.AppShell"
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:local="clr-namespace:Xam.Shell.Badge.Sample"
     xmlns:views="clr-namespace:Xam.Shell.Badge.Sample">
     <TabBar x:Name="tabBar">
-        <Tab Title="test 1">
-            <views:MainPage />
+        <Tab Title="Test1" Icon="icon.png">
+            <ShellContent ContentTemplate="{DataTemplate local:MainPage}" />
         </Tab>
-        <Tab Title="test 2">
-            <views:MainPage />
+        <Tab Title="Test2" Icon="icon.png">
+            <ShellContent ContentTemplate="{DataTemplate local:MainPage}" />
         </Tab>
-        <Tab Title="test 3">
-            <views:MainPage />
+        <Tab Title="Test3" Icon="icon.png">
+            <ShellContent ContentTemplate="{DataTemplate local:MainPage}" />
+        </Tab>
+        <Tab Title="Test4" Icon="icon.png">
+            <ShellContent ContentTemplate="{DataTemplate local:MainPage}" />
         </Tab>
     </TabBar>
 </Shell>

@@ -51,7 +51,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BottomBar.cs" />
     <Compile Include="Renderers\CustomShellBottomAppearance.cs" />
+    <Compile Include="Renderers\CustomShellItemRenderer.cs" />
     <Compile Include="Renderers\CustomShellRenderer.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

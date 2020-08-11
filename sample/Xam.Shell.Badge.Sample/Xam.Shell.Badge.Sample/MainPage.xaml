@@ -11,7 +11,7 @@
             <Button
                 Clicked="Button_Clicked"
                 HorizontalOptions="CenterAndExpand"
-                Text="Add badget!"
+                Text="Show badge!"
                 VerticalOptions="CenterAndExpand" />
         </StackLayout>
     </ContentPage.Content>

@@ -7,6 +7,7 @@ using Android.Views;
 using Android.Widget;
 using Android.OS;
 using Plugin.CurrentActivity;
+using Xam.Shell.Badge.Droid;
 
 namespace Xam.Shell.Badge.Sample.Droid
 {
@@ -22,7 +23,7 @@ namespace Xam.Shell.Badge.Sample.Droid
 
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             CrossCurrentActivity.Current.Init(this, savedInstanceState);
-
+            BottomBar.Init();
             LoadApplication(new App());
         }
     }

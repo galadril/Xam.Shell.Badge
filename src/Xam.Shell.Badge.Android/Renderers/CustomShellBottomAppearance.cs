@@ -19,25 +19,24 @@ namespace Xam.Shell.Badge.Droid.Renderers
         { }
 
         public void ResetAppearance(BottomNavigationView bottomView)
-        { }
+        {
+            Init(bottomView);
+        }
 
-        /// <summary>
-        /// Set appearance
-        /// </summary>
         public void SetAppearance(BottomNavigationView bottomView, IShellAppearanceElement appearance)
+        {}
+
+        public void Init(BottomNavigationView bottomView)
         {
             bottomView.LabelVisibilityMode = LabelVisibilityMode.LabelVisibilitySelected;
-            _bottomNavigationMenuView = (BottomNavigationMenuView)bottomView.GetChildAt(0);
-
+            if (_bottomNavigationMenuView == null)
+                _bottomNavigationMenuView = (BottomNavigationMenuView)bottomView.GetChildAt(0);
             MessagingCenter.Subscribe<BottomBarHelper, int[]>(this, "SetBadge", (sender, values) =>
             {
                 CreatePageBadge(values[0], values[1] > 0, values[1], _bottomNavigationMenuView);
             });
         }
 
-        /// <summary>
-        /// Create page badge
-        /// </summary>
         private void CreatePageBadge(int index, bool ShowBadge, int BadgeCount, BottomNavigationMenuView _bottomNavigationMenuView)
         {
             var itemView = (BottomNavigationItemView)_bottomNavigationMenuView.GetChildAt(index);

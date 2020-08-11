@@ -12,9 +12,14 @@ namespace Xam.Shell.Badge.iOS.Renderers
         { }
 
         public void ResetAppearance(UITabBarController controller)
-        { }
+        {
+        }
 
         public async void SetAppearance(UITabBarController controller, ShellAppearance appearance)
+        {
+        }
+
+        public void UpdateLayout(UITabBarController controller)
         {
             MessagingCenter.Subscribe<BottomBarHelper, int[]>(this, "SetBadge", (sender, values) =>
             {
@@ -22,8 +27,5 @@ namespace Xam.Shell.Badge.iOS.Renderers
                     controller.TabBar.Items[values[0]].BadgeValue = values[1].ToString();
             });
         }
-
-        public void UpdateLayout(UITabBarController controller)
-        { }
     }
 }
