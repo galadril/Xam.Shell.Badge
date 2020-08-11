@@ -68,6 +68,6 @@ Or you can just look at the code to implement a badge yourself via Shell Rendere
 
 # Donation
 
-If you like to support the Domoticz apps, you could always buy me a cup of coffee!   
+If you like to say thanks, you could always buy me a cup of coffee (/beer)!   
 (Thanks!)  
 [![PayPal donate button](https://img.shields.io/badge/paypal-donate-yellow.svg)](https://www.paypal.me/markheinis)
