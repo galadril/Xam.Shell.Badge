@@ -10,21 +10,23 @@
    <PropertyGroup>
       <TargetFramework>netstandard2.0</TargetFramework>
       <RootNamespace>Xam.Shell.Badge</RootNamespace>
-      <Company>JF Hillebrand IT</Company>
-      <Authors>Erik van den Berg</Authors>
-      <Description>Library for Xamarin.Forms related to effects</Description>
-      <Copyright>Copyright © JF Hillebrand IT 2018</Copyright>
-      <PackageTags>Xamarin.Forms Effect</PackageTags>
+      <Company>HNO Games</Company>
+      <Authors>Mark Heinis</Authors>
+      <Description>A small plugin to ease the use of badges on Shell Bottom Bars</Description>
+      <Copyright>Copyright © Mark Heinis 2020</Copyright>
+      <PackageTags>Xam.Shell.Badge, Shell, Badge</PackageTags>
       <PackageReleaseNotes>Initial version of the package</PackageReleaseNotes>
       <NeutralLanguage>en-GB</NeutralLanguage>
       <SignAssembly>false</SignAssembly>
       <DelaySign>false</DelaySign>
       <AssemblyVersion>1.0.0.0</AssemblyVersion>
       <FileVersion>1.0.0.1</FileVersion>
-      <Version>1.0.1</Version>
+      <Version>1.0.0</Version>
       <RepositoryType>git</RepositoryType>
-      <RepositoryUrl>https://jfhillebrand.visualstudio.com/Development/_git/Xam.Shell.Badge</RepositoryUrl>
+      <RepositoryUrl>https://github.com/galadril/Xam.Shell.Badge</RepositoryUrl>
       <AssemblyName>Xam.Shell.Badge</AssemblyName>
+      <PackageProjectUrl>https://github.com/galadril/Xam.Shell.Badge</PackageProjectUrl>
+      <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
    </PropertyGroup>
 
    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
