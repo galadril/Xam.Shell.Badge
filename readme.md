@@ -2,7 +2,8 @@
 
 
 # Xam.Shell.Badge
-Just a simple fix for adding a badge to a Shell Bottom Tabbar for your Xamarin Forms project 
+Just a simple fix for adding a badge to a Shell Bottom Tabbar for your Xamarin Forms project.
+https://github.com/xamarin/Xamarin.Forms/issues/6112
 
 
 # Setup
