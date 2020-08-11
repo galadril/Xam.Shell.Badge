@@ -10,22 +10,14 @@ Just a simple fix for adding a badge to a Shell Bottom Tabbar for your Xamarin F
 # Setup
 * Available on Nuget:
 https://www.nuget.org/packages/Xam.Shell.Badge
-
 !!Install into your .net standaard project. !!
-
-
-# Example
-![shell_badge](https://user-images.githubusercontent.com/14561640/45887098-2c072580-bdbb-11e8-9084-3136bd911062.gif)
-
 
 
 # Init
 Init the library within your Android (MainActivity) and iOS (AppDelegate) project
 
 ```
- 
             BottomBar.Init();
-
 ```
 
 
@@ -60,3 +52,7 @@ Then set a badge in you project code via:
 ```
 
 The first value is the badge position, and the second value is the counter to show;
+
+
+
+Or you can just look at the code to implement a badge yourself via Shell Renderers!
