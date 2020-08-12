@@ -57,6 +57,21 @@ Then set a badge in you project code via:
 
 ```
 
+If you like, you can remove the badge via:
+
+
+```
+            new BottomBarHelper().RemoveBadge(1);
+
+            or
+
+            
+            new BottomBarHelper().SetBadge(1, 0);
+
+```
+
+            
+
 The first value is the badge position, and the second value is the counter to show;
 
 

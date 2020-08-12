@@ -1,5 +1,4 @@
-﻿using System;
-using Android.Views;
+﻿using Android.Views;
 using Android.Widget;
 using Google.Android.Material.BottomNavigation;
 using Plugin.CurrentActivity;
@@ -8,24 +7,63 @@ using Xamarin.Forms.Platform.Android;
 
 namespace Xam.Shell.Badge.Droid.Renderers
 {
+    /// <summary>
+    /// Defines the <see cref="CustomShellBottomAppearance" />.
+    /// </summary>
     internal class CustomShellBottomAppearance : IShellBottomNavViewAppearanceTracker
     {
+        #region Variables
+
+        /// <summary>
+        /// Defines the _bottomNavigationMenuView.
+        /// </summary>
         private BottomNavigationMenuView _bottomNavigationMenuView;
 
+        #endregion
+
+        #region Constructor & Destructor
+
+        /// <summary>
+        /// Initializes a new instance of the <see cref="CustomShellBottomAppearance"/> class.
+        /// </summary>
+        /// <param name="shellRenderer">The shellRenderer<see cref="CustomShellRenderer"/>.</param>
         public CustomShellBottomAppearance(CustomShellRenderer shellRenderer)
-        { }
+        {
+        }
 
+        #endregion
+
+        #region Public
+
+        /// <summary>
+        /// The Dispose.
+        /// </summary>
         public void Dispose()
-        { }
+        {
+        }
 
+        /// <summary>
+        /// The ResetAppearance.
+        /// </summary>
+        /// <param name="bottomView">The bottomView<see cref="BottomNavigationView"/>.</param>
         public void ResetAppearance(BottomNavigationView bottomView)
         {
             Init(bottomView);
         }
 
+        /// <summary>
+        /// The SetAppearance.
+        /// </summary>
+        /// <param name="bottomView">The bottomView<see cref="BottomNavigationView"/>.</param>
+        /// <param name="appearance">The appearance<see cref="IShellAppearanceElement"/>.</param>
         public void SetAppearance(BottomNavigationView bottomView, IShellAppearanceElement appearance)
-        {}
+        {
+        }
 
+        /// <summary>
+        /// The Init.
+        /// </summary>
+        /// <param name="bottomView">The bottomView<see cref="BottomNavigationView"/>.</param>
         public void Init(BottomNavigationView bottomView)
         {
             bottomView.LabelVisibilityMode = LabelVisibilityMode.LabelVisibilitySelected;
@@ -35,8 +73,23 @@ namespace Xam.Shell.Badge.Droid.Renderers
             {
                 CreatePageBadge(values[0], values[1] > 0, values[1], _bottomNavigationMenuView);
             });
+            MessagingCenter.Subscribe<BottomBarHelper, int>(this, "RemoveBadge", (sender, value) =>
+            {
+                CreatePageBadge(value, false, 0, _bottomNavigationMenuView);
+            });
         }
 
+        #endregion
+
+        #region Private
+
+        /// <summary>
+        /// The CreatePageBadge.
+        /// </summary>
+        /// <param name="index">The index<see cref="int"/>.</param>
+        /// <param name="ShowBadge">The ShowBadge<see cref="bool"/>.</param>
+        /// <param name="BadgeCount">The BadgeCount<see cref="int"/>.</param>
+        /// <param name="_bottomNavigationMenuView">The _bottomNavigationMenuView<see cref="BottomNavigationMenuView"/>.</param>
         private void CreatePageBadge(int index, bool ShowBadge, int BadgeCount, BottomNavigationMenuView _bottomNavigationMenuView)
         {
             var itemView = (BottomNavigationItemView)_bottomNavigationMenuView.GetChildAt(index);
@@ -62,5 +115,7 @@ namespace Xam.Shell.Badge.Droid.Renderers
                     itemView.RemoveView(badgeLayout);
             }
         }
+
+        #endregion
     }
 }

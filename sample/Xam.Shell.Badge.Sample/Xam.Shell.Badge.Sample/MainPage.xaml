@@ -13,6 +13,12 @@
                 HorizontalOptions="CenterAndExpand"
                 Text="Show badge!"
                 VerticalOptions="CenterAndExpand" />
+
+            <Button
+                Clicked="Button_Clicked_1"
+                HorizontalOptions="CenterAndExpand"
+                Text="Remove badge!"
+                VerticalOptions="CenterAndExpand" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
