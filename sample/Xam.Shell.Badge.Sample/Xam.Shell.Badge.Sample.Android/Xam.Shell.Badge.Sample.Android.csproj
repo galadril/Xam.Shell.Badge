@@ -50,6 +50,9 @@
     <PackageReference Include="Plugin.CurrentActivity">
       <Version>2.1.0.4</Version>
     </PackageReference>
+    <PackageReference Include="Xam.Shell.Badge">
+      <Version>1.0.2</Version>
+    </PackageReference>
     <PackageReference Include="Xamarin.AndroidX.MediaRouter">
       <Version>1.1.0.1</Version>
     </PackageReference>
@@ -59,6 +62,9 @@
     <PackageReference Include="Xamarin.Android.Support.v4" Version="28.0.0.3" />
     <PackageReference Include="Xamarin.Android.Support.v7.CardView" Version="28.0.0.3" />
     <PackageReference Include="Xamarin.Android.Support.v7.MediaRouter" Version="28.0.0.3" />
+    <PackageReference Include="Xamarin.Google.Android.Material">
+      <Version>1.0.0.1</Version>
+    </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
@@ -80,14 +86,6 @@
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\src\Xam.Shell.Badge.Android\Xam.Shell.Badge.Android.csproj">
-      <Project>{4d8a3091-1219-456e-aad7-f0b50f38e1b5}</Project>
-      <Name>Xam.Shell.Badge.Android</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\src\Xam.Shell.Badge\Xam.Shell.Badge.csproj">
-      <Project>{0d34c88b-d532-492c-8204-c76b280e4edb}</Project>
-      <Name>Xam.Shell.Badge</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Xam.Shell.Badge.Sample\Xam.Shell.Badge.Sample.csproj">
       <Project>{047D2052-6D49-44BB-88F1-B7935C726FC8}</Project>
       <Name>Xam.Shell.Badge.Sample</Name>

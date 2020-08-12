@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
@@ -6,11 +6,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Xam.Shell.Badge" Version="1.0.2" />
     <PackageReference Include="Xamarin.Forms" Version="4.8.0.1269" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\..\..\src\Xam.Shell.Badge\Xam.Shell.Badge.csproj" />
   </ItemGroup>
 
   <ItemGroup>
