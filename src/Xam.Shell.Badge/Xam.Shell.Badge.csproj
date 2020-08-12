@@ -51,4 +51,10 @@
       </Reference>
    </ItemGroup>
 
+   <ItemGroup>
+     <None Update="icon.png">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+   </ItemGroup>
+
 </Project>
