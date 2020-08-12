@@ -14,7 +14,7 @@
       A small plugin to ease the use of badges on Shell Bottom Bars 
     </description>
     <releaseNotes>
-      Initial version
+      - Added an option to remove the badge
     </releaseNotes>
     <copyright>Copyright @ Mark Heinis 2020</copyright>
     <tags>Xamarin.Forms Shell Badge</tags>
