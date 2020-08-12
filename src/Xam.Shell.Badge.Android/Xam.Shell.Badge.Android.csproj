@@ -28,8 +28,8 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Debug\Xam.Effects.Android.xml</DocumentationFile>
-    <CodeAnalysisRuleSet>Xam.Effects.Android.ruleset</CodeAnalysisRuleSet>
+    <DocumentationFile>bin\Debug\Xam.Shell.Badge.Android.xml</DocumentationFile>
+    <CodeAnalysisRuleSet>Xam.Shell.Badge.Android.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -39,7 +39,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <DocumentationFile>bin\Release\Xam.Shell.Badge.Android.xml</DocumentationFile>
-    <CodeAnalysisRuleSet>Xam.Effects.Android.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet>Xam.Shell.Badge.Android.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
@@ -68,11 +68,14 @@
     <PackageReference Include="Xamarin.Forms">
       <Version>4.8.0.1269</Version>
     </PackageReference>
+    <PackageReference Include="Xamarin.Google.Android.Material">
+      <Version>1.0.0.1</Version>
+    </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Xam.Shell.Badge\Xam.Shell.Badge.csproj">
       <Project>{0d34c88b-d532-492c-8204-c76b280e4edb}</Project>
-      <Name>Xam.Effects</Name>
+      <Name>Xam.Shell.Badge</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

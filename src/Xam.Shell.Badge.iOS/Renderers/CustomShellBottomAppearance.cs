@@ -32,7 +32,7 @@ namespace Xam.Shell.Badge.iOS.Renderers
         /// </summary>
         /// <param name="controller">The controller<see cref="UITabBarController"/>.</param>
         /// <param name="appearance">The appearance<see cref="ShellAppearance"/>.</param>
-        public async void SetAppearance(UITabBarController controller, ShellAppearance appearance)
+        public void SetAppearance(UITabBarController controller, ShellAppearance appearance)
         {
         }
 
