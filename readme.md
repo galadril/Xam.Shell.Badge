@@ -8,14 +8,14 @@ Linked issue on Xamarin Forms github:
 https://github.com/xamarin/Xamarin.Forms/issues/6112
 
 
+# Example
+![ios](https://user-images.githubusercontent.com/14561640/89870939-e7efba80-dbb6-11ea-827b-80904f29a0ab.png)
+
+
 # Setup
 * Available on Nuget:
 https://www.nuget.org/packages/Xam.Shell.Badge 
-!!Install into your .net standaard project. !!
-
-
-# Example
-![ios](https://user-images.githubusercontent.com/14561640/89870939-e7efba80-dbb6-11ea-827b-80904f29a0ab.png)
+!!Install into your projects. !!
 
 
 # Init
