@@ -1,6 +1,7 @@
 
 [![nuget](https://img.shields.io/nuget/v/Xam.Shell.Badge.svg)](https://www.nuget.org/packages/Xam.Shell.Badge/) ![Nuget](https://img.shields.io/nuget/dt/Xam.Shell.Badge)
 
+![icon](https://raw.githubusercontent.com/galadril/Xam.Shell.Badge/master/sample/Xam.Shell.Badge.Sample/Xam.Shell.Badge.Sample.Android/Resources/mipmap-xxxhdpi/ic_launcher.png)
 
 # Xam.Shell.Badge
 Just a simple fix for adding a badge to a Shell Bottom Tabbar for your Xamarin Forms project. 
