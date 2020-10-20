@@ -52,6 +52,16 @@ namespace Xam.Shell.Badge.iOS.Renderers
                 if (controller?.TabBar?.Items != null && controller.TabBar.Items.Any())
                     controller.TabBar.Items[value].BadgeValue = null;
             });
+
+            MessagingCenter.Subscribe<BottomBarHelper, int[]>(this, "SetTinyBadge", (sender, values) =>
+            {
+                if (controller?.TabBar?.Items != null && controller.TabBar.Items.Any())
+                {
+                    controller.TabBar.Items[values[0]].BadgeColor = UIColor.Clear;
+                    controller.TabBar.Items[values[0]].BadgeValue = "●";
+                    controller.TabBar.Items[values[0]].SetBadgeTextAttributes(new UIStringAttributes() { ForegroundColor = UIColor.FromRGB(values[1], values[2], values[3]) }, UIControlState.Normal);
+                }
+            });
         }
 
         #endregion

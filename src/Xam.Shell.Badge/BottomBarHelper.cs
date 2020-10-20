@@ -28,6 +28,15 @@ namespace Xam.Shell.Badge
             MessagingCenter.Send<BottomBarHelper, int>(this, "RemoveBadge", position);
         }
 
+        /// <summary>
+        /// Set a tiny badge for a bottombar item. A tiny badge is a small filled circle with no number. 
+        /// </summary>
+        /// <param name="position">The tab position<see cref="int"/>.</param>
+        /// <param name="color">The color value of the tiny badge<see cref="Color"/>.</param>
+        public void SetTinyBadge(int position, Color color)
+        {
+            MessagingCenter.Send<BottomBarHelper, int[]>(this, "SetTinyBadge", new int[] { position, (int)(color.R * 255), (int)(color.G * 255), (int)(color.B * 255) });
+        }
         #endregion
     }
 }
