@@ -32,6 +32,7 @@ namespace Xam.Shell.Badge.Sample
         private void Button_Clicked(object sender, EventArgs e)
         {
             new BottomBarHelper().SetBadge(1, 2);
+            new BottomBarHelper().SetTi(1, 2);
         }
 
         /// <summary>

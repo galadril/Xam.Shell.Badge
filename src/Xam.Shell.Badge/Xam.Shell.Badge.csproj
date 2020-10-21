@@ -21,12 +21,13 @@
       <DelaySign>false</DelaySign>
       <AssemblyVersion>1.0.0.0</AssemblyVersion>
       <FileVersion>1.0.0.1</FileVersion>
-      <Version>1.0.4</Version>
+      <Version>1.0.5</Version>
       <RepositoryType>git</RepositoryType>
       <RepositoryUrl>https://github.com/galadril/Xam.Shell.Badge</RepositoryUrl>
       <AssemblyName>Xam.Shell.Badge</AssemblyName>
       <PackageProjectUrl>https://github.com/galadril/Xam.Shell.Badge</PackageProjectUrl>
       <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+      <PackageIcon>icon.png</PackageIcon>
    </PropertyGroup>
 
    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -54,6 +55,10 @@
    <ItemGroup>
      <None Update="icon.png">
        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Include="icon.png">
+       <Pack>True</Pack>
+       <PackagePath></PackagePath>
      </None>
    </ItemGroup>
 
