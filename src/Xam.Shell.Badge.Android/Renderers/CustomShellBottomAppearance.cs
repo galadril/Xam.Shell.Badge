@@ -77,6 +77,11 @@ namespace Xam.Shell.Badge.Droid.Renderers
             {
                 CreatePageBadge(value, false, 0, _bottomNavigationMenuView);
             });
+
+            MessagingCenter.Subscribe<BottomBarHelper, int[]>(this, "SetTinyBadge", (sender, values) =>
+            {
+                CreatePageTinyBadge(values[0], true, values[1] , values[2] , values[3], _bottomNavigationMenuView);
+            });
         }
 
         #endregion
@@ -107,6 +112,33 @@ namespace Xam.Shell.Badge.Droid.Renderers
                     mtxtnotificationsbadge.SetBackgroundResource(Resource.Drawable.custom_circle_shape);
                 else
                     mtxtnotificationsbadge.SetBackgroundResource(Resource.Drawable.custom_rectangle_shape);
+            }
+            else
+            {
+                var badgeLayout = itemView.FindViewById<FrameLayout>(Resource.Id.badge);
+                if (badgeLayout != null)
+                    itemView.RemoveView(badgeLayout);
+            }
+        }
+
+        /* TinyBadge is simply a styled bullet with on transparent background
+         */
+        private void CreatePageTinyBadge(int index, bool ShowBadge,  int R , int G , int B, BottomNavigationMenuView _bottomNavigationMenuView)
+        {
+            var itemView = (BottomNavigationItemView)_bottomNavigationMenuView.GetChildAt(index);
+            if (ShowBadge)
+            {
+                var mtxtnotificationsbadge = itemView.FindViewById<TextView>(Resource.Id.txtbadge);
+                if (mtxtnotificationsbadge == null)
+                {
+                    var vBadge = LayoutInflater.From(CrossCurrentActivity.Current.Activity).Inflate(Resource.Layout.notification_badge, _bottomNavigationMenuView, false);
+                    itemView.AddView(vBadge);
+                    mtxtnotificationsbadge = itemView.FindViewById<TextView>(Resource.Id.txtbadge);
+                }
+                mtxtnotificationsbadge.Text = "●";
+                mtxtnotificationsbadge.TextSize = 24;
+                mtxtnotificationsbadge.SetBackgroundColor(Android.Graphics.Color.Transparent);
+                mtxtnotificationsbadge.SetTextColor(new Android.Graphics.Color(R , G , B));
             }
             else
             {
