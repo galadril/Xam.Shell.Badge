@@ -10,7 +10,7 @@ https://github.com/xamarin/Xamarin.Forms/issues/6112
 
 
 # Example
-![ios](https://user-images.githubusercontent.com/14561640/89870939-e7efba80-dbb6-11ea-827b-80904f29a0ab.png)
+![ios](https://user-images.githubusercontent.com/33980667/96633525-e57daf80-1321-11eb-9fc8-d98f2c3a78b5.png)
 
 
 # Setup
@@ -50,13 +50,19 @@ Just create a shell bottom bar like done in the sample project
 	    
 ```
 
+
 Then set a badge in you project code via:
 
 
 ```
             new BottomBarHelper().SetBadge(1, 2);
 
+            or
+
+            new BottomBarHelper().SetTinyBadge(1, Color.Red);
+
 ```
+
 
 If you like, you can remove the badge via:
 
@@ -64,21 +70,11 @@ If you like, you can remove the badge via:
 ```
             new BottomBarHelper().RemoveBadge(1);
 
-            or
-
-            
-            new BottomBarHelper().SetBadge(1, 0);
-
 ```
-
             
 
 The first value is the badge position, and the second value is the counter to show;
-
-
 Or you can just look at the code to implement a badge yourself via Shell Renderers!
-
-
 
 
 

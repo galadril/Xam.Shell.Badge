@@ -32,7 +32,7 @@ namespace Xam.Shell.Badge.Sample
         private void Button_Clicked(object sender, EventArgs e)
         {
             new BottomBarHelper().SetBadge(1, 2);
-            new BottomBarHelper().SetTi(1, 2);
+            new BottomBarHelper().SetTinyBadge(2, Color.Red);
         }
 
         /// <summary>
@@ -43,6 +43,7 @@ namespace Xam.Shell.Badge.Sample
         private void Button_Clicked_1(object sender, EventArgs e)
         {
             new BottomBarHelper().RemoveBadge(1);
+            new BottomBarHelper().RemoveBadge(2);
         }
 
         #endregion
