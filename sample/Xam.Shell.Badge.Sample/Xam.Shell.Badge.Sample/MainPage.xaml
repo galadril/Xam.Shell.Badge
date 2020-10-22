@@ -9,13 +9,11 @@
     <ContentPage.Content>
         <StackLayout>
             <Button
-                Clicked="Button_Clicked"
                 HorizontalOptions="CenterAndExpand"
                 Text="Show badge!"
                 VerticalOptions="CenterAndExpand" />
 
             <Button
-                Clicked="Button_Clicked_1"
                 HorizontalOptions="CenterAndExpand"
                 Text="Remove badge!"
                 VerticalOptions="CenterAndExpand" />

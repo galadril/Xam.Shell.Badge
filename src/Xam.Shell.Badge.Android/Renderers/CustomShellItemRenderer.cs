@@ -1,4 +1,5 @@
-﻿using Android.OS;
+﻿using Android.Graphics.Drawables;
+using Android.OS;
 using Android.Views;
 using Android.Widget;
 using Google.Android.Material.BottomNavigation;
@@ -153,7 +154,10 @@ namespace Xam.Shell.Badge.Droid.Renderers
                     mtxtnotificationsbadge = itemView.FindViewById<TextView>(Resource.Id.txtbadge);
                 }
                 mtxtnotificationsbadge.Text = badgeCount.ToString();
-                mtxtnotificationsbadge.SetBackgroundColor(bg.ToAndroid());
+                var drawable = new GradientDrawable();
+                drawable.SetColor(bg.ToAndroid());
+                drawable.SetCornerRadius(16);
+                mtxtnotificationsbadge.SetBackground(drawable);
                 mtxtnotificationsbadge.SetTextColor(Android.Graphics.Color.White);
             }
             else

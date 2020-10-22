@@ -6,8 +6,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Xam.Shell.Badge" Version="1.0.5" />
     <PackageReference Include="Xamarin.Forms" Version="4.8.0.1560" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Xam.Shell.Badge">
+      <HintPath>..\..\..\src\Xam.Shell.Badge\bin\Debug\netstandard2.0\Xam.Shell.Badge.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
   <ItemGroup>
