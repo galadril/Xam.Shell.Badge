@@ -41,7 +41,7 @@ namespace Xam.Shell.Badge.iOS.Renderers
         /// <returns>The <see cref="IShellItemRenderer"/>.</returns>
         protected override IShellItemRenderer CreateShellItemRenderer(ShellItem item)
         {
-            var renderer = new CustomShellItemRenderer(this);
+            var renderer = new CustomShellItemRenderer(this) { ShellItem = item };
             if (null != renderer)
                 renderer.TabBar.Translucent = false;
             return renderer;
