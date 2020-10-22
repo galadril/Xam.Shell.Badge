@@ -45,13 +45,13 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Xml" />
-    <Reference Include="Xam.Shell.Badge.Android">
-      <HintPath>..\..\..\src\Xam.Shell.Badge.Android\bin\Debug\Xam.Shell.Badge.Android.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Plugin.CurrentActivity">
       <Version>2.1.0.4</Version>
+    </PackageReference>
+    <PackageReference Include="Xam.Shell.Badge">
+      <Version>1.0.5</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.AndroidX.MediaRouter">
       <Version>1.1.0.1</Version>
