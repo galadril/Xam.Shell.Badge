@@ -14,7 +14,6 @@ namespace Xam.Shell.Badge.Droid
         /// </summary>
         public static void Init()
         {
-            System.Diagnostics.Debug.Assert(typeof(CustomShellBottomAppearance) != null);
             System.Diagnostics.Debug.Assert(typeof(CustomShellItemRenderer) != null);
             System.Diagnostics.Debug.Assert(typeof(CustomShellRenderer) != null);
         }

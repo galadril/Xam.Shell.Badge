@@ -8,35 +8,51 @@ namespace Xam.Shell.Badge
     public class BottomBarHelper
     {
         #region Public
+        /// <summary>
+        /// Badge text
+        /// </summary>
+        public static readonly BindableProperty BadgeTextProperty =
+            BindableProperty.CreateAttached("BadgeText", typeof(string), typeof(BottomBarHelper),
+                string.Empty);
 
         /// <summary>
-        /// Set a badge for a bottombar item.
+        /// Badge background color
         /// </summary>
-        /// <param name="position">The position<see cref="int"/>.</param>
-        /// <param name="counter">The counter<see cref="int"/>.</param>
-        public void SetBadge(int position, int counter)
-        {
-            MessagingCenter.Send<BottomBarHelper, int[]>(this, "SetBadge", new int[] { position, counter });
-        }
+        public static readonly BindableProperty BadgeBackgroundColorProperty =
+            BindableProperty.CreateAttached("BadgeBackgroundColor", typeof(Color), typeof(BottomBarHelper),
+                Color.Default);
 
         /// <summary>
-        /// Remove a badge for a bottombar item.
+        /// Public method to retrieve text value for specific shell tab
         /// </summary>
-        /// <param name="position">The position<see cref="int"/>.</param>
-        public void RemoveBadge(int position)
-        {
-            MessagingCenter.Send<BottomBarHelper, int>(this, "RemoveBadge", position);
-        }
+        /// <param name="target">Shell tab instance</param>
+        /// <returns>Text for specific shell tab</returns>
+        public static string GetBadgeText(BindableObject target) =>
+            (string)target.GetValue(BadgeTextProperty);
 
         /// <summary>
-        /// Set a tiny badge for a bottombar item. A tiny badge is a small filled circle with no number. 
+        /// Public method to set text value for specific shell tab
         /// </summary>
-        /// <param name="position">The tab position<see cref="int"/>.</param>
-        /// <param name="color">The color value of the tiny badge<see cref="Color"/>.</param>
-        public void SetTinyBadge(int position, Color color)
-        {
-            MessagingCenter.Send<BottomBarHelper, int[]>(this, "SetTinyBadge", new int[] { position, (int)(color.R * 255), (int)(color.G * 255), (int)(color.B * 255) });
-        }
+        /// <param name="view">Shell tab instance</param>
+        /// <param name="value">Value</param>
+        public static void SetBadgeText(BindableObject view, string value) =>
+            view.SetValue(BadgeTextProperty, value);
+
+        /// <summary>
+        /// Public method to retrieve background color value for specific shell tab
+        /// </summary>
+        /// <param name="target">Shell tab instance</param>
+        /// <returns>Color for specific shell tab</returns>
+        public static Color GetBadgeBackgroundColor(BindableObject target) =>
+            (Color)target.GetValue(BadgeBackgroundColorProperty);
+
+        /// <summary>
+        /// Public method to set background color value for specific shell tab
+        /// </summary>
+        /// <param name="view">Shell tab instance</param>
+        /// <param name="value">Value</param>
+        public static void SetBadgeBackgroundColor(BindableObject view, Color value) =>
+            view.SetValue(BadgeBackgroundColorProperty, value);
         #endregion
     }
 }
