@@ -6,10 +6,10 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:Xam.Shell.Badge.Sample">
     <TabBar x:Name="tabBar">
-        <Tab Title="Test1" badging:BottomBarHelper.BadgeText="1" badging:BottomBarHelper.BadgeBackgroundColor="Black">
+        <Tab Title="Test1" badging:Badging.BadgeText="1" badging:Badging.BadgeBackgroundColor="Black">
             <ShellContent ContentTemplate="{DataTemplate local:MainPage}" />
         </Tab>
-        <Tab Title="Test2" badging:BottomBarHelper.BadgeText="0" badging:BottomBarHelper.BadgeBackgroundColor="Black">
+        <Tab Title="Test2" badging:Badging.BadgeText="0" badging:Badging.BadgeBackgroundColor="Black">
             <ShellContent ContentTemplate="{DataTemplate local:MainPage}" />
         </Tab>
         <Tab Title="Test3">

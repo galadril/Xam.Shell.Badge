@@ -162,7 +162,7 @@ namespace Xam.Shell.Badge.Droid.Renderers
                 mtxtnotificationsbadge.Text = badgeCount.ToString();
                 var drawable = new GradientDrawable();
                 drawable.SetColor(bg.ToAndroid());
-                drawable.SetCornerRadius(16);
+                drawable.SetCornerRadius(20);
                 mtxtnotificationsbadge.SetBackground(drawable);
                 mtxtnotificationsbadge.SetTextColor(textColor.ToAndroid());
             }
