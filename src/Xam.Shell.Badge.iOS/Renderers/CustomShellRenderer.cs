@@ -41,18 +41,11 @@ namespace Xam.Shell.Badge.iOS.Renderers
         /// <returns>The <see cref="IShellItemRenderer"/>.</returns>
         protected override IShellItemRenderer CreateShellItemRenderer(ShellItem item)
         {
-            var renderer = base.CreateShellItemRenderer(item);
+            var renderer = new CustomShellItemRenderer(this);
             if (null != renderer)
-                (renderer as ShellItemRenderer).TabBar.Translucent = false;
+                renderer.TabBar.Translucent = false;
             return renderer;
         }
-
-        /// <summary>
-        /// The CreateTabBarAppearanceTracker.
-        /// </summary>
-        /// <returns>The <see cref="IShellTabBarAppearanceTracker"/>.</returns>
-        protected override IShellTabBarAppearanceTracker CreateTabBarAppearanceTracker() => 
-            new CustomShellBottomAppearance();
 
         #endregion
     }

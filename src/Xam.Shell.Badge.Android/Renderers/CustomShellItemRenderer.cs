@@ -76,7 +76,9 @@ namespace Xam.Shell.Badge.Droid.Renderers
         {
             base.OnShellSectionPropertyChanged(sender, e);
 
-            if (e.PropertyName == Badging.BadgeTextProperty.PropertyName)
+            if (e.PropertyName == Badging.BadgeTextProperty.PropertyName ||
+                e.PropertyName == Badging.BadgeTextColorProperty.PropertyName ||
+                e.PropertyName == Badging.BadgeBackgroundColorProperty.PropertyName)
             {
                 var item = (ShellSection)sender;
                 var index = ShellItem.Items.IndexOf(item);
