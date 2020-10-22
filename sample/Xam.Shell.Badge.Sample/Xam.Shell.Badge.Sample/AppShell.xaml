@@ -9,7 +9,7 @@
         <Tab Title="Test1" badging:BottomBarHelper.BadgeText="1" badging:BottomBarHelper.BadgeBackgroundColor="Black">
             <ShellContent ContentTemplate="{DataTemplate local:MainPage}" />
         </Tab>
-        <Tab Title="Test2">
+        <Tab Title="Test2" badging:BottomBarHelper.BadgeText="0" badging:BottomBarHelper.BadgeBackgroundColor="Black">
             <ShellContent ContentTemplate="{DataTemplate local:MainPage}" />
         </Tab>
         <Tab Title="Test3">

@@ -76,14 +76,15 @@ namespace Xam.Shell.Badge.Droid.Renderers
         {
             base.OnShellSectionPropertyChanged(sender, e);
 
-            if (e.PropertyName == BottomBarHelper.BadgeTextProperty.PropertyName)
+            if (e.PropertyName == Badging.BadgeTextProperty.PropertyName)
             {
                 var item = (ShellSection)sender;
                 var index = ShellItem.Items.IndexOf(item);
-                var text = BottomBarHelper.GetBadgeText(item);
-                var bg = BottomBarHelper.GetBadgeBackgroundColor(item);
+                var text = Badging.GetBadgeText(item);
+                var textColor = Badging.GetBadgeTextColor(item);
+                var bg = Badging.GetBadgeBackgroundColor(item);
                 if (!string.IsNullOrEmpty(text))
-                    ApplyBadge(index, text, bg);
+                    ApplyBadge(index, text, bg, textColor);
             }
         }
 
@@ -96,13 +97,14 @@ namespace Xam.Shell.Badge.Droid.Renderers
             for (int i = 0; i < ShellItem.Items.Count; i++)
             {
                 var item = ShellItem.Items.ElementAtOrDefault(i);
-                var text = BottomBarHelper.GetBadgeText(item);
-                var bg = BottomBarHelper.GetBadgeBackgroundColor(item);
-                ApplyBadge(i, text, bg);
+                var text = Badging.GetBadgeText(item);
+                var textColor = Badging.GetBadgeTextColor(item);
+                var bg = Badging.GetBadgeBackgroundColor(item);
+                ApplyBadge(i, text, bg, textColor);
             }
         }
 
-        private void ApplyBadge(int index, string text, Color bg)
+        private void ApplyBadge(int index, string text, Color bg, Color textColor)
         {
             if (!string.IsNullOrEmpty(text))
             {
@@ -114,6 +116,7 @@ namespace Xam.Shell.Badge.Droid.Renderers
                        showBadge: true,
                        badgeCount: badgeValue,
                        bg: bg,
+                       textColor: textColor,
                        bottomNavigationMenuView: (BottomNavigationMenuView)_bottomNavigationView.GetChildAt(0));
                 }
                 else
@@ -121,7 +124,7 @@ namespace Xam.Shell.Badge.Droid.Renderers
                     CreatePageTinyBadge(
                         index: index,
                         showBadge: true,
-                        bg: bg,
+                        textColor: textColor,
                         bottomNavigationMenuView: (BottomNavigationMenuView)_bottomNavigationView.GetChildAt(0));
                 }
             }
@@ -130,6 +133,7 @@ namespace Xam.Shell.Badge.Droid.Renderers
                 showBadge: false,
                 badgeCount: 0,
                 bg: bg,
+                textColor: textColor,
                 bottomNavigationMenuView: (BottomNavigationMenuView)_bottomNavigationView.GetChildAt(0));
         }
 
@@ -140,8 +144,10 @@ namespace Xam.Shell.Badge.Droid.Renderers
         /// <param name="showBadge">The ShowBadge<see cref="bool"/>.</param>
         /// <param name="badgeCount">The BadgeCount<see cref="int"/>.</param>
         /// <param name="bg">The BackgroundColor<see cref="int"/>.</param>
+        /// <param name="textColor">The TextColor<see cref="int"/>.</param>
         /// <param name="bottomNavigationMenuView">The _bottomNavigationMenuView<see cref="BottomNavigationMenuView"/>.</param>
-        private void CreatePageBadge(int index, bool showBadge, int badgeCount, Color bg, BottomNavigationMenuView bottomNavigationMenuView)
+        private void CreatePageBadge(int index, bool showBadge, int badgeCount, Color bg,
+            Color textColor, BottomNavigationMenuView bottomNavigationMenuView)
         {
             var itemView = (BottomNavigationItemView)bottomNavigationMenuView.GetChildAt(index);
             if (showBadge && badgeCount > 0)
@@ -158,7 +164,7 @@ namespace Xam.Shell.Badge.Droid.Renderers
                 drawable.SetColor(bg.ToAndroid());
                 drawable.SetCornerRadius(16);
                 mtxtnotificationsbadge.SetBackground(drawable);
-                mtxtnotificationsbadge.SetTextColor(Android.Graphics.Color.White);
+                mtxtnotificationsbadge.SetTextColor(textColor.ToAndroid());
             }
             else
             {
@@ -170,7 +176,7 @@ namespace Xam.Shell.Badge.Droid.Renderers
 
         /* TinyBadge is simply a styled bullet with on transparent background
          */
-        private void CreatePageTinyBadge(int index, bool showBadge, Color bg, BottomNavigationMenuView bottomNavigationMenuView)
+        private void CreatePageTinyBadge(int index, bool showBadge, Color textColor, BottomNavigationMenuView bottomNavigationMenuView)
         {
             var itemView = (BottomNavigationItemView)bottomNavigationMenuView.GetChildAt(index);
             if (showBadge)
@@ -184,8 +190,8 @@ namespace Xam.Shell.Badge.Droid.Renderers
                 }
                 mtxtnotificationsbadge.Text = "●";
                 mtxtnotificationsbadge.TextSize = 24;
-                mtxtnotificationsbadge.SetBackgroundColor(bg.ToAndroid());
-                mtxtnotificationsbadge.SetTextColor(Android.Graphics.Color.White);
+                mtxtnotificationsbadge.SetBackgroundColor(Android.Graphics.Color.Transparent);
+                mtxtnotificationsbadge.SetTextColor(textColor.ToAndroid());
             }
             else
             {
