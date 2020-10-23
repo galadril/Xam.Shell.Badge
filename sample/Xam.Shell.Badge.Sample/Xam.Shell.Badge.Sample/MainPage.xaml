@@ -8,16 +8,9 @@
     mc:Ignorable="d">
     <ContentPage.Content>
         <StackLayout>
-            <Button
-                Clicked="Button_Clicked"
+            <Label
                 HorizontalOptions="CenterAndExpand"
-                Text="Show badge!"
-                VerticalOptions="CenterAndExpand" />
-
-            <Button
-                Clicked="Button_Clicked_1"
-                HorizontalOptions="CenterAndExpand"
-                Text="Remove badge!"
+                Text="This is a sample project!"
                 VerticalOptions="CenterAndExpand" />
         </StackLayout>
     </ContentPage.Content>

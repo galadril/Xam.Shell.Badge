@@ -34,9 +34,9 @@ namespace Xam.Shell.Badge.iOS.Renderers
             for (int i = 0; i < ShellItem.Items.Count; i++)
             {
                 var item = ShellItem.Items.ElementAtOrDefault(i);
-                var text = Badging.GetBadgeText(item);
-                var textColor = Badging.GetBadgeTextColor(item);
-                var bg = Badging.GetBadgeBackgroundColor(item);
+                var text = Badge.GetText(item);
+                var textColor = Badge.GetTextColor(item);
+                var bg = Badge.GetBackgroundColor(item);
                 ApplyBadge(i, text, bg, textColor);
             }
         }
@@ -54,15 +54,15 @@ namespace Xam.Shell.Badge.iOS.Renderers
         {
             base.OnShellSectionPropertyChanged(sender, e);
 
-            if (e.PropertyName == Badging.BadgeTextProperty.PropertyName ||
-                e.PropertyName == Badging.BadgeTextColorProperty.PropertyName ||
-                e.PropertyName == Badging.BadgeBackgroundColorProperty.PropertyName)
+            if (e.PropertyName == Badge.TextProperty.PropertyName ||
+                e.PropertyName == Badge.TextColorProperty.PropertyName ||
+                e.PropertyName == Badge.BackgroundColorProperty.PropertyName)
             {
                 var item = (ShellSection)sender;
                 var index = ShellItem.Items.IndexOf(item);
-                var text = Badging.GetBadgeText(item);
-                var textColor = Badging.GetBadgeTextColor(item);
-                var bg = Badging.GetBadgeBackgroundColor(item);
+                var text = Badge.GetText(item);
+                var textColor = Badge.GetTextColor(item);
+                var bg = Badge.GetBackgroundColor(item);
                 if (!string.IsNullOrEmpty(text))
                     ApplyBadge(index, text, bg, textColor);
             }

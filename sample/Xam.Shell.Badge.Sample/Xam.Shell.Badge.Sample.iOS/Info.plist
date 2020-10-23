@@ -21,11 +21,11 @@
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>MinimumOSVersion</key>
-	<string>11.2</string>
+	<string>10.0</string>
 	<key>CFBundleDisplayName</key>
 	<string>Xam.Shell.Badge.Sample</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.yourcompany.Xam.Shell.Badge.Sample</string>
+	<string>Xam.Shell.Badge.Sample</string>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
 	<key>CFBundleIconFiles</key>
@@ -50,5 +50,9 @@
 	<string>LaunchScreen</string>
 	<key>CFBundleName</key>
 	<string>Xam.Shell.Badge.Sample</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1</string>
+	<key>UIMainStoryboardFile</key>
+	<string>LaunchScreen</string>
 </dict>
 </plist>

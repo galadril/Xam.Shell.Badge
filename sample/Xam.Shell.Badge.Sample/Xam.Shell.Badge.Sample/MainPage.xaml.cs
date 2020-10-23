@@ -21,31 +21,5 @@ namespace Xam.Shell.Badge.Sample
         }
 
         #endregion
-
-        #region Private
-
-        /// <summary>
-        /// The Button_Clicked.
-        /// </summary>
-        /// <param name="sender">The sender<see cref="object"/>.</param>
-        /// <param name="e">The e<see cref="EventArgs"/>.</param>
-        private void Button_Clicked(object sender, EventArgs e)
-        {
-            new BottomBarHelper().SetBadge(1, 2);
-            new BottomBarHelper().SetTinyBadge(2, Color.Red);
-        }
-
-        /// <summary>
-        /// The Button_Clicked_1.
-        /// </summary>
-        /// <param name="sender">The sender<see cref="object"/>.</param>
-        /// <param name="e">The e<see cref="EventArgs"/>.</param>
-        private void Button_Clicked_1(object sender, EventArgs e)
-        {
-            new BottomBarHelper().RemoveBadge(1);
-            new BottomBarHelper().RemoveBadge(2);
-        }
-
-        #endregion
     }
 }

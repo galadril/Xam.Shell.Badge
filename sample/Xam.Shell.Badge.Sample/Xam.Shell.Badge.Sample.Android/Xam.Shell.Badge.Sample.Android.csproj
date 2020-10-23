@@ -51,7 +51,7 @@
       <Version>2.1.0.4</Version>
     </PackageReference>
     <PackageReference Include="Xam.Shell.Badge">
-      <Version>1.0.5</Version>
+      <Version>1.0.8</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.AndroidX.MediaRouter">
       <Version>1.1.0.1</Version>

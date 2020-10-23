@@ -10,7 +10,7 @@ https://github.com/xamarin/Xamarin.Forms/issues/6112
 
 
 # Example
-![ios](https://user-images.githubusercontent.com/33980667/96633525-e57daf80-1321-11eb-9fc8-d98f2c3a78b5.png)
+![ios](https://user-images.githubusercontent.com/14561640/96969211-6bf8e380-1512-11eb-8bcc-7b4a91ee64bd.png)
 
 
 # Setup
@@ -32,18 +32,30 @@ Please check the sample project on how its implemented.
 Just create a shell bottom bar like done in the sample project
 
 ```
+    xmlns:badge="clr-namespace:Xam.Shell.Badge;assembly=Xam.Shell.Badge"
 
-    <TabBar x:Name="tabBar">
-        <Tab Title="Test1" Icon="icon.png">
+    ...
+
+     <TabBar x:Name="tabBar">
+        <Tab
+            Title="Test1"
+            badge:Badge.BackgroundColor="Red"
+            badge:Badge.Text="2">
             <ShellContent ContentTemplate="{DataTemplate local:MainPage}" />
         </Tab>
-        <Tab Title="Test2" Icon="icon.png">
+        <Tab
+            Title="Test2"
+            badge:Badge.Text="0"
+            badge:Badge.TextColor="Orange">
             <ShellContent ContentTemplate="{DataTemplate local:MainPage}" />
         </Tab>
-        <Tab Title="Test3" Icon="icon.png">
+        <Tab Title="Test3" badge:Badge.Text="">
             <ShellContent ContentTemplate="{DataTemplate local:MainPage}" />
         </Tab>
-        <Tab Title="Test4" Icon="icon.png">
+        <Tab
+            Title="Test4"
+            badge:Badge.BackgroundColor="Green"
+            badge:Badge.Text="200">
             <ShellContent ContentTemplate="{DataTemplate local:MainPage}" />
         </Tab>
     </TabBar>
@@ -51,30 +63,32 @@ Just create a shell bottom bar like done in the sample project
 ```
 
 
-Then set a badge in you project code via:
-
-
-```
-            new BottomBarHelper().SetBadge(1, 2);
-
-            or
-
-            new BottomBarHelper().SetTinyBadge(1, Color.Red);
+Then set a badge properties on the Tab bar via the next properties:
 
 ```
+
+            badge:Badge.Text="0"
+            badge:Badge.TextColor="Orange"
+            badge:Badge.BackgroundColor="Red"
+
+            
+```
+
+badge:Badge.Text="0"    -> Tiny Badge
+badge:Badge.Text="5"    -> Normal Badge
+
 
 
 If you like, you can remove the badge via:
 
-
 ```
-            new BottomBarHelper().RemoveBadge(1);
 
+            badge:Badge.Text=""
+            
 ```
             
 
-The first value is the badge position, and the second value is the counter to show;
-Or you can just look at the code to implement a badge yourself via Shell Renderers!
+Check the sample project for more info!
 
 
 

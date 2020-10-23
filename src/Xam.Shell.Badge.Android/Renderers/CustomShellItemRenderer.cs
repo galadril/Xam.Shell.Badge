@@ -19,6 +19,9 @@ namespace Xam.Shell.Badge.Droid.Renderers
     {
         #region Variables
 
+        /// <summary>
+        /// Defines the _bottomNavigationView.
+        /// </summary>
         private BottomNavigationView _bottomNavigationView;
 
         #endregion
@@ -29,7 +32,9 @@ namespace Xam.Shell.Badge.Droid.Renderers
         /// Initializes a new instance of the <see cref="CustomShellItemRenderer"/> class.
         /// </summary>
         /// <param name="shellContext">The shellContext<see cref="IShellContext"/>.</param>
-        public CustomShellItemRenderer(IShellContext shellContext) : base(shellContext) { }
+        public CustomShellItemRenderer(IShellContext shellContext) : base(shellContext)
+        {
+        }
 
         #endregion
 
@@ -38,10 +43,10 @@ namespace Xam.Shell.Badge.Droid.Renderers
         /// <summary>
         /// View init.
         /// </summary>
-        /// <param name="inflater"></param>
-        /// <param name="container"></param>
-        /// <param name="savedInstanceState"></param>
-        /// <returns></returns>
+        /// <param name="inflater">.</param>
+        /// <param name="container">.</param>
+        /// <param name="savedInstanceState">.</param>
+        /// <returns>.</returns>
         public override Android.Views.View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
             var outerlayout = base.OnCreateView(inflater, container, savedInstanceState);
@@ -54,58 +59,30 @@ namespace Xam.Shell.Badge.Droid.Renderers
 
         #endregion
 
-        #region Protected
-
-        /// <summary>
-        /// The OnTabReselected.
-        /// </summary>
-        /// <param name="shellSection">The shellSection<see cref="ShellSection"/>.</param>
-        protected override void OnTabReselected(ShellSection shellSection)
-        {
-            if (null != shellSection)
-                Device.InvokeOnMainThreadAsync(
-                    shellSection.Navigation.PopToRootAsync);
-        }
-
-        /// <summary>
-        /// Occures when property changes
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        protected override void OnShellSectionPropertyChanged(object sender, PropertyChangedEventArgs e)
-        {
-            base.OnShellSectionPropertyChanged(sender, e);
-
-            if (e.PropertyName == Badging.BadgeTextProperty.PropertyName ||
-                e.PropertyName == Badging.BadgeTextColorProperty.PropertyName ||
-                e.PropertyName == Badging.BadgeBackgroundColorProperty.PropertyName)
-            {
-                var item = (ShellSection)sender;
-                var index = ShellItem.Items.IndexOf(item);
-                var text = Badging.GetBadgeText(item);
-                var textColor = Badging.GetBadgeTextColor(item);
-                var bg = Badging.GetBadgeBackgroundColor(item);
-                if (!string.IsNullOrEmpty(text))
-                    ApplyBadge(index, text, bg, textColor);
-            }
-        }
-
-        #endregion
-
         #region Private
 
+        /// <summary>
+        /// The SetupBadges.
+        /// </summary>
         private void SetupBadges()
         {
             for (int i = 0; i < ShellItem.Items.Count; i++)
             {
                 var item = ShellItem.Items.ElementAtOrDefault(i);
-                var text = Badging.GetBadgeText(item);
-                var textColor = Badging.GetBadgeTextColor(item);
-                var bg = Badging.GetBadgeBackgroundColor(item);
+                var text = Badge.GetText(item);
+                var textColor = Badge.GetTextColor(item);
+                var bg = Badge.GetBackgroundColor(item);
                 ApplyBadge(i, text, bg, textColor);
             }
         }
 
+        /// <summary>
+        /// The ApplyBadge.
+        /// </summary>
+        /// <param name="index">The index<see cref="int"/>.</param>
+        /// <param name="text">The text<see cref="string"/>.</param>
+        /// <param name="bg">The bg<see cref="Color"/>.</param>
+        /// <param name="textColor">The textColor<see cref="Color"/>.</param>
         private void ApplyBadge(int index, string text, Color bg, Color textColor)
         {
             if (!string.IsNullOrEmpty(text))
@@ -161,11 +138,21 @@ namespace Xam.Shell.Badge.Droid.Renderers
                     itemView.AddView(vBadge);
                     mtxtnotificationsbadge = itemView.FindViewById<TextView>(Resource.Id.txtbadge);
                 }
+                LinearLayout lyBadge = itemView.FindViewById<LinearLayout>(Resource.Id.lybadge);
+
                 mtxtnotificationsbadge.Text = badgeCount.ToString();
                 var drawable = new GradientDrawable();
                 drawable.SetColor(bg.ToAndroid());
                 drawable.SetCornerRadius(20);
-                mtxtnotificationsbadge.SetBackground(drawable);
+                if (mtxtnotificationsbadge.Text.Length == 1)
+                {
+                    drawable.SetShape(ShapeType.Oval);
+                    lyBadge.SetPadding(10, 0, 10, 0);
+                }
+                else
+                    drawable.SetShape(ShapeType.Rectangle);
+
+                lyBadge.SetBackground(drawable);
                 mtxtnotificationsbadge.SetTextColor(textColor.ToAndroid());
             }
             else
@@ -176,8 +163,13 @@ namespace Xam.Shell.Badge.Droid.Renderers
             }
         }
 
-        /* TinyBadge is simply a styled bullet with on transparent background
-         */
+        /// <summary>
+        ///TinyBadge is simply a styled bullet with on transparent background
+        /// </summary>
+        /// <param name="index">The index<see cref="int"/>.</param>
+        /// <param name="showBadge">The showBadge<see cref="bool"/>.</param>
+        /// <param name="textColor">The textColor<see cref="Color"/>.</param>
+        /// <param name="bottomNavigationMenuView">The bottomNavigationMenuView<see cref="BottomNavigationMenuView"/>.</param>
         private void CreatePageTinyBadge(int index, bool showBadge, Color textColor, BottomNavigationMenuView bottomNavigationMenuView)
         {
             var itemView = (BottomNavigationItemView)bottomNavigationMenuView.GetChildAt(index);
@@ -200,6 +192,44 @@ namespace Xam.Shell.Badge.Droid.Renderers
                 var badgeLayout = itemView.FindViewById<FrameLayout>(Resource.Id.badge);
                 if (badgeLayout != null)
                     itemView.RemoveView(badgeLayout);
+            }
+        }
+
+        #endregion
+
+        #region Protected
+
+        /// <summary>
+        /// The on tab reselected method.
+        /// </summary>
+        /// <param name="shellSection">The shellSection<see cref="ShellSection"/>.</param>
+        protected override void OnTabReselected(ShellSection shellSection)
+        {
+            if (null != shellSection)
+                Device.InvokeOnMainThreadAsync(
+                    shellSection.Navigation.PopToRootAsync);
+        }
+
+        /// <summary>
+        /// Occures when property changes.
+        /// </summary>
+        /// <param name="sender">.</param>
+        /// <param name="e">.</param>
+        protected override void OnShellSectionPropertyChanged(object sender, PropertyChangedEventArgs e)
+        {
+            base.OnShellSectionPropertyChanged(sender, e);
+
+            if (e.PropertyName == Badge.TextProperty.PropertyName ||
+                e.PropertyName == Badge.TextColorProperty.PropertyName ||
+                e.PropertyName == Badge.BackgroundColorProperty.PropertyName)
+            {
+                var item = (ShellSection)sender;
+                var index = ShellItem.Items.IndexOf(item);
+                var text = Badge.GetText(item);
+                var textColor = Badge.GetTextColor(item);
+                var bg = Badge.GetBackgroundColor(item);
+                if (!string.IsNullOrEmpty(text))
+                    ApplyBadge(index, text, bg, textColor);
             }
         }
 
