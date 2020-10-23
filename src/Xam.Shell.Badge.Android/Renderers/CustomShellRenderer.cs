@@ -3,7 +3,6 @@ using Xam.Shell.Badge.Droid.Renderers;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.Android;
 
-
 [assembly: ExportRenderer(typeof(Shell), typeof(CustomShellRenderer))]
 namespace Xam.Shell.Badge.Droid.Renderers
 {
@@ -18,9 +17,7 @@ namespace Xam.Shell.Badge.Droid.Renderers
         /// Initializes a new instance of the <see cref="CustomShellRenderer"/> class.
         /// </summary>
         /// <param name="context">The context<see cref="Context"/>.</param>
-        public CustomShellRenderer(Context context) : base(context)
-        {
-        }
+        public CustomShellRenderer(Context context) : base(context) { }
 
         #endregion
 
@@ -31,20 +28,8 @@ namespace Xam.Shell.Badge.Droid.Renderers
         /// </summary>
         /// <param name="shellItem">The shellItem<see cref="ShellItem"/>.</param>
         /// <returns>The <see cref="IShellItemRenderer"/>.</returns>
-        protected override IShellItemRenderer CreateShellItemRenderer(ShellItem shellItem)
-        {
-            return new CustomShellItemRenderer(this);
-        }
-
-        /// <summary>
-        /// The CreateBottomNavViewAppearanceTracker.
-        /// </summary>
-        /// <param name="shellItem">The shellItem<see cref="ShellItem"/>.</param>
-        /// <returns>The <see cref="IShellBottomNavViewAppearanceTracker"/>.</returns>
-        protected override IShellBottomNavViewAppearanceTracker CreateBottomNavViewAppearanceTracker(ShellItem shellItem)
-        {
-            return new CustomShellBottomAppearance(this);
-        }
+        protected override IShellItemRenderer CreateShellItemRenderer(ShellItem shellItem) =>
+            new CustomShellItemRenderer(this);
 
         #endregion
     }
