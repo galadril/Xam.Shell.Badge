@@ -3,7 +3,7 @@
   <!-- See for documentation: https://docs.microsoft.com/nl-nl/nuget/create-packages/overview-and-workflow -->
   <metadata>
     <id>Xam.Shell.Badge</id>
-    <version>1.0.5</version>
+    <version>1.0.7</version>
     <icon>images\icon.png</icon>
     <title>Xam.Shell.Badge</title>
     <authors>Mark Heinis</authors>
@@ -14,12 +14,17 @@
       A small plugin to ease the use of badges on Shell Bottom Bars 
     </description>
     <releaseNotes>
-      - Added an option to remove the badge
+      Breaking changes!!
+      - New "Badging" helper class, which contains bindable attached properties to use with XAML (see example down there)
+      - it is a "BottomBarHelper" next iteration, but without MessagingCenter;
+      - New logic for showing/hiding badges;
+      - Updated versions of platform renderers: extended "item renderers" instead of "appearance trackers";
+      - Shell items use Xamarin.Forms attached properties system in order to apply particular badge to a particular tab.
+      - Properties are now bindable, which enables user to have them updated and changed;
+      - Updates for both Android and iOS;
     </releaseNotes>
     <copyright>Copyright @ Mark Heinis 2020</copyright>
     <tags>Xamarin.Forms Shell Badge</tags>
-
-    <!-- Dependencies are automatically installed when the package is installed -->
     <dependencies>
       <group targetFramework="netstandard2.0">
         <dependency id="Xamarin.Forms" version="4.0" />
