@@ -91,6 +91,10 @@ If you like, you can remove the badge via:
 Check the sample project for more info!
 
 
+# Contribution
+Feel free to create PR's with fixes/new features!
+Thanks @SnowPowerCore for your improvements.
+
 
 # Donation
 
