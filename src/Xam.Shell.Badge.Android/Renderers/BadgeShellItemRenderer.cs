@@ -77,16 +77,14 @@ namespace Xam.Shell.Badge.Droid.Renderers
         private void ApplyBadge(string badgeText,
             Color badgeBg, int itemId, Color textColor)
         {
-            using (BottomNavigationMenuView bottomNavigationMenuView =
-                (BottomNavigationMenuView)_bottomNavigationView.GetChildAt(0))
-            {
-                var itemView = bottomNavigationMenuView
-                    .FindViewById<BottomNavigationItemView>(itemId);
-                int.TryParse(badgeText, out var badgeNumber);
-                if (badgeNumber != 0)
-                    itemView.ApplyBadge(badgeBg, badgeText, textColor);
-                else itemView.ApplyTinyBadge(textColor);
-            }
+            using BottomNavigationMenuView bottomNavigationMenuView =
+                (BottomNavigationMenuView)_bottomNavigationView.GetChildAt(0);
+            var itemView = bottomNavigationMenuView
+                .FindViewById<BottomNavigationItemView>(itemId);
+            int.TryParse(badgeText, out var badgeNumber);
+            if (badgeNumber != 0)
+                itemView.ApplyBadge(badgeBg, badgeText, textColor);
+            else itemView.ApplyTinyBadge(textColor);
         }
 
         #endregion
