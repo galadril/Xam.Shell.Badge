@@ -14,8 +14,8 @@ namespace Xam.Shell.Badge.iOS
         /// </summary>
         public static void Init()
         {
-            System.Diagnostics.Debug.Assert(typeof(CustomShellItemRenderer) != null);
-            System.Diagnostics.Debug.Assert(typeof(CustomShellRenderer) != null);
+            System.Diagnostics.Debug.Assert(typeof(BadgeShellItemRenderer) != null);
+            System.Diagnostics.Debug.Assert(typeof(BadgeShellRenderer) != null);
         }
 
         #endregion

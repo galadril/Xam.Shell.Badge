@@ -52,8 +52,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BottomBar.cs" />
-    <Compile Include="Renderers\CustomShellItemRenderer.cs" />
-    <Compile Include="Renderers\CustomShellRenderer.cs" />
+    <Compile Include="Extensions\ViewGroupExtensions.cs" />
+    <Compile Include="Helpers\BadgeHelper.cs" />
+    <Compile Include="Renderers\BadgeShellItemRenderer.cs" />
+    <Compile Include="Renderers\BadgeShellRenderer.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
