@@ -50,12 +50,12 @@
   <ItemGroup>
     <Compile Include="BottomBar.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Renderers\CustomShellItemRenderer.cs" />
-    <Compile Include="Renderers\CustomShellRenderer.cs" />
+    <Compile Include="Renderers\BadgeShellItemRenderer.cs" />
+    <Compile Include="Renderers\BadgeShellRenderer.cs" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms">
-      <Version>4.8.0.1269</Version>
+      <Version>4.8.0.1687</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>

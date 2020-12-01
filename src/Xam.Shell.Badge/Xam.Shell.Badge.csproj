@@ -38,6 +38,10 @@
       <PackageIcon>icon.png</PackageIcon>
    </PropertyGroup>
 
+  <PropertyGroup>
+    <LangVersion>9.0</LangVersion>
+  </PropertyGroup>
+
    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
       <DocumentationFile>bin\Debug\netstandard2.0\Xam.Shell.Badge.xml</DocumentationFile>
       <DebugType>full</DebugType>
@@ -51,7 +55,7 @@
    </PropertyGroup>
 
    <ItemGroup>
-      <PackageReference Include="Xamarin.Forms" Version="4.8.0.1269" />
+      <PackageReference Include="Xamarin.Forms" Version="4.8.0.1687" />
    </ItemGroup>
 
    <ItemGroup>

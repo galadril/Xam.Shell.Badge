@@ -8,17 +8,17 @@ using Xamarin.Forms.Platform.iOS;
 namespace Xam.Shell.Badge.iOS.Renderers
 {
     /// <summary>
-    /// Defines the <see cref="CustomShellItemRenderer" />.
+    /// Defines the <see cref="BadgeShellItemRenderer" />.
     /// </summary>
-    public class CustomShellItemRenderer : ShellItemRenderer
+    public class BadgeShellItemRenderer : ShellItemRenderer
     {
         #region Constructor & Destructor
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="CustomShellItemRenderer"/> class.
+        /// Initializes a new instance of the <see cref="BadgeShellItemRenderer"/> class.
         /// </summary>
         /// <param name="context">The shellContext<see cref="IShellContext"/>.</param>
-        public CustomShellItemRenderer(IShellContext context) : base(context) { }
+        public BadgeShellItemRenderer(IShellContext context) : base(context) { }
 
         #endregion
 
