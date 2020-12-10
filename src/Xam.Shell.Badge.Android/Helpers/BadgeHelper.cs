@@ -40,7 +40,7 @@ namespace Xam.Shell.Badge.Droid.Helpers
                 badgeContainerFrameLayout.AddView(imageView);
 
                 BadgeFrameLayout badgeContainer = CreateBadgeContainer(bottomNavigationView.Context);
-                badgeContainer.TopMargin += 12;
+                badgeContainer.TopMargin = 20;
 
                 badgeContainer.Visibility = !string.IsNullOrEmpty(text) ? ViewStates.Visible : ViewStates.Invisible;
 
@@ -55,6 +55,7 @@ namespace Xam.Shell.Badge.Droid.Helpers
             else
             {
                 BadgeFrameLayout badgeContainer = bottomNavigationView.GetChildrenOfType<BadgeFrameLayout>().Single();
+                badgeContainer.TopMargin = 20;
                 badgeContainer.Visibility = !string.IsNullOrEmpty(text) ? ViewStates.Visible : ViewStates.Invisible;
 
                 ((PaintDrawable)badgeContainer.Background).Paint.Color = color.IsDefault ? XColor.FromRgb(255, 59, 48).ToAndroid() : color.ToAndroid();
@@ -62,6 +63,7 @@ namespace Xam.Shell.Badge.Droid.Helpers
                 TextView textView = (TextView)badgeContainer.GetChildAt(0);
                 textView.Text = text;
                 textView.SetTextColor(textColor.IsDefault ? XColor.White.ToAndroid() : textColor.ToAndroid());
+                textView.SetTextSize(ComplexUnitType.Sp, 10);
             }
         }
 
@@ -86,7 +88,7 @@ namespace Xam.Shell.Badge.Droid.Helpers
                 badgeContainerFrameLayout.AddView(imageView);
 
                 BadgeFrameLayout badgeContainer = CreateBadgeContainer(bottomNavigationView.Context);
-                badgeContainer.TopMargin += 16;
+                badgeContainer.TopMargin = 24;
                 badgeContainer.Visibility = ViewStates.Visible;
                 badgeContainer.Background = CreateBadgeBackground(bottomNavigationView.Context, XColor.Transparent);
                 badgeContainer.AddView(CreateBadgeText(bottomNavigationView.Context, "●", textColor, 20));
@@ -94,14 +96,18 @@ namespace Xam.Shell.Badge.Droid.Helpers
                 badgeContainerFrameLayout.AddView(badgeContainer);
 
                 bottomNavigationView.AddView(badgeContainerFrameLayout);
-
             }
             else
             {
                 BadgeFrameLayout badgeContainer = bottomNavigationView.GetChildrenOfType<BadgeFrameLayout>().Single();
+                badgeContainer.TopMargin = 24;
                 badgeContainer.Visibility = ViewStates.Visible;
+                ((PaintDrawable)badgeContainer.Background).Paint.Color = XColor.Transparent.ToAndroid();
 
-                ((PaintDrawable)badgeContainer.Background).Paint.Color = textColor.IsDefault ? XColor.FromRgb(255, 59, 48).ToAndroid() : textColor.ToAndroid();
+                TextView textView = (TextView)badgeContainer.GetChildAt(0);
+                textView.Text = "●";
+                textView.SetTextSize(ComplexUnitType.Sp, 20);
+                textView.SetTextColor(textColor.ToAndroid());
             }
         }
 
