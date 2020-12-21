@@ -69,8 +69,7 @@ namespace Xam.Shell.Badge.Droid.Renderers
                 var text = Badge.GetText(item);
                 var textColor = Badge.GetTextColor(item);
                 var bg = Badge.GetBackgroundColor(item);
-                if (!string.IsNullOrEmpty(text))
-                    ApplyBadge(text, bg, i, textColor);
+                ApplyBadge(text, bg, i, textColor);
             }
         }
 
@@ -81,10 +80,15 @@ namespace Xam.Shell.Badge.Droid.Renderers
                 (BottomNavigationMenuView)_bottomNavigationView.GetChildAt(0);
             var itemView = bottomNavigationMenuView
                 .FindViewById<BottomNavigationItemView>(itemId);
-            int.TryParse(badgeText, out var badgeNumber);
-            if (badgeNumber != 0)
-                itemView.ApplyBadge(badgeBg, badgeText, textColor);
-            else itemView.ApplyTinyBadge(textColor);
+            if (string.IsNullOrEmpty(badgeText))
+                itemView.ApplyBadge(badgeBg, "", textColor);
+            else
+            {
+                int.TryParse(badgeText, out var badgeNumber);
+                if (badgeNumber != 0)
+                    itemView.ApplyBadge(badgeBg, badgeText, textColor);
+                else itemView.ApplyTinyBadge(textColor);
+            }
         }
 
         #endregion
@@ -120,8 +124,7 @@ namespace Xam.Shell.Badge.Droid.Renderers
                 var text = Badge.GetText(item);
                 var textColor = Badge.GetTextColor(item);
                 var bg = Badge.GetBackgroundColor(item);
-                if (!string.IsNullOrEmpty(text))
-                    ApplyBadge(text, bg, index, textColor);
+                ApplyBadge(text, bg, index, textColor);
             }
         }
 

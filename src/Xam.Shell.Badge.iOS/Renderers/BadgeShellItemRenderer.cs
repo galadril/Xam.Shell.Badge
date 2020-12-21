@@ -63,8 +63,7 @@ namespace Xam.Shell.Badge.iOS.Renderers
                 var text = Badge.GetText(item);
                 var textColor = Badge.GetTextColor(item);
                 var bg = Badge.GetBackgroundColor(item);
-                if (!string.IsNullOrEmpty(text))
-                    ApplyBadge(index, text, bg, textColor);
+                ApplyBadge(index, text, bg, textColor);
             }
         }
 
