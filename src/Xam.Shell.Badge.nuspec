@@ -3,7 +3,7 @@
   <!-- See for documentation: https://docs.microsoft.com/nl-nl/nuget/create-packages/overview-and-workflow -->
   <metadata>
     <id>Xam.Shell.Badge</id>
-    <version>1.0.10</version>
+    <version>1.0.11</version>
     <icon>images\icon.png</icon>
     <title>Xam.Shell.Badge</title>
     <authors>Mark Heinis</authors>
