@@ -18,16 +18,18 @@ namespace Xam.Shell.Badge.iOS.Renderers
         /// Initializes a new instance of the <see cref="BadgeShellItemRenderer"/> class.
         /// </summary>
         /// <param name="context">The shellContext<see cref="IShellContext"/>.</param>
-        public BadgeShellItemRenderer(IShellContext context) : base(context) { }
+        public BadgeShellItemRenderer(IShellContext context) : base(context)
+        {
+        }
 
         #endregion
 
         #region Public
 
         /// <summary>
-        /// Occures when view is about to appear
+        /// Occures when view is about to appear.
         /// </summary>
-        /// <param name="animated"></param>
+        /// <param name="animated">.</param>
         public override void ViewWillAppear(bool animated)
         {
             base.ViewWillAppear(animated);
@@ -43,34 +45,15 @@ namespace Xam.Shell.Badge.iOS.Renderers
 
         #endregion
 
-        #region Protected
-
-        /// <summary>
-        /// Occures when property changes
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        protected override void OnShellSectionPropertyChanged(object sender, PropertyChangedEventArgs e)
-        {
-            base.OnShellSectionPropertyChanged(sender, e);
-
-            if (e.PropertyName == Badge.TextProperty.PropertyName ||
-                e.PropertyName == Badge.TextColorProperty.PropertyName ||
-                e.PropertyName == Badge.BackgroundColorProperty.PropertyName)
-            {
-                var item = (ShellSection)sender;
-                var index = ShellItem.Items.IndexOf(item);
-                var text = Badge.GetText(item);
-                var textColor = Badge.GetTextColor(item);
-                var bg = Badge.GetBackgroundColor(item);
-                ApplyBadge(index, text, bg, textColor);
-            }
-        }
-
-        #endregion
-
         #region Private
 
+        /// <summary>
+        /// The ApplyBadge.
+        /// </summary>
+        /// <param name="index">The index<see cref="int"/>.</param>
+        /// <param name="text">The text<see cref="string"/>.</param>
+        /// <param name="bg">The bg<see cref="Color"/>.</param>
+        /// <param name="textColor">The textColor<see cref="Color"/>.</param>
         private void ApplyBadge(int index, string text, Color bg, Color textColor)
         {
             if (TabBar?.Items != null && TabBar.Items.Any())
@@ -104,6 +87,32 @@ namespace Xam.Shell.Badge.iOS.Renderers
                     TabBar.Items[index].BadgeValue = null;
                     TabBar.Items[index].BadgeColor = UIColor.Clear;
                 }
+            }
+        }
+
+        #endregion
+
+        #region Protected
+
+        /// <summary>
+        /// Occures when property changes.
+        /// </summary>
+        /// <param name="sender">.</param>
+        /// <param name="e">.</param>
+        protected override void OnShellSectionPropertyChanged(object sender, PropertyChangedEventArgs e)
+        {
+            base.OnShellSectionPropertyChanged(sender, e);
+
+            if (e.PropertyName == Badge.TextProperty.PropertyName ||
+                e.PropertyName == Badge.TextColorProperty.PropertyName ||
+                e.PropertyName == Badge.BackgroundColorProperty.PropertyName)
+            {
+                var item = (ShellSection)sender;
+                var index = ShellItem.Items.IndexOf(item);
+                var text = Badge.GetText(item);
+                var textColor = Badge.GetTextColor(item);
+                var bg = Badge.GetBackgroundColor(item);
+                ApplyBadge(index, text, bg, textColor);
             }
         }
 

@@ -2,6 +2,7 @@
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.iOS;
 
+
 [assembly: ExportRenderer(typeof(Shell), typeof(BadgeShellRenderer))]
 namespace Xam.Shell.Badge.iOS.Renderers
 {
@@ -15,7 +16,9 @@ namespace Xam.Shell.Badge.iOS.Renderers
         /// <summary>
         /// Initializes a new instance of the <see cref="BadgeShellRenderer"/> class.
         /// </summary>
-        public BadgeShellRenderer() : base() { }
+        public BadgeShellRenderer() : base()
+        {
+        }
 
         #endregion
 

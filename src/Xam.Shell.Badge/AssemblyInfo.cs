@@ -1,4 +1,9 @@
 ﻿namespace System.Runtime.CompilerServices
 {
-    public class IsExternalInit { }
+    /// <summary>
+    /// Defines the <see cref="IsExternalInit" />.
+    /// </summary>
+    public class IsExternalInit
+    {
+    }
 }
