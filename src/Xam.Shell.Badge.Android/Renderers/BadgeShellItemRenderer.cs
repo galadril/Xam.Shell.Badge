@@ -73,6 +73,13 @@ namespace Xam.Shell.Badge.Droid.Renderers
             }
         }
 
+        /// <summary>
+        /// The ApplyBadge.
+        /// </summary>
+        /// <param name="badgeText">The badgeText<see cref="string"/>.</param>
+        /// <param name="badgeBg">The badgeBg<see cref="Color"/>.</param>
+        /// <param name="itemId">The itemId<see cref="int"/>.</param>
+        /// <param name="textColor">The textColor<see cref="Color"/>.</param>
         private void ApplyBadge(string badgeText,
             Color badgeBg, int itemId, Color textColor)
         {

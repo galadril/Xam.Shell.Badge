@@ -17,7 +17,9 @@ namespace Xam.Shell.Badge.Droid.Renderers
         /// Initializes a new instance of the <see cref="BadgeShellRenderer"/> class.
         /// </summary>
         /// <param name="context">The context<see cref="Context"/>.</param>
-        public BadgeShellRenderer(Context context) : base(context) { }
+        public BadgeShellRenderer(Context context) : base(context)
+        {
+        }
 
         #endregion
 
