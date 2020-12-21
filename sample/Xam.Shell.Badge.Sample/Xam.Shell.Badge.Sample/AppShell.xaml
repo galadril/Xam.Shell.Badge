@@ -6,6 +6,10 @@
     xmlns:badge="clr-namespace:Xam.Shell.Badge;assembly=Xam.Shell.Badge"
     xmlns:local="clr-namespace:Xam.Shell.Badge.Sample">
 
+    <Shell.BindingContext>
+        <local:ShellViewModel />
+    </Shell.BindingContext>
+    
     <Shell.Resources>
         <ResourceDictionary>
             <Color x:Key="NavigationPrimary">#2196F3</Color>
@@ -27,8 +31,8 @@
     <TabBar x:Name="tabBar">
         <Tab
             Title="Test1"
-            badge:Badge.BackgroundColor="Red"
-            badge:Badge.Text="2">
+            badge:Badge.BackgroundColor="{Binding Badge1Color}"
+            badge:Badge.Text="{Binding Badge1Text}">
             <ShellContent ContentTemplate="{DataTemplate local:MainPage}" />
         </Tab>
         <Tab

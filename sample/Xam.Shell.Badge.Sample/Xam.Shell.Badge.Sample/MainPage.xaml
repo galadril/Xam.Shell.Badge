@@ -8,10 +8,9 @@
     mc:Ignorable="d">
     <ContentPage.Content>
         <StackLayout>
-            <Label
-                HorizontalOptions="CenterAndExpand"
-                Text="This is a sample project!"
-                VerticalOptions="CenterAndExpand" />
+            <Button HorizontalOptions="FillAndExpand" Text="Remove first badge" x:Name="btnRemove" Clicked="btnRemove_Clicked"></Button>
+            <Button HorizontalOptions="FillAndExpand" Text="Change Color first badge" x:Name="btnColor" Clicked="btnColor_Clicked"></Button>
+            <Button HorizontalOptions="FillAndExpand" Text="Change Text first badge" x:Name="btnText" Clicked="btnText_Clicked"></Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
