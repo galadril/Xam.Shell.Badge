@@ -38,22 +38,16 @@ namespace Xam.Shell.Badge.Droid.Helpers
                 bottomNavigationView.SetClipChildren(false);
                 bottomNavigationView.SetClipToPadding(false);
 
-                ImageView imageView = bottomNavigationView.GetChildrenOfType<ImageView>().Single();
-                bottomNavigationView.RemoveView(imageView);
-
                 FrameLayout badgeContainerFrameLayout = new FrameLayout(bottomNavigationView.Context)
                 {
-                    LayoutParameters = new FrameLayout.LayoutParams(LP.WrapContent, LP.WrapContent)
+                    LayoutParameters = new FrameLayout.LayoutParams(LP.FillParent, LP.FillParent)
                     {
                         Gravity = GravityFlags.CenterHorizontal
                     }
                 };
 
-                badgeContainerFrameLayout.AddView(imageView);
-
                 BadgeFrameLayout badgeContainer = CreateBadgeContainer(bottomNavigationView.Context);
                 badgeContainer.TopMargin = 20;
-
                 badgeContainer.Visibility = !string.IsNullOrEmpty(text) ? ViewStates.Visible : ViewStates.Invisible;
 
                 badgeContainer.Background = CreateBadgeBackground(bottomNavigationView.Context, color);
@@ -91,9 +85,6 @@ namespace Xam.Shell.Badge.Droid.Helpers
                 bottomNavigationView.SetClipChildren(false);
                 bottomNavigationView.SetClipToPadding(false);
 
-                ImageView imageView = bottomNavigationView.GetChildrenOfType<ImageView>().Single();
-                bottomNavigationView.RemoveView(imageView);
-
                 FrameLayout badgeContainerFrameLayout = new FrameLayout(bottomNavigationView.Context)
                 {
                     LayoutParameters = new FrameLayout.LayoutParams(LP.WrapContent, LP.WrapContent)
@@ -101,8 +92,6 @@ namespace Xam.Shell.Badge.Droid.Helpers
                         Gravity = GravityFlags.CenterHorizontal
                     }
                 };
-
-                badgeContainerFrameLayout.AddView(imageView);
 
                 BadgeFrameLayout badgeContainer = CreateBadgeContainer(bottomNavigationView.Context);
                 badgeContainer.TopMargin = 24;
@@ -123,8 +112,8 @@ namespace Xam.Shell.Badge.Droid.Helpers
 
                 TextView textView = (TextView)badgeContainer.GetChildAt(0);
                 textView.Text = "●";
-                textView.SetTextSize(ComplexUnitType.Sp, 20);
                 textView.SetTextColor(textColor.ToAndroid());
+                textView.SetTextSize(ComplexUnitType.Sp, 20);
             }
         }
 
@@ -167,7 +156,6 @@ namespace Xam.Shell.Badge.Droid.Helpers
             {
                 BadgeFrameLayout badgeContainer = tabView.GetChildrenOfType<BadgeFrameLayout>().Single();
                 badgeContainer.Visibility = !string.IsNullOrEmpty(text) ? ViewStates.Visible : ViewStates.Invisible;
-
                 ((PaintDrawable)badgeContainer.Background).Paint.Color = color.IsDefault ? XColor.FromRgb(255, 59, 48).ToAndroid() : color.ToAndroid();
 
                 TextView textView = (TextView)badgeContainer.GetChildAt(0);
@@ -189,7 +177,7 @@ namespace Xam.Shell.Badge.Droid.Helpers
             {
                 LayoutParameters = new FrameLayout.LayoutParams(LP.WrapContent, LP.WrapContent)
                 {
-                    Gravity = GravityFlags.Top | GravityFlags.Right
+                    Gravity = GravityFlags.Top | GravityFlags.CenterHorizontal
                 }
             };
 
