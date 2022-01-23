@@ -1,140 +1,133 @@
 ﻿using Android.OS;
 using Android.Views;
+using AsyncAwaitBestPractices;
+using Google.Android.Material.Badge;
 using Google.Android.Material.BottomNavigation;
+using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
-using Xam.Shell.Badge.Droid.Helpers;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.Android;
 
 namespace Xam.Shell.Badge.Droid.Renderers
 {
     /// <summary>
-    /// Defines the <see cref="BadgeShellItemRenderer" />.
+    /// <inheritdoc/>
     /// </summary>
     public class BadgeShellItemRenderer : ShellItemRenderer
     {
-        #region Variables
+        private readonly IShellContext _shellContext;
 
-        /// <summary>
-        /// Defines the _bottomNavigationView.
-        /// </summary>
+        private readonly string[] _applyPropertyNames =
+            new string[]
+            {
+                Badge.TextProperty.PropertyName,
+                Badge.TextColorProperty.PropertyName,
+                Badge.BackgroundColorProperty.PropertyName
+            };
+
         private BottomNavigationView _bottomNavigationView;
 
-        #endregion
-
-        #region Constructor & Destructor
+        private readonly Dictionary<int, BadgeDrawable> _badgeDrawables =
+            new Dictionary<int, BadgeDrawable>();
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="BadgeShellItemRenderer"/> class.
+        /// <inheritdoc/>
         /// </summary>
-        /// <param name="shellContext">The shellContext<see cref="IShellContext"/>.</param>
         public BadgeShellItemRenderer(IShellContext shellContext) : base(shellContext)
         {
+            _shellContext = shellContext;
         }
 
-        #endregion
-
-        #region Public
-
         /// <summary>
-        /// View init.
+        /// <inheritdoc/>
         /// </summary>
-        /// <param name="inflater">.</param>
-        /// <param name="container">.</param>
-        /// <param name="savedInstanceState">.</param>
-        /// <returns>.</returns>
-        public override Android.Views.View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
+        public override Android.Views.View OnCreateView(
+            LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
             var outerlayout = base.OnCreateView(inflater, container, savedInstanceState);
-            _bottomNavigationView = outerlayout.FindViewById<BottomNavigationView>(Resource.Id.bottomtab_tabbar);
 
-            SetupBadges();
+            _bottomNavigationView = outerlayout.FindViewById<BottomNavigationView>(Resource.Id.bottomtab_tabbar);
+            _bottomNavigationView.Post(() =>
+            {
+                Device
+                    .InvokeOnMainThreadAsync(InitBadges)
+                    .SafeFireAndForget();
+            });
 
             return outerlayout;
         }
 
-        #endregion
-
-        #region Private
-
         /// <summary>
-        /// The SetupBadges.
+        /// <inheritdoc/>
         /// </summary>
-        private void SetupBadges()
-        {
-            for (int i = 0; i < ShellItem.Items.Count; i++)
-            {
-                var item = ShellItem.Items.ElementAtOrDefault(i);
-                var text = Badge.GetText(item);
-                var textColor = Badge.GetTextColor(item);
-                var bg = Badge.GetBackgroundColor(item);
-                ApplyBadge(text, bg, i, textColor);
-            }
-        }
-
-        /// <summary>
-        /// The ApplyBadge.
-        /// </summary>
-        /// <param name="badgeText">The badgeText<see cref="string"/>.</param>
-        /// <param name="badgeBg">The badgeBg<see cref="Color"/>.</param>
-        /// <param name="itemId">The itemId<see cref="int"/>.</param>
-        /// <param name="textColor">The textColor<see cref="Color"/>.</param>
-        private void ApplyBadge(string badgeText,
-            Color badgeBg, int itemId, Color textColor)
-        {
-            using BottomNavigationMenuView bottomNavigationMenuView =
-                (BottomNavigationMenuView)_bottomNavigationView.GetChildAt(0);
-            var itemView = bottomNavigationMenuView
-                .FindViewById<BottomNavigationItemView>(itemId);
-            if (string.IsNullOrEmpty(badgeText))
-                itemView.ApplyBadge(badgeBg, "", textColor);
-            else
-            {
-                int.TryParse(badgeText, out var badgeNumber);
-                if (badgeNumber != 0)
-                    itemView.ApplyBadge(badgeBg, badgeText, textColor);
-                else itemView.ApplyTinyBadge(textColor);
-            }
-        }
-
-        #endregion
-
-        #region Protected
-
-        /// <summary>
-        /// The on tab reselected method.
-        /// </summary>
-        /// <param name="shellSection">The shellSection<see cref="ShellSection"/>.</param>
-        protected override void OnTabReselected(ShellSection shellSection)
-        {
-            if (null != shellSection)
-                Device.InvokeOnMainThreadAsync(
-                    shellSection.Navigation.PopToRootAsync);
-        }
-
-        /// <summary>
-        /// Occures when property changes.
-        /// </summary>
-        /// <param name="sender">.</param>
-        /// <param name="e">.</param>
         protected override void OnShellSectionPropertyChanged(object sender, PropertyChangedEventArgs e)
         {
             base.OnShellSectionPropertyChanged(sender, e);
 
-            if (e.PropertyName == Badge.TextProperty.PropertyName ||
-                e.PropertyName == Badge.TextColorProperty.PropertyName ||
-                e.PropertyName == Badge.BackgroundColorProperty.PropertyName)
+            if (_applyPropertyNames.All(x => x != e.PropertyName))
+                return;
+
+            Device
+                .InvokeOnMainThreadAsync(() => UpdateBadge((ShellSection)sender))
+                .SafeFireAndForget();
+        }
+
+        private void InitBadges()
+        {
+            for (int index = 0; index < ShellItem.Items.Count; index++)
             {
-                var item = (ShellSection)sender;
-                var index = ShellItem.Items.IndexOf(item);
-                var text = Badge.GetText(item);
-                var textColor = Badge.GetTextColor(item);
-                var bg = Badge.GetBackgroundColor(item);
-                ApplyBadge(text, bg, index, textColor);
+                UpdateBadge(ShellItem.Items.ElementAtOrDefault(index));
             }
         }
 
-        #endregion
+        private void UpdateBadge(ShellSection item)
+        {
+            var index = ShellItem.Items.IndexOf(item);
+            var text = Badge.GetText(item);
+            var textColor = Badge.GetTextColor(item);
+            var bg = Badge.GetBackgroundColor(item);
+            ApplyBadge(index, text, bg, textColor);
+        }
+
+        private void ApplyBadge(int itemId, string badgeText, Color badgeBg, Color textColor)
+        {
+            var badgeBackgroundColor = badgeBg.ToAndroid();
+            var badgeTextColor = textColor.ToAndroid();
+            int.TryParse(badgeText, out var badgeNumber);
+
+            using var bottomNavigationMenuView = (BottomNavigationMenuView)_bottomNavigationView.GetChildAt(0);
+            var itemView = bottomNavigationMenuView.FindViewById<BottomNavigationItemView>(itemId);
+            var iconView = itemView.GetChildAt(0);
+
+            var badge = _badgeDrawables.GetValueOrDefault(itemId, BadgeDrawable.Create(
+                new ContextThemeWrapper(_shellContext.AndroidContext, Resource.Style.Base_Theme_MaterialComponents_Bridge)));
+            badge.BackgroundColor = badgeBackgroundColor;
+            badge.BadgeTextColor = badgeTextColor;
+            badge.VerticalOffset = (int)(iconView.Top / 1.5);
+            badge.SetVisible(true);
+
+            if (string.IsNullOrEmpty(badgeText))
+            {
+                badge.SetVisible(false);
+                BadgeUtils.AttachBadgeDrawable(badge, iconView);
+                _badgeDrawables[itemId] = badge;
+            }
+            else
+            {
+                if (badgeNumber == 0)
+                {
+                    badge.ClearNumber();
+                    BadgeUtils.AttachBadgeDrawable(badge, iconView);
+                    _badgeDrawables[itemId] = badge;
+                }
+                else
+                {
+                    badge.Number = badgeNumber;
+                    BadgeUtils.AttachBadgeDrawable(badge, iconView);
+                    _badgeDrawables[itemId] = badge;
+                }
+            }
+        }
     }
 }

@@ -52,50 +52,22 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BottomBar.cs" />
-    <Compile Include="Extensions\ViewGroupExtensions.cs" />
-    <Compile Include="Helpers\BadgeHelper.cs" />
     <Compile Include="Renderers\BadgeShellItemRenderer.cs" />
     <Compile Include="Renderers\BadgeShellRenderer.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\AboutResources.txt" />
-  </ItemGroup>
-  <ItemGroup>
     <PackageReference Include="Xamarin.Forms">
-      <Version>4.8.0.1821</Version>
+      <Version>5.0.0.2291</Version>
     </PackageReference>
-    <PackageReference Include="Xamarin.Google.Android.Material">
-      <Version>1.2.1.1</Version>
-    </PackageReference>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Xam.Shell.Badge\Xam.Shell.Badge.csproj">
-      <Project>{0d34c88b-d532-492c-8204-c76b280e4edb}</Project>
-      <Name>Xam.Shell.Badge</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\layout\notification_badge.axml">
-      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
-    </AndroidResource>
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\custom_circle_shape.xml">
-      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
-    </AndroidResource>
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\custom_rectangle_shape.xml">
-      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
-    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\values\colors.xml">
       <Generator>MSBuild:UpdateGeneratedFiles</Generator>
     </AndroidResource>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

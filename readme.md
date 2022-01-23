@@ -16,14 +16,14 @@ https://github.com/xamarin/Xamarin.Forms/issues/6112
 # Setup
 * Available on Nuget:
 https://www.nuget.org/packages/Xam.Shell.Badge 
-!!Install into your projects. !!
+!!Install into shared & platform projects. !!
 
 
 # Init
 Init the library within your Android (MainActivity) and iOS (AppDelegate) project
 
-```
-            BottomBar.Init();
+```C#
+        BottomBar.Init();
 ```
 
 
@@ -31,7 +31,7 @@ Init the library within your Android (MainActivity) and iOS (AppDelegate) projec
 Please check the sample project on how its implemented.
 Just create a shell bottom bar like done in the sample project
 
-```
+```XAML
     xmlns:badge="clr-namespace:Xam.Shell.Badge;assembly=Xam.Shell.Badge"
 
     ...
@@ -65,26 +65,20 @@ Just create a shell bottom bar like done in the sample project
 
 Then set a badge properties on the Tab bar via the next properties:
 
-```
-
-            badge:Badge.Text="0"
-            badge:Badge.TextColor="Orange"
-            badge:Badge.BackgroundColor="Red"
-
-            
+```XAML
+        badge:Badge.Text="0"
+        badge:Badge.TextColor="Orange"
+        badge:Badge.BackgroundColor="Red"
 ```
 
 badge:Badge.Text="0"    -> Tiny Badge
 badge:Badge.Text="5"    -> Normal Badge
 
 
-
 If you like, you can remove the badge via:
 
-```
-
-            badge:Badge.Text=""
-            
+```XAML
+        badge:Badge.Text=""
 ```
             
 
@@ -93,7 +87,6 @@ Check the sample project for more info!
 
 # Contribution
 Feel free to create PR's with fixes/new features!
-Thanks @SnowPowerCore for your improvements.
 
 
 # Donation

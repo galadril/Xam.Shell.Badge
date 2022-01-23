@@ -8,7 +8,7 @@
    </PropertyGroup>
 
    <PropertyGroup>
-      <TargetFramework>netstandard2.0</TargetFramework>
+      <TargetFramework>netstandard2.1</TargetFramework>
       <RootNamespace>Xam.Shell.Badge</RootNamespace>
       <Company>HNO Games</Company>
       <Authors>Mark Heinis</Authors>
@@ -44,9 +44,8 @@
 
    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
       <DocumentationFile>bin\Debug\netstandard2.0\Xam.Shell.Badge.xml</DocumentationFile>
-      <DebugType>full</DebugType>
+      <DebugType>portable</DebugType>
       <DebugSymbols>true</DebugSymbols>
-      <CodeAnalysisRuleSet>Xam.Shell.Badge.ruleset</CodeAnalysisRuleSet>
    </PropertyGroup>
 
    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
@@ -55,13 +54,8 @@
    </PropertyGroup>
 
    <ItemGroup>
-      <PackageReference Include="Xamarin.Forms" Version="4.8.0.1821" />
-   </ItemGroup>
-
-   <ItemGroup>
-      <Reference Include="Mono.Android">
-         <HintPath>..\..\..\..\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\ReferenceAssemblies\Microsoft\Framework\MonoAndroid\v8.1\Mono.Android.dll</HintPath>
-      </Reference>
+      <PackageReference Include="AsyncAwaitBestPractices" Version="6.0.4" />
+      <PackageReference Include="Xamarin.Forms" Version="5.0.0.2291" />
    </ItemGroup>
 
    <ItemGroup>

@@ -1,23 +1,8 @@
-﻿using Xamarin.Forms.Xaml;
-
-namespace Xam.Shell.Badge.Sample
+﻿namespace Xam.Shell.Badge.Sample
 {
-    /// <summary>
-    /// Defines the <see cref="AppShell" />.
-    /// </summary>
-    [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class AppShell : Xamarin.Forms.Shell
+    public partial class AppShell
     {
-        #region Constructor & Destructor
-
-        /// <summary>
-        /// Initializes a new instance of the <see cref="AppShell"/> class.
-        /// </summary>
-        public AppShell()
-        {
+        public AppShell() =>
             InitializeComponent();
-        }
-
-        #endregion
     }
 }

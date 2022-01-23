@@ -1,10 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<Shell
-    x:Class="Xam.Shell.Badge.Sample.AppShell"
-    xmlns="http://xamarin.com/schemas/2014/forms"
-    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:badge="clr-namespace:Xam.Shell.Badge;assembly=Xam.Shell.Badge"
-    xmlns:local="clr-namespace:Xam.Shell.Badge.Sample">
+<Shell x:Class="Xam.Shell.Badge.Sample.AppShell"
+       xmlns="http://xamarin.com/schemas/2014/forms"
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:local="clr-namespace:Xam.Shell.Badge.Sample"
+       xmlns:badge="clr-namespace:Xam.Shell.Badge;assembly=Xam.Shell.Badge">
 
     <Shell.BindingContext>
         <local:ShellViewModel />
@@ -29,31 +28,27 @@
     </Shell.Resources>
 
     <TabBar x:Name="tabBar">
-        <Tab
-            Icon="baseline_accessibility_white_24"
-            Title="Test1"
-            badge:Badge.BackgroundColor="{Binding Badge1Color}"
-            badge:Badge.Text="{Binding Badge1Text}">
+        <Tab Icon="baseline_accessibility_white_24"
+             Title="Test1"
+             badge:Badge.BackgroundColor="{Binding Badge1Color}"
+             badge:Badge.Text="{Binding Badge1Text}">
             <ShellContent ContentTemplate="{DataTemplate local:MainPage}" />
         </Tab>
-        <Tab
-            Icon="baseline_accessibility_white_24"
-            Title="Test2"
-            badge:Badge.Text="0"
-            badge:Badge.TextColor="Orange">
+        <Tab Icon="baseline_accessibility_white_24"
+             Title="Test2"
+             badge:Badge.Text="0"
+             badge:Badge.BackgroundColor="Purple">
             <ShellContent ContentTemplate="{DataTemplate local:MainPage}" />
         </Tab>
-        <Tab
-            Icon="baseline_accessibility_white_24" 
-            Title="Test3" 
-            badge:Badge.Text="">
+        <Tab Icon="baseline_accessibility_white_24"
+             Title="Test3"
+             badge:Badge.Text="">
             <ShellContent ContentTemplate="{DataTemplate local:MainPage}" />
         </Tab>
-        <Tab
-            Icon="baseline_accessibility_white_24"
-            Title="Test4"
-            badge:Badge.BackgroundColor="Green"
-            badge:Badge.Text="200">
+        <Tab Icon="baseline_accessibility_white_24"
+             Title="Test4"
+             badge:Badge.BackgroundColor="Green"
+             badge:Badge.Text="200">
             <ShellContent ContentTemplate="{DataTemplate local:MainPage}" />
         </Tab>
     </TabBar>

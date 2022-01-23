@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AsyncAwaitBestPractices;
+using CoreFoundation;
 using System.ComponentModel;
 using System.Linq;
 using UIKit;
@@ -8,114 +9,101 @@ using Xamarin.Forms.Platform.iOS;
 namespace Xam.Shell.Badge.iOS.Renderers
 {
     /// <summary>
-    /// Defines the <see cref="BadgeShellItemRenderer" />.
+    /// <inheritdoc/>
     /// </summary>
     public class BadgeShellItemRenderer : ShellItemRenderer
     {
-        #region Constructor & Destructor
+        private readonly string[] _applyPropertyNames =
+            new string[]
+            {
+                Badge.TextProperty.PropertyName,
+                Badge.TextColorProperty.PropertyName,
+                Badge.BackgroundColorProperty.PropertyName
+            };
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="BadgeShellItemRenderer"/> class.
+        /// <inheritdoc/>
         /// </summary>
-        /// <param name="context">The shellContext<see cref="IShellContext"/>.</param>
-        public BadgeShellItemRenderer(IShellContext context) : base(context)
-        {
-        }
-
-        #endregion
-
-        #region Public
+        public BadgeShellItemRenderer(IShellContext context) : base(context) { }
 
         /// <summary>
         /// Occures when view is about to appear.
         /// </summary>
-        /// <param name="animated">.</param>
         public override void ViewWillAppear(bool animated)
         {
             base.ViewWillAppear(animated);
-            for (int i = 0; i < ShellItem.Items.Count; i++)
+
+            DispatchQueue.MainQueue.DispatchAsync(() =>
             {
-                var item = ShellItem.Items.ElementAtOrDefault(i);
-                var text = Badge.GetText(item);
-                var textColor = Badge.GetTextColor(item);
-                var bg = Badge.GetBackgroundColor(item);
-                ApplyBadge(i, text, bg, textColor);
-            }
+                Device
+                    .InvokeOnMainThreadAsync(InitBadges)
+                    .SafeFireAndForget();
+            });
         }
 
-        #endregion
-
-        #region Private
-
         /// <summary>
-        /// The ApplyBadge.
+        /// <inheritdoc/>
         /// </summary>
-        /// <param name="index">The index<see cref="int"/>.</param>
-        /// <param name="text">The text<see cref="string"/>.</param>
-        /// <param name="bg">The bg<see cref="Color"/>.</param>
-        /// <param name="textColor">The textColor<see cref="Color"/>.</param>
-        private void ApplyBadge(int index, string text, Color bg, Color textColor)
-        {
-            if (TabBar?.Items != null && TabBar.Items.Any())
-            {
-                if (!string.IsNullOrEmpty(text))
-                {
-                    var badgeValue = Convert.ToInt32(text);
-                    if (badgeValue > 0)
-                    {
-                        TabBar.Items[index].BadgeValue = text;
-                        TabBar.Items[index].BadgeColor = bg.ToUIColor();
-                        TabBar.Items[index]
-                            .SetBadgeTextAttributes(new UIStringAttributes()
-                            {
-                                ForegroundColor = textColor.ToUIColor()
-                            }, UIControlState.Normal);
-                    }
-                    else
-                    {
-                        TabBar.Items[index].BadgeValue = "●";
-                        TabBar.Items[index].BadgeColor = UIColor.Clear;
-                        TabBar.Items[index]
-                            .SetBadgeTextAttributes(new UIStringAttributes()
-                            {
-                                ForegroundColor = textColor.ToUIColor()
-                            }, UIControlState.Normal);
-                    }
-                }
-                else
-                {
-                    TabBar.Items[index].BadgeValue = null;
-                    TabBar.Items[index].BadgeColor = UIColor.Clear;
-                }
-            }
-        }
-
-        #endregion
-
-        #region Protected
-
-        /// <summary>
-        /// Occures when property changes.
-        /// </summary>
-        /// <param name="sender">.</param>
-        /// <param name="e">.</param>
         protected override void OnShellSectionPropertyChanged(object sender, PropertyChangedEventArgs e)
         {
             base.OnShellSectionPropertyChanged(sender, e);
 
-            if (e.PropertyName == Badge.TextProperty.PropertyName ||
-                e.PropertyName == Badge.TextColorProperty.PropertyName ||
-                e.PropertyName == Badge.BackgroundColorProperty.PropertyName)
+            if (_applyPropertyNames.All(x => x != e.PropertyName))
+                return;
+
+            Device
+                .InvokeOnMainThreadAsync(() => UpdateBadge((ShellSection)sender))
+                .SafeFireAndForget();
+        }
+
+        private void InitBadges()
+        {
+            for (int index = 0; index < ShellItem.Items.Count; index++)
             {
-                var item = (ShellSection)sender;
-                var index = ShellItem.Items.IndexOf(item);
-                var text = Badge.GetText(item);
-                var textColor = Badge.GetTextColor(item);
-                var bg = Badge.GetBackgroundColor(item);
-                ApplyBadge(index, text, bg, textColor);
+                UpdateBadge(ShellItem.Items.ElementAtOrDefault(index));
             }
         }
 
-        #endregion
+        private void UpdateBadge(ShellSection item)
+        {
+            var index = ShellItem.Items.IndexOf(item);
+            var text = Badge.GetText(item);
+            var textColor = Badge.GetTextColor(item);
+            var bg = Badge.GetBackgroundColor(item);
+            ApplyBadge(index, text, bg, textColor);
+        }
+
+        private void ApplyBadge(int index, string text, Color bg, Color textColor)
+        {
+            if (TabBar.Items.Any())
+            {
+                int.TryParse(text, out var badgeValue);
+
+                if (!string.IsNullOrEmpty(text))
+                {
+                    if (badgeValue == 0)
+                    {
+                        TabBar.Items[index].BadgeValue = "●";
+                        TabBar.Items[index].BadgeColor = UIColor.Clear;
+                    }
+                    else
+                    {
+                        TabBar.Items[index].BadgeValue = text;
+                        TabBar.Items[index].BadgeColor = bg.ToUIColor();
+                    }
+
+                    TabBar.Items[index]
+                        .SetBadgeTextAttributes(new UIStringAttributes()
+                        {
+                            ForegroundColor = textColor.ToUIColor()
+                        }, UIControlState.Normal);
+                }
+                else
+                {
+                    TabBar.Items[index].BadgeValue = default;
+                    TabBar.Items[index].BadgeColor = UIColor.Clear;
+                }
+            }
+        }
     }
 }

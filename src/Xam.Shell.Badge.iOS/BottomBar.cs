@@ -7,8 +7,6 @@ namespace Xam.Shell.Badge.iOS
     /// </summary>
     public static class BottomBar
     {
-        #region Public
-
         /// <summary>
         /// The Init.
         /// </summary>
@@ -17,7 +15,5 @@ namespace Xam.Shell.Badge.iOS
             System.Diagnostics.Debug.Assert(typeof(BadgeShellItemRenderer) != null);
             System.Diagnostics.Debug.Assert(typeof(BadgeShellRenderer) != null);
         }
-
-        #endregion
     }
 }

@@ -11,19 +11,11 @@ namespace Xam.Shell.Badge.Droid.Renderers
     /// </summary>
     public class BadgeShellRenderer : ShellRenderer
     {
-        #region Constructor & Destructor
-
         /// <summary>
         /// Initializes a new instance of the <see cref="BadgeShellRenderer"/> class.
         /// </summary>
         /// <param name="context">The context<see cref="Context"/>.</param>
-        public BadgeShellRenderer(Context context) : base(context)
-        {
-        }
-
-        #endregion
-
-        #region Protected
+        public BadgeShellRenderer(Context context) : base(context) { }
 
         /// <summary>
         /// The CreateShellItemRenderer.
@@ -32,7 +24,5 @@ namespace Xam.Shell.Badge.Droid.Renderers
         /// <returns>The <see cref="IShellItemRenderer"/>.</returns>
         protected override IShellItemRenderer CreateShellItemRenderer(ShellItem shellItem) =>
             new BadgeShellItemRenderer(this);
-
-        #endregion
     }
 }

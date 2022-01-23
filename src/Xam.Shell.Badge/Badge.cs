@@ -7,8 +7,6 @@ namespace Xam.Shell.Badge
     /// </summary>
     public class Badge
     {
-        #region Variables
-
         /// <summary>
         /// Text.
         /// </summary>
@@ -28,11 +26,7 @@ namespace Xam.Shell.Badge
         /// </summary>
         public static readonly BindableProperty BackgroundColorProperty =
             BindableProperty.CreateAttached("BackgroundColor", typeof(Color), typeof(Badge),
-                Color.Default);
-
-        #endregion
-
-        #region Public
+                Color.Gray);
 
         /// <summary>
         /// Public method to retrieve text value for specific shell tab.
@@ -81,7 +75,5 @@ namespace Xam.Shell.Badge
         /// <param name="value">Value.</param>
         public static void SetBackgroundColor(BindableObject view, Color value) =>
             view.SetValue(BackgroundColorProperty, value);
-
-        #endregion
     }
 }
