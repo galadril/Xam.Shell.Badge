@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
    <PropertyGroup Label="Globals">
       <SccProjectName>SAK</SccProjectName>
@@ -29,7 +29,7 @@
       <DelaySign>false</DelaySign>
       <AssemblyVersion>1.0.0.0</AssemblyVersion>
       <FileVersion>1.0.0.1</FileVersion>
-      <Version>1.0.11</Version>
+      <Version>1.0.12</Version>
       <RepositoryType>git</RepositoryType>
       <RepositoryUrl>https://github.com/galadril/Xam.Shell.Badge</RepositoryUrl>
       <AssemblyName>Xam.Shell.Badge</AssemblyName>
@@ -55,6 +55,10 @@
 
    <ItemGroup>
       <PackageReference Include="AsyncAwaitBestPractices" Version="6.0.4" />
+      <PackageReference Include="NuGet.CommandLine" Version="6.0.0">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
       <PackageReference Include="Xamarin.Forms" Version="5.0.0.2291" />
    </ItemGroup>
 
