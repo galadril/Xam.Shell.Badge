@@ -14,7 +14,7 @@ namespace Xam.Shell.Badge.Sample.Droid
 {
 	
 	
-	[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Android.Build.Tasks", "12.1.0.11")]
+	[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Android.Build.Tasks", "1.0.0.0")]
 	public partial class Resource
 	{
 		
@@ -61,13 +61,29 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Animation.mtrl_bottom_sheet_slide_in = global::Xam.Shell.Badge.Sample.Droid.Resource.Animation.mtrl_bottom_sheet_slide_in;
 			global::Xam.Shell.Badge.Droid.Resource.Animation.mtrl_bottom_sheet_slide_out = global::Xam.Shell.Badge.Sample.Droid.Resource.Animation.mtrl_bottom_sheet_slide_out;
 			global::Xam.Shell.Badge.Droid.Resource.Animation.mtrl_card_lowers_interpolator = global::Xam.Shell.Badge.Sample.Droid.Resource.Animation.mtrl_card_lowers_interpolator;
+			global::Xam.Shell.Badge.Droid.Resource.Animation.nav_default_enter_anim = global::Xam.Shell.Badge.Sample.Droid.Resource.Animation.nav_default_enter_anim;
+			global::Xam.Shell.Badge.Droid.Resource.Animation.nav_default_exit_anim = global::Xam.Shell.Badge.Sample.Droid.Resource.Animation.nav_default_exit_anim;
+			global::Xam.Shell.Badge.Droid.Resource.Animation.nav_default_pop_enter_anim = global::Xam.Shell.Badge.Sample.Droid.Resource.Animation.nav_default_pop_enter_anim;
+			global::Xam.Shell.Badge.Droid.Resource.Animation.nav_default_pop_exit_anim = global::Xam.Shell.Badge.Sample.Droid.Resource.Animation.nav_default_pop_exit_anim;
 			global::Xam.Shell.Badge.Droid.Resource.Animator.design_appbar_state_list_animator = global::Xam.Shell.Badge.Sample.Droid.Resource.Animator.design_appbar_state_list_animator;
 			global::Xam.Shell.Badge.Droid.Resource.Animator.design_fab_hide_motion_spec = global::Xam.Shell.Badge.Sample.Droid.Resource.Animator.design_fab_hide_motion_spec;
 			global::Xam.Shell.Badge.Droid.Resource.Animator.design_fab_show_motion_spec = global::Xam.Shell.Badge.Sample.Droid.Resource.Animator.design_fab_show_motion_spec;
+			global::Xam.Shell.Badge.Droid.Resource.Animator.fragment_close_enter = global::Xam.Shell.Badge.Sample.Droid.Resource.Animator.fragment_close_enter;
+			global::Xam.Shell.Badge.Droid.Resource.Animator.fragment_close_exit = global::Xam.Shell.Badge.Sample.Droid.Resource.Animator.fragment_close_exit;
+			global::Xam.Shell.Badge.Droid.Resource.Animator.fragment_fade_enter = global::Xam.Shell.Badge.Sample.Droid.Resource.Animator.fragment_fade_enter;
+			global::Xam.Shell.Badge.Droid.Resource.Animator.fragment_fade_exit = global::Xam.Shell.Badge.Sample.Droid.Resource.Animator.fragment_fade_exit;
+			global::Xam.Shell.Badge.Droid.Resource.Animator.fragment_open_enter = global::Xam.Shell.Badge.Sample.Droid.Resource.Animator.fragment_open_enter;
+			global::Xam.Shell.Badge.Droid.Resource.Animator.fragment_open_exit = global::Xam.Shell.Badge.Sample.Droid.Resource.Animator.fragment_open_exit;
+			global::Xam.Shell.Badge.Droid.Resource.Animator.linear_indeterminate_line1_head_interpolator = global::Xam.Shell.Badge.Sample.Droid.Resource.Animator.linear_indeterminate_line1_head_interpolator;
+			global::Xam.Shell.Badge.Droid.Resource.Animator.linear_indeterminate_line1_tail_interpolator = global::Xam.Shell.Badge.Sample.Droid.Resource.Animator.linear_indeterminate_line1_tail_interpolator;
+			global::Xam.Shell.Badge.Droid.Resource.Animator.linear_indeterminate_line2_head_interpolator = global::Xam.Shell.Badge.Sample.Droid.Resource.Animator.linear_indeterminate_line2_head_interpolator;
+			global::Xam.Shell.Badge.Droid.Resource.Animator.linear_indeterminate_line2_tail_interpolator = global::Xam.Shell.Badge.Sample.Droid.Resource.Animator.linear_indeterminate_line2_tail_interpolator;
 			global::Xam.Shell.Badge.Droid.Resource.Animator.mtrl_btn_state_list_anim = global::Xam.Shell.Badge.Sample.Droid.Resource.Animator.mtrl_btn_state_list_anim;
 			global::Xam.Shell.Badge.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::Xam.Shell.Badge.Sample.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
 			global::Xam.Shell.Badge.Droid.Resource.Animator.mtrl_card_state_list_anim = global::Xam.Shell.Badge.Sample.Droid.Resource.Animator.mtrl_card_state_list_anim;
 			global::Xam.Shell.Badge.Droid.Resource.Animator.mtrl_chip_state_list_anim = global::Xam.Shell.Badge.Sample.Droid.Resource.Animator.mtrl_chip_state_list_anim;
+			global::Xam.Shell.Badge.Droid.Resource.Animator.mtrl_extended_fab_change_size_collapse_motion_spec = global::Xam.Shell.Badge.Sample.Droid.Resource.Animator.mtrl_extended_fab_change_size_collapse_motion_spec;
+			global::Xam.Shell.Badge.Droid.Resource.Animator.mtrl_extended_fab_change_size_expand_motion_spec = global::Xam.Shell.Badge.Sample.Droid.Resource.Animator.mtrl_extended_fab_change_size_expand_motion_spec;
 			global::Xam.Shell.Badge.Droid.Resource.Animator.mtrl_extended_fab_hide_motion_spec = global::Xam.Shell.Badge.Sample.Droid.Resource.Animator.mtrl_extended_fab_hide_motion_spec;
 			global::Xam.Shell.Badge.Droid.Resource.Animator.mtrl_extended_fab_show_motion_spec = global::Xam.Shell.Badge.Sample.Droid.Resource.Animator.mtrl_extended_fab_show_motion_spec;
 			global::Xam.Shell.Badge.Droid.Resource.Animator.mtrl_extended_fab_state_list_animator = global::Xam.Shell.Badge.Sample.Droid.Resource.Animator.mtrl_extended_fab_state_list_animator;
@@ -75,6 +91,11 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Animator.mtrl_fab_show_motion_spec = global::Xam.Shell.Badge.Sample.Droid.Resource.Animator.mtrl_fab_show_motion_spec;
 			global::Xam.Shell.Badge.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec = global::Xam.Shell.Badge.Sample.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec;
 			global::Xam.Shell.Badge.Droid.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec = global::Xam.Shell.Badge.Sample.Droid.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec;
+			global::Xam.Shell.Badge.Droid.Resource.Animator.nav_default_enter_anim = global::Xam.Shell.Badge.Sample.Droid.Resource.Animator.nav_default_enter_anim;
+			global::Xam.Shell.Badge.Droid.Resource.Animator.nav_default_exit_anim = global::Xam.Shell.Badge.Sample.Droid.Resource.Animator.nav_default_exit_anim;
+			global::Xam.Shell.Badge.Droid.Resource.Animator.nav_default_pop_enter_anim = global::Xam.Shell.Badge.Sample.Droid.Resource.Animator.nav_default_pop_enter_anim;
+			global::Xam.Shell.Badge.Droid.Resource.Animator.nav_default_pop_exit_anim = global::Xam.Shell.Badge.Sample.Droid.Resource.Animator.nav_default_pop_exit_anim;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.action = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.action;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.actionBarDivider = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.actionBarDivider;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.actionBarItemBackground = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.actionBarItemBackground;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.actionBarPopupTheme = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.actionBarPopupTheme;
@@ -93,6 +114,7 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.actionMenuTextColor = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.actionMenuTextColor;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.actionModeBackground = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.actionModeBackground;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.actionModeCloseButtonStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.actionModeCloseContentDescription = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.actionModeCloseContentDescription;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.actionModeCloseDrawable = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.actionModeCloseDrawable;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.actionModeCopyDrawable = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.actionModeCopyDrawable;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.actionModeCutDrawable = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.actionModeCutDrawable;
@@ -103,6 +125,7 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.actionModeShareDrawable = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.actionModeShareDrawable;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.actionModeSplitBackground = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.actionModeSplitBackground;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.actionModeStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.actionModeStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.actionModeTheme = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.actionModeTheme;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.actionModeWebSearchDrawable = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.actionModeWebSearchDrawable;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.actionOverflowButtonStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.actionOverflowButtonStyle;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.actionOverflowMenuStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.actionOverflowMenuStyle;
@@ -110,23 +133,36 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.actionTextColorAlpha = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.actionTextColorAlpha;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.actionViewClass = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.actionViewClass;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.activityChooserViewStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.adjustable = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.adjustable;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.alertDialogButtonGroupStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.alertDialogCenterButtons = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.alertDialogCenterButtons;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.alertDialogStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.alertDialogStyle;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.alertDialogTheme = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.alertDialogTheme;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.allowDividerAbove = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.allowDividerAbove;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.allowDividerAfterLastItem = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.allowDividerAfterLastItem;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.allowDividerBelow = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.allowDividerBelow;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.allowStacking = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.allowStacking;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.alpha = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.alpha;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.alphabeticModifiers = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.alphabeticModifiers;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.altSrc = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.altSrc;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.animateCircleAngleTo = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.animateCircleAngleTo;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.animateRelativeTo = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.animateRelativeTo;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.animationMode = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.animationMode;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.appBarLayoutStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.appBarLayoutStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.applyMotionScene = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.applyMotionScene;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.arcMode = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.arcMode;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.argType = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.argType;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.arrowHeadLength = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.arrowHeadLength;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.arrowShaftLength = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.arrowShaftLength;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.attributeName = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.attributeName;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.autoCompleteMode = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.autoCompleteMode;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.autoCompleteTextViewStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.autoCompleteTextViewStyle;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.autoSizeMaxTextSize = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.autoSizeMaxTextSize;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.autoSizeMinTextSize = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.autoSizeMinTextSize;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.autoSizePresetSizes = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.autoSizePresetSizes;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.autoSizeStepGranularity = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.autoSizeStepGranularity;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.autoSizeTextType = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.autoSizeTextType;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.autoTransition = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.autoTransition;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.background = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.background;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.backgroundColor = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.backgroundColor;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.backgroundInsetBottom = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.backgroundInsetBottom;
@@ -142,6 +178,9 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.badgeStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.badgeStyle;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.badgeTextColor = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.badgeTextColor;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.barLength = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.barLength;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.barrierAllowsGoneWidgets = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.barrierAllowsGoneWidgets;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.barrierDirection = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.barrierDirection;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.barrierMargin = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.barrierMargin;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.behavior_autoHide = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.behavior_autoHide;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.behavior_autoShrink = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.behavior_autoShrink;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.behavior_draggable = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.behavior_draggable;
@@ -153,7 +192,10 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.behavior_peekHeight = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.behavior_peekHeight;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.behavior_saveFlags = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.behavior_saveFlags;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.behavior_skipCollapsed = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.blendSrc = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.blendSrc;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.borderlessButtonStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.borderRound = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.borderRound;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.borderRoundPercent = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.borderRoundPercent;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.borderWidth = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.borderWidth;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.bottomAppBarStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.bottomAppBarStyle;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.bottomNavigationStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.bottomNavigationStyle;
@@ -170,6 +212,7 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.boxStrokeErrorColor = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.boxStrokeErrorColor;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.boxStrokeWidth = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.boxStrokeWidth;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.boxStrokeWidthFocused = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.boxStrokeWidthFocused;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.brightness = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.brightness;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.buttonBarButtonStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.buttonBarButtonStyle;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.buttonBarNegativeButtonStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.buttonBarNeutralButtonStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
@@ -191,11 +234,25 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.cardPreventCornerOverlap = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.cardPreventCornerOverlap;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.cardUseCompatPadding = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.cardUseCompatPadding;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.cardViewStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.cardViewStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.carousel_backwardTransition = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.carousel_backwardTransition;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.carousel_emptyViewsBehavior = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.carousel_emptyViewsBehavior;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.carousel_firstView = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.carousel_firstView;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.carousel_forwardTransition = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.carousel_forwardTransition;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.carousel_infinite = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.carousel_infinite;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.carousel_nextState = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.carousel_nextState;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.carousel_previousState = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.carousel_previousState;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.carousel_touchUpMode = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.carousel_touchUpMode;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.carousel_touchUp_dampeningFactor = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.carousel_touchUp_dampeningFactor;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.carousel_touchUp_velocityThreshold = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.carousel_touchUp_velocityThreshold;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.chainUseRtl = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.chainUseRtl;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.checkBoxPreferenceStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.checkBoxPreferenceStyle;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.checkboxStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.checkboxStyle;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.checkedButton = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.checkedButton;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.checkedChip = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.checkedChip;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.checkedIcon = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.checkedIcon;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.checkedIconEnabled = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.checkedIconEnabled;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.checkedIconMargin = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.checkedIconMargin;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.checkedIconSize = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.checkedIconSize;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.checkedIconTint = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.checkedIconTint;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.checkedIconVisible = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.checkedIconVisible;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.checkedTextViewStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.checkedTextViewStyle;
@@ -219,6 +276,19 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.chipStrokeWidth = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.chipStrokeWidth;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.chipStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.chipStyle;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.chipSurfaceColor = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.chipSurfaceColor;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.circleRadius = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.circleRadius;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.circularflow_angles = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.circularflow_angles;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.circularflow_defaultAngle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.circularflow_defaultAngle;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.circularflow_defaultRadius = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.circularflow_defaultRadius;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.circularflow_radiusInDP = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.circularflow_radiusInDP;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.circularflow_viewCenter = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.circularflow_viewCenter;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.circularProgressIndicatorStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.circularProgressIndicatorStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.clearsTag = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.clearsTag;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.clickAction = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.clickAction;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.clockFaceBackgroundColor = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.clockFaceBackgroundColor;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.clockHandColor = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.clockHandColor;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.clockIcon = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.clockIcon;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.clockNumberTextColor = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.clockNumberTextColor;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.closeIcon = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.closeIcon;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.closeIconEnabled = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.closeIconEnabled;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.closeIconEndPadding = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.closeIconEndPadding;
@@ -228,9 +298,11 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.closeIconVisible = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.closeIconVisible;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.closeItemLayout = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.closeItemLayout;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.collapseContentDescription = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.collapseContentDescription;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.collapsedSize = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.collapsedSize;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.collapsedTitleGravity = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.collapsedTitleGravity;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.collapsedTitleTextAppearance = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.collapsedTitleTextAppearance;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.collapseIcon = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.collapseIcon;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.collapsingToolbarLayoutStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.collapsingToolbarLayoutStyle;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.collectionViewStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.collectionViewStyle;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.color = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.color;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.colorAccent = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.colorAccent;
@@ -255,6 +327,14 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.colorSurface = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.colorSurface;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.colorSwitchThumbNormal = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.colorSwitchThumbNormal;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.commitIcon = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.commitIcon;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.ConstraintRotate = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.ConstraintRotate;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.constraints = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.constraints;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.constraintSet = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.constraintSet;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.constraintSetEnd = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.constraintSetEnd;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.constraintSetStart = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.constraintSetStart;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.constraint_referenced_ids = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.constraint_referenced_ids;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.constraint_referenced_tags = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.constraint_referenced_tags;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.content = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.content;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.contentDescription = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.contentDescription;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.contentInsetEnd = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.contentInsetEnd;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.contentInsetEndWithActions = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.contentInsetEndWithActions;
@@ -264,10 +344,13 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.contentInsetStartWithNavigation = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.contentInsetStartWithNavigation;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.contentPadding = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.contentPadding;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.contentPaddingBottom = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.contentPaddingBottom;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.contentPaddingEnd = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.contentPaddingEnd;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.contentPaddingLeft = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.contentPaddingLeft;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.contentPaddingRight = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.contentPaddingRight;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.contentPaddingStart = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.contentPaddingStart;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.contentPaddingTop = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.contentPaddingTop;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.contentScrim = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.contentScrim;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.contrast = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.contrast;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.controlBackground = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.controlBackground;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.coordinatorLayoutStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.coordinatorLayoutStyle;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.cornerFamily = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.cornerFamily;
@@ -287,20 +370,51 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.counterOverflowTextColor = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.counterOverflowTextColor;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.counterTextAppearance = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.counterTextAppearance;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.counterTextColor = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.counterTextColor;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.crossfade = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.crossfade;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.currentState = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.currentState;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.curveFit = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.curveFit;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.customBoolean = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.customBoolean;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.customColorDrawableValue = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.customColorDrawableValue;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.customColorValue = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.customColorValue;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.customDimension = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.customDimension;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.customFloatValue = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.customFloatValue;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.customIntegerValue = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.customIntegerValue;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.customNavigationLayout = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.customNavigationLayout;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.customPixelDimension = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.customPixelDimension;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.customReference = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.customReference;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.customStringValue = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.customStringValue;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.data = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.data;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.dataPattern = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.dataPattern;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.dayInvalidStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.dayInvalidStyle;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.daySelectedStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.daySelectedStyle;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.dayStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.dayStyle;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.dayTodayStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.dayTodayStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.defaultDuration = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.defaultDuration;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.defaultQueryHint = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.defaultQueryHint;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.defaultState = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.defaultState;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.defaultValue = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.defaultValue;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.deltaPolarAngle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.deltaPolarAngle;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.deltaPolarRadius = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.deltaPolarRadius;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.dependency = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.dependency;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.deriveConstraintsFrom = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.deriveConstraintsFrom;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.destination = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.destination;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.dialogCornerRadius = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.dialogCornerRadius;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.dialogIcon = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.dialogIcon;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.dialogLayout = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.dialogLayout;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.dialogMessage = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.dialogMessage;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.dialogPreferenceStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.dialogPreferenceStyle;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.dialogPreferredPadding = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.dialogPreferredPadding;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.dialogTheme = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.dialogTheme;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.dialogTitle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.dialogTitle;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.disableDependentsState = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.disableDependentsState;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.displayOptions = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.displayOptions;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.divider = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.divider;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.dividerHorizontal = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.dividerHorizontal;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.dividerPadding = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.dividerPadding;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.dividerVertical = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.dividerVertical;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.dragDirection = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.dragDirection;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.dragScale = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.dragScale;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.dragThreshold = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.dragThreshold;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.drawableBottomCompat = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.drawableBottomCompat;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.drawableEndCompat = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.drawableEndCompat;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.drawableLeftCompat = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.drawableLeftCompat;
@@ -312,14 +426,21 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.drawableTopCompat = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.drawableTopCompat;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.drawerArrowStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.drawerArrowStyle;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.drawerLayoutStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.drawerLayoutStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.drawPath = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.drawPath;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.dropdownListPreferredItemHeight = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.dropDownListViewStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.dropdownPreferenceStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.dropdownPreferenceStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.duration = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.duration;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.editTextBackground = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.editTextBackground;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.editTextColor = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.editTextColor;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.editTextPreferenceStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.editTextPreferenceStyle;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.editTextStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.editTextStyle;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.elevation = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.elevation;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.elevationOverlayColor = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.elevationOverlayColor;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.elevationOverlayEnabled = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.elevationOverlayEnabled;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.enableCopying = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.enableCopying;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.enabled = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.enabled;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.enableEdgeToEdge = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.enableEdgeToEdge;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.endIconCheckable = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.endIconCheckable;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.endIconContentDescription = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.endIconContentDescription;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.endIconDrawable = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.endIconDrawable;
@@ -329,6 +450,9 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.enforceMaterialTheme = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.enforceMaterialTheme;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.enforceTextAppearance = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.enforceTextAppearance;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.ensureMinTouchTargetSize = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.ensureMinTouchTargetSize;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.enterAnim = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.enterAnim;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.entries = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.entries;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.entryValues = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.entryValues;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.errorContentDescription = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.errorContentDescription;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.errorEnabled = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.errorEnabled;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.errorIconDrawable = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.errorIconDrawable;
@@ -336,8 +460,10 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.errorIconTintMode = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.errorIconTintMode;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.errorTextAppearance = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.errorTextAppearance;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.errorTextColor = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.errorTextColor;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.exitAnim = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.exitAnim;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.expanded = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.expanded;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.expandedHintEnabled = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.expandedHintEnabled;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.expandedTitleGravity = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.expandedTitleGravity;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.expandedTitleMargin = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.expandedTitleMargin;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.expandedTitleMarginBottom = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.expandedTitleMarginBottom;
@@ -347,6 +473,7 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.expandedTitleTextAppearance = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.expandedTitleTextAppearance;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.extendedFloatingActionButtonStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.extendedFloatingActionButtonStyle;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.extendMotionSpec = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.extendMotionSpec;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.extraMultilineHeightEnabled = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.extraMultilineHeightEnabled;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.fabAlignmentMode = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.fabAlignmentMode;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.fabAnimationMode = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.fabAnimationMode;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.fabCradleMargin = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.fabCradleMargin;
@@ -361,6 +488,25 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.firstBaselineToTopHeight = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.firstBaselineToTopHeight;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.floatingActionButtonStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.floatingActionButtonStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.flow_firstHorizontalBias = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.flow_firstHorizontalBias;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.flow_firstHorizontalStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.flow_firstHorizontalStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.flow_firstVerticalBias = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.flow_firstVerticalBias;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.flow_firstVerticalStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.flow_firstVerticalStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.flow_horizontalAlign = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.flow_horizontalAlign;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.flow_horizontalBias = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.flow_horizontalBias;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.flow_horizontalGap = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.flow_horizontalGap;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.flow_horizontalStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.flow_horizontalStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.flow_lastHorizontalBias = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.flow_lastHorizontalBias;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.flow_lastHorizontalStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.flow_lastHorizontalStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.flow_lastVerticalBias = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.flow_lastVerticalBias;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.flow_lastVerticalStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.flow_lastVerticalStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.flow_maxElementsWrap = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.flow_maxElementsWrap;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.flow_padding = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.flow_padding;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.flow_verticalAlign = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.flow_verticalAlign;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.flow_verticalBias = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.flow_verticalBias;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.flow_verticalGap = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.flow_verticalGap;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.flow_verticalStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.flow_verticalStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.flow_wrapMode = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.flow_wrapMode;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.font = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.font;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.fontFamily = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.fontFamily;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.fontProviderAuthority = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.fontProviderAuthority;
@@ -369,13 +515,18 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.fontProviderFetchTimeout = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.fontProviderFetchTimeout;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.fontProviderPackage = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.fontProviderPackage;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.fontProviderQuery = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.fontProviderQuery;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.fontProviderSystemFontFamily = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.fontProviderSystemFontFamily;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.fontStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.fontStyle;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.fontVariationSettings = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.fontVariationSettings;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.fontWeight = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.fontWeight;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.forceApplySystemWindowInsetTop = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.forceApplySystemWindowInsetTop;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.foregroundInsidePadding = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.fragment = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.fragment;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.framePosition = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.framePosition;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.gapBetweenBars = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.gapBetweenBars;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.gestureInsetBottomIgnored = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.gestureInsetBottomIgnored;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.goIcon = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.goIcon;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.graph = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.graph;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.haloColor = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.haloColor;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.haloRadius = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.haloRadius;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.headerLayout = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.headerLayout;
@@ -384,6 +535,7 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.helperTextEnabled = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.helperTextEnabled;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.helperTextTextAppearance = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.helperTextTextAppearance;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.helperTextTextColor = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.helperTextTextColor;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.hideAnimationBehavior = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.hideAnimationBehavior;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.hideMotionSpec = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.hideMotionSpec;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.hideOnContentScroll = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.hideOnContentScroll;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.hideOnScroll = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.hideOnScroll;
@@ -401,15 +553,30 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.iconifiedByDefault = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.iconifiedByDefault;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.iconPadding = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.iconPadding;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.iconSize = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.iconSize;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.iconSpaceReserved = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.iconSpaceReserved;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.iconStartPadding = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.iconStartPadding;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.iconTint = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.iconTint;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.iconTintMode = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.iconTintMode;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.ifTagNotSet = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.ifTagNotSet;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.ifTagSet = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.ifTagSet;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.imageButtonStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.imageButtonStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.imagePanX = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.imagePanX;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.imagePanY = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.imagePanY;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.imageRotate = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.imageRotate;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.imageZoom = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.imageZoom;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.indeterminateAnimationType = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.indeterminateAnimationType;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.indeterminateProgressStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.indicatorColor = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.indicatorColor;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.indicatorDirectionCircular = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.indicatorDirectionCircular;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.indicatorDirectionLinear = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.indicatorDirectionLinear;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.indicatorInset = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.indicatorInset;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.indicatorSize = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.indicatorSize;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.initialActivityCount = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.initialActivityCount;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.initialExpandedChildrenCount = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.initialExpandedChildrenCount;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.insetForeground = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.insetForeground;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.isLightTheme = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.isLightTheme;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.isMaterialTheme = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.isMaterialTheme;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.isPreferenceVisible = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.isPreferenceVisible;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.itemBackground = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.itemBackground;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.itemFillColor = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.itemFillColor;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.itemHorizontalPadding = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.itemHorizontalPadding;
@@ -434,25 +601,91 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.itemTextAppearanceActive = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.itemTextAppearanceActive;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.itemTextAppearanceInactive = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.itemTextAppearanceInactive;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.itemTextColor = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.itemTextColor;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.key = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.key;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.keyboardIcon = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.keyboardIcon;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.keylines = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.keylines;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.keyPositionType = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.keyPositionType;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.labelBehavior = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.labelBehavior;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.labelStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.labelStyle;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.labelVisibilityMode = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.labelVisibilityMode;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.lastBaselineToBottomHeight = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.lastBaselineToBottomHeight;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.launchSingleTop = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.launchSingleTop;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.layout = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.layout;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.layoutDescription = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.layoutDescription;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.layoutDuringTransition = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.layoutDuringTransition;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.layoutManager = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.layoutManager;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.layout_anchor = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.layout_anchor;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.layout_anchorGravity = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.layout_anchorGravity;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.layout_behavior = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.layout_behavior;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.layout_collapseMode = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.layout_collapseMode;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.layout_collapseParallaxMultiplier = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.layout_constrainedHeight = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.layout_constrainedHeight;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.layout_constrainedWidth = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.layout_constrainedWidth;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.layout_constraintBaseline_creator = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.layout_constraintBaseline_creator;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.layout_constraintBaseline_toBaselineOf = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.layout_constraintBaseline_toBaselineOf;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.layout_constraintBaseline_toBottomOf = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.layout_constraintBaseline_toBottomOf;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.layout_constraintBaseline_toTopOf = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.layout_constraintBaseline_toTopOf;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.layout_constraintBottom_creator = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.layout_constraintBottom_creator;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.layout_constraintBottom_toBottomOf = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.layout_constraintBottom_toBottomOf;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.layout_constraintBottom_toTopOf = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.layout_constraintBottom_toTopOf;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.layout_constraintCircle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.layout_constraintCircle;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.layout_constraintCircleAngle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.layout_constraintCircleAngle;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.layout_constraintCircleRadius = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.layout_constraintCircleRadius;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.layout_constraintDimensionRatio = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.layout_constraintDimensionRatio;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.layout_constraintEnd_toEndOf = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.layout_constraintEnd_toEndOf;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.layout_constraintEnd_toStartOf = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.layout_constraintEnd_toStartOf;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.layout_constraintGuide_begin = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.layout_constraintGuide_begin;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.layout_constraintGuide_end = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.layout_constraintGuide_end;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.layout_constraintGuide_percent = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.layout_constraintGuide_percent;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.layout_constraintHeight = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.layout_constraintHeight;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.layout_constraintHeight_default = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.layout_constraintHeight_default;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.layout_constraintHeight_max = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.layout_constraintHeight_max;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.layout_constraintHeight_min = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.layout_constraintHeight_min;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.layout_constraintHeight_percent = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.layout_constraintHeight_percent;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.layout_constraintHorizontal_bias = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.layout_constraintHorizontal_bias;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.layout_constraintHorizontal_chainStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.layout_constraintHorizontal_chainStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.layout_constraintHorizontal_weight = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.layout_constraintHorizontal_weight;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.layout_constraintLeft_creator = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.layout_constraintLeft_creator;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.layout_constraintLeft_toLeftOf = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.layout_constraintLeft_toLeftOf;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.layout_constraintLeft_toRightOf = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.layout_constraintLeft_toRightOf;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.layout_constraintRight_creator = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.layout_constraintRight_creator;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.layout_constraintRight_toLeftOf = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.layout_constraintRight_toLeftOf;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.layout_constraintRight_toRightOf = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.layout_constraintRight_toRightOf;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.layout_constraintStart_toEndOf = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.layout_constraintStart_toEndOf;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.layout_constraintStart_toStartOf = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.layout_constraintStart_toStartOf;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.layout_constraintTag = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.layout_constraintTag;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.layout_constraintTop_creator = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.layout_constraintTop_creator;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.layout_constraintTop_toBottomOf = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.layout_constraintTop_toBottomOf;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.layout_constraintTop_toTopOf = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.layout_constraintTop_toTopOf;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.layout_constraintVertical_bias = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.layout_constraintVertical_bias;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.layout_constraintVertical_chainStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.layout_constraintVertical_chainStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.layout_constraintVertical_weight = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.layout_constraintVertical_weight;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.layout_constraintWidth = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.layout_constraintWidth;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.layout_constraintWidth_default = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.layout_constraintWidth_default;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.layout_constraintWidth_max = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.layout_constraintWidth_max;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.layout_constraintWidth_min = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.layout_constraintWidth_min;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.layout_constraintWidth_percent = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.layout_constraintWidth_percent;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.layout_dodgeInsetEdges = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.layout_editor_absoluteX = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.layout_editor_absoluteX;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.layout_editor_absoluteY = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.layout_editor_absoluteY;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.layout_goneMarginBaseline = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.layout_goneMarginBaseline;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.layout_goneMarginBottom = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.layout_goneMarginBottom;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.layout_goneMarginEnd = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.layout_goneMarginEnd;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.layout_goneMarginLeft = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.layout_goneMarginLeft;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.layout_goneMarginRight = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.layout_goneMarginRight;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.layout_goneMarginStart = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.layout_goneMarginStart;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.layout_goneMarginTop = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.layout_goneMarginTop;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.layout_insetEdge = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.layout_insetEdge;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.layout_keyline = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.layout_keyline;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.layout_marginBaseline = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.layout_marginBaseline;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.layout_optimizationLevel = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.layout_optimizationLevel;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.layout_scrollFlags = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.layout_scrollFlags;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.layout_scrollInterpolator = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.layout_wrapBehaviorInParent = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.layout_wrapBehaviorInParent;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.liftOnScroll = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.liftOnScroll;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.liftOnScrollTargetViewId = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.liftOnScrollTargetViewId;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.limitBoundsTo = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.limitBoundsTo;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.linearProgressIndicatorStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.linearProgressIndicatorStyle;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.lineHeight = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.lineHeight;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.lineSpacing = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.lineSpacing;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.listChoiceBackgroundIndicator = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
@@ -482,32 +715,105 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.materialButtonToggleGroupStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.materialButtonToggleGroupStyle;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.materialCalendarDay = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.materialCalendarDay;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.materialCalendarFullscreenTheme = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.materialCalendarFullscreenTheme;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.materialCalendarHeaderCancelButton = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.materialCalendarHeaderCancelButton;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.materialCalendarHeaderConfirmButton = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.materialCalendarHeaderConfirmButton;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.materialCalendarHeaderDivider = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.materialCalendarHeaderDivider;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.materialCalendarHeaderLayout = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.materialCalendarHeaderLayout;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.materialCalendarHeaderSelection = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.materialCalendarHeaderSelection;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.materialCalendarHeaderTitle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.materialCalendarHeaderTitle;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.materialCalendarHeaderToggleButton = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.materialCalendarHeaderToggleButton;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.materialCalendarMonth = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.materialCalendarMonth;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.materialCalendarMonthNavigationButton = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.materialCalendarMonthNavigationButton;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.materialCalendarStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.materialCalendarStyle;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.materialCalendarTheme = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.materialCalendarTheme;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.materialCalendarYearNavigationButton = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.materialCalendarYearNavigationButton;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.materialCardViewStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.materialCardViewStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.materialCircleRadius = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.materialCircleRadius;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.materialClockStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.materialClockStyle;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.materialThemeOverlay = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.materialThemeOverlay;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.materialTimePickerStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.materialTimePickerStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.materialTimePickerTheme = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.materialTimePickerTheme;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.maxAcceleration = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.maxAcceleration;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.maxActionInlineWidth = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.maxActionInlineWidth;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.maxButtonHeight = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.maxButtonHeight;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.maxCharacterCount = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.maxCharacterCount;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.maxHeight = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.maxHeight;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.maxImageSize = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.maxImageSize;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.maxLines = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.maxLines;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.maxVelocity = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.maxVelocity;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.maxWidth = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.maxWidth;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.measureWithLargestChild = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.measureWithLargestChild;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.menu = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.menu;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.menuGravity = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.menuGravity;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.methodName = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.methodName;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.mimeType = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.mimeType;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.min = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.min;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.minHeight = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.minHeight;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.minHideDelay = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.minHideDelay;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.minSeparation = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.minSeparation;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.minTouchTargetSize = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.minTouchTargetSize;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.minWidth = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.minWidth;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.mock_diagonalsColor = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.mock_diagonalsColor;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.mock_label = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.mock_label;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.mock_labelBackgroundColor = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.mock_labelBackgroundColor;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.mock_labelColor = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.mock_labelColor;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.mock_showDiagonals = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.mock_showDiagonals;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.mock_showLabel = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.mock_showLabel;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.motionDebug = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.motionDebug;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.motionDurationLong1 = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.motionDurationLong1;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.motionDurationLong2 = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.motionDurationLong2;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.motionDurationMedium1 = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.motionDurationMedium1;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.motionDurationMedium2 = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.motionDurationMedium2;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.motionDurationShort1 = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.motionDurationShort1;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.motionDurationShort2 = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.motionDurationShort2;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.motionEasingAccelerated = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.motionEasingAccelerated;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.motionEasingDecelerated = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.motionEasingDecelerated;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.motionEasingEmphasized = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.motionEasingEmphasized;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.motionEasingLinear = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.motionEasingLinear;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.motionEasingStandard = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.motionEasingStandard;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.motionEffect_alpha = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.motionEffect_alpha;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.motionEffect_end = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.motionEffect_end;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.motionEffect_move = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.motionEffect_move;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.motionEffect_start = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.motionEffect_start;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.motionEffect_strict = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.motionEffect_strict;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.motionEffect_translationX = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.motionEffect_translationX;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.motionEffect_translationY = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.motionEffect_translationY;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.motionEffect_viewTransition = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.motionEffect_viewTransition;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.motionInterpolator = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.motionInterpolator;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.motionPath = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.motionPath;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.motionPathRotate = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.motionPathRotate;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.motionProgress = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.motionProgress;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.motionStagger = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.motionStagger;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.motionTarget = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.motionTarget;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.motion_postLayoutCollision = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.motion_postLayoutCollision;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.motion_triggerOnCollision = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.motion_triggerOnCollision;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.moveWhenScrollAtTop = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.moveWhenScrollAtTop;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.multiChoiceItemLayout = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.navGraph = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.navGraph;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.navigationContentDescription = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.navigationContentDescription;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.navigationIcon = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.navigationIcon;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.navigationIconTint = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.navigationIconTint;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.navigationMode = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.navigationMode;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.navigationRailStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.navigationRailStyle;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.navigationViewStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.navigationViewStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.negativeButtonText = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.negativeButtonText;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.nestedScrollable = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.nestedScrollable;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.nestedScrollFlags = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.nestedScrollFlags;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.nestedScrollViewStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.nestedScrollViewStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.nullable = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.nullable;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.number = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.number;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.numericModifiers = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.numericModifiers;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.onCross = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.onCross;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.onHide = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.onHide;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.onNegativeCross = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.onNegativeCross;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.onPositiveCross = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.onPositiveCross;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.onShow = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.onShow;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.onStateTransition = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.onStateTransition;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.onTouchUp = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.onTouchUp;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.order = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.order;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.orderingFromXml = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.orderingFromXml;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.overlapAnchor = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.overlapAnchor;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.overlay = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.overlay;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.paddingBottomNoButtons = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.paddingBottomNoButtons;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.paddingBottomSystemWindowInsets = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.paddingBottomSystemWindowInsets;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.paddingEnd = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.paddingEnd;
@@ -515,6 +821,7 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.paddingRightSystemWindowInsets = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.paddingRightSystemWindowInsets;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.paddingStart = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.paddingStart;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.paddingTopNoTitle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.paddingTopSystemWindowInsets = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.paddingTopSystemWindowInsets;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.panelBackground = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.panelBackground;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.panelMenuListTheme = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.panelMenuListTheme;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.panelMenuListWidth = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.panelMenuListWidth;
@@ -523,13 +830,38 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.passwordToggleEnabled = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.passwordToggleEnabled;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.passwordToggleTint = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.passwordToggleTint;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.passwordToggleTintMode = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.pathMotionArc = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.pathMotionArc;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.path_percent = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.path_percent;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.percentHeight = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.percentHeight;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.percentWidth = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.percentWidth;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.percentX = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.percentX;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.percentY = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.percentY;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.perpendicularPath_percent = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.perpendicularPath_percent;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.persistent = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.persistent;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.pivotAnchor = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.pivotAnchor;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.placeholderText = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.placeholderText;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.placeholderTextAppearance = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.placeholderTextAppearance;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.placeholderTextColor = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.placeholderTextColor;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.placeholder_emptyVisibility = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.placeholder_emptyVisibility;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.polarRelativeTo = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.polarRelativeTo;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.popEnterAnim = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.popEnterAnim;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.popExitAnim = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.popExitAnim;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.popupMenuBackground = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.popupMenuBackground;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.popupMenuStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.popupMenuStyle;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.popupTheme = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.popupTheme;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.popUpTo = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.popUpTo;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.popUpToInclusive = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.popUpToInclusive;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.popupWindowStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.popupWindowStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.positiveButtonText = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.positiveButtonText;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.preferenceCategoryStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.preferenceCategoryStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.preferenceCategoryTitleTextAppearance = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.preferenceCategoryTitleTextAppearance;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.preferenceFragmentCompatStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.preferenceFragmentCompatStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.preferenceFragmentListStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.preferenceFragmentListStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.preferenceFragmentStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.preferenceFragmentStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.preferenceInformationStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.preferenceInformationStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.preferenceScreenStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.preferenceScreenStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.preferenceStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.preferenceStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.preferenceTheme = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.preferenceTheme;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.prefixText = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.prefixText;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.prefixTextAppearance = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.prefixTextAppearance;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.prefixTextColor = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.prefixTextColor;
@@ -537,16 +869,33 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.pressedTranslationZ = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.pressedTranslationZ;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.progressBarPadding = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.progressBarPadding;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.progressBarStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.progressBarStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.quantizeMotionInterpolator = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.quantizeMotionInterpolator;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.quantizeMotionPhase = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.quantizeMotionPhase;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.quantizeMotionSteps = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.quantizeMotionSteps;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.queryBackground = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.queryBackground;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.queryHint = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.queryHint;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.queryPatterns = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.queryPatterns;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.radioButtonStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.radioButtonStyle;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.rangeFillColor = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.rangeFillColor;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.ratingBarStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.ratingBarStyle;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.ratingBarStyleIndicator = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.ratingBarStyleIndicator;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.ratingBarStyleSmall = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.reactiveGuide_animateChange = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.reactiveGuide_animateChange;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.reactiveGuide_applyToAllConstraintSets = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.reactiveGuide_applyToAllConstraintSets;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.reactiveGuide_applyToConstraintSet = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.reactiveGuide_applyToConstraintSet;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.reactiveGuide_valueId = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.reactiveGuide_valueId;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.recyclerViewStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.recyclerViewStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.region_heightLessThan = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.region_heightLessThan;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.region_heightMoreThan = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.region_heightMoreThan;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.region_widthLessThan = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.region_widthLessThan;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.region_widthMoreThan = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.region_widthMoreThan;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.reverseLayout = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.reverseLayout;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.rippleColor = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.rippleColor;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.rotationCenterId = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.rotationCenterId;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.round = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.round;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.roundPercent = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.roundPercent;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.saturation = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.saturation;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.scaleFromTextSize = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.scaleFromTextSize;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.scrimAnimationDuration = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.scrimAnimationDuration;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.scrimBackground = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.scrimBackground;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.scrimVisibleHeightTrigger = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
@@ -554,24 +903,39 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.searchHintIcon = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.searchHintIcon;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.searchIcon = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.searchIcon;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.searchViewStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.searchViewStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.seekBarIncrement = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.seekBarIncrement;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.seekBarPreferenceStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.seekBarPreferenceStyle;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.seekBarStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.seekBarStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.selectable = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.selectable;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.selectableItemBackground = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.selectableItemBackground;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.selectableItemBackgroundBorderless = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.selectionRequired = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.selectionRequired;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.selectorSize = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.selectorSize;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.setsTag = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.setsTag;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.shapeAppearance = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.shapeAppearance;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.shapeAppearanceLargeComponent = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.shapeAppearanceLargeComponent;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.shapeAppearanceMediumComponent = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.shapeAppearanceMediumComponent;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.shapeAppearanceOverlay = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.shapeAppearanceOverlay;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.shapeAppearanceSmallComponent = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.shapeAppearanceSmallComponent;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.SharedValue = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.SharedValue;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.SharedValueId = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.SharedValueId;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.shortcutMatchRequired = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.shortcutMatchRequired;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.shouldDisableView = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.shouldDisableView;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.showAnimationBehavior = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.showAnimationBehavior;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.showAsAction = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.showAsAction;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.showDelay = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.showDelay;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.showDividers = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.showDividers;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.showMotionSpec = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.showMotionSpec;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.showPaths = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.showPaths;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.showSeekBarValue = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.showSeekBarValue;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.showText = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.showText;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.showTitle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.showTitle;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.shrinkMotionSpec = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.shrinkMotionSpec;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.singleChoiceItemLayout = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.singleChoiceItemLayout;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.singleLine = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.singleLine;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.singleLineTitle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.singleLineTitle;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.singleSelection = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.singleSelection;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.sizePercent = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.sizePercent;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.sliderStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.sliderStyle;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.snackbarButtonStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.snackbarButtonStyle;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.snackbarStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.snackbarStyle;
@@ -581,8 +945,15 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.spinnerDropDownItemStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.spinnerDropDownItemStyle;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.spinnerStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.spinnerStyle;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.splitTrack = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.splitTrack;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.springBoundary = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.springBoundary;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.springDamping = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.springDamping;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.springMass = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.springMass;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.springStiffness = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.springStiffness;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.springStopThreshold = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.springStopThreshold;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.srcCompat = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.srcCompat;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.stackFromEnd = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.stackFromEnd;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.staggered = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.staggered;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.startDestination = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.startDestination;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.startIconCheckable = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.startIconCheckable;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.startIconContentDescription = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.startIconContentDescription;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.startIconDrawable = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.startIconDrawable;
@@ -602,6 +973,7 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.subMenuArrow = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.subMenuArrow;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.submitBackground = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.submitBackground;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.subtitle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.subtitle;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.subtitleCentered = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.subtitleCentered;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.subtitleTextAppearance = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.subtitleTextAppearance;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.subtitleTextColor = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.subtitleTextColor;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.subtitleTextStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.subtitleTextStyle;
@@ -609,10 +981,18 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.suffixTextAppearance = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.suffixTextAppearance;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.suffixTextColor = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.suffixTextColor;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.suggestionRowLayout = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.suggestionRowLayout;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.summary = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.summary;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.summaryOff = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.summaryOff;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.summaryOn = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.summaryOn;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.swipeRefreshLayoutProgressSpinnerBackgroundColor = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.swipeRefreshLayoutProgressSpinnerBackgroundColor;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.switchMinWidth = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.switchMinWidth;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.switchPadding = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.switchPadding;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.switchPreferenceCompatStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.switchPreferenceCompatStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.switchPreferenceStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.switchPreferenceStyle;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.switchStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.switchStyle;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.switchTextAppearance = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.switchTextAppearance;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.switchTextOff = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.switchTextOff;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.switchTextOn = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.switchTextOn;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.tabBackground = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.tabBackground;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.tabContentStart = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.tabContentStart;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.tabGravity = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.tabGravity;
@@ -620,6 +1000,7 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.tabIconTintMode = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.tabIconTintMode;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.tabIndicator = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.tabIndicator;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.tabIndicatorAnimationDuration = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.tabIndicatorAnimationDuration;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.tabIndicatorAnimationMode = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.tabIndicatorAnimationMode;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.tabIndicatorColor = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.tabIndicatorColor;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.tabIndicatorFullWidth = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.tabIndicatorFullWidth;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.tabIndicatorGravity = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.tabIndicatorGravity;
@@ -639,6 +1020,11 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.tabTextAppearance = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.tabTextAppearance;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.tabTextColor = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.tabTextColor;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.tabUnboundedRipple = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.tabUnboundedRipple;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.targetId = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.targetId;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.targetPackage = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.targetPackage;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.telltales_tailColor = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.telltales_tailColor;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.telltales_tailScale = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.telltales_tailScale;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.telltales_velocityMode = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.telltales_velocityMode;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.textAllCaps = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.textAllCaps;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.textAppearanceBody1 = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.textAppearanceBody1;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.textAppearanceBody2 = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.textAppearanceBody2;
@@ -662,19 +1048,35 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.textAppearanceSmallPopupMenu = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.textAppearanceSubtitle1 = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.textAppearanceSubtitle1;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.textAppearanceSubtitle2 = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.textAppearanceSubtitle2;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.textBackground = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.textBackground;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.textBackgroundPanX = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.textBackgroundPanX;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.textBackgroundPanY = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.textBackgroundPanY;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.textBackgroundRotate = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.textBackgroundRotate;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.textBackgroundZoom = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.textBackgroundZoom;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.textColorAlertDialogListItem = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.textColorAlertDialogListItem;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.textColorSearchUrl = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.textColorSearchUrl;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.textEndPadding = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.textEndPadding;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.textFillColor = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.textFillColor;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.textInputLayoutFocusedRectEnabled = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.textInputLayoutFocusedRectEnabled;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.textInputStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.textInputStyle;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.textLocale = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.textLocale;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.textOutlineColor = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.textOutlineColor;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.textOutlineThickness = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.textOutlineThickness;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.textPanX = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.textPanX;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.textPanY = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.textPanY;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.textStartPadding = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.textStartPadding;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.textureBlurFactor = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.textureBlurFactor;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.textureEffect = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.textureEffect;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.textureHeight = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.textureHeight;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.textureWidth = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.textureWidth;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.theme = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.theme;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.themeLineHeight = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.themeLineHeight;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.thickness = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.thickness;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.thumbColor = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.thumbColor;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.thumbElevation = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.thumbElevation;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.thumbRadius = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.thumbRadius;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.thumbStrokeColor = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.thumbStrokeColor;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.thumbStrokeWidth = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.thumbStrokeWidth;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.thumbTextPadding = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.thumbTextPadding;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.thumbTint = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.thumbTint;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.thumbTintMode = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.thumbTintMode;
@@ -684,9 +1086,12 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.tickMark = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.tickMark;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.tickMarkTint = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.tickMarkTint;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.tickMarkTintMode = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.tickMarkTintMode;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.tickVisible = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.tickVisible;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.tint = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.tint;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.tintMode = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.tintMode;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.title = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.title;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.titleCentered = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.titleCentered;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.titleCollapseMode = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.titleCollapseMode;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.titleEnabled = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.titleEnabled;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.titleMargin = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.titleMargin;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.titleMarginBottom = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.titleMarginBottom;
@@ -704,21 +1109,51 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.tooltipFrameBackground = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.tooltipFrameBackground;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.tooltipStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.tooltipStyle;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.tooltipText = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.tooltipText;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.touchAnchorId = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.touchAnchorId;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.touchAnchorSide = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.touchAnchorSide;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.touchRegionId = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.touchRegionId;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.track = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.track;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.trackColor = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.trackColor;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.trackColorActive = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.trackColorActive;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.trackColorInactive = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.trackColorInactive;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.trackCornerRadius = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.trackCornerRadius;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.trackHeight = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.trackHeight;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.trackThickness = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.trackThickness;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.trackTint = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.trackTint;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.trackTintMode = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.trackTintMode;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.transformPivotTarget = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.transformPivotTarget;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.transitionDisable = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.transitionDisable;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.transitionEasing = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.transitionEasing;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.transitionFlags = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.transitionFlags;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.transitionPathRotate = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.transitionPathRotate;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.transitionShapeAppearance = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.transitionShapeAppearance;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.triggerId = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.triggerId;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.triggerReceiver = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.triggerReceiver;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.triggerSlack = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.triggerSlack;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.ttcIndex = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.ttcIndex;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.updatesContinuously = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.updatesContinuously;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.upDuration = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.upDuration;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.uri = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.uri;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.useCompatPadding = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.useCompatPadding;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.useMaterialThemeColors = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.useMaterialThemeColors;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.useSimpleSummaryProvider = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.useSimpleSummaryProvider;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.values = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.values;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.verticalOffset = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.verticalOffset;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.viewInflaterClass = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.viewInflaterClass;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.viewTransitionMode = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.viewTransitionMode;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.viewTransitionOnCross = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.viewTransitionOnCross;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.viewTransitionOnNegativeCross = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.viewTransitionOnNegativeCross;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.viewTransitionOnPositiveCross = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.viewTransitionOnPositiveCross;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.visibilityMode = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.visibilityMode;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.voiceIcon = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.voiceIcon;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.warmth = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.warmth;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.waveDecay = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.waveDecay;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.waveOffset = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.waveOffset;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.wavePeriod = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.wavePeriod;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.wavePhase = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.wavePhase;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.waveShape = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.waveShape;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.waveVariesBy = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.waveVariesBy;
+			global::Xam.Shell.Badge.Droid.Resource.Attribute.widgetLayout = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.widgetLayout;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.windowActionBar = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.windowActionBar;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.windowActionBarOverlay = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.windowActionBarOverlay;
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.windowActionModeOverlay = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.windowActionModeOverlay;
@@ -734,6 +1169,7 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Attribute.yearTodayStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Attribute.yearTodayStyle;
 			global::Xam.Shell.Badge.Droid.Resource.Boolean.abc_action_bar_embed_tabs = global::Xam.Shell.Badge.Sample.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
 			global::Xam.Shell.Badge.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::Xam.Shell.Badge.Sample.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::Xam.Shell.Badge.Droid.Resource.Boolean.config_materialPreferenceIconSpaceReserved = global::Xam.Shell.Badge.Sample.Droid.Resource.Boolean.config_materialPreferenceIconSpaceReserved;
 			global::Xam.Shell.Badge.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps = global::Xam.Shell.Badge.Sample.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps;
 			global::Xam.Shell.Badge.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark = global::Xam.Shell.Badge.Sample.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
 			global::Xam.Shell.Badge.Droid.Resource.Color.abc_background_cache_hint_selector_material_light = global::Xam.Shell.Badge.Sample.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
@@ -836,6 +1272,7 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Color.material_blue_grey_800 = global::Xam.Shell.Badge.Sample.Droid.Resource.Color.material_blue_grey_800;
 			global::Xam.Shell.Badge.Droid.Resource.Color.material_blue_grey_900 = global::Xam.Shell.Badge.Sample.Droid.Resource.Color.material_blue_grey_900;
 			global::Xam.Shell.Badge.Droid.Resource.Color.material_blue_grey_950 = global::Xam.Shell.Badge.Sample.Droid.Resource.Color.material_blue_grey_950;
+			global::Xam.Shell.Badge.Droid.Resource.Color.material_cursor_color = global::Xam.Shell.Badge.Sample.Droid.Resource.Color.material_cursor_color;
 			global::Xam.Shell.Badge.Droid.Resource.Color.material_deep_teal_200 = global::Xam.Shell.Badge.Sample.Droid.Resource.Color.material_deep_teal_200;
 			global::Xam.Shell.Badge.Droid.Resource.Color.material_deep_teal_500 = global::Xam.Shell.Badge.Sample.Droid.Resource.Color.material_deep_teal_500;
 			global::Xam.Shell.Badge.Droid.Resource.Color.material_grey_100 = global::Xam.Shell.Badge.Sample.Droid.Resource.Color.material_grey_100;
@@ -861,6 +1298,11 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Color.material_slider_inactive_tick_marks_color = global::Xam.Shell.Badge.Sample.Droid.Resource.Color.material_slider_inactive_tick_marks_color;
 			global::Xam.Shell.Badge.Droid.Resource.Color.material_slider_inactive_track_color = global::Xam.Shell.Badge.Sample.Droid.Resource.Color.material_slider_inactive_track_color;
 			global::Xam.Shell.Badge.Droid.Resource.Color.material_slider_thumb_color = global::Xam.Shell.Badge.Sample.Droid.Resource.Color.material_slider_thumb_color;
+			global::Xam.Shell.Badge.Droid.Resource.Color.material_timepicker_button_background = global::Xam.Shell.Badge.Sample.Droid.Resource.Color.material_timepicker_button_background;
+			global::Xam.Shell.Badge.Droid.Resource.Color.material_timepicker_button_stroke = global::Xam.Shell.Badge.Sample.Droid.Resource.Color.material_timepicker_button_stroke;
+			global::Xam.Shell.Badge.Droid.Resource.Color.material_timepicker_clockface = global::Xam.Shell.Badge.Sample.Droid.Resource.Color.material_timepicker_clockface;
+			global::Xam.Shell.Badge.Droid.Resource.Color.material_timepicker_clock_text_color = global::Xam.Shell.Badge.Sample.Droid.Resource.Color.material_timepicker_clock_text_color;
+			global::Xam.Shell.Badge.Droid.Resource.Color.material_timepicker_modebutton_tint = global::Xam.Shell.Badge.Sample.Droid.Resource.Color.material_timepicker_modebutton_tint;
 			global::Xam.Shell.Badge.Droid.Resource.Color.mtrl_btn_bg_color_selector = global::Xam.Shell.Badge.Sample.Droid.Resource.Color.mtrl_btn_bg_color_selector;
 			global::Xam.Shell.Badge.Droid.Resource.Color.mtrl_btn_ripple_color = global::Xam.Shell.Badge.Sample.Droid.Resource.Color.mtrl_btn_ripple_color;
 			global::Xam.Shell.Badge.Droid.Resource.Color.mtrl_btn_stroke_color_selector = global::Xam.Shell.Badge.Sample.Droid.Resource.Color.mtrl_btn_stroke_color_selector;
@@ -888,10 +1330,15 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Color.mtrl_filled_icon_tint = global::Xam.Shell.Badge.Sample.Droid.Resource.Color.mtrl_filled_icon_tint;
 			global::Xam.Shell.Badge.Droid.Resource.Color.mtrl_filled_stroke_color = global::Xam.Shell.Badge.Sample.Droid.Resource.Color.mtrl_filled_stroke_color;
 			global::Xam.Shell.Badge.Droid.Resource.Color.mtrl_indicator_text_color = global::Xam.Shell.Badge.Sample.Droid.Resource.Color.mtrl_indicator_text_color;
+			global::Xam.Shell.Badge.Droid.Resource.Color.mtrl_navigation_bar_colored_item_tint = global::Xam.Shell.Badge.Sample.Droid.Resource.Color.mtrl_navigation_bar_colored_item_tint;
+			global::Xam.Shell.Badge.Droid.Resource.Color.mtrl_navigation_bar_colored_ripple_color = global::Xam.Shell.Badge.Sample.Droid.Resource.Color.mtrl_navigation_bar_colored_ripple_color;
+			global::Xam.Shell.Badge.Droid.Resource.Color.mtrl_navigation_bar_item_tint = global::Xam.Shell.Badge.Sample.Droid.Resource.Color.mtrl_navigation_bar_item_tint;
+			global::Xam.Shell.Badge.Droid.Resource.Color.mtrl_navigation_bar_ripple_color = global::Xam.Shell.Badge.Sample.Droid.Resource.Color.mtrl_navigation_bar_ripple_color;
 			global::Xam.Shell.Badge.Droid.Resource.Color.mtrl_navigation_item_background_color = global::Xam.Shell.Badge.Sample.Droid.Resource.Color.mtrl_navigation_item_background_color;
 			global::Xam.Shell.Badge.Droid.Resource.Color.mtrl_navigation_item_icon_tint = global::Xam.Shell.Badge.Sample.Droid.Resource.Color.mtrl_navigation_item_icon_tint;
 			global::Xam.Shell.Badge.Droid.Resource.Color.mtrl_navigation_item_text_color = global::Xam.Shell.Badge.Sample.Droid.Resource.Color.mtrl_navigation_item_text_color;
 			global::Xam.Shell.Badge.Droid.Resource.Color.mtrl_on_primary_text_btn_text_color_selector = global::Xam.Shell.Badge.Sample.Droid.Resource.Color.mtrl_on_primary_text_btn_text_color_selector;
+			global::Xam.Shell.Badge.Droid.Resource.Color.mtrl_on_surface_ripple_color = global::Xam.Shell.Badge.Sample.Droid.Resource.Color.mtrl_on_surface_ripple_color;
 			global::Xam.Shell.Badge.Droid.Resource.Color.mtrl_outlined_icon_tint = global::Xam.Shell.Badge.Sample.Droid.Resource.Color.mtrl_outlined_icon_tint;
 			global::Xam.Shell.Badge.Droid.Resource.Color.mtrl_outlined_stroke_color = global::Xam.Shell.Badge.Sample.Droid.Resource.Color.mtrl_outlined_stroke_color;
 			global::Xam.Shell.Badge.Droid.Resource.Color.mtrl_popupmenu_overlay_color = global::Xam.Shell.Badge.Sample.Droid.Resource.Color.mtrl_popupmenu_overlay_color;
@@ -911,6 +1358,7 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Color.notification_action_color_filter = global::Xam.Shell.Badge.Sample.Droid.Resource.Color.notification_action_color_filter;
 			global::Xam.Shell.Badge.Droid.Resource.Color.notification_icon_bg_color = global::Xam.Shell.Badge.Sample.Droid.Resource.Color.notification_icon_bg_color;
 			global::Xam.Shell.Badge.Droid.Resource.Color.notification_material_background_media_default_color = global::Xam.Shell.Badge.Sample.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::Xam.Shell.Badge.Droid.Resource.Color.preference_fallback_accent_color = global::Xam.Shell.Badge.Sample.Droid.Resource.Color.preference_fallback_accent_color;
 			global::Xam.Shell.Badge.Droid.Resource.Color.primary_dark_material_dark = global::Xam.Shell.Badge.Sample.Droid.Resource.Color.primary_dark_material_dark;
 			global::Xam.Shell.Badge.Droid.Resource.Color.primary_dark_material_light = global::Xam.Shell.Badge.Sample.Droid.Resource.Color.primary_dark_material_light;
 			global::Xam.Shell.Badge.Droid.Resource.Color.primary_material_dark = global::Xam.Shell.Badge.Sample.Droid.Resource.Color.primary_material_dark;
@@ -996,6 +1444,9 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.abc_seekbar_track_background_height_material = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.abc_select_dialog_padding_start_material = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.abc_star_big = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.abc_star_big;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.abc_star_medium = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.abc_star_medium;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.abc_star_small = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.abc_star_small;
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.abc_switch_padding = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.abc_switch_padding;
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.abc_text_size_body_1_material = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.abc_text_size_body_1_material;
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.abc_text_size_body_2_material = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.abc_text_size_body_2_material;
@@ -1022,6 +1473,7 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.cardview_compat_inset_shadow = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.cardview_compat_inset_shadow;
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.cardview_default_elevation = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.cardview_default_elevation;
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.cardview_default_radius = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.cardview_default_radius;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.clock_face_margin_start = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.clock_face_margin_start;
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.compat_button_inset_horizontal_material = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.compat_button_inset_vertical_material = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.compat_button_inset_vertical_material;
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.compat_button_padding_horizontal_material = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
@@ -1040,6 +1492,7 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.design_bottom_navigation_icon_size = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.design_bottom_navigation_icon_size;
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.design_bottom_navigation_item_max_width = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.design_bottom_navigation_item_min_width = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.design_bottom_navigation_label_padding = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.design_bottom_navigation_label_padding;
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.design_bottom_navigation_margin = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.design_bottom_navigation_margin;
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.design_bottom_navigation_shadow_height = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.design_bottom_navigation_text_size = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.design_bottom_navigation_text_size;
@@ -1092,11 +1545,41 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.material_bottom_sheet_max_width = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.material_bottom_sheet_max_width;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.material_clock_display_padding = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.material_clock_display_padding;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.material_clock_face_margin_top = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.material_clock_face_margin_top;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.material_clock_hand_center_dot_radius = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.material_clock_hand_center_dot_radius;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.material_clock_hand_padding = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.material_clock_hand_padding;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.material_clock_hand_stroke_width = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.material_clock_hand_stroke_width;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.material_clock_number_text_size = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.material_clock_number_text_size;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.material_clock_period_toggle_height = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.material_clock_period_toggle_height;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.material_clock_period_toggle_margin_left = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.material_clock_period_toggle_margin_left;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.material_clock_period_toggle_width = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.material_clock_period_toggle_width;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.material_clock_size = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.material_clock_size;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.material_cursor_inset_bottom = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.material_cursor_inset_bottom;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.material_cursor_inset_top = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.material_cursor_inset_top;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.material_cursor_width = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.material_cursor_width;
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.material_emphasis_disabled = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.material_emphasis_disabled;
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.material_emphasis_high_type = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.material_emphasis_high_type;
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.material_emphasis_medium = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.material_emphasis_medium;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.material_filled_edittext_font_1_3_padding_bottom = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.material_filled_edittext_font_1_3_padding_bottom;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.material_filled_edittext_font_1_3_padding_top = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.material_filled_edittext_font_1_3_padding_top;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.material_filled_edittext_font_2_0_padding_bottom = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.material_filled_edittext_font_2_0_padding_bottom;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.material_filled_edittext_font_2_0_padding_top = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.material_filled_edittext_font_2_0_padding_top;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.material_font_1_3_box_collapsed_padding_top = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.material_font_1_3_box_collapsed_padding_top;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.material_font_2_0_box_collapsed_padding_top = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.material_font_2_0_box_collapsed_padding_top;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.material_helper_text_default_padding_top = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.material_helper_text_default_padding_top;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.material_helper_text_font_1_3_padding_horizontal = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.material_helper_text_font_1_3_padding_horizontal;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.material_helper_text_font_1_3_padding_top = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.material_helper_text_font_1_3_padding_top;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.material_input_text_to_prefix_suffix_padding = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.material_input_text_to_prefix_suffix_padding;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.material_textinput_default_width = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.material_textinput_default_width;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.material_textinput_max_width = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.material_textinput_max_width;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.material_textinput_min_width = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.material_textinput_min_width;
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.material_text_view_test_line_height = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.material_text_view_test_line_height;
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.material_text_view_test_line_height_override = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.material_text_view_test_line_height_override;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.material_timepicker_dialog_buttons_margin_top = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.material_timepicker_dialog_buttons_margin_top;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.material_time_picker_minimum_screen_height = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.material_time_picker_minimum_screen_height;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.material_time_picker_minimum_screen_width = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.material_time_picker_minimum_screen_width;
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_bottom = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_bottom;
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_end = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_end;
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_start = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_start;
@@ -1107,6 +1590,8 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.mtrl_badge_radius = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.mtrl_badge_radius;
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.mtrl_badge_text_horizontal_edge_offset = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.mtrl_badge_text_horizontal_edge_offset;
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.mtrl_badge_text_size = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.mtrl_badge_text_size;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.mtrl_badge_toolbar_action_menu_item_horizontal_offset = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.mtrl_badge_toolbar_action_menu_item_horizontal_offset;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.mtrl_badge_toolbar_action_menu_item_vertical_offset = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.mtrl_badge_toolbar_action_menu_item_vertical_offset;
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.mtrl_badge_with_text_radius = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.mtrl_badge_with_text_radius;
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode;
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.mtrl_bottomappbar_fab_bottom_margin = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.mtrl_bottomappbar_fab_bottom_margin;
@@ -1125,17 +1610,20 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.mtrl_btn_icon_padding = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.mtrl_btn_icon_padding;
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.mtrl_btn_inset = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.mtrl_btn_inset;
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.mtrl_btn_letter_spacing = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.mtrl_btn_letter_spacing;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.mtrl_btn_max_width = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.mtrl_btn_max_width;
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.mtrl_btn_padding_bottom = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.mtrl_btn_padding_bottom;
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.mtrl_btn_padding_left = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.mtrl_btn_padding_left;
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.mtrl_btn_padding_right = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.mtrl_btn_padding_right;
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.mtrl_btn_padding_top = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.mtrl_btn_padding_top;
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.mtrl_btn_pressed_z = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.mtrl_btn_pressed_z;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.mtrl_btn_snackbar_margin_horizontal = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.mtrl_btn_snackbar_margin_horizontal;
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.mtrl_btn_stroke_size = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.mtrl_btn_stroke_size;
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.mtrl_btn_text_btn_icon_padding = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.mtrl_btn_text_btn_icon_padding;
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_left = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_left;
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right;
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.mtrl_btn_text_size = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.mtrl_btn_text_size;
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.mtrl_btn_z = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.mtrl_btn_z;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.mtrl_calendar_action_confirm_button_min_width = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.mtrl_calendar_action_confirm_button_min_width;
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.mtrl_calendar_action_height = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.mtrl_calendar_action_height;
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.mtrl_calendar_action_padding = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.mtrl_calendar_action_padding;
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.mtrl_calendar_bottom_padding = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.mtrl_calendar_bottom_padding;
@@ -1220,12 +1708,37 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.mtrl_low_ripple_hovered_alpha = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.mtrl_low_ripple_hovered_alpha;
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.mtrl_low_ripple_pressed_alpha = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.mtrl_low_ripple_pressed_alpha;
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.mtrl_min_touch_target_size = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.mtrl_min_touch_target_size;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.mtrl_navigation_bar_item_default_icon_size = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.mtrl_navigation_bar_item_default_icon_size;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.mtrl_navigation_bar_item_default_margin = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.mtrl_navigation_bar_item_default_margin;
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.mtrl_navigation_elevation = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.mtrl_navigation_elevation;
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding;
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding;
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.mtrl_navigation_item_icon_size = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.mtrl_navigation_item_icon_size;
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.mtrl_navigation_item_shape_horizontal_margin = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.mtrl_navigation_item_shape_horizontal_margin;
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.mtrl_navigation_item_shape_vertical_margin = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.mtrl_navigation_item_shape_vertical_margin;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.mtrl_navigation_rail_active_text_size = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.mtrl_navigation_rail_active_text_size;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.mtrl_navigation_rail_compact_width = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.mtrl_navigation_rail_compact_width;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.mtrl_navigation_rail_default_width = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.mtrl_navigation_rail_default_width;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.mtrl_navigation_rail_elevation = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.mtrl_navigation_rail_elevation;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.mtrl_navigation_rail_icon_margin = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.mtrl_navigation_rail_icon_margin;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.mtrl_navigation_rail_icon_size = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.mtrl_navigation_rail_icon_size;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.mtrl_navigation_rail_margin = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.mtrl_navigation_rail_margin;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.mtrl_navigation_rail_text_bottom_margin = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.mtrl_navigation_rail_text_bottom_margin;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.mtrl_navigation_rail_text_size = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.mtrl_navigation_rail_text_size;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.mtrl_progress_circular_inset = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.mtrl_progress_circular_inset;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.mtrl_progress_circular_inset_extra_small = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.mtrl_progress_circular_inset_extra_small;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.mtrl_progress_circular_inset_medium = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.mtrl_progress_circular_inset_medium;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.mtrl_progress_circular_inset_small = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.mtrl_progress_circular_inset_small;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.mtrl_progress_circular_radius = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.mtrl_progress_circular_radius;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.mtrl_progress_circular_size = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.mtrl_progress_circular_size;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.mtrl_progress_circular_size_extra_small = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.mtrl_progress_circular_size_extra_small;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.mtrl_progress_circular_size_medium = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.mtrl_progress_circular_size_medium;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.mtrl_progress_circular_size_small = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.mtrl_progress_circular_size_small;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.mtrl_progress_circular_track_thickness_extra_small = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.mtrl_progress_circular_track_thickness_extra_small;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.mtrl_progress_circular_track_thickness_medium = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.mtrl_progress_circular_track_thickness_medium;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.mtrl_progress_circular_track_thickness_small = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.mtrl_progress_circular_track_thickness_small;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.mtrl_progress_indicator_full_rounded_corner_radius = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.mtrl_progress_indicator_full_rounded_corner_radius;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.mtrl_progress_track_thickness = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.mtrl_progress_track_thickness;
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.mtrl_shape_corner_size_large_component = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.mtrl_shape_corner_size_large_component;
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.mtrl_shape_corner_size_medium_component = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.mtrl_shape_corner_size_medium_component;
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.mtrl_shape_corner_size_small_component = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.mtrl_shape_corner_size_small_component;
@@ -1243,6 +1756,8 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius;
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.mtrl_snackbar_background_overlay_color_alpha = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.mtrl_snackbar_background_overlay_color_alpha;
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.mtrl_snackbar_margin = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.mtrl_snackbar_margin;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.mtrl_snackbar_message_margin_horizontal = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.mtrl_snackbar_message_margin_horizontal;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.mtrl_snackbar_padding_horizontal = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.mtrl_snackbar_padding_horizontal;
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.mtrl_switch_thumb_elevation = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.mtrl_switch_thumb_elevation;
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium;
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small;
@@ -1275,7 +1790,23 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.notification_subtext_size = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.notification_subtext_size;
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.notification_top_pad = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.notification_top_pad;
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.notification_top_pad_large_text = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.preference_dropdown_padding_start = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.preference_dropdown_padding_start;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.preference_icon_minWidth = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.preference_icon_minWidth;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.preference_seekbar_padding_horizontal = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.preference_seekbar_padding_horizontal;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.preference_seekbar_padding_vertical = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.preference_seekbar_padding_vertical;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.preference_seekbar_value_minWidth = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.preference_seekbar_value_minWidth;
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.test_mtrl_calendar_day_cornerSize = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.test_mtrl_calendar_day_cornerSize;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.test_navigation_bar_active_item_max_width = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.test_navigation_bar_active_item_max_width;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.test_navigation_bar_active_item_min_width = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.test_navigation_bar_active_item_min_width;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.test_navigation_bar_active_text_size = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.test_navigation_bar_active_text_size;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.test_navigation_bar_elevation = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.test_navigation_bar_elevation;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.test_navigation_bar_height = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.test_navigation_bar_height;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.test_navigation_bar_icon_size = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.test_navigation_bar_icon_size;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.test_navigation_bar_item_max_width = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.test_navigation_bar_item_max_width;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.test_navigation_bar_item_min_width = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.test_navigation_bar_item_min_width;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.test_navigation_bar_label_padding = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.test_navigation_bar_label_padding;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.test_navigation_bar_shadow_height = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.test_navigation_bar_shadow_height;
+			global::Xam.Shell.Badge.Droid.Resource.Dimension.test_navigation_bar_text_size = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.test_navigation_bar_text_size;
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.tooltip_corner_radius = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.tooltip_corner_radius;
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.tooltip_horizontal_padding = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.tooltip_horizontal_padding;
 			global::Xam.Shell.Badge.Droid.Resource.Dimension.tooltip_margin = global::Xam.Shell.Badge.Sample.Droid.Resource.Dimension.tooltip_margin;
@@ -1347,6 +1878,8 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Drawable.abc_seekbar_track_material = global::Xam.Shell.Badge.Sample.Droid.Resource.Drawable.abc_seekbar_track_material;
 			global::Xam.Shell.Badge.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::Xam.Shell.Badge.Sample.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
 			global::Xam.Shell.Badge.Droid.Resource.Drawable.abc_spinner_textfield_background_material = global::Xam.Shell.Badge.Sample.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::Xam.Shell.Badge.Droid.Resource.Drawable.abc_star_black_48dp = global::Xam.Shell.Badge.Sample.Droid.Resource.Drawable.abc_star_black_48dp;
+			global::Xam.Shell.Badge.Droid.Resource.Drawable.abc_star_half_black_48dp = global::Xam.Shell.Badge.Sample.Droid.Resource.Drawable.abc_star_half_black_48dp;
 			global::Xam.Shell.Badge.Droid.Resource.Drawable.abc_switch_thumb_material = global::Xam.Shell.Badge.Sample.Droid.Resource.Drawable.abc_switch_thumb_material;
 			global::Xam.Shell.Badge.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha = global::Xam.Shell.Badge.Sample.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
 			global::Xam.Shell.Badge.Droid.Resource.Drawable.abc_tab_indicator_material = global::Xam.Shell.Badge.Sample.Droid.Resource.Drawable.abc_tab_indicator_material;
@@ -1357,6 +1890,9 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::Xam.Shell.Badge.Sample.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
 			global::Xam.Shell.Badge.Droid.Resource.Drawable.abc_textfield_search_material = global::Xam.Shell.Badge.Sample.Droid.Resource.Drawable.abc_textfield_search_material;
 			global::Xam.Shell.Badge.Droid.Resource.Drawable.abc_text_cursor_material = global::Xam.Shell.Badge.Sample.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::Xam.Shell.Badge.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl = global::Xam.Shell.Badge.Sample.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl;
+			global::Xam.Shell.Badge.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl = global::Xam.Shell.Badge.Sample.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl;
+			global::Xam.Shell.Badge.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl = global::Xam.Shell.Badge.Sample.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl;
 			global::Xam.Shell.Badge.Droid.Resource.Drawable.abc_vector_test = global::Xam.Shell.Badge.Sample.Droid.Resource.Drawable.abc_vector_test;
 			global::Xam.Shell.Badge.Droid.Resource.Drawable.avd_hide_password = global::Xam.Shell.Badge.Sample.Droid.Resource.Drawable.avd_hide_password;
 			global::Xam.Shell.Badge.Droid.Resource.Drawable.avd_show_password = global::Xam.Shell.Badge.Sample.Droid.Resource.Drawable.avd_show_password;
@@ -1368,21 +1904,25 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Drawable.btn_radio_off_to_on_mtrl_animation = global::Xam.Shell.Badge.Sample.Droid.Resource.Drawable.btn_radio_off_to_on_mtrl_animation;
 			global::Xam.Shell.Badge.Droid.Resource.Drawable.btn_radio_on_mtrl = global::Xam.Shell.Badge.Sample.Droid.Resource.Drawable.btn_radio_on_mtrl;
 			global::Xam.Shell.Badge.Droid.Resource.Drawable.btn_radio_on_to_off_mtrl_animation = global::Xam.Shell.Badge.Sample.Droid.Resource.Drawable.btn_radio_on_to_off_mtrl_animation;
-			global::Xam.Shell.Badge.Droid.Resource.Drawable.custom_circle_shape = global::Xam.Shell.Badge.Sample.Droid.Resource.Drawable.custom_circle_shape;
-			global::Xam.Shell.Badge.Droid.Resource.Drawable.custom_rectangle_shape = global::Xam.Shell.Badge.Sample.Droid.Resource.Drawable.custom_rectangle_shape;
 			global::Xam.Shell.Badge.Droid.Resource.Drawable.design_fab_background = global::Xam.Shell.Badge.Sample.Droid.Resource.Drawable.design_fab_background;
 			global::Xam.Shell.Badge.Droid.Resource.Drawable.design_ic_visibility = global::Xam.Shell.Badge.Sample.Droid.Resource.Drawable.design_ic_visibility;
 			global::Xam.Shell.Badge.Droid.Resource.Drawable.design_ic_visibility_off = global::Xam.Shell.Badge.Sample.Droid.Resource.Drawable.design_ic_visibility_off;
 			global::Xam.Shell.Badge.Droid.Resource.Drawable.design_password_eye = global::Xam.Shell.Badge.Sample.Droid.Resource.Drawable.design_password_eye;
 			global::Xam.Shell.Badge.Droid.Resource.Drawable.design_snackbar_background = global::Xam.Shell.Badge.Sample.Droid.Resource.Drawable.design_snackbar_background;
+			global::Xam.Shell.Badge.Droid.Resource.Drawable.ic_arrow_down_24dp = global::Xam.Shell.Badge.Sample.Droid.Resource.Drawable.ic_arrow_down_24dp;
+			global::Xam.Shell.Badge.Droid.Resource.Drawable.ic_clock_black_24dp = global::Xam.Shell.Badge.Sample.Droid.Resource.Drawable.ic_clock_black_24dp;
+			global::Xam.Shell.Badge.Droid.Resource.Drawable.ic_keyboard_black_24dp = global::Xam.Shell.Badge.Sample.Droid.Resource.Drawable.ic_keyboard_black_24dp;
 			global::Xam.Shell.Badge.Droid.Resource.Drawable.ic_mtrl_checked_circle = global::Xam.Shell.Badge.Sample.Droid.Resource.Drawable.ic_mtrl_checked_circle;
 			global::Xam.Shell.Badge.Droid.Resource.Drawable.ic_mtrl_chip_checked_black = global::Xam.Shell.Badge.Sample.Droid.Resource.Drawable.ic_mtrl_chip_checked_black;
 			global::Xam.Shell.Badge.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle = global::Xam.Shell.Badge.Sample.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle;
 			global::Xam.Shell.Badge.Droid.Resource.Drawable.ic_mtrl_chip_close_circle = global::Xam.Shell.Badge.Sample.Droid.Resource.Drawable.ic_mtrl_chip_close_circle;
+			global::Xam.Shell.Badge.Droid.Resource.Drawable.material_cursor_drawable = global::Xam.Shell.Badge.Sample.Droid.Resource.Drawable.material_cursor_drawable;
 			global::Xam.Shell.Badge.Droid.Resource.Drawable.material_ic_calendar_black_24dp = global::Xam.Shell.Badge.Sample.Droid.Resource.Drawable.material_ic_calendar_black_24dp;
 			global::Xam.Shell.Badge.Droid.Resource.Drawable.material_ic_clear_black_24dp = global::Xam.Shell.Badge.Sample.Droid.Resource.Drawable.material_ic_clear_black_24dp;
 			global::Xam.Shell.Badge.Droid.Resource.Drawable.material_ic_edit_black_24dp = global::Xam.Shell.Badge.Sample.Droid.Resource.Drawable.material_ic_edit_black_24dp;
 			global::Xam.Shell.Badge.Droid.Resource.Drawable.material_ic_keyboard_arrow_left_black_24dp = global::Xam.Shell.Badge.Sample.Droid.Resource.Drawable.material_ic_keyboard_arrow_left_black_24dp;
+			global::Xam.Shell.Badge.Droid.Resource.Drawable.material_ic_keyboard_arrow_next_black_24dp = global::Xam.Shell.Badge.Sample.Droid.Resource.Drawable.material_ic_keyboard_arrow_next_black_24dp;
+			global::Xam.Shell.Badge.Droid.Resource.Drawable.material_ic_keyboard_arrow_previous_black_24dp = global::Xam.Shell.Badge.Sample.Droid.Resource.Drawable.material_ic_keyboard_arrow_previous_black_24dp;
 			global::Xam.Shell.Badge.Droid.Resource.Drawable.material_ic_keyboard_arrow_right_black_24dp = global::Xam.Shell.Badge.Sample.Droid.Resource.Drawable.material_ic_keyboard_arrow_right_black_24dp;
 			global::Xam.Shell.Badge.Droid.Resource.Drawable.material_ic_menu_arrow_down_black_24dp = global::Xam.Shell.Badge.Sample.Droid.Resource.Drawable.material_ic_menu_arrow_down_black_24dp;
 			global::Xam.Shell.Badge.Droid.Resource.Drawable.material_ic_menu_arrow_up_black_24dp = global::Xam.Shell.Badge.Sample.Droid.Resource.Drawable.material_ic_menu_arrow_up_black_24dp;
@@ -1392,6 +1932,7 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Drawable.mtrl_ic_arrow_drop_up = global::Xam.Shell.Badge.Sample.Droid.Resource.Drawable.mtrl_ic_arrow_drop_up;
 			global::Xam.Shell.Badge.Droid.Resource.Drawable.mtrl_ic_cancel = global::Xam.Shell.Badge.Sample.Droid.Resource.Drawable.mtrl_ic_cancel;
 			global::Xam.Shell.Badge.Droid.Resource.Drawable.mtrl_ic_error = global::Xam.Shell.Badge.Sample.Droid.Resource.Drawable.mtrl_ic_error;
+			global::Xam.Shell.Badge.Droid.Resource.Drawable.mtrl_navigation_bar_item_background = global::Xam.Shell.Badge.Sample.Droid.Resource.Drawable.mtrl_navigation_bar_item_background;
 			global::Xam.Shell.Badge.Droid.Resource.Drawable.mtrl_popupmenu_background = global::Xam.Shell.Badge.Sample.Droid.Resource.Drawable.mtrl_popupmenu_background;
 			global::Xam.Shell.Badge.Droid.Resource.Drawable.mtrl_popupmenu_background_dark = global::Xam.Shell.Badge.Sample.Droid.Resource.Drawable.mtrl_popupmenu_background_dark;
 			global::Xam.Shell.Badge.Droid.Resource.Drawable.mtrl_tabs_default_indicator = global::Xam.Shell.Badge.Sample.Droid.Resource.Drawable.mtrl_tabs_default_indicator;
@@ -1408,9 +1949,11 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Drawable.notification_template_icon_low_bg = global::Xam.Shell.Badge.Sample.Droid.Resource.Drawable.notification_template_icon_low_bg;
 			global::Xam.Shell.Badge.Droid.Resource.Drawable.notification_tile_bg = global::Xam.Shell.Badge.Sample.Droid.Resource.Drawable.notification_tile_bg;
 			global::Xam.Shell.Badge.Droid.Resource.Drawable.notify_panel_notification_icon_bg = global::Xam.Shell.Badge.Sample.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Xam.Shell.Badge.Droid.Resource.Drawable.preference_list_divider_material = global::Xam.Shell.Badge.Sample.Droid.Resource.Drawable.preference_list_divider_material;
 			global::Xam.Shell.Badge.Droid.Resource.Drawable.test_custom_background = global::Xam.Shell.Badge.Sample.Droid.Resource.Drawable.test_custom_background;
 			global::Xam.Shell.Badge.Droid.Resource.Drawable.tooltip_frame_dark = global::Xam.Shell.Badge.Sample.Droid.Resource.Drawable.tooltip_frame_dark;
 			global::Xam.Shell.Badge.Droid.Resource.Drawable.tooltip_frame_light = global::Xam.Shell.Badge.Sample.Droid.Resource.Drawable.tooltip_frame_light;
+			global::Xam.Shell.Badge.Droid.Resource.Id.accelerate = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.accelerate;
 			global::Xam.Shell.Badge.Droid.Resource.Id.accessibility_action_clickable_span = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.accessibility_action_clickable_span;
 			global::Xam.Shell.Badge.Droid.Resource.Id.accessibility_custom_action_0 = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.accessibility_custom_action_0;
 			global::Xam.Shell.Badge.Droid.Resource.Id.accessibility_custom_action_1 = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.accessibility_custom_action_1;
@@ -1445,7 +1988,10 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Id.accessibility_custom_action_8 = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.accessibility_custom_action_8;
 			global::Xam.Shell.Badge.Droid.Resource.Id.accessibility_custom_action_9 = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.accessibility_custom_action_9;
 			global::Xam.Shell.Badge.Droid.Resource.Id.action0 = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.action0;
+			global::Xam.Shell.Badge.Droid.Resource.Id.actionDown = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.actionDown;
+			global::Xam.Shell.Badge.Droid.Resource.Id.actionDownUp = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.actionDownUp;
 			global::Xam.Shell.Badge.Droid.Resource.Id.actions = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.actions;
+			global::Xam.Shell.Badge.Droid.Resource.Id.actionUp = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.actionUp;
 			global::Xam.Shell.Badge.Droid.Resource.Id.action_bar = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.action_bar;
 			global::Xam.Shell.Badge.Droid.Resource.Id.action_bar_activity_content = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.action_bar_activity_content;
 			global::Xam.Shell.Badge.Droid.Resource.Id.action_bar_container = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.action_bar_container;
@@ -1466,30 +2012,52 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Id.activity_chooser_view_content = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.activity_chooser_view_content;
 			global::Xam.Shell.Badge.Droid.Resource.Id.add = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.add;
 			global::Xam.Shell.Badge.Droid.Resource.Id.alertTitle = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.alertTitle;
+			global::Xam.Shell.Badge.Droid.Resource.Id.aligned = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.aligned;
 			global::Xam.Shell.Badge.Droid.Resource.Id.all = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.all;
+			global::Xam.Shell.Badge.Droid.Resource.Id.allStates = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.allStates;
 			global::Xam.Shell.Badge.Droid.Resource.Id.ALT = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.ALT;
 			global::Xam.Shell.Badge.Droid.Resource.Id.always = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.always;
+			global::Xam.Shell.Badge.Droid.Resource.Id.animateToEnd = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.animateToEnd;
+			global::Xam.Shell.Badge.Droid.Resource.Id.animateToStart = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.animateToStart;
+			global::Xam.Shell.Badge.Droid.Resource.Id.anticipate = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.anticipate;
+			global::Xam.Shell.Badge.Droid.Resource.Id.antiClockwise = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.antiClockwise;
+			global::Xam.Shell.Badge.Droid.Resource.Id.arc = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.arc;
+			global::Xam.Shell.Badge.Droid.Resource.Id.asConfigured = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.asConfigured;
 			global::Xam.Shell.Badge.Droid.Resource.Id.async = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.async;
 			global::Xam.Shell.Badge.Droid.Resource.Id.auto = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.auto;
-			global::Xam.Shell.Badge.Droid.Resource.Id.badge = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.badge;
+			global::Xam.Shell.Badge.Droid.Resource.Id.autoComplete = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.autoComplete;
+			global::Xam.Shell.Badge.Droid.Resource.Id.autoCompleteToEnd = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.autoCompleteToEnd;
+			global::Xam.Shell.Badge.Droid.Resource.Id.autoCompleteToStart = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.autoCompleteToStart;
+			global::Xam.Shell.Badge.Droid.Resource.Id.barrier = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.barrier;
+			global::Xam.Shell.Badge.Droid.Resource.Id.baseline = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.baseline;
 			global::Xam.Shell.Badge.Droid.Resource.Id.beginning = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.beginning;
+			global::Xam.Shell.Badge.Droid.Resource.Id.beginOnFirstDraw = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.beginOnFirstDraw;
+			global::Xam.Shell.Badge.Droid.Resource.Id.bestChoice = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.bestChoice;
 			global::Xam.Shell.Badge.Droid.Resource.Id.blocking = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.blocking;
 			global::Xam.Shell.Badge.Droid.Resource.Id.bottom = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.bottom;
 			global::Xam.Shell.Badge.Droid.Resource.Id.bottomtab_navarea = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.bottomtab_navarea;
 			global::Xam.Shell.Badge.Droid.Resource.Id.bottomtab_tabbar = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.bottomtab_tabbar;
 			global::Xam.Shell.Badge.Droid.Resource.Id.BOTTOM_END = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.BOTTOM_END;
 			global::Xam.Shell.Badge.Droid.Resource.Id.BOTTOM_START = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.BOTTOM_START;
+			global::Xam.Shell.Badge.Droid.Resource.Id.bounce = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.bounce;
+			global::Xam.Shell.Badge.Droid.Resource.Id.bounceBoth = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.bounceBoth;
+			global::Xam.Shell.Badge.Droid.Resource.Id.bounceEnd = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.bounceEnd;
+			global::Xam.Shell.Badge.Droid.Resource.Id.bounceStart = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.bounceStart;
 			global::Xam.Shell.Badge.Droid.Resource.Id.browser_actions_header_text = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.browser_actions_header_text;
 			global::Xam.Shell.Badge.Droid.Resource.Id.browser_actions_menu_items = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.browser_actions_menu_items;
 			global::Xam.Shell.Badge.Droid.Resource.Id.browser_actions_menu_item_icon = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.browser_actions_menu_item_icon;
 			global::Xam.Shell.Badge.Droid.Resource.Id.browser_actions_menu_item_text = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.browser_actions_menu_item_text;
 			global::Xam.Shell.Badge.Droid.Resource.Id.browser_actions_menu_view = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.browser_actions_menu_view;
 			global::Xam.Shell.Badge.Droid.Resource.Id.buttonPanel = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.buttonPanel;
+			global::Xam.Shell.Badge.Droid.Resource.Id.cache_measures = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.cache_measures;
 			global::Xam.Shell.Badge.Droid.Resource.Id.cancel_action = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.cancel_action;
 			global::Xam.Shell.Badge.Droid.Resource.Id.cancel_button = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.cancel_button;
+			global::Xam.Shell.Badge.Droid.Resource.Id.carryVelocity = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.carryVelocity;
 			global::Xam.Shell.Badge.Droid.Resource.Id.center = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.center;
 			global::Xam.Shell.Badge.Droid.Resource.Id.center_horizontal = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.center_horizontal;
 			global::Xam.Shell.Badge.Droid.Resource.Id.center_vertical = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.center_vertical;
+			global::Xam.Shell.Badge.Droid.Resource.Id.chain = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.chain;
+			global::Xam.Shell.Badge.Droid.Resource.Id.chains = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.chains;
 			global::Xam.Shell.Badge.Droid.Resource.Id.checkbox = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.checkbox;
 			global::Xam.Shell.Badge.Droid.Resource.Id.@checked = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.@checked;
 			global::Xam.Shell.Badge.Droid.Resource.Id.chip = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.chip;
@@ -1498,32 +2066,65 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Id.chip3 = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.chip3;
 			global::Xam.Shell.Badge.Droid.Resource.Id.chip_group = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.chip_group;
 			global::Xam.Shell.Badge.Droid.Resource.Id.chronometer = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.chronometer;
+			global::Xam.Shell.Badge.Droid.Resource.Id.circle_center = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.circle_center;
 			global::Xam.Shell.Badge.Droid.Resource.Id.clear_text = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.clear_text;
 			global::Xam.Shell.Badge.Droid.Resource.Id.clip_horizontal = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.clip_horizontal;
 			global::Xam.Shell.Badge.Droid.Resource.Id.clip_vertical = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.clip_vertical;
+			global::Xam.Shell.Badge.Droid.Resource.Id.clockwise = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.clockwise;
+			global::Xam.Shell.Badge.Droid.Resource.Id.closest = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.closest;
 			global::Xam.Shell.Badge.Droid.Resource.Id.collapseActionView = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.collapseActionView;
 			global::Xam.Shell.Badge.Droid.Resource.Id.confirm_button = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.confirm_button;
+			global::Xam.Shell.Badge.Droid.Resource.Id.constraint = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.constraint;
 			global::Xam.Shell.Badge.Droid.Resource.Id.container = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.container;
 			global::Xam.Shell.Badge.Droid.Resource.Id.content = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.content;
 			global::Xam.Shell.Badge.Droid.Resource.Id.contentPanel = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.contentPanel;
+			global::Xam.Shell.Badge.Droid.Resource.Id.contiguous = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.contiguous;
+			global::Xam.Shell.Badge.Droid.Resource.Id.continuousVelocity = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.continuousVelocity;
 			global::Xam.Shell.Badge.Droid.Resource.Id.coordinator = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.coordinator;
+			global::Xam.Shell.Badge.Droid.Resource.Id.cos = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.cos;
+			global::Xam.Shell.Badge.Droid.Resource.Id.counterclockwise = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.counterclockwise;
 			global::Xam.Shell.Badge.Droid.Resource.Id.CTRL = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.CTRL;
+			global::Xam.Shell.Badge.Droid.Resource.Id.currentState = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.currentState;
 			global::Xam.Shell.Badge.Droid.Resource.Id.custom = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.custom;
 			global::Xam.Shell.Badge.Droid.Resource.Id.customPanel = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.customPanel;
 			global::Xam.Shell.Badge.Droid.Resource.Id.cut = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.cut;
 			global::Xam.Shell.Badge.Droid.Resource.Id.date_picker_actions = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.date_picker_actions;
+			global::Xam.Shell.Badge.Droid.Resource.Id.decelerate = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.decelerate;
+			global::Xam.Shell.Badge.Droid.Resource.Id.decelerateAndComplete = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.decelerateAndComplete;
 			global::Xam.Shell.Badge.Droid.Resource.Id.decor_content_parent = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.decor_content_parent;
 			global::Xam.Shell.Badge.Droid.Resource.Id.default_activity_button = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.default_activity_button;
+			global::Xam.Shell.Badge.Droid.Resource.Id.deltaRelative = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.deltaRelative;
+			global::Xam.Shell.Badge.Droid.Resource.Id.dependency_ordering = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.dependency_ordering;
 			global::Xam.Shell.Badge.Droid.Resource.Id.design_bottom_sheet = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.design_bottom_sheet;
 			global::Xam.Shell.Badge.Droid.Resource.Id.design_menu_item_action_area = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.design_menu_item_action_area;
 			global::Xam.Shell.Badge.Droid.Resource.Id.design_menu_item_action_area_stub = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.design_menu_item_action_area_stub;
 			global::Xam.Shell.Badge.Droid.Resource.Id.design_menu_item_text = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.design_menu_item_text;
 			global::Xam.Shell.Badge.Droid.Resource.Id.design_navigation_view = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.design_navigation_view;
 			global::Xam.Shell.Badge.Droid.Resource.Id.dialog_button = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.dialog_button;
+			global::Xam.Shell.Badge.Droid.Resource.Id.dimensions = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.dimensions;
+			global::Xam.Shell.Badge.Droid.Resource.Id.direct = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.direct;
 			global::Xam.Shell.Badge.Droid.Resource.Id.disableHome = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.disableHome;
+			global::Xam.Shell.Badge.Droid.Resource.Id.disableIntraAutoTransition = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.disableIntraAutoTransition;
+			global::Xam.Shell.Badge.Droid.Resource.Id.disablePostScroll = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.disablePostScroll;
+			global::Xam.Shell.Badge.Droid.Resource.Id.disableScroll = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.disableScroll;
+			global::Xam.Shell.Badge.Droid.Resource.Id.disjoint = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.disjoint;
+			global::Xam.Shell.Badge.Droid.Resource.Id.dragAnticlockwise = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.dragAnticlockwise;
+			global::Xam.Shell.Badge.Droid.Resource.Id.dragClockwise = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.dragClockwise;
+			global::Xam.Shell.Badge.Droid.Resource.Id.dragDown = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.dragDown;
+			global::Xam.Shell.Badge.Droid.Resource.Id.dragEnd = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.dragEnd;
+			global::Xam.Shell.Badge.Droid.Resource.Id.dragLeft = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.dragLeft;
+			global::Xam.Shell.Badge.Droid.Resource.Id.dragRight = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.dragRight;
+			global::Xam.Shell.Badge.Droid.Resource.Id.dragStart = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.dragStart;
+			global::Xam.Shell.Badge.Droid.Resource.Id.dragUp = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.dragUp;
 			global::Xam.Shell.Badge.Droid.Resource.Id.dropdown_menu = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.dropdown_menu;
+			global::Xam.Shell.Badge.Droid.Resource.Id.easeIn = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.easeIn;
+			global::Xam.Shell.Badge.Droid.Resource.Id.easeInOut = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.easeInOut;
+			global::Xam.Shell.Badge.Droid.Resource.Id.easeOut = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.easeOut;
+			global::Xam.Shell.Badge.Droid.Resource.Id.east = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.east;
 			global::Xam.Shell.Badge.Droid.Resource.Id.edit_query = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.edit_query;
+			global::Xam.Shell.Badge.Droid.Resource.Id.elastic = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.elastic;
 			global::Xam.Shell.Badge.Droid.Resource.Id.end = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.end;
+			global::Xam.Shell.Badge.Droid.Resource.Id.endToStart = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.endToStart;
 			global::Xam.Shell.Badge.Droid.Resource.Id.end_padder = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.end_padder;
 			global::Xam.Shell.Badge.Droid.Resource.Id.enterAlways = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.enterAlways;
 			global::Xam.Shell.Badge.Droid.Resource.Id.enterAlwaysCollapsed = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.enterAlwaysCollapsed;
@@ -1537,38 +2138,82 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Id.fill_vertical = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.fill_vertical;
 			global::Xam.Shell.Badge.Droid.Resource.Id.fitToContents = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.fitToContents;
 			global::Xam.Shell.Badge.Droid.Resource.Id.@fixed = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.@fixed;
+			global::Xam.Shell.Badge.Droid.Resource.Id.flip = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.flip;
 			global::Xam.Shell.Badge.Droid.Resource.Id.floating = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.floating;
 			global::Xam.Shell.Badge.Droid.Resource.Id.flyoutcontent_appbar = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.flyoutcontent_appbar;
 			global::Xam.Shell.Badge.Droid.Resource.Id.forever = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.forever;
 			global::Xam.Shell.Badge.Droid.Resource.Id.fragment_container_view_tag = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.fragment_container_view_tag;
+			global::Xam.Shell.Badge.Droid.Resource.Id.frost = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.frost;
 			global::Xam.Shell.Badge.Droid.Resource.Id.FUNCTION = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.FUNCTION;
 			global::Xam.Shell.Badge.Droid.Resource.Id.ghost_view = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.ghost_view;
 			global::Xam.Shell.Badge.Droid.Resource.Id.ghost_view_holder = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.ghost_view_holder;
 			global::Xam.Shell.Badge.Droid.Resource.Id.gone = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.gone;
+			global::Xam.Shell.Badge.Droid.Resource.Id.graph = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.graph;
+			global::Xam.Shell.Badge.Droid.Resource.Id.graph_wrap = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.graph_wrap;
+			global::Xam.Shell.Badge.Droid.Resource.Id.grouping = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.grouping;
+			global::Xam.Shell.Badge.Droid.Resource.Id.groups = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.groups;
 			global::Xam.Shell.Badge.Droid.Resource.Id.group_divider = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.group_divider;
+			global::Xam.Shell.Badge.Droid.Resource.Id.guideline = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.guideline;
+			global::Xam.Shell.Badge.Droid.Resource.Id.header_title = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.header_title;
 			global::Xam.Shell.Badge.Droid.Resource.Id.hideable = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.hideable;
 			global::Xam.Shell.Badge.Droid.Resource.Id.home = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.home;
 			global::Xam.Shell.Badge.Droid.Resource.Id.homeAsUp = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.homeAsUp;
+			global::Xam.Shell.Badge.Droid.Resource.Id.honorRequest = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.honorRequest;
+			global::Xam.Shell.Badge.Droid.Resource.Id.horizontal_only = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.horizontal_only;
 			global::Xam.Shell.Badge.Droid.Resource.Id.icon = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.icon;
+			global::Xam.Shell.Badge.Droid.Resource.Id.icon_frame = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.icon_frame;
 			global::Xam.Shell.Badge.Droid.Resource.Id.icon_group = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.icon_group;
 			global::Xam.Shell.Badge.Droid.Resource.Id.ifRoom = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.ifRoom;
+			global::Xam.Shell.Badge.Droid.Resource.Id.ignore = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.ignore;
+			global::Xam.Shell.Badge.Droid.Resource.Id.ignoreRequest = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.ignoreRequest;
 			global::Xam.Shell.Badge.Droid.Resource.Id.image = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.image;
+			global::Xam.Shell.Badge.Droid.Resource.Id.immediateStop = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.immediateStop;
+			global::Xam.Shell.Badge.Droid.Resource.Id.included = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.included;
 			global::Xam.Shell.Badge.Droid.Resource.Id.info = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.info;
+			global::Xam.Shell.Badge.Droid.Resource.Id.invisible = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.invisible;
+			global::Xam.Shell.Badge.Droid.Resource.Id.inward = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.inward;
 			global::Xam.Shell.Badge.Droid.Resource.Id.italic = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.italic;
 			global::Xam.Shell.Badge.Droid.Resource.Id.item_touch_helper_previous_elevation = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::Xam.Shell.Badge.Droid.Resource.Id.jumpToEnd = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.jumpToEnd;
+			global::Xam.Shell.Badge.Droid.Resource.Id.jumpToStart = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.jumpToStart;
 			global::Xam.Shell.Badge.Droid.Resource.Id.labeled = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.labeled;
+			global::Xam.Shell.Badge.Droid.Resource.Id.layout = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.layout;
 			global::Xam.Shell.Badge.Droid.Resource.Id.left = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.left;
+			global::Xam.Shell.Badge.Droid.Resource.Id.leftToRight = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.leftToRight;
+			global::Xam.Shell.Badge.Droid.Resource.Id.legacy = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.legacy;
 			global::Xam.Shell.Badge.Droid.Resource.Id.line1 = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.line1;
 			global::Xam.Shell.Badge.Droid.Resource.Id.line3 = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.line3;
+			global::Xam.Shell.Badge.Droid.Resource.Id.linear = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.linear;
 			global::Xam.Shell.Badge.Droid.Resource.Id.listMode = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.listMode;
 			global::Xam.Shell.Badge.Droid.Resource.Id.list_item = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.list_item;
-			global::Xam.Shell.Badge.Droid.Resource.Id.lybadge = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.lybadge;
 			global::Xam.Shell.Badge.Droid.Resource.Id.main_appbar = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.main_appbar;
 			global::Xam.Shell.Badge.Droid.Resource.Id.main_tablayout = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.main_tablayout;
 			global::Xam.Shell.Badge.Droid.Resource.Id.main_toolbar = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.main_toolbar;
 			global::Xam.Shell.Badge.Droid.Resource.Id.main_viewpager = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.main_viewpager;
 			global::Xam.Shell.Badge.Droid.Resource.Id.masked = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.masked;
+			global::Xam.Shell.Badge.Droid.Resource.Id.match_constraint = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.match_constraint;
+			global::Xam.Shell.Badge.Droid.Resource.Id.match_parent = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.match_parent;
+			global::Xam.Shell.Badge.Droid.Resource.Id.material_clock_display = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.material_clock_display;
+			global::Xam.Shell.Badge.Droid.Resource.Id.material_clock_face = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.material_clock_face;
+			global::Xam.Shell.Badge.Droid.Resource.Id.material_clock_hand = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.material_clock_hand;
+			global::Xam.Shell.Badge.Droid.Resource.Id.material_clock_period_am_button = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.material_clock_period_am_button;
+			global::Xam.Shell.Badge.Droid.Resource.Id.material_clock_period_pm_button = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.material_clock_period_pm_button;
+			global::Xam.Shell.Badge.Droid.Resource.Id.material_clock_period_toggle = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.material_clock_period_toggle;
+			global::Xam.Shell.Badge.Droid.Resource.Id.material_hour_text_input = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.material_hour_text_input;
+			global::Xam.Shell.Badge.Droid.Resource.Id.material_hour_tv = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.material_hour_tv;
+			global::Xam.Shell.Badge.Droid.Resource.Id.material_label = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.material_label;
+			global::Xam.Shell.Badge.Droid.Resource.Id.material_minute_text_input = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.material_minute_text_input;
+			global::Xam.Shell.Badge.Droid.Resource.Id.material_minute_tv = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.material_minute_tv;
+			global::Xam.Shell.Badge.Droid.Resource.Id.material_textinput_timepicker = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.material_textinput_timepicker;
+			global::Xam.Shell.Badge.Droid.Resource.Id.material_timepicker_cancel_button = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.material_timepicker_cancel_button;
+			global::Xam.Shell.Badge.Droid.Resource.Id.material_timepicker_container = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.material_timepicker_container;
+			global::Xam.Shell.Badge.Droid.Resource.Id.material_timepicker_edit_text = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.material_timepicker_edit_text;
+			global::Xam.Shell.Badge.Droid.Resource.Id.material_timepicker_mode_button = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.material_timepicker_mode_button;
+			global::Xam.Shell.Badge.Droid.Resource.Id.material_timepicker_ok_button = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.material_timepicker_ok_button;
+			global::Xam.Shell.Badge.Droid.Resource.Id.material_timepicker_view = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.material_timepicker_view;
+			global::Xam.Shell.Badge.Droid.Resource.Id.material_value_index = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.material_value_index;
 			global::Xam.Shell.Badge.Droid.Resource.Id.media_actions = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.media_actions;
+			global::Xam.Shell.Badge.Droid.Resource.Id.media_controller_compat_view_tag = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.media_controller_compat_view_tag;
 			global::Xam.Shell.Badge.Droid.Resource.Id.message = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.message;
 			global::Xam.Shell.Badge.Droid.Resource.Id.META = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.META;
 			global::Xam.Shell.Badge.Droid.Resource.Id.middle = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.middle;
@@ -1579,6 +2224,8 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Id.month_navigation_next = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.month_navigation_next;
 			global::Xam.Shell.Badge.Droid.Resource.Id.month_navigation_previous = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.month_navigation_previous;
 			global::Xam.Shell.Badge.Droid.Resource.Id.month_title = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.month_title;
+			global::Xam.Shell.Badge.Droid.Resource.Id.motion_base = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.motion_base;
+			global::Xam.Shell.Badge.Droid.Resource.Id.mtrl_anchor_parent = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.mtrl_anchor_parent;
 			global::Xam.Shell.Badge.Droid.Resource.Id.mtrl_calendar_days_of_week = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.mtrl_calendar_days_of_week;
 			global::Xam.Shell.Badge.Droid.Resource.Id.mtrl_calendar_day_selector_frame = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.mtrl_calendar_day_selector_frame;
 			global::Xam.Shell.Badge.Droid.Resource.Id.mtrl_calendar_frame = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.mtrl_calendar_frame;
@@ -1600,34 +2247,61 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Id.mtrl_picker_text_input_range_end = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.mtrl_picker_text_input_range_end;
 			global::Xam.Shell.Badge.Droid.Resource.Id.mtrl_picker_text_input_range_start = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.mtrl_picker_text_input_range_start;
 			global::Xam.Shell.Badge.Droid.Resource.Id.mtrl_picker_title_text = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.mtrl_picker_title_text;
+			global::Xam.Shell.Badge.Droid.Resource.Id.mtrl_view_tag_bottom_padding = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.mtrl_view_tag_bottom_padding;
 			global::Xam.Shell.Badge.Droid.Resource.Id.multiply = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.multiply;
+			global::Xam.Shell.Badge.Droid.Resource.Id.navigation_bar_item_icon_view = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.navigation_bar_item_icon_view;
+			global::Xam.Shell.Badge.Droid.Resource.Id.navigation_bar_item_labels_group = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.navigation_bar_item_labels_group;
+			global::Xam.Shell.Badge.Droid.Resource.Id.navigation_bar_item_large_label_view = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.navigation_bar_item_large_label_view;
+			global::Xam.Shell.Badge.Droid.Resource.Id.navigation_bar_item_small_label_view = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.navigation_bar_item_small_label_view;
 			global::Xam.Shell.Badge.Droid.Resource.Id.navigation_header_container = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.navigation_header_container;
+			global::Xam.Shell.Badge.Droid.Resource.Id.nav_controller_view_tag = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.nav_controller_view_tag;
 			global::Xam.Shell.Badge.Droid.Resource.Id.never = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.never;
+			global::Xam.Shell.Badge.Droid.Resource.Id.neverCompleteToEnd = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.neverCompleteToEnd;
+			global::Xam.Shell.Badge.Droid.Resource.Id.neverCompleteToStart = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.neverCompleteToStart;
 			global::Xam.Shell.Badge.Droid.Resource.Id.none = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.none;
 			global::Xam.Shell.Badge.Droid.Resource.Id.normal = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.normal;
+			global::Xam.Shell.Badge.Droid.Resource.Id.north = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.north;
 			global::Xam.Shell.Badge.Droid.Resource.Id.noScroll = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.noScroll;
+			global::Xam.Shell.Badge.Droid.Resource.Id.noState = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.noState;
 			global::Xam.Shell.Badge.Droid.Resource.Id.notification_background = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.notification_background;
 			global::Xam.Shell.Badge.Droid.Resource.Id.notification_main_column = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.notification_main_column;
 			global::Xam.Shell.Badge.Droid.Resource.Id.notification_main_column_container = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.notification_main_column_container;
+			global::Xam.Shell.Badge.Droid.Resource.Id.NO_DEBUG = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.NO_DEBUG;
 			global::Xam.Shell.Badge.Droid.Resource.Id.off = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.off;
 			global::Xam.Shell.Badge.Droid.Resource.Id.on = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.on;
 			global::Xam.Shell.Badge.Droid.Resource.Id.outline = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.outline;
+			global::Xam.Shell.Badge.Droid.Resource.Id.outward = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.outward;
+			global::Xam.Shell.Badge.Droid.Resource.Id.overshoot = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.overshoot;
+			global::Xam.Shell.Badge.Droid.Resource.Id.packed = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.packed;
 			global::Xam.Shell.Badge.Droid.Resource.Id.parallax = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.parallax;
+			global::Xam.Shell.Badge.Droid.Resource.Id.parent = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.parent;
 			global::Xam.Shell.Badge.Droid.Resource.Id.parentPanel = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.parentPanel;
+			global::Xam.Shell.Badge.Droid.Resource.Id.parentRelative = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.parentRelative;
 			global::Xam.Shell.Badge.Droid.Resource.Id.parent_matrix = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.parent_matrix;
 			global::Xam.Shell.Badge.Droid.Resource.Id.password_toggle = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.password_toggle;
+			global::Xam.Shell.Badge.Droid.Resource.Id.path = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.path;
+			global::Xam.Shell.Badge.Droid.Resource.Id.pathRelative = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.pathRelative;
 			global::Xam.Shell.Badge.Droid.Resource.Id.peekHeight = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.peekHeight;
+			global::Xam.Shell.Badge.Droid.Resource.Id.percent = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.percent;
 			global::Xam.Shell.Badge.Droid.Resource.Id.pin = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.pin;
+			global::Xam.Shell.Badge.Droid.Resource.Id.position = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.position;
+			global::Xam.Shell.Badge.Droid.Resource.Id.postLayout = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.postLayout;
 			global::Xam.Shell.Badge.Droid.Resource.Id.progress_circular = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.progress_circular;
 			global::Xam.Shell.Badge.Droid.Resource.Id.progress_horizontal = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.progress_horizontal;
 			global::Xam.Shell.Badge.Droid.Resource.Id.radio = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.radio;
+			global::Xam.Shell.Badge.Droid.Resource.Id.ratio = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.ratio;
+			global::Xam.Shell.Badge.Droid.Resource.Id.rectangles = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.rectangles;
+			global::Xam.Shell.Badge.Droid.Resource.Id.recycler_view = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.recycler_view;
+			global::Xam.Shell.Badge.Droid.Resource.Id.reverseSawtooth = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.reverseSawtooth;
 			global::Xam.Shell.Badge.Droid.Resource.Id.right = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.right;
+			global::Xam.Shell.Badge.Droid.Resource.Id.rightToLeft = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.rightToLeft;
 			global::Xam.Shell.Badge.Droid.Resource.Id.right_icon = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.right_icon;
 			global::Xam.Shell.Badge.Droid.Resource.Id.right_side = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.right_side;
 			global::Xam.Shell.Badge.Droid.Resource.Id.rounded = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.rounded;
 			global::Xam.Shell.Badge.Droid.Resource.Id.row_index_key = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.row_index_key;
 			global::Xam.Shell.Badge.Droid.Resource.Id.save_non_transition_alpha = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.save_non_transition_alpha;
 			global::Xam.Shell.Badge.Droid.Resource.Id.save_overlay_view = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.save_overlay_view;
+			global::Xam.Shell.Badge.Droid.Resource.Id.sawtooth = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.sawtooth;
 			global::Xam.Shell.Badge.Droid.Resource.Id.scale = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.scale;
 			global::Xam.Shell.Badge.Droid.Resource.Id.screen = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.screen;
 			global::Xam.Shell.Badge.Droid.Resource.Id.scroll = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.scroll;
@@ -1645,8 +2319,13 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Id.search_plate = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.search_plate;
 			global::Xam.Shell.Badge.Droid.Resource.Id.search_src_text = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.search_src_text;
 			global::Xam.Shell.Badge.Droid.Resource.Id.search_voice_btn = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.search_voice_btn;
+			global::Xam.Shell.Badge.Droid.Resource.Id.seekbar = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.seekbar;
+			global::Xam.Shell.Badge.Droid.Resource.Id.seekbar_value = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.seekbar_value;
 			global::Xam.Shell.Badge.Droid.Resource.Id.selected = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.selected;
+			global::Xam.Shell.Badge.Droid.Resource.Id.selection_type = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.selection_type;
 			global::Xam.Shell.Badge.Droid.Resource.Id.select_dialog_listview = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.select_dialog_listview;
+			global::Xam.Shell.Badge.Droid.Resource.Id.sharedValueSet = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.sharedValueSet;
+			global::Xam.Shell.Badge.Droid.Resource.Id.sharedValueUnset = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.sharedValueUnset;
 			global::Xam.Shell.Badge.Droid.Resource.Id.shellcontent_appbar = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.shellcontent_appbar;
 			global::Xam.Shell.Badge.Droid.Resource.Id.shellcontent_toolbar = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.shellcontent_toolbar;
 			global::Xam.Shell.Badge.Droid.Resource.Id.SHIFT = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.SHIFT;
@@ -1654,33 +2333,60 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Id.showCustom = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.showCustom;
 			global::Xam.Shell.Badge.Droid.Resource.Id.showHome = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.showHome;
 			global::Xam.Shell.Badge.Droid.Resource.Id.showTitle = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.showTitle;
+			global::Xam.Shell.Badge.Droid.Resource.Id.SHOW_ALL = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.SHOW_ALL;
+			global::Xam.Shell.Badge.Droid.Resource.Id.SHOW_PATH = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.SHOW_PATH;
+			global::Xam.Shell.Badge.Droid.Resource.Id.SHOW_PROGRESS = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.SHOW_PROGRESS;
+			global::Xam.Shell.Badge.Droid.Resource.Id.sin = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.sin;
 			global::Xam.Shell.Badge.Droid.Resource.Id.skipCollapsed = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.skipCollapsed;
+			global::Xam.Shell.Badge.Droid.Resource.Id.skipped = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.skipped;
 			global::Xam.Shell.Badge.Droid.Resource.Id.slide = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.slide;
 			global::Xam.Shell.Badge.Droid.Resource.Id.sliding_tabs = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.sliding_tabs;
 			global::Xam.Shell.Badge.Droid.Resource.Id.snackbar_action = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.snackbar_action;
 			global::Xam.Shell.Badge.Droid.Resource.Id.snackbar_text = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.snackbar_text;
 			global::Xam.Shell.Badge.Droid.Resource.Id.snap = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.snap;
 			global::Xam.Shell.Badge.Droid.Resource.Id.snapMargins = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.snapMargins;
+			global::Xam.Shell.Badge.Droid.Resource.Id.south = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.south;
 			global::Xam.Shell.Badge.Droid.Resource.Id.spacer = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.spacer;
+			global::Xam.Shell.Badge.Droid.Resource.Id.special_effects_controller_view_tag = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.special_effects_controller_view_tag;
+			global::Xam.Shell.Badge.Droid.Resource.Id.spinner = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.spinner;
+			global::Xam.Shell.Badge.Droid.Resource.Id.spline = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.spline;
 			global::Xam.Shell.Badge.Droid.Resource.Id.split_action_bar = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.split_action_bar;
+			global::Xam.Shell.Badge.Droid.Resource.Id.spread = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.spread;
+			global::Xam.Shell.Badge.Droid.Resource.Id.spread_inside = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.spread_inside;
+			global::Xam.Shell.Badge.Droid.Resource.Id.spring = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.spring;
+			global::Xam.Shell.Badge.Droid.Resource.Id.square = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.square;
 			global::Xam.Shell.Badge.Droid.Resource.Id.src_atop = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.src_atop;
 			global::Xam.Shell.Badge.Droid.Resource.Id.src_in = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.src_in;
 			global::Xam.Shell.Badge.Droid.Resource.Id.src_over = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.src_over;
+			global::Xam.Shell.Badge.Droid.Resource.Id.standard = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.standard;
 			global::Xam.Shell.Badge.Droid.Resource.Id.start = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.start;
+			global::Xam.Shell.Badge.Droid.Resource.Id.startHorizontal = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.startHorizontal;
+			global::Xam.Shell.Badge.Droid.Resource.Id.startToEnd = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.startToEnd;
+			global::Xam.Shell.Badge.Droid.Resource.Id.startVertical = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.startVertical;
+			global::Xam.Shell.Badge.Droid.Resource.Id.staticLayout = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.staticLayout;
+			global::Xam.Shell.Badge.Droid.Resource.Id.staticPostLayout = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.staticPostLayout;
 			global::Xam.Shell.Badge.Droid.Resource.Id.status_bar_latest_event_content = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.status_bar_latest_event_content;
+			global::Xam.Shell.Badge.Droid.Resource.Id.stop = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.stop;
 			global::Xam.Shell.Badge.Droid.Resource.Id.stretch = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.stretch;
 			global::Xam.Shell.Badge.Droid.Resource.Id.submenuarrow = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.submenuarrow;
 			global::Xam.Shell.Badge.Droid.Resource.Id.submit_area = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.submit_area;
+			global::Xam.Shell.Badge.Droid.Resource.Id.supportScrollUp = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.supportScrollUp;
+			global::Xam.Shell.Badge.Droid.Resource.Id.switchWidget = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.switchWidget;
 			global::Xam.Shell.Badge.Droid.Resource.Id.SYM = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.SYM;
 			global::Xam.Shell.Badge.Droid.Resource.Id.tabMode = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.tabMode;
 			global::Xam.Shell.Badge.Droid.Resource.Id.tag_accessibility_actions = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.tag_accessibility_actions;
 			global::Xam.Shell.Badge.Droid.Resource.Id.tag_accessibility_clickable_spans = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.tag_accessibility_clickable_spans;
 			global::Xam.Shell.Badge.Droid.Resource.Id.tag_accessibility_heading = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.tag_accessibility_heading;
 			global::Xam.Shell.Badge.Droid.Resource.Id.tag_accessibility_pane_title = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.tag_accessibility_pane_title;
+			global::Xam.Shell.Badge.Droid.Resource.Id.tag_on_apply_window_listener = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.tag_on_apply_window_listener;
+			global::Xam.Shell.Badge.Droid.Resource.Id.tag_on_receive_content_listener = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.tag_on_receive_content_listener;
+			global::Xam.Shell.Badge.Droid.Resource.Id.tag_on_receive_content_mime_types = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.tag_on_receive_content_mime_types;
 			global::Xam.Shell.Badge.Droid.Resource.Id.tag_screen_reader_focusable = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.tag_screen_reader_focusable;
+			global::Xam.Shell.Badge.Droid.Resource.Id.tag_state_description = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.tag_state_description;
 			global::Xam.Shell.Badge.Droid.Resource.Id.tag_transition_group = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.tag_transition_group;
 			global::Xam.Shell.Badge.Droid.Resource.Id.tag_unhandled_key_event_manager = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.tag_unhandled_key_event_manager;
 			global::Xam.Shell.Badge.Droid.Resource.Id.tag_unhandled_key_listeners = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.tag_unhandled_key_listeners;
+			global::Xam.Shell.Badge.Droid.Resource.Id.tag_window_insets_animation_callback = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.tag_window_insets_animation_callback;
 			global::Xam.Shell.Badge.Droid.Resource.Id.test_checkbox_android_button_tint = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.test_checkbox_android_button_tint;
 			global::Xam.Shell.Badge.Droid.Resource.Id.test_checkbox_app_button_tint = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.test_checkbox_app_button_tint;
 			global::Xam.Shell.Badge.Droid.Resource.Id.test_radiobutton_android_button_tint = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.test_radiobutton_android_button_tint;
@@ -1697,46 +2403,68 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Id.textSpacerNoButtons = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.textSpacerNoButtons;
 			global::Xam.Shell.Badge.Droid.Resource.Id.textSpacerNoTitle = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.textSpacerNoTitle;
 			global::Xam.Shell.Badge.Droid.Resource.Id.textStart = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.textStart;
+			global::Xam.Shell.Badge.Droid.Resource.Id.textTop = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.textTop;
 			global::Xam.Shell.Badge.Droid.Resource.Id.text_input_end_icon = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.text_input_end_icon;
+			global::Xam.Shell.Badge.Droid.Resource.Id.text_input_error_icon = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.text_input_error_icon;
 			global::Xam.Shell.Badge.Droid.Resource.Id.text_input_start_icon = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.text_input_start_icon;
 			global::Xam.Shell.Badge.Droid.Resource.Id.time = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.time;
 			global::Xam.Shell.Badge.Droid.Resource.Id.title = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.title;
 			global::Xam.Shell.Badge.Droid.Resource.Id.titleDividerNoCustom = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.titleDividerNoCustom;
 			global::Xam.Shell.Badge.Droid.Resource.Id.title_template = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.title_template;
+			global::Xam.Shell.Badge.Droid.Resource.Id.toggle = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.toggle;
 			global::Xam.Shell.Badge.Droid.Resource.Id.toolbar = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.toolbar;
 			global::Xam.Shell.Badge.Droid.Resource.Id.top = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.top;
 			global::Xam.Shell.Badge.Droid.Resource.Id.topPanel = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.topPanel;
 			global::Xam.Shell.Badge.Droid.Resource.Id.TOP_END = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.TOP_END;
 			global::Xam.Shell.Badge.Droid.Resource.Id.TOP_START = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.TOP_START;
 			global::Xam.Shell.Badge.Droid.Resource.Id.touch_outside = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.touch_outside;
+			global::Xam.Shell.Badge.Droid.Resource.Id.transitionToEnd = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.transitionToEnd;
+			global::Xam.Shell.Badge.Droid.Resource.Id.transitionToStart = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.transitionToStart;
 			global::Xam.Shell.Badge.Droid.Resource.Id.transition_current_scene = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.transition_current_scene;
 			global::Xam.Shell.Badge.Droid.Resource.Id.transition_layout_save = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.transition_layout_save;
 			global::Xam.Shell.Badge.Droid.Resource.Id.transition_position = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.transition_position;
 			global::Xam.Shell.Badge.Droid.Resource.Id.transition_scene_layoutid_cache = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.transition_scene_layoutid_cache;
 			global::Xam.Shell.Badge.Droid.Resource.Id.transition_transform = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.transition_transform;
-			global::Xam.Shell.Badge.Droid.Resource.Id.txtbadge = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.txtbadge;
+			global::Xam.Shell.Badge.Droid.Resource.Id.triangle = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.triangle;
 			global::Xam.Shell.Badge.Droid.Resource.Id.@unchecked = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.@unchecked;
 			global::Xam.Shell.Badge.Droid.Resource.Id.uniform = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.uniform;
 			global::Xam.Shell.Badge.Droid.Resource.Id.unlabeled = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.unlabeled;
 			global::Xam.Shell.Badge.Droid.Resource.Id.up = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.up;
 			global::Xam.Shell.Badge.Droid.Resource.Id.useLogo = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.useLogo;
+			global::Xam.Shell.Badge.Droid.Resource.Id.vertical_only = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.vertical_only;
 			global::Xam.Shell.Badge.Droid.Resource.Id.view_offset_helper = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.view_offset_helper;
+			global::Xam.Shell.Badge.Droid.Resource.Id.view_transition = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.view_transition;
+			global::Xam.Shell.Badge.Droid.Resource.Id.view_tree_lifecycle_owner = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.view_tree_lifecycle_owner;
 			global::Xam.Shell.Badge.Droid.Resource.Id.view_tree_saved_state_registry_owner = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.view_tree_saved_state_registry_owner;
+			global::Xam.Shell.Badge.Droid.Resource.Id.view_tree_view_model_store_owner = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.view_tree_view_model_store_owner;
 			global::Xam.Shell.Badge.Droid.Resource.Id.visible = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.visible;
 			global::Xam.Shell.Badge.Droid.Resource.Id.visible_removing_fragment_view_tag = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.visible_removing_fragment_view_tag;
+			global::Xam.Shell.Badge.Droid.Resource.Id.west = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.west;
 			global::Xam.Shell.Badge.Droid.Resource.Id.withinBounds = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.withinBounds;
 			global::Xam.Shell.Badge.Droid.Resource.Id.withText = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.withText;
+			global::Xam.Shell.Badge.Droid.Resource.Id.wrap = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.wrap;
 			global::Xam.Shell.Badge.Droid.Resource.Id.wrap_content = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.wrap_content;
+			global::Xam.Shell.Badge.Droid.Resource.Id.wrap_content_constrained = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.wrap_content_constrained;
+			global::Xam.Shell.Badge.Droid.Resource.Id.x_left = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.x_left;
+			global::Xam.Shell.Badge.Droid.Resource.Id.x_right = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.x_right;
 			global::Xam.Shell.Badge.Droid.Resource.Id.zero_corner_chip = global::Xam.Shell.Badge.Sample.Droid.Resource.Id.zero_corner_chip;
 			global::Xam.Shell.Badge.Droid.Resource.Integer.abc_config_activityDefaultDur = global::Xam.Shell.Badge.Sample.Droid.Resource.Integer.abc_config_activityDefaultDur;
 			global::Xam.Shell.Badge.Droid.Resource.Integer.abc_config_activityShortDur = global::Xam.Shell.Badge.Sample.Droid.Resource.Integer.abc_config_activityShortDur;
 			global::Xam.Shell.Badge.Droid.Resource.Integer.app_bar_elevation_anim_duration = global::Xam.Shell.Badge.Sample.Droid.Resource.Integer.app_bar_elevation_anim_duration;
 			global::Xam.Shell.Badge.Droid.Resource.Integer.bottom_sheet_slide_duration = global::Xam.Shell.Badge.Sample.Droid.Resource.Integer.bottom_sheet_slide_duration;
 			global::Xam.Shell.Badge.Droid.Resource.Integer.cancel_button_image_alpha = global::Xam.Shell.Badge.Sample.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::Xam.Shell.Badge.Droid.Resource.Integer.config_navAnimTime = global::Xam.Shell.Badge.Sample.Droid.Resource.Integer.config_navAnimTime;
 			global::Xam.Shell.Badge.Droid.Resource.Integer.config_tooltipAnimTime = global::Xam.Shell.Badge.Sample.Droid.Resource.Integer.config_tooltipAnimTime;
 			global::Xam.Shell.Badge.Droid.Resource.Integer.design_snackbar_text_max_lines = global::Xam.Shell.Badge.Sample.Droid.Resource.Integer.design_snackbar_text_max_lines;
 			global::Xam.Shell.Badge.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms = global::Xam.Shell.Badge.Sample.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms;
 			global::Xam.Shell.Badge.Droid.Resource.Integer.hide_password_duration = global::Xam.Shell.Badge.Sample.Droid.Resource.Integer.hide_password_duration;
+			global::Xam.Shell.Badge.Droid.Resource.Integer.material_motion_duration_long_1 = global::Xam.Shell.Badge.Sample.Droid.Resource.Integer.material_motion_duration_long_1;
+			global::Xam.Shell.Badge.Droid.Resource.Integer.material_motion_duration_long_2 = global::Xam.Shell.Badge.Sample.Droid.Resource.Integer.material_motion_duration_long_2;
+			global::Xam.Shell.Badge.Droid.Resource.Integer.material_motion_duration_medium_1 = global::Xam.Shell.Badge.Sample.Droid.Resource.Integer.material_motion_duration_medium_1;
+			global::Xam.Shell.Badge.Droid.Resource.Integer.material_motion_duration_medium_2 = global::Xam.Shell.Badge.Sample.Droid.Resource.Integer.material_motion_duration_medium_2;
+			global::Xam.Shell.Badge.Droid.Resource.Integer.material_motion_duration_short_1 = global::Xam.Shell.Badge.Sample.Droid.Resource.Integer.material_motion_duration_short_1;
+			global::Xam.Shell.Badge.Droid.Resource.Integer.material_motion_duration_short_2 = global::Xam.Shell.Badge.Sample.Droid.Resource.Integer.material_motion_duration_short_2;
+			global::Xam.Shell.Badge.Droid.Resource.Integer.material_motion_path = global::Xam.Shell.Badge.Sample.Droid.Resource.Integer.material_motion_path;
 			global::Xam.Shell.Badge.Droid.Resource.Integer.mtrl_badge_max_character_count = global::Xam.Shell.Badge.Sample.Droid.Resource.Integer.mtrl_badge_max_character_count;
 			global::Xam.Shell.Badge.Droid.Resource.Integer.mtrl_btn_anim_delay_ms = global::Xam.Shell.Badge.Sample.Droid.Resource.Integer.mtrl_btn_anim_delay_ms;
 			global::Xam.Shell.Badge.Droid.Resource.Integer.mtrl_btn_anim_duration_ms = global::Xam.Shell.Badge.Sample.Droid.Resource.Integer.mtrl_btn_anim_duration_ms;
@@ -1807,9 +2535,25 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Layout.design_navigation_menu_item = global::Xam.Shell.Badge.Sample.Droid.Resource.Layout.design_navigation_menu_item;
 			global::Xam.Shell.Badge.Droid.Resource.Layout.design_text_input_end_icon = global::Xam.Shell.Badge.Sample.Droid.Resource.Layout.design_text_input_end_icon;
 			global::Xam.Shell.Badge.Droid.Resource.Layout.design_text_input_start_icon = global::Xam.Shell.Badge.Sample.Droid.Resource.Layout.design_text_input_start_icon;
+			global::Xam.Shell.Badge.Droid.Resource.Layout.expand_button = global::Xam.Shell.Badge.Sample.Droid.Resource.Layout.expand_button;
 			global::Xam.Shell.Badge.Droid.Resource.Layout.FallbackTabbarDoNotUse = global::Xam.Shell.Badge.Sample.Droid.Resource.Layout.FallbackTabbarDoNotUse;
 			global::Xam.Shell.Badge.Droid.Resource.Layout.FallbackToolbarDoNotUse = global::Xam.Shell.Badge.Sample.Droid.Resource.Layout.FallbackToolbarDoNotUse;
 			global::Xam.Shell.Badge.Droid.Resource.Layout.FlyoutContent = global::Xam.Shell.Badge.Sample.Droid.Resource.Layout.FlyoutContent;
+			global::Xam.Shell.Badge.Droid.Resource.Layout.image_frame = global::Xam.Shell.Badge.Sample.Droid.Resource.Layout.image_frame;
+			global::Xam.Shell.Badge.Droid.Resource.Layout.material_chip_input_combo = global::Xam.Shell.Badge.Sample.Droid.Resource.Layout.material_chip_input_combo;
+			global::Xam.Shell.Badge.Droid.Resource.Layout.material_clockface_textview = global::Xam.Shell.Badge.Sample.Droid.Resource.Layout.material_clockface_textview;
+			global::Xam.Shell.Badge.Droid.Resource.Layout.material_clockface_view = global::Xam.Shell.Badge.Sample.Droid.Resource.Layout.material_clockface_view;
+			global::Xam.Shell.Badge.Droid.Resource.Layout.material_clock_display = global::Xam.Shell.Badge.Sample.Droid.Resource.Layout.material_clock_display;
+			global::Xam.Shell.Badge.Droid.Resource.Layout.material_clock_display_divider = global::Xam.Shell.Badge.Sample.Droid.Resource.Layout.material_clock_display_divider;
+			global::Xam.Shell.Badge.Droid.Resource.Layout.material_clock_period_toggle = global::Xam.Shell.Badge.Sample.Droid.Resource.Layout.material_clock_period_toggle;
+			global::Xam.Shell.Badge.Droid.Resource.Layout.material_clock_period_toggle_land = global::Xam.Shell.Badge.Sample.Droid.Resource.Layout.material_clock_period_toggle_land;
+			global::Xam.Shell.Badge.Droid.Resource.Layout.material_radial_view_group = global::Xam.Shell.Badge.Sample.Droid.Resource.Layout.material_radial_view_group;
+			global::Xam.Shell.Badge.Droid.Resource.Layout.material_textinput_timepicker = global::Xam.Shell.Badge.Sample.Droid.Resource.Layout.material_textinput_timepicker;
+			global::Xam.Shell.Badge.Droid.Resource.Layout.material_timepicker = global::Xam.Shell.Badge.Sample.Droid.Resource.Layout.material_timepicker;
+			global::Xam.Shell.Badge.Droid.Resource.Layout.material_timepicker_dialog = global::Xam.Shell.Badge.Sample.Droid.Resource.Layout.material_timepicker_dialog;
+			global::Xam.Shell.Badge.Droid.Resource.Layout.material_timepicker_textinput_display = global::Xam.Shell.Badge.Sample.Droid.Resource.Layout.material_timepicker_textinput_display;
+			global::Xam.Shell.Badge.Droid.Resource.Layout.material_time_chip = global::Xam.Shell.Badge.Sample.Droid.Resource.Layout.material_time_chip;
+			global::Xam.Shell.Badge.Droid.Resource.Layout.material_time_input = global::Xam.Shell.Badge.Sample.Droid.Resource.Layout.material_time_input;
 			global::Xam.Shell.Badge.Droid.Resource.Layout.mtrl_alert_dialog = global::Xam.Shell.Badge.Sample.Droid.Resource.Layout.mtrl_alert_dialog;
 			global::Xam.Shell.Badge.Droid.Resource.Layout.mtrl_alert_dialog_actions = global::Xam.Shell.Badge.Sample.Droid.Resource.Layout.mtrl_alert_dialog_actions;
 			global::Xam.Shell.Badge.Droid.Resource.Layout.mtrl_alert_dialog_title = global::Xam.Shell.Badge.Sample.Droid.Resource.Layout.mtrl_alert_dialog_title;
@@ -1828,6 +2572,7 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Layout.mtrl_calendar_year = global::Xam.Shell.Badge.Sample.Droid.Resource.Layout.mtrl_calendar_year;
 			global::Xam.Shell.Badge.Droid.Resource.Layout.mtrl_layout_snackbar = global::Xam.Shell.Badge.Sample.Droid.Resource.Layout.mtrl_layout_snackbar;
 			global::Xam.Shell.Badge.Droid.Resource.Layout.mtrl_layout_snackbar_include = global::Xam.Shell.Badge.Sample.Droid.Resource.Layout.mtrl_layout_snackbar_include;
+			global::Xam.Shell.Badge.Droid.Resource.Layout.mtrl_navigation_rail_item = global::Xam.Shell.Badge.Sample.Droid.Resource.Layout.mtrl_navigation_rail_item;
 			global::Xam.Shell.Badge.Droid.Resource.Layout.mtrl_picker_actions = global::Xam.Shell.Badge.Sample.Droid.Resource.Layout.mtrl_picker_actions;
 			global::Xam.Shell.Badge.Droid.Resource.Layout.mtrl_picker_dialog = global::Xam.Shell.Badge.Sample.Droid.Resource.Layout.mtrl_picker_dialog;
 			global::Xam.Shell.Badge.Droid.Resource.Layout.mtrl_picker_fullscreen = global::Xam.Shell.Badge.Sample.Droid.Resource.Layout.mtrl_picker_fullscreen;
@@ -1840,7 +2585,6 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Layout.mtrl_picker_text_input_date_range = global::Xam.Shell.Badge.Sample.Droid.Resource.Layout.mtrl_picker_text_input_date_range;
 			global::Xam.Shell.Badge.Droid.Resource.Layout.notification_action = global::Xam.Shell.Badge.Sample.Droid.Resource.Layout.notification_action;
 			global::Xam.Shell.Badge.Droid.Resource.Layout.notification_action_tombstone = global::Xam.Shell.Badge.Sample.Droid.Resource.Layout.notification_action_tombstone;
-			global::Xam.Shell.Badge.Droid.Resource.Layout.notification_badge = global::Xam.Shell.Badge.Sample.Droid.Resource.Layout.notification_badge;
 			global::Xam.Shell.Badge.Droid.Resource.Layout.notification_media_action = global::Xam.Shell.Badge.Sample.Droid.Resource.Layout.notification_media_action;
 			global::Xam.Shell.Badge.Droid.Resource.Layout.notification_media_cancel_action = global::Xam.Shell.Badge.Sample.Droid.Resource.Layout.notification_media_cancel_action;
 			global::Xam.Shell.Badge.Droid.Resource.Layout.notification_template_big_media = global::Xam.Shell.Badge.Sample.Droid.Resource.Layout.notification_template_big_media;
@@ -1854,6 +2598,22 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Layout.notification_template_media_custom = global::Xam.Shell.Badge.Sample.Droid.Resource.Layout.notification_template_media_custom;
 			global::Xam.Shell.Badge.Droid.Resource.Layout.notification_template_part_chronometer = global::Xam.Shell.Badge.Sample.Droid.Resource.Layout.notification_template_part_chronometer;
 			global::Xam.Shell.Badge.Droid.Resource.Layout.notification_template_part_time = global::Xam.Shell.Badge.Sample.Droid.Resource.Layout.notification_template_part_time;
+			global::Xam.Shell.Badge.Droid.Resource.Layout.preference = global::Xam.Shell.Badge.Sample.Droid.Resource.Layout.preference;
+			global::Xam.Shell.Badge.Droid.Resource.Layout.preference_category = global::Xam.Shell.Badge.Sample.Droid.Resource.Layout.preference_category;
+			global::Xam.Shell.Badge.Droid.Resource.Layout.preference_category_material = global::Xam.Shell.Badge.Sample.Droid.Resource.Layout.preference_category_material;
+			global::Xam.Shell.Badge.Droid.Resource.Layout.preference_dialog_edittext = global::Xam.Shell.Badge.Sample.Droid.Resource.Layout.preference_dialog_edittext;
+			global::Xam.Shell.Badge.Droid.Resource.Layout.preference_dropdown = global::Xam.Shell.Badge.Sample.Droid.Resource.Layout.preference_dropdown;
+			global::Xam.Shell.Badge.Droid.Resource.Layout.preference_dropdown_material = global::Xam.Shell.Badge.Sample.Droid.Resource.Layout.preference_dropdown_material;
+			global::Xam.Shell.Badge.Droid.Resource.Layout.preference_information = global::Xam.Shell.Badge.Sample.Droid.Resource.Layout.preference_information;
+			global::Xam.Shell.Badge.Droid.Resource.Layout.preference_information_material = global::Xam.Shell.Badge.Sample.Droid.Resource.Layout.preference_information_material;
+			global::Xam.Shell.Badge.Droid.Resource.Layout.preference_list_fragment = global::Xam.Shell.Badge.Sample.Droid.Resource.Layout.preference_list_fragment;
+			global::Xam.Shell.Badge.Droid.Resource.Layout.preference_material = global::Xam.Shell.Badge.Sample.Droid.Resource.Layout.preference_material;
+			global::Xam.Shell.Badge.Droid.Resource.Layout.preference_recyclerview = global::Xam.Shell.Badge.Sample.Droid.Resource.Layout.preference_recyclerview;
+			global::Xam.Shell.Badge.Droid.Resource.Layout.preference_widget_checkbox = global::Xam.Shell.Badge.Sample.Droid.Resource.Layout.preference_widget_checkbox;
+			global::Xam.Shell.Badge.Droid.Resource.Layout.preference_widget_seekbar = global::Xam.Shell.Badge.Sample.Droid.Resource.Layout.preference_widget_seekbar;
+			global::Xam.Shell.Badge.Droid.Resource.Layout.preference_widget_seekbar_material = global::Xam.Shell.Badge.Sample.Droid.Resource.Layout.preference_widget_seekbar_material;
+			global::Xam.Shell.Badge.Droid.Resource.Layout.preference_widget_switch = global::Xam.Shell.Badge.Sample.Droid.Resource.Layout.preference_widget_switch;
+			global::Xam.Shell.Badge.Droid.Resource.Layout.preference_widget_switch_compat = global::Xam.Shell.Badge.Sample.Droid.Resource.Layout.preference_widget_switch_compat;
 			global::Xam.Shell.Badge.Droid.Resource.Layout.RootLayout = global::Xam.Shell.Badge.Sample.Droid.Resource.Layout.RootLayout;
 			global::Xam.Shell.Badge.Droid.Resource.Layout.select_dialog_item_material = global::Xam.Shell.Badge.Sample.Droid.Resource.Layout.select_dialog_item_material;
 			global::Xam.Shell.Badge.Droid.Resource.Layout.select_dialog_multichoice_material = global::Xam.Shell.Badge.Sample.Droid.Resource.Layout.select_dialog_multichoice_material;
@@ -1865,6 +2625,7 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Layout.test_chip_zero_corner_radius = global::Xam.Shell.Badge.Sample.Droid.Resource.Layout.test_chip_zero_corner_radius;
 			global::Xam.Shell.Badge.Droid.Resource.Layout.test_design_checkbox = global::Xam.Shell.Badge.Sample.Droid.Resource.Layout.test_design_checkbox;
 			global::Xam.Shell.Badge.Droid.Resource.Layout.test_design_radiobutton = global::Xam.Shell.Badge.Sample.Droid.Resource.Layout.test_design_radiobutton;
+			global::Xam.Shell.Badge.Droid.Resource.Layout.test_navigation_bar_item_layout = global::Xam.Shell.Badge.Sample.Droid.Resource.Layout.test_navigation_bar_item_layout;
 			global::Xam.Shell.Badge.Droid.Resource.Layout.test_reflow_chipgroup = global::Xam.Shell.Badge.Sample.Droid.Resource.Layout.test_reflow_chipgroup;
 			global::Xam.Shell.Badge.Droid.Resource.Layout.test_toolbar = global::Xam.Shell.Badge.Sample.Droid.Resource.Layout.test_toolbar;
 			global::Xam.Shell.Badge.Droid.Resource.Layout.test_toolbar_custom_background = global::Xam.Shell.Badge.Sample.Droid.Resource.Layout.test_toolbar_custom_background;
@@ -1905,21 +2666,46 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.String.abc_shareactionprovider_share_with_application = global::Xam.Shell.Badge.Sample.Droid.Resource.String.abc_shareactionprovider_share_with_application;
 			global::Xam.Shell.Badge.Droid.Resource.String.abc_toolbar_collapse_description = global::Xam.Shell.Badge.Sample.Droid.Resource.String.abc_toolbar_collapse_description;
 			global::Xam.Shell.Badge.Droid.Resource.String.appbar_scrolling_view_behavior = global::Xam.Shell.Badge.Sample.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::Xam.Shell.Badge.Droid.Resource.String.bottomsheet_action_expand_halfway = global::Xam.Shell.Badge.Sample.Droid.Resource.String.bottomsheet_action_expand_halfway;
 			global::Xam.Shell.Badge.Droid.Resource.String.bottom_sheet_behavior = global::Xam.Shell.Badge.Sample.Droid.Resource.String.bottom_sheet_behavior;
 			global::Xam.Shell.Badge.Droid.Resource.String.character_counter_content_description = global::Xam.Shell.Badge.Sample.Droid.Resource.String.character_counter_content_description;
 			global::Xam.Shell.Badge.Droid.Resource.String.character_counter_overflowed_content_description = global::Xam.Shell.Badge.Sample.Droid.Resource.String.character_counter_overflowed_content_description;
 			global::Xam.Shell.Badge.Droid.Resource.String.character_counter_pattern = global::Xam.Shell.Badge.Sample.Droid.Resource.String.character_counter_pattern;
 			global::Xam.Shell.Badge.Droid.Resource.String.chip_text = global::Xam.Shell.Badge.Sample.Droid.Resource.String.chip_text;
 			global::Xam.Shell.Badge.Droid.Resource.String.clear_text_end_icon_content_description = global::Xam.Shell.Badge.Sample.Droid.Resource.String.clear_text_end_icon_content_description;
+			global::Xam.Shell.Badge.Droid.Resource.String.copy = global::Xam.Shell.Badge.Sample.Droid.Resource.String.copy;
+			global::Xam.Shell.Badge.Droid.Resource.String.copy_toast_msg = global::Xam.Shell.Badge.Sample.Droid.Resource.String.copy_toast_msg;
 			global::Xam.Shell.Badge.Droid.Resource.String.error_icon_content_description = global::Xam.Shell.Badge.Sample.Droid.Resource.String.error_icon_content_description;
+			global::Xam.Shell.Badge.Droid.Resource.String.expand_button_title = global::Xam.Shell.Badge.Sample.Droid.Resource.String.expand_button_title;
 			global::Xam.Shell.Badge.Droid.Resource.String.exposed_dropdown_menu_content_description = global::Xam.Shell.Badge.Sample.Droid.Resource.String.exposed_dropdown_menu_content_description;
 			global::Xam.Shell.Badge.Droid.Resource.String.fab_transformation_scrim_behavior = global::Xam.Shell.Badge.Sample.Droid.Resource.String.fab_transformation_scrim_behavior;
 			global::Xam.Shell.Badge.Droid.Resource.String.fab_transformation_sheet_behavior = global::Xam.Shell.Badge.Sample.Droid.Resource.String.fab_transformation_sheet_behavior;
+			global::Xam.Shell.Badge.Droid.Resource.String.fallback_menu_item_copy_link = global::Xam.Shell.Badge.Sample.Droid.Resource.String.fallback_menu_item_copy_link;
+			global::Xam.Shell.Badge.Droid.Resource.String.fallback_menu_item_open_in_browser = global::Xam.Shell.Badge.Sample.Droid.Resource.String.fallback_menu_item_open_in_browser;
+			global::Xam.Shell.Badge.Droid.Resource.String.fallback_menu_item_share_link = global::Xam.Shell.Badge.Sample.Droid.Resource.String.fallback_menu_item_share_link;
 			global::Xam.Shell.Badge.Droid.Resource.String.hide_bottom_view_on_scroll_behavior = global::Xam.Shell.Badge.Sample.Droid.Resource.String.hide_bottom_view_on_scroll_behavior;
 			global::Xam.Shell.Badge.Droid.Resource.String.icon_content_description = global::Xam.Shell.Badge.Sample.Droid.Resource.String.icon_content_description;
 			global::Xam.Shell.Badge.Droid.Resource.String.item_view_role_description = global::Xam.Shell.Badge.Sample.Droid.Resource.String.item_view_role_description;
+			global::Xam.Shell.Badge.Droid.Resource.String.material_clock_display_divider = global::Xam.Shell.Badge.Sample.Droid.Resource.String.material_clock_display_divider;
+			global::Xam.Shell.Badge.Droid.Resource.String.material_clock_toggle_content_description = global::Xam.Shell.Badge.Sample.Droid.Resource.String.material_clock_toggle_content_description;
+			global::Xam.Shell.Badge.Droid.Resource.String.material_hour_selection = global::Xam.Shell.Badge.Sample.Droid.Resource.String.material_hour_selection;
+			global::Xam.Shell.Badge.Droid.Resource.String.material_hour_suffix = global::Xam.Shell.Badge.Sample.Droid.Resource.String.material_hour_suffix;
+			global::Xam.Shell.Badge.Droid.Resource.String.material_minute_selection = global::Xam.Shell.Badge.Sample.Droid.Resource.String.material_minute_selection;
+			global::Xam.Shell.Badge.Droid.Resource.String.material_minute_suffix = global::Xam.Shell.Badge.Sample.Droid.Resource.String.material_minute_suffix;
+			global::Xam.Shell.Badge.Droid.Resource.String.material_motion_easing_accelerated = global::Xam.Shell.Badge.Sample.Droid.Resource.String.material_motion_easing_accelerated;
+			global::Xam.Shell.Badge.Droid.Resource.String.material_motion_easing_decelerated = global::Xam.Shell.Badge.Sample.Droid.Resource.String.material_motion_easing_decelerated;
+			global::Xam.Shell.Badge.Droid.Resource.String.material_motion_easing_emphasized = global::Xam.Shell.Badge.Sample.Droid.Resource.String.material_motion_easing_emphasized;
+			global::Xam.Shell.Badge.Droid.Resource.String.material_motion_easing_linear = global::Xam.Shell.Badge.Sample.Droid.Resource.String.material_motion_easing_linear;
+			global::Xam.Shell.Badge.Droid.Resource.String.material_motion_easing_standard = global::Xam.Shell.Badge.Sample.Droid.Resource.String.material_motion_easing_standard;
 			global::Xam.Shell.Badge.Droid.Resource.String.material_slider_range_end = global::Xam.Shell.Badge.Sample.Droid.Resource.String.material_slider_range_end;
 			global::Xam.Shell.Badge.Droid.Resource.String.material_slider_range_start = global::Xam.Shell.Badge.Sample.Droid.Resource.String.material_slider_range_start;
+			global::Xam.Shell.Badge.Droid.Resource.String.material_timepicker_am = global::Xam.Shell.Badge.Sample.Droid.Resource.String.material_timepicker_am;
+			global::Xam.Shell.Badge.Droid.Resource.String.material_timepicker_clock_mode_description = global::Xam.Shell.Badge.Sample.Droid.Resource.String.material_timepicker_clock_mode_description;
+			global::Xam.Shell.Badge.Droid.Resource.String.material_timepicker_hour = global::Xam.Shell.Badge.Sample.Droid.Resource.String.material_timepicker_hour;
+			global::Xam.Shell.Badge.Droid.Resource.String.material_timepicker_minute = global::Xam.Shell.Badge.Sample.Droid.Resource.String.material_timepicker_minute;
+			global::Xam.Shell.Badge.Droid.Resource.String.material_timepicker_pm = global::Xam.Shell.Badge.Sample.Droid.Resource.String.material_timepicker_pm;
+			global::Xam.Shell.Badge.Droid.Resource.String.material_timepicker_select_time = global::Xam.Shell.Badge.Sample.Droid.Resource.String.material_timepicker_select_time;
+			global::Xam.Shell.Badge.Droid.Resource.String.material_timepicker_text_input_mode_description = global::Xam.Shell.Badge.Sample.Droid.Resource.String.material_timepicker_text_input_mode_description;
 			global::Xam.Shell.Badge.Droid.Resource.String.mtrl_badge_numberless_content_description = global::Xam.Shell.Badge.Sample.Droid.Resource.String.mtrl_badge_numberless_content_description;
 			global::Xam.Shell.Badge.Droid.Resource.String.mtrl_chip_close_icon_content_description = global::Xam.Shell.Badge.Sample.Droid.Resource.String.mtrl_chip_close_icon_content_description;
 			global::Xam.Shell.Badge.Droid.Resource.String.mtrl_exceed_max_badge_number_content_description = global::Xam.Shell.Badge.Sample.Droid.Resource.String.mtrl_exceed_max_badge_number_content_description;
@@ -1955,14 +2741,21 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.String.mtrl_picker_toggle_to_day_selection = global::Xam.Shell.Badge.Sample.Droid.Resource.String.mtrl_picker_toggle_to_day_selection;
 			global::Xam.Shell.Badge.Droid.Resource.String.mtrl_picker_toggle_to_text_input_mode = global::Xam.Shell.Badge.Sample.Droid.Resource.String.mtrl_picker_toggle_to_text_input_mode;
 			global::Xam.Shell.Badge.Droid.Resource.String.mtrl_picker_toggle_to_year_selection = global::Xam.Shell.Badge.Sample.Droid.Resource.String.mtrl_picker_toggle_to_year_selection;
+			global::Xam.Shell.Badge.Droid.Resource.String.nav_app_bar_navigate_up_description = global::Xam.Shell.Badge.Sample.Droid.Resource.String.nav_app_bar_navigate_up_description;
+			global::Xam.Shell.Badge.Droid.Resource.String.nav_app_bar_open_drawer_description = global::Xam.Shell.Badge.Sample.Droid.Resource.String.nav_app_bar_open_drawer_description;
+			global::Xam.Shell.Badge.Droid.Resource.String.not_set = global::Xam.Shell.Badge.Sample.Droid.Resource.String.not_set;
 			global::Xam.Shell.Badge.Droid.Resource.String.overflow_tab_title = global::Xam.Shell.Badge.Sample.Droid.Resource.String.overflow_tab_title;
 			global::Xam.Shell.Badge.Droid.Resource.String.password_toggle_content_description = global::Xam.Shell.Badge.Sample.Droid.Resource.String.password_toggle_content_description;
 			global::Xam.Shell.Badge.Droid.Resource.String.path_password_eye = global::Xam.Shell.Badge.Sample.Droid.Resource.String.path_password_eye;
 			global::Xam.Shell.Badge.Droid.Resource.String.path_password_eye_mask_strike_through = global::Xam.Shell.Badge.Sample.Droid.Resource.String.path_password_eye_mask_strike_through;
 			global::Xam.Shell.Badge.Droid.Resource.String.path_password_eye_mask_visible = global::Xam.Shell.Badge.Sample.Droid.Resource.String.path_password_eye_mask_visible;
 			global::Xam.Shell.Badge.Droid.Resource.String.path_password_strike_through = global::Xam.Shell.Badge.Sample.Droid.Resource.String.path_password_strike_through;
+			global::Xam.Shell.Badge.Droid.Resource.String.preference_copied = global::Xam.Shell.Badge.Sample.Droid.Resource.String.preference_copied;
 			global::Xam.Shell.Badge.Droid.Resource.String.search_menu_title = global::Xam.Shell.Badge.Sample.Droid.Resource.String.search_menu_title;
 			global::Xam.Shell.Badge.Droid.Resource.String.status_bar_notification_info_overflow = global::Xam.Shell.Badge.Sample.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Xam.Shell.Badge.Droid.Resource.String.summary_collapsed_preference_list = global::Xam.Shell.Badge.Sample.Droid.Resource.String.summary_collapsed_preference_list;
+			global::Xam.Shell.Badge.Droid.Resource.String.v7_preference_off = global::Xam.Shell.Badge.Sample.Droid.Resource.String.v7_preference_off;
+			global::Xam.Shell.Badge.Droid.Resource.String.v7_preference_on = global::Xam.Shell.Badge.Sample.Droid.Resource.String.v7_preference_on;
 			global::Xam.Shell.Badge.Droid.Resource.Style.AlertDialog_AppCompat = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.AlertDialog_AppCompat;
 			global::Xam.Shell.Badge.Droid.Resource.Style.AlertDialog_AppCompat_Light = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.AlertDialog_AppCompat_Light;
 			global::Xam.Shell.Badge.Droid.Resource.Style.AndroidThemeColorAccentYellow = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.AndroidThemeColorAccentYellow;
@@ -2080,6 +2873,7 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Bridge = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Bridge;
 			global::Xam.Shell.Badge.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize;
 			global::Xam.Shell.Badge.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::Xam.Shell.Badge.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_BottomSheetDialog = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_BottomSheetDialog;
 			global::Xam.Shell.Badge.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog;
 			global::Xam.Shell.Badge.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert;
 			global::Xam.Shell.Badge.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_MaterialAlertDialog = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_MaterialAlertDialog;
@@ -2093,6 +2887,7 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog;
 			global::Xam.Shell.Badge.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog_Bridge = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog_Bridge;
 			global::Xam.Shell.Badge.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::Xam.Shell.Badge.Droid.Resource.Style.Base_V21_ThemeOverlay_MaterialComponents_BottomSheetDialog = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Base_V21_ThemeOverlay_MaterialComponents_BottomSheetDialog;
 			global::Xam.Shell.Badge.Droid.Resource.Style.Base_V21_Theme_AppCompat = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Base_V21_Theme_AppCompat;
 			global::Xam.Shell.Badge.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
 			global::Xam.Shell.Badge.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
@@ -2180,11 +2975,13 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Style.Base_Widget_MaterialComponents_AutoCompleteTextView = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Base_Widget_MaterialComponents_AutoCompleteTextView;
 			global::Xam.Shell.Badge.Droid.Resource.Style.Base_Widget_MaterialComponents_CheckedTextView = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Base_Widget_MaterialComponents_CheckedTextView;
 			global::Xam.Shell.Badge.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip;
+			global::Xam.Shell.Badge.Droid.Resource.Style.Base_Widget_MaterialComponents_MaterialCalendar_NavigationButton = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Base_Widget_MaterialComponents_MaterialCalendar_NavigationButton;
 			global::Xam.Shell.Badge.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu;
 			global::Xam.Shell.Badge.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_ContextMenu = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_ContextMenu;
 			global::Xam.Shell.Badge.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_ListPopupWindow = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_ListPopupWindow;
 			global::Xam.Shell.Badge.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_Overflow = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_Overflow;
 			global::Xam.Shell.Badge.Droid.Resource.Style.Base_Widget_MaterialComponents_Slider = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Base_Widget_MaterialComponents_Slider;
+			global::Xam.Shell.Badge.Droid.Resource.Style.Base_Widget_MaterialComponents_Snackbar = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Base_Widget_MaterialComponents_Snackbar;
 			global::Xam.Shell.Badge.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText;
 			global::Xam.Shell.Badge.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout;
 			global::Xam.Shell.Badge.Droid.Resource.Style.Base_Widget_MaterialComponents_TextView = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Base_Widget_MaterialComponents_TextView;
@@ -2219,6 +3016,37 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Style.Platform_V25_AppCompat = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Platform_V25_AppCompat;
 			global::Xam.Shell.Badge.Droid.Resource.Style.Platform_V25_AppCompat_Light = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Platform_V25_AppCompat_Light;
 			global::Xam.Shell.Badge.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::Xam.Shell.Badge.Droid.Resource.Style.Preference = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Preference;
+			global::Xam.Shell.Badge.Droid.Resource.Style.PreferenceCategoryTitleTextStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.PreferenceCategoryTitleTextStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Style.PreferenceFragment = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.PreferenceFragment;
+			global::Xam.Shell.Badge.Droid.Resource.Style.PreferenceFragmentList = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.PreferenceFragmentList;
+			global::Xam.Shell.Badge.Droid.Resource.Style.PreferenceFragmentList_Material = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.PreferenceFragmentList_Material;
+			global::Xam.Shell.Badge.Droid.Resource.Style.PreferenceFragment_Material = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.PreferenceFragment_Material;
+			global::Xam.Shell.Badge.Droid.Resource.Style.PreferenceSummaryTextStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.PreferenceSummaryTextStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Style.PreferenceThemeOverlay = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.PreferenceThemeOverlay;
+			global::Xam.Shell.Badge.Droid.Resource.Style.PreferenceThemeOverlay_v14 = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.PreferenceThemeOverlay_v14;
+			global::Xam.Shell.Badge.Droid.Resource.Style.PreferenceThemeOverlay_v14_Material = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.PreferenceThemeOverlay_v14_Material;
+			global::Xam.Shell.Badge.Droid.Resource.Style.Preference_Category = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Preference_Category;
+			global::Xam.Shell.Badge.Droid.Resource.Style.Preference_Category_Material = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Preference_Category_Material;
+			global::Xam.Shell.Badge.Droid.Resource.Style.Preference_CheckBoxPreference = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Preference_CheckBoxPreference;
+			global::Xam.Shell.Badge.Droid.Resource.Style.Preference_CheckBoxPreference_Material = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Preference_CheckBoxPreference_Material;
+			global::Xam.Shell.Badge.Droid.Resource.Style.Preference_DialogPreference = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Preference_DialogPreference;
+			global::Xam.Shell.Badge.Droid.Resource.Style.Preference_DialogPreference_EditTextPreference = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Preference_DialogPreference_EditTextPreference;
+			global::Xam.Shell.Badge.Droid.Resource.Style.Preference_DialogPreference_EditTextPreference_Material = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Preference_DialogPreference_EditTextPreference_Material;
+			global::Xam.Shell.Badge.Droid.Resource.Style.Preference_DialogPreference_Material = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Preference_DialogPreference_Material;
+			global::Xam.Shell.Badge.Droid.Resource.Style.Preference_DropDown = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Preference_DropDown;
+			global::Xam.Shell.Badge.Droid.Resource.Style.Preference_DropDown_Material = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Preference_DropDown_Material;
+			global::Xam.Shell.Badge.Droid.Resource.Style.Preference_Information = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Preference_Information;
+			global::Xam.Shell.Badge.Droid.Resource.Style.Preference_Information_Material = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Preference_Information_Material;
+			global::Xam.Shell.Badge.Droid.Resource.Style.Preference_Material = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Preference_Material;
+			global::Xam.Shell.Badge.Droid.Resource.Style.Preference_PreferenceScreen = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Preference_PreferenceScreen;
+			global::Xam.Shell.Badge.Droid.Resource.Style.Preference_PreferenceScreen_Material = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Preference_PreferenceScreen_Material;
+			global::Xam.Shell.Badge.Droid.Resource.Style.Preference_SeekBarPreference = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Preference_SeekBarPreference;
+			global::Xam.Shell.Badge.Droid.Resource.Style.Preference_SeekBarPreference_Material = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Preference_SeekBarPreference_Material;
+			global::Xam.Shell.Badge.Droid.Resource.Style.Preference_SwitchPreference = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Preference_SwitchPreference;
+			global::Xam.Shell.Badge.Droid.Resource.Style.Preference_SwitchPreferenceCompat = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Preference_SwitchPreferenceCompat;
+			global::Xam.Shell.Badge.Droid.Resource.Style.Preference_SwitchPreferenceCompat_Material = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Preference_SwitchPreferenceCompat_Material;
+			global::Xam.Shell.Badge.Droid.Resource.Style.Preference_SwitchPreference_Material = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Preference_SwitchPreference_Material;
 			global::Xam.Shell.Badge.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
 			global::Xam.Shell.Badge.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
 			global::Xam.Shell.Badge.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
@@ -2354,6 +3182,7 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline;
 			global::Xam.Shell.Badge.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1 = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1;
 			global::Xam.Shell.Badge.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2 = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2;
+			global::Xam.Shell.Badge.Droid.Resource.Style.TextAppearance_MaterialComponents_TimePicker_Title = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.TextAppearance_MaterialComponents_TimePicker_Title;
 			global::Xam.Shell.Badge.Droid.Resource.Style.TextAppearance_MaterialComponents_Tooltip = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.TextAppearance_MaterialComponents_Tooltip;
 			global::Xam.Shell.Badge.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
 			global::Xam.Shell.Badge.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
@@ -2403,6 +3232,8 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense;
 			global::Xam.Shell.Badge.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox;
 			global::Xam.Shell.Badge.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::Xam.Shell.Badge.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TimePicker = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TimePicker;
+			global::Xam.Shell.Badge.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TimePicker_Display = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TimePicker_Display;
 			global::Xam.Shell.Badge.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Toolbar_Primary = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Toolbar_Primary;
 			global::Xam.Shell.Badge.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Toolbar_Surface = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Toolbar_Surface;
 			global::Xam.Shell.Badge.Droid.Resource.Style.Theme_AppCompat = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Theme_AppCompat;
@@ -2607,6 +3438,11 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice;
 			global::Xam.Shell.Badge.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry;
 			global::Xam.Shell.Badge.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter;
+			global::Xam.Shell.Badge.Droid.Resource.Style.Widget_MaterialComponents_CircularProgressIndicator = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Widget_MaterialComponents_CircularProgressIndicator;
+			global::Xam.Shell.Badge.Droid.Resource.Style.Widget_MaterialComponents_CircularProgressIndicator_ExtraSmall = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Widget_MaterialComponents_CircularProgressIndicator_ExtraSmall;
+			global::Xam.Shell.Badge.Droid.Resource.Style.Widget_MaterialComponents_CircularProgressIndicator_Medium = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Widget_MaterialComponents_CircularProgressIndicator_Medium;
+			global::Xam.Shell.Badge.Droid.Resource.Style.Widget_MaterialComponents_CircularProgressIndicator_Small = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Widget_MaterialComponents_CircularProgressIndicator_Small;
+			global::Xam.Shell.Badge.Droid.Resource.Style.Widget_MaterialComponents_CollapsingToolbar = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Widget_MaterialComponents_CollapsingToolbar;
 			global::Xam.Shell.Badge.Droid.Resource.Style.Widget_MaterialComponents_CompoundButton_CheckBox = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Widget_MaterialComponents_CompoundButton_CheckBox;
 			global::Xam.Shell.Badge.Droid.Resource.Style.Widget_MaterialComponents_CompoundButton_RadioButton = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Widget_MaterialComponents_CompoundButton_RadioButton;
 			global::Xam.Shell.Badge.Droid.Resource.Style.Widget_MaterialComponents_CompoundButton_Switch = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Widget_MaterialComponents_CompoundButton_Switch;
@@ -2614,6 +3450,7 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Style.Widget_MaterialComponents_ExtendedFloatingActionButton_Icon = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Widget_MaterialComponents_ExtendedFloatingActionButton_Icon;
 			global::Xam.Shell.Badge.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton;
 			global::Xam.Shell.Badge.Droid.Resource.Style.Widget_MaterialComponents_Light_ActionBar_Solid = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Widget_MaterialComponents_Light_ActionBar_Solid;
+			global::Xam.Shell.Badge.Droid.Resource.Style.Widget_MaterialComponents_LinearProgressIndicator = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Widget_MaterialComponents_LinearProgressIndicator;
 			global::Xam.Shell.Badge.Droid.Resource.Style.Widget_MaterialComponents_MaterialButtonToggleGroup = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Widget_MaterialComponents_MaterialButtonToggleGroup;
 			global::Xam.Shell.Badge.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar;
 			global::Xam.Shell.Badge.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day;
@@ -2622,6 +3459,7 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Selected = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Selected;
 			global::Xam.Shell.Badge.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Today = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Today;
 			global::Xam.Shell.Badge.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Fullscreen = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Fullscreen;
+			global::Xam.Shell.Badge.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderCancelButton = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderCancelButton;
 			global::Xam.Shell.Badge.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderConfirmButton = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderConfirmButton;
 			global::Xam.Shell.Badge.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderDivider = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderDivider;
 			global::Xam.Shell.Badge.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderLayout = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderLayout;
@@ -2630,14 +3468,23 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderTitle = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderTitle;
 			global::Xam.Shell.Badge.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderToggleButton = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderToggleButton;
 			global::Xam.Shell.Badge.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Item = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Item;
+			global::Xam.Shell.Badge.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_MonthNavigationButton = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_MonthNavigationButton;
+			global::Xam.Shell.Badge.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_MonthTextView = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_MonthTextView;
 			global::Xam.Shell.Badge.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year;
+			global::Xam.Shell.Badge.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_YearNavigationButton = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_YearNavigationButton;
 			global::Xam.Shell.Badge.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year_Selected = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year_Selected;
 			global::Xam.Shell.Badge.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year_Today = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year_Today;
+			global::Xam.Shell.Badge.Droid.Resource.Style.Widget_MaterialComponents_NavigationRailView = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Widget_MaterialComponents_NavigationRailView;
+			global::Xam.Shell.Badge.Droid.Resource.Style.Widget_MaterialComponents_NavigationRailView_Colored = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Widget_MaterialComponents_NavigationRailView_Colored;
+			global::Xam.Shell.Badge.Droid.Resource.Style.Widget_MaterialComponents_NavigationRailView_Colored_Compact = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Widget_MaterialComponents_NavigationRailView_Colored_Compact;
+			global::Xam.Shell.Badge.Droid.Resource.Style.Widget_MaterialComponents_NavigationRailView_Compact = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Widget_MaterialComponents_NavigationRailView_Compact;
+			global::Xam.Shell.Badge.Droid.Resource.Style.Widget_MaterialComponents_NavigationRailView_PrimarySurface = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Widget_MaterialComponents_NavigationRailView_PrimarySurface;
 			global::Xam.Shell.Badge.Droid.Resource.Style.Widget_MaterialComponents_NavigationView = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Widget_MaterialComponents_NavigationView;
 			global::Xam.Shell.Badge.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu;
 			global::Xam.Shell.Badge.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu_ContextMenu = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu_ContextMenu;
 			global::Xam.Shell.Badge.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu_ListPopupWindow = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu_ListPopupWindow;
 			global::Xam.Shell.Badge.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu_Overflow = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu_Overflow;
+			global::Xam.Shell.Badge.Droid.Resource.Style.Widget_MaterialComponents_ProgressIndicator = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Widget_MaterialComponents_ProgressIndicator;
 			global::Xam.Shell.Badge.Droid.Resource.Style.Widget_MaterialComponents_ShapeableImageView = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Widget_MaterialComponents_ShapeableImageView;
 			global::Xam.Shell.Badge.Droid.Resource.Style.Widget_MaterialComponents_Slider = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Widget_MaterialComponents_Slider;
 			global::Xam.Shell.Badge.Droid.Resource.Style.Widget_MaterialComponents_Snackbar = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Widget_MaterialComponents_Snackbar;
@@ -2659,6 +3506,13 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense_ExposedDropdownMenu = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense_ExposedDropdownMenu;
 			global::Xam.Shell.Badge.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_ExposedDropdownMenu = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_ExposedDropdownMenu;
 			global::Xam.Shell.Badge.Droid.Resource.Style.Widget_MaterialComponents_TextView = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Widget_MaterialComponents_TextView;
+			global::Xam.Shell.Badge.Droid.Resource.Style.Widget_MaterialComponents_TimePicker = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Widget_MaterialComponents_TimePicker;
+			global::Xam.Shell.Badge.Droid.Resource.Style.Widget_MaterialComponents_TimePicker_Button = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Widget_MaterialComponents_TimePicker_Button;
+			global::Xam.Shell.Badge.Droid.Resource.Style.Widget_MaterialComponents_TimePicker_Clock = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Widget_MaterialComponents_TimePicker_Clock;
+			global::Xam.Shell.Badge.Droid.Resource.Style.Widget_MaterialComponents_TimePicker_Display = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Widget_MaterialComponents_TimePicker_Display;
+			global::Xam.Shell.Badge.Droid.Resource.Style.Widget_MaterialComponents_TimePicker_Display_TextInputEditText = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Widget_MaterialComponents_TimePicker_Display_TextInputEditText;
+			global::Xam.Shell.Badge.Droid.Resource.Style.Widget_MaterialComponents_TimePicker_ImageButton = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Widget_MaterialComponents_TimePicker_ImageButton;
+			global::Xam.Shell.Badge.Droid.Resource.Style.Widget_MaterialComponents_TimePicker_ImageButton_ShapeAppearance = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Widget_MaterialComponents_TimePicker_ImageButton_ShapeAppearance;
 			global::Xam.Shell.Badge.Droid.Resource.Style.Widget_MaterialComponents_Toolbar = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Widget_MaterialComponents_Toolbar;
 			global::Xam.Shell.Badge.Droid.Resource.Style.Widget_MaterialComponents_Toolbar_Primary = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Widget_MaterialComponents_Toolbar_Primary;
 			global::Xam.Shell.Badge.Droid.Resource.Style.Widget_MaterialComponents_Toolbar_PrimarySurface = global::Xam.Shell.Badge.Sample.Droid.Resource.Style.Widget_MaterialComponents_Toolbar_PrimarySurface;
@@ -2710,6 +3564,12 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.ActivityChooserView = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ActivityChooserView;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ActivityNavigator = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ActivityNavigator;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ActivityNavigator_action = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ActivityNavigator_action;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ActivityNavigator_android_name = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ActivityNavigator_android_name;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ActivityNavigator_data = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ActivityNavigator_data;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ActivityNavigator_dataPattern = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ActivityNavigator_dataPattern;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ActivityNavigator_targetPackage = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ActivityNavigator_targetPackage;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.AlertDialog = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.AlertDialog;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.AlertDialog_android_layout = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.AlertDialog_android_layout;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.AlertDialog_buttonIconDimen = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.AlertDialog_buttonIconDimen;
@@ -2809,6 +3669,7 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseContentDescription = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseContentDescription;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
@@ -2819,6 +3680,7 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.AppCompatTheme_actionModeTheme = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.AppCompatTheme_actionModeTheme;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
@@ -2917,6 +3779,9 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.BackgroundStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.BackgroundStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.BackgroundStyle_android_selectableItemBackground = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.BackgroundStyle_android_selectableItemBackground;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.BackgroundStyle_selectableItemBackground = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.BackgroundStyle_selectableItemBackground;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.Badge = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Badge;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.Badge_backgroundColor = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Badge_backgroundColor;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.Badge_badgeGravity = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Badge_badgeGravity;
@@ -2925,6 +3790,16 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.Badge_maxCharacterCount = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Badge_maxCharacterCount;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.Badge_number = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Badge_number;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.Badge_verticalOffset = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Badge_verticalOffset;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.BaseProgressIndicator = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.BaseProgressIndicator;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.BaseProgressIndicator_android_indeterminate = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.BaseProgressIndicator_android_indeterminate;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.BaseProgressIndicator_hideAnimationBehavior = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.BaseProgressIndicator_hideAnimationBehavior;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.BaseProgressIndicator_indicatorColor = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.BaseProgressIndicator_indicatorColor;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.BaseProgressIndicator_minHideDelay = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.BaseProgressIndicator_minHideDelay;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.BaseProgressIndicator_showAnimationBehavior = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.BaseProgressIndicator_showAnimationBehavior;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.BaseProgressIndicator_showDelay = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.BaseProgressIndicator_showDelay;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.BaseProgressIndicator_trackColor = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.BaseProgressIndicator_trackColor;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.BaseProgressIndicator_trackCornerRadius = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.BaseProgressIndicator_trackCornerRadius;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.BaseProgressIndicator_trackThickness = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.BaseProgressIndicator_trackThickness;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.BottomAppBar = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.BottomAppBar;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.BottomAppBar_backgroundTint = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.BottomAppBar_backgroundTint;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.BottomAppBar_elevation = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.BottomAppBar_elevation;
@@ -2941,6 +3816,7 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.BottomSheetBehavior_Layout = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.BottomSheetBehavior_Layout_android_elevation = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.BottomSheetBehavior_Layout_android_elevation;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.BottomSheetBehavior_Layout_android_maxWidth = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.BottomSheetBehavior_Layout_android_maxWidth;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.BottomSheetBehavior_Layout_backgroundTint = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.BottomSheetBehavior_Layout_backgroundTint;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_draggable = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_draggable;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_expandedOffset = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_expandedOffset;
@@ -2951,10 +3827,17 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_saveFlags = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_saveFlags;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.BottomSheetBehavior_Layout_gestureInsetBottomIgnored = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.BottomSheetBehavior_Layout_gestureInsetBottomIgnored;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.BottomSheetBehavior_Layout_paddingBottomSystemWindowInsets = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.BottomSheetBehavior_Layout_paddingBottomSystemWindowInsets;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.BottomSheetBehavior_Layout_paddingLeftSystemWindowInsets = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.BottomSheetBehavior_Layout_paddingLeftSystemWindowInsets;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.BottomSheetBehavior_Layout_paddingRightSystemWindowInsets = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.BottomSheetBehavior_Layout_paddingRightSystemWindowInsets;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.BottomSheetBehavior_Layout_paddingTopSystemWindowInsets = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.BottomSheetBehavior_Layout_paddingTopSystemWindowInsets;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.BottomSheetBehavior_Layout_shapeAppearance = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.BottomSheetBehavior_Layout_shapeAppearance;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.BottomSheetBehavior_Layout_shapeAppearanceOverlay = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.BottomSheetBehavior_Layout_shapeAppearanceOverlay;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.ButtonBarLayout = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ButtonBarLayout;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.ButtonBarLayout_allowStacking = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Capability = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Capability;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Capability_queryPatterns = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Capability_queryPatterns;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Capability_shortcutMatchRequired = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Capability_shortcutMatchRequired;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.CardView = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.CardView;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.CardView_android_minHeight = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.CardView_android_minHeight;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.CardView_android_minWidth = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.CardView_android_minWidth;
@@ -2969,6 +3852,24 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.CardView_contentPaddingLeft = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.CardView_contentPaddingLeft;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.CardView_contentPaddingRight = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.CardView_contentPaddingRight;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.CardView_contentPaddingTop = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Carousel = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Carousel;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Carousel_carousel_backwardTransition = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Carousel_carousel_backwardTransition;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Carousel_carousel_emptyViewsBehavior = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Carousel_carousel_emptyViewsBehavior;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Carousel_carousel_firstView = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Carousel_carousel_firstView;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Carousel_carousel_forwardTransition = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Carousel_carousel_forwardTransition;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Carousel_carousel_infinite = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Carousel_carousel_infinite;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Carousel_carousel_nextState = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Carousel_carousel_nextState;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Carousel_carousel_previousState = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Carousel_carousel_previousState;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Carousel_carousel_touchUpMode = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Carousel_carousel_touchUpMode;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Carousel_carousel_touchUp_dampeningFactor = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Carousel_carousel_touchUp_dampeningFactor;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Carousel_carousel_touchUp_velocityThreshold = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Carousel_carousel_touchUp_velocityThreshold;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.CheckBoxPreference = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.CheckBoxPreference;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.CheckBoxPreference_android_disableDependentsState = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.CheckBoxPreference_android_disableDependentsState;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.CheckBoxPreference_android_summaryOff = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.CheckBoxPreference_android_summaryOff;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.CheckBoxPreference_android_summaryOn = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.CheckBoxPreference_android_summaryOn;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.CheckBoxPreference_disableDependentsState = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.CheckBoxPreference_disableDependentsState;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.CheckBoxPreference_summaryOff = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.CheckBoxPreference_summaryOff;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.CheckBoxPreference_summaryOn = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.CheckBoxPreference_summaryOn;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.Chip = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Chip;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.ChipGroup = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ChipGroup;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.ChipGroup_checkedChip = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ChipGroup_checkedChip;
@@ -2984,6 +3885,7 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.Chip_android_text = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Chip_android_text;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.Chip_android_textAppearance = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Chip_android_textAppearance;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.Chip_android_textColor = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Chip_android_textColor;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Chip_android_textSize = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Chip_android_textSize;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.Chip_checkedIcon = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Chip_checkedIcon;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.Chip_checkedIconEnabled = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Chip_checkedIconEnabled;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.Chip_checkedIconTint = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Chip_checkedIconTint;
@@ -3019,6 +3921,17 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.Chip_showMotionSpec = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Chip_showMotionSpec;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.Chip_textEndPadding = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Chip_textEndPadding;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.Chip_textStartPadding = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Chip_textStartPadding;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.CircularProgressIndicator = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.CircularProgressIndicator;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.CircularProgressIndicator_indicatorDirectionCircular = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.CircularProgressIndicator_indicatorDirectionCircular;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.CircularProgressIndicator_indicatorInset = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.CircularProgressIndicator_indicatorInset;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.CircularProgressIndicator_indicatorSize = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.CircularProgressIndicator_indicatorSize;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ClockFaceView = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ClockFaceView;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ClockFaceView_clockFaceBackgroundColor = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ClockFaceView_clockFaceBackgroundColor;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ClockFaceView_clockNumberTextColor = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ClockFaceView_clockNumberTextColor;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ClockHandView = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ClockHandView;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ClockHandView_clockHandColor = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ClockHandView_clockHandColor;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ClockHandView_materialCircleRadius = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ClockHandView_materialCircleRadius;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ClockHandView_selectorSize = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ClockHandView_selectorSize;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.CollapsingToolbarLayout = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.CollapsingToolbarLayout;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
@@ -3030,6 +3943,8 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.CollapsingToolbarLayout_extraMultilineHeightEnabled = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.CollapsingToolbarLayout_extraMultilineHeightEnabled;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.CollapsingToolbarLayout_forceApplySystemWindowInsetTop = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.CollapsingToolbarLayout_forceApplySystemWindowInsetTop;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
@@ -3038,6 +3953,7 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.CollapsingToolbarLayout_title = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.CollapsingToolbarLayout_titleCollapseMode = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.CollapsingToolbarLayout_titleCollapseMode;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.ColorStateListItem = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ColorStateListItem;
@@ -3049,6 +3965,483 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.CompoundButton_buttonCompat = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.CompoundButton_buttonCompat;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.CompoundButton_buttonTint = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.CompoundButton_buttonTint;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.CompoundButton_buttonTintMode = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_android_elevation = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_android_elevation;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_android_layout_height = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_android_layout_height;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_android_layout_margin = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_android_layout_margin;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_android_layout_marginBottom = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_android_layout_marginBottom;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_android_layout_marginEnd = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_android_layout_marginEnd;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_android_layout_marginHorizontal = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_android_layout_marginHorizontal;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_android_layout_marginLeft = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_android_layout_marginLeft;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_android_layout_marginRight = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_android_layout_marginRight;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_android_layout_marginStart = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_android_layout_marginStart;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_android_layout_marginTop = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_android_layout_marginTop;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_android_layout_marginVertical = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_android_layout_marginVertical;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_android_layout_width = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_android_layout_width;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_android_maxHeight = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_android_maxHeight;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_android_maxWidth = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_android_maxWidth;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_android_minHeight = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_android_minHeight;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_android_minWidth = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_android_minWidth;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_android_orientation = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_android_orientation;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_android_padding = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_android_padding;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_android_paddingBottom = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_android_paddingBottom;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_android_paddingEnd = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_android_paddingEnd;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_android_paddingLeft = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_android_paddingLeft;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_android_paddingRight = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_android_paddingRight;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_android_paddingStart = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_android_paddingStart;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_android_paddingTop = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_android_paddingTop;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_android_visibility = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_android_visibility;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_barrierAllowsGoneWidgets = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_barrierAllowsGoneWidgets;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_barrierDirection = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_barrierDirection;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_barrierMargin = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_barrierMargin;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_chainUseRtl = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_chainUseRtl;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_circularflow_angles = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_circularflow_angles;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_circularflow_defaultAngle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_circularflow_defaultAngle;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_circularflow_defaultRadius = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_circularflow_defaultRadius;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_circularflow_radiusInDP = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_circularflow_radiusInDP;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_circularflow_viewCenter = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_circularflow_viewCenter;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_constraintSet = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_constraintSet;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_constraint_referenced_ids = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_constraint_referenced_ids;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_constraint_referenced_tags = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_constraint_referenced_tags;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_firstHorizontalBias = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_firstHorizontalBias;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_firstHorizontalStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_firstHorizontalStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_firstVerticalBias = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_firstVerticalBias;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_firstVerticalStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_firstVerticalStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_horizontalAlign = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_horizontalAlign;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_horizontalBias = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_horizontalBias;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_horizontalGap = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_horizontalGap;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_horizontalStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_horizontalStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_lastHorizontalBias = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_lastHorizontalBias;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_lastHorizontalStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_lastHorizontalStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_lastVerticalBias = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_lastVerticalBias;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_lastVerticalStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_lastVerticalStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_maxElementsWrap = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_maxElementsWrap;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_verticalAlign = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_verticalAlign;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_verticalBias = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_verticalBias;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_verticalGap = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_verticalGap;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_verticalStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_verticalStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_wrapMode = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_wrapMode;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_layoutDescription = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_layoutDescription;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constrainedHeight = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constrainedHeight;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constrainedWidth = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constrainedWidth;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBaseline_creator = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBaseline_creator;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBaseline_toBottomOf = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBaseline_toBottomOf;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBaseline_toTopOf = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBaseline_toTopOf;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBottom_creator = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBottom_creator;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBottom_toBottomOf = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBottom_toBottomOf;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBottom_toTopOf = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBottom_toTopOf;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintCircle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintCircle;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintCircleAngle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintCircleAngle;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintCircleRadius = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintCircleRadius;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintDimensionRatio = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintDimensionRatio;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintEnd_toEndOf = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintEnd_toEndOf;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintEnd_toStartOf = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintEnd_toStartOf;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintGuide_begin = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintGuide_begin;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintGuide_end = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintGuide_end;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintGuide_percent = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintGuide_percent;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHeight = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHeight;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHeight_default = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHeight_default;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHeight_max = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHeight_max;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHeight_min = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHeight_min;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHeight_percent = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHeight_percent;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHorizontal_bias = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHorizontal_bias;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHorizontal_weight = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHorizontal_weight;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintLeft_creator = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintLeft_creator;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintLeft_toLeftOf = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintLeft_toLeftOf;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintLeft_toRightOf = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintLeft_toRightOf;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintRight_creator = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintRight_creator;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintRight_toLeftOf = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintRight_toLeftOf;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintRight_toRightOf = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintRight_toRightOf;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintStart_toEndOf = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintStart_toEndOf;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintStart_toStartOf = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintStart_toStartOf;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintTag = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintTag;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintTop_creator = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintTop_creator;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintTop_toBottomOf = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintTop_toBottomOf;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintTop_toTopOf = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintTop_toTopOf;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintVertical_bias = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintVertical_bias;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintVertical_chainStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintVertical_chainStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintVertical_weight = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintVertical_weight;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintWidth = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintWidth;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintWidth_default = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintWidth_default;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintWidth_max = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintWidth_max;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintWidth_min = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintWidth_min;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintWidth_percent = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintWidth_percent;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_editor_absoluteX = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_editor_absoluteX;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_editor_absoluteY = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_editor_absoluteY;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginBaseline = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginBaseline;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginBottom = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginBottom;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginEnd = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginEnd;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginLeft = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginLeft;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginRight = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginRight;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginStart = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginStart;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginTop = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginTop;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_marginBaseline = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_marginBaseline;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_optimizationLevel = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_optimizationLevel;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_wrapBehaviorInParent = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_wrapBehaviorInParent;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_placeholder = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_placeholder;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_placeholder_content = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_placeholder_content;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_placeholder_placeholder_emptyVisibility = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_placeholder_placeholder_emptyVisibility;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_ReactiveGuide = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_ReactiveGuide;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_ReactiveGuide_reactiveGuide_animateChange = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_ReactiveGuide_reactiveGuide_animateChange;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_ReactiveGuide_reactiveGuide_applyToAllConstraintSets = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_ReactiveGuide_reactiveGuide_applyToAllConstraintSets;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_ReactiveGuide_reactiveGuide_applyToConstraintSet = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_ReactiveGuide_reactiveGuide_applyToConstraintSet;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintLayout_ReactiveGuide_reactiveGuide_valueId = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintLayout_ReactiveGuide_reactiveGuide_valueId;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_android_alpha = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_android_alpha;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_android_elevation = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_android_elevation;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_android_id = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_android_id;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_android_layout_height = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_android_layout_height;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_android_layout_marginBottom = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_android_layout_marginBottom;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_android_layout_marginEnd = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_android_layout_marginEnd;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_android_layout_marginLeft = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_android_layout_marginLeft;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_android_layout_marginRight = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_android_layout_marginRight;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_android_layout_marginStart = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_android_layout_marginStart;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_android_layout_marginTop = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_android_layout_marginTop;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_android_layout_width = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_android_layout_width;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_android_maxHeight = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_android_maxHeight;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_android_maxWidth = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_android_maxWidth;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_android_minHeight = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_android_minHeight;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_android_minWidth = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_android_minWidth;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_android_orientation = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_android_orientation;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_android_rotation = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_android_rotation;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_android_rotationX = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_android_rotationX;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_android_rotationY = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_android_rotationY;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_android_scaleX = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_android_scaleX;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_android_scaleY = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_android_scaleY;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_android_transformPivotX = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_android_transformPivotX;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_android_transformPivotY = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_android_transformPivotY;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_android_translationX = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_android_translationX;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_android_translationY = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_android_translationY;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_android_translationZ = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_android_translationZ;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_android_visibility = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_android_visibility;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_animateCircleAngleTo = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_animateCircleAngleTo;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_animateRelativeTo = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_animateRelativeTo;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_barrierAllowsGoneWidgets = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_barrierAllowsGoneWidgets;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_barrierDirection = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_barrierDirection;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_barrierMargin = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_barrierMargin;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_chainUseRtl = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_chainUseRtl;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_constraint_referenced_ids = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_constraint_referenced_ids;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_drawPath = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_drawPath;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_flow_firstHorizontalBias = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_flow_firstHorizontalBias;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_flow_firstHorizontalStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_flow_firstHorizontalStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_flow_firstVerticalBias = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_flow_firstVerticalBias;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_flow_firstVerticalStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_flow_firstVerticalStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_flow_horizontalAlign = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_flow_horizontalAlign;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_flow_horizontalBias = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_flow_horizontalBias;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_flow_horizontalGap = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_flow_horizontalGap;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_flow_horizontalStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_flow_horizontalStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_flow_lastHorizontalBias = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_flow_lastHorizontalBias;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_flow_lastHorizontalStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_flow_lastHorizontalStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_flow_lastVerticalBias = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_flow_lastVerticalBias;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_flow_lastVerticalStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_flow_lastVerticalStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_flow_maxElementsWrap = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_flow_maxElementsWrap;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_flow_verticalAlign = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_flow_verticalAlign;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_flow_verticalBias = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_flow_verticalBias;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_flow_verticalGap = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_flow_verticalGap;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_flow_verticalStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_flow_verticalStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_flow_wrapMode = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_flow_wrapMode;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_layout_constrainedHeight = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_layout_constrainedHeight;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_layout_constrainedWidth = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_layout_constrainedWidth;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_layout_constraintBaseline_creator = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_layout_constraintBaseline_creator;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_layout_constraintBottom_creator = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_layout_constraintBottom_creator;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_layout_constraintCircleAngle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_layout_constraintCircleAngle;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_layout_constraintCircleRadius = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_layout_constraintCircleRadius;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_layout_constraintDimensionRatio = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_layout_constraintDimensionRatio;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_layout_constraintGuide_begin = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_layout_constraintGuide_begin;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_layout_constraintGuide_end = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_layout_constraintGuide_end;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_layout_constraintGuide_percent = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_layout_constraintGuide_percent;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_layout_constraintHeight = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_layout_constraintHeight;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_layout_constraintHeight_default = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_layout_constraintHeight_default;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_layout_constraintHeight_max = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_layout_constraintHeight_max;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_layout_constraintHeight_min = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_layout_constraintHeight_min;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_layout_constraintHeight_percent = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_layout_constraintHeight_percent;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_layout_constraintHorizontal_bias = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_layout_constraintHorizontal_bias;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_layout_constraintHorizontal_chainStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_layout_constraintHorizontal_chainStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_layout_constraintHorizontal_weight = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_layout_constraintHorizontal_weight;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_layout_constraintLeft_creator = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_layout_constraintLeft_creator;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_layout_constraintRight_creator = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_layout_constraintRight_creator;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_layout_constraintTag = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_layout_constraintTag;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_layout_constraintTop_creator = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_layout_constraintTop_creator;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_layout_constraintVertical_bias = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_layout_constraintVertical_bias;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_layout_constraintVertical_chainStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_layout_constraintVertical_chainStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_layout_constraintVertical_weight = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_layout_constraintVertical_weight;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_layout_constraintWidth = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_layout_constraintWidth;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_layout_constraintWidth_default = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_layout_constraintWidth_default;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_layout_constraintWidth_max = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_layout_constraintWidth_max;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_layout_constraintWidth_min = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_layout_constraintWidth_min;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_layout_constraintWidth_percent = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_layout_constraintWidth_percent;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_layout_editor_absoluteX = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_layout_editor_absoluteX;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_layout_editor_absoluteY = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_layout_editor_absoluteY;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_layout_goneMarginBaseline = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_layout_goneMarginBaseline;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_layout_goneMarginBottom = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_layout_goneMarginBottom;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_layout_goneMarginEnd = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_layout_goneMarginEnd;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_layout_goneMarginLeft = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_layout_goneMarginLeft;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_layout_goneMarginRight = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_layout_goneMarginRight;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_layout_goneMarginStart = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_layout_goneMarginStart;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_layout_goneMarginTop = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_layout_goneMarginTop;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_layout_marginBaseline = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_layout_marginBaseline;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_layout_wrapBehaviorInParent = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_layout_wrapBehaviorInParent;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_motionProgress = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_motionProgress;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_motionStagger = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_motionStagger;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_motionTarget = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_motionTarget;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_pathMotionArc = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_pathMotionArc;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_pivotAnchor = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_pivotAnchor;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_polarRelativeTo = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_polarRelativeTo;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_quantizeMotionInterpolator = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_quantizeMotionInterpolator;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_quantizeMotionPhase = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_quantizeMotionPhase;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_quantizeMotionSteps = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_quantizeMotionSteps;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_transformPivotTarget = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_transformPivotTarget;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_transitionEasing = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_transitionEasing;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_transitionPathRotate = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_transitionPathRotate;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintOverride_visibilityMode = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintOverride_visibilityMode;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_android_alpha = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_android_alpha;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_android_elevation = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_android_elevation;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_android_id = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_android_id;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_android_layout_height = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_android_layout_height;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_android_layout_marginBottom = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_android_layout_marginBottom;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_android_layout_marginEnd = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_android_layout_marginEnd;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_android_layout_marginLeft = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_android_layout_marginLeft;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_android_layout_marginRight = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_android_layout_marginRight;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_android_layout_marginStart = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_android_layout_marginStart;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_android_layout_marginTop = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_android_layout_marginTop;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_android_layout_width = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_android_layout_width;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_android_maxHeight = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_android_maxHeight;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_android_maxWidth = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_android_maxWidth;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_android_minHeight = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_android_minHeight;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_android_minWidth = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_android_minWidth;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_android_orientation = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_android_orientation;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_android_pivotX = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_android_pivotX;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_android_pivotY = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_android_pivotY;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_android_rotation = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_android_rotation;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_android_rotationX = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_android_rotationX;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_android_rotationY = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_android_rotationY;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_android_scaleX = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_android_scaleX;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_android_scaleY = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_android_scaleY;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_android_transformPivotX = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_android_transformPivotX;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_android_transformPivotY = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_android_transformPivotY;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_android_translationX = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_android_translationX;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_android_translationY = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_android_translationY;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_android_translationZ = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_android_translationZ;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_android_visibility = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_android_visibility;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_animateCircleAngleTo = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_animateCircleAngleTo;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_animateRelativeTo = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_animateRelativeTo;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_barrierAllowsGoneWidgets = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_barrierAllowsGoneWidgets;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_barrierDirection = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_barrierDirection;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_barrierMargin = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_barrierMargin;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_chainUseRtl = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_chainUseRtl;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_ConstraintRotate = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_ConstraintRotate;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_constraint_referenced_ids = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_constraint_referenced_ids;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_constraint_referenced_tags = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_constraint_referenced_tags;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_deriveConstraintsFrom = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_deriveConstraintsFrom;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_drawPath = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_drawPath;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_flow_firstHorizontalBias = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_flow_firstHorizontalBias;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_flow_firstHorizontalStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_flow_firstHorizontalStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_flow_firstVerticalBias = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_flow_firstVerticalBias;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_flow_firstVerticalStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_flow_firstVerticalStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_flow_horizontalAlign = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_flow_horizontalAlign;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_flow_horizontalBias = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_flow_horizontalBias;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_flow_horizontalGap = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_flow_horizontalGap;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_flow_horizontalStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_flow_horizontalStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_flow_lastHorizontalBias = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_flow_lastHorizontalBias;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_flow_lastHorizontalStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_flow_lastHorizontalStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_flow_lastVerticalBias = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_flow_lastVerticalBias;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_flow_lastVerticalStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_flow_lastVerticalStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_flow_maxElementsWrap = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_flow_maxElementsWrap;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_flow_verticalAlign = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_flow_verticalAlign;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_flow_verticalBias = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_flow_verticalBias;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_flow_verticalGap = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_flow_verticalGap;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_flow_verticalStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_flow_verticalStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_flow_wrapMode = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_flow_wrapMode;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_layout_constrainedHeight = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_layout_constrainedHeight;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_layout_constrainedWidth = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_layout_constrainedWidth;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_layout_constraintBaseline_creator = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_layout_constraintBaseline_creator;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_layout_constraintBaseline_toBaselineOf = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_layout_constraintBaseline_toBaselineOf;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_layout_constraintBaseline_toBottomOf = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_layout_constraintBaseline_toBottomOf;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_layout_constraintBaseline_toTopOf = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_layout_constraintBaseline_toTopOf;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_layout_constraintBottom_creator = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_layout_constraintBottom_creator;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_layout_constraintBottom_toBottomOf = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_layout_constraintBottom_toBottomOf;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_layout_constraintBottom_toTopOf = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_layout_constraintBottom_toTopOf;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_layout_constraintCircle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_layout_constraintCircle;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_layout_constraintCircleAngle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_layout_constraintCircleAngle;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_layout_constraintCircleRadius = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_layout_constraintCircleRadius;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_layout_constraintDimensionRatio = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_layout_constraintDimensionRatio;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_layout_constraintEnd_toEndOf = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_layout_constraintEnd_toEndOf;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_layout_constraintEnd_toStartOf = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_layout_constraintEnd_toStartOf;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_layout_constraintGuide_begin = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_layout_constraintGuide_begin;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_layout_constraintGuide_end = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_layout_constraintGuide_end;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_layout_constraintGuide_percent = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_layout_constraintGuide_percent;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_layout_constraintHeight_default = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_layout_constraintHeight_default;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_layout_constraintHeight_max = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_layout_constraintHeight_max;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_layout_constraintHeight_min = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_layout_constraintHeight_min;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_layout_constraintHeight_percent = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_layout_constraintHeight_percent;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_layout_constraintHorizontal_bias = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_layout_constraintHorizontal_bias;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_layout_constraintHorizontal_chainStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_layout_constraintHorizontal_chainStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_layout_constraintHorizontal_weight = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_layout_constraintHorizontal_weight;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_layout_constraintLeft_creator = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_layout_constraintLeft_creator;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_layout_constraintLeft_toLeftOf = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_layout_constraintLeft_toLeftOf;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_layout_constraintLeft_toRightOf = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_layout_constraintLeft_toRightOf;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_layout_constraintRight_creator = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_layout_constraintRight_creator;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_layout_constraintRight_toLeftOf = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_layout_constraintRight_toLeftOf;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_layout_constraintRight_toRightOf = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_layout_constraintRight_toRightOf;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_layout_constraintStart_toEndOf = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_layout_constraintStart_toEndOf;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_layout_constraintStart_toStartOf = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_layout_constraintStart_toStartOf;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_layout_constraintTag = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_layout_constraintTag;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_layout_constraintTop_creator = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_layout_constraintTop_creator;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_layout_constraintTop_toBottomOf = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_layout_constraintTop_toBottomOf;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_layout_constraintTop_toTopOf = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_layout_constraintTop_toTopOf;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_layout_constraintVertical_bias = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_layout_constraintVertical_bias;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_layout_constraintVertical_chainStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_layout_constraintVertical_chainStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_layout_constraintVertical_weight = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_layout_constraintVertical_weight;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_layout_constraintWidth_default = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_layout_constraintWidth_default;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_layout_constraintWidth_max = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_layout_constraintWidth_max;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_layout_constraintWidth_min = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_layout_constraintWidth_min;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_layout_constraintWidth_percent = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_layout_constraintWidth_percent;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_layout_editor_absoluteX = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_layout_editor_absoluteX;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_layout_editor_absoluteY = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_layout_editor_absoluteY;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_layout_goneMarginBaseline = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_layout_goneMarginBaseline;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_layout_goneMarginBottom = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_layout_goneMarginBottom;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_layout_goneMarginEnd = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_layout_goneMarginEnd;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_layout_goneMarginLeft = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_layout_goneMarginLeft;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_layout_goneMarginRight = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_layout_goneMarginRight;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_layout_goneMarginStart = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_layout_goneMarginStart;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_layout_goneMarginTop = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_layout_goneMarginTop;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_layout_marginBaseline = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_layout_marginBaseline;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_layout_wrapBehaviorInParent = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_layout_wrapBehaviorInParent;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_motionProgress = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_motionProgress;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_motionStagger = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_motionStagger;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_pathMotionArc = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_pathMotionArc;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_pivotAnchor = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_pivotAnchor;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_polarRelativeTo = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_polarRelativeTo;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_quantizeMotionSteps = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_quantizeMotionSteps;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_transitionEasing = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_transitionEasing;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ConstraintSet_transitionPathRotate = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ConstraintSet_transitionPathRotate;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_android_alpha = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_android_alpha;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_android_elevation = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_android_elevation;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_android_id = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_android_id;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_android_layout_height = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_android_layout_height;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_android_layout_marginBottom = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_android_layout_marginBottom;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_android_layout_marginEnd = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_android_layout_marginEnd;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_android_layout_marginLeft = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_android_layout_marginLeft;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_android_layout_marginRight = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_android_layout_marginRight;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_android_layout_marginStart = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_android_layout_marginStart;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_android_layout_marginTop = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_android_layout_marginTop;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_android_layout_width = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_android_layout_width;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_android_maxHeight = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_android_maxHeight;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_android_maxWidth = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_android_maxWidth;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_android_minHeight = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_android_minHeight;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_android_minWidth = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_android_minWidth;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_android_orientation = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_android_orientation;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_android_rotation = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_android_rotation;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_android_rotationX = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_android_rotationX;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_android_rotationY = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_android_rotationY;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_android_scaleX = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_android_scaleX;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_android_scaleY = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_android_scaleY;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_android_transformPivotX = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_android_transformPivotX;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_android_transformPivotY = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_android_transformPivotY;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_android_translationX = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_android_translationX;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_android_translationY = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_android_translationY;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_android_translationZ = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_android_translationZ;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_android_visibility = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_android_visibility;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_animateCircleAngleTo = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_animateCircleAngleTo;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_animateRelativeTo = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_animateRelativeTo;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_barrierAllowsGoneWidgets = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_barrierAllowsGoneWidgets;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_barrierDirection = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_barrierDirection;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_barrierMargin = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_barrierMargin;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_chainUseRtl = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_chainUseRtl;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_constraint_referenced_ids = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_constraint_referenced_ids;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_constraint_referenced_tags = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_constraint_referenced_tags;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_drawPath = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_drawPath;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_flow_firstHorizontalBias = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_flow_firstHorizontalBias;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_flow_firstHorizontalStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_flow_firstHorizontalStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_flow_firstVerticalBias = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_flow_firstVerticalBias;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_flow_firstVerticalStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_flow_firstVerticalStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_flow_horizontalAlign = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_flow_horizontalAlign;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_flow_horizontalBias = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_flow_horizontalBias;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_flow_horizontalGap = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_flow_horizontalGap;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_flow_horizontalStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_flow_horizontalStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_flow_lastHorizontalBias = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_flow_lastHorizontalBias;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_flow_lastHorizontalStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_flow_lastHorizontalStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_flow_lastVerticalBias = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_flow_lastVerticalBias;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_flow_lastVerticalStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_flow_lastVerticalStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_flow_maxElementsWrap = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_flow_maxElementsWrap;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_flow_verticalAlign = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_flow_verticalAlign;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_flow_verticalBias = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_flow_verticalBias;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_flow_verticalGap = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_flow_verticalGap;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_flow_verticalStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_flow_verticalStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_flow_wrapMode = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_flow_wrapMode;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_layout_constrainedHeight = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_layout_constrainedHeight;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_layout_constrainedWidth = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_layout_constrainedWidth;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_layout_constraintBaseline_creator = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_layout_constraintBaseline_creator;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_layout_constraintBaseline_toBaselineOf = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_layout_constraintBaseline_toBaselineOf;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_layout_constraintBaseline_toBottomOf = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_layout_constraintBaseline_toBottomOf;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_layout_constraintBaseline_toTopOf = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_layout_constraintBaseline_toTopOf;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_layout_constraintBottom_creator = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_layout_constraintBottom_creator;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_layout_constraintBottom_toBottomOf = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_layout_constraintBottom_toBottomOf;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_layout_constraintBottom_toTopOf = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_layout_constraintBottom_toTopOf;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_layout_constraintCircle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_layout_constraintCircle;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_layout_constraintCircleAngle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_layout_constraintCircleAngle;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_layout_constraintCircleRadius = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_layout_constraintCircleRadius;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_layout_constraintDimensionRatio = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_layout_constraintDimensionRatio;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_layout_constraintEnd_toEndOf = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_layout_constraintEnd_toEndOf;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_layout_constraintEnd_toStartOf = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_layout_constraintEnd_toStartOf;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_layout_constraintGuide_begin = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_layout_constraintGuide_begin;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_layout_constraintGuide_end = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_layout_constraintGuide_end;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_layout_constraintGuide_percent = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_layout_constraintGuide_percent;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_layout_constraintHeight = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_layout_constraintHeight;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_layout_constraintHeight_default = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_layout_constraintHeight_default;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_layout_constraintHeight_max = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_layout_constraintHeight_max;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_layout_constraintHeight_min = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_layout_constraintHeight_min;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_layout_constraintHeight_percent = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_layout_constraintHeight_percent;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_layout_constraintHorizontal_bias = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_layout_constraintHorizontal_bias;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_layout_constraintHorizontal_chainStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_layout_constraintHorizontal_chainStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_layout_constraintHorizontal_weight = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_layout_constraintHorizontal_weight;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_layout_constraintLeft_creator = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_layout_constraintLeft_creator;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_layout_constraintLeft_toLeftOf = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_layout_constraintLeft_toLeftOf;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_layout_constraintLeft_toRightOf = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_layout_constraintLeft_toRightOf;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_layout_constraintRight_creator = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_layout_constraintRight_creator;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_layout_constraintRight_toLeftOf = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_layout_constraintRight_toLeftOf;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_layout_constraintRight_toRightOf = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_layout_constraintRight_toRightOf;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_layout_constraintStart_toEndOf = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_layout_constraintStart_toEndOf;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_layout_constraintStart_toStartOf = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_layout_constraintStart_toStartOf;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_layout_constraintTag = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_layout_constraintTag;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_layout_constraintTop_creator = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_layout_constraintTop_creator;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_layout_constraintTop_toBottomOf = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_layout_constraintTop_toBottomOf;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_layout_constraintTop_toTopOf = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_layout_constraintTop_toTopOf;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_layout_constraintVertical_bias = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_layout_constraintVertical_bias;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_layout_constraintVertical_chainStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_layout_constraintVertical_chainStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_layout_constraintVertical_weight = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_layout_constraintVertical_weight;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_layout_constraintWidth = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_layout_constraintWidth;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_layout_constraintWidth_default = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_layout_constraintWidth_default;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_layout_constraintWidth_max = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_layout_constraintWidth_max;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_layout_constraintWidth_min = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_layout_constraintWidth_min;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_layout_constraintWidth_percent = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_layout_constraintWidth_percent;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_layout_editor_absoluteX = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_layout_editor_absoluteX;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_layout_editor_absoluteY = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_layout_editor_absoluteY;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_layout_goneMarginBaseline = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_layout_goneMarginBaseline;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_layout_goneMarginBottom = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_layout_goneMarginBottom;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_layout_goneMarginEnd = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_layout_goneMarginEnd;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_layout_goneMarginLeft = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_layout_goneMarginLeft;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_layout_goneMarginRight = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_layout_goneMarginRight;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_layout_goneMarginStart = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_layout_goneMarginStart;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_layout_goneMarginTop = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_layout_goneMarginTop;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_layout_marginBaseline = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_layout_marginBaseline;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_layout_wrapBehaviorInParent = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_layout_wrapBehaviorInParent;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_motionProgress = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_motionProgress;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_motionStagger = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_motionStagger;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_pathMotionArc = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_pathMotionArc;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_pivotAnchor = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_pivotAnchor;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_polarRelativeTo = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_polarRelativeTo;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_quantizeMotionInterpolator = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_quantizeMotionInterpolator;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_quantizeMotionPhase = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_quantizeMotionPhase;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_quantizeMotionSteps = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_quantizeMotionSteps;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_transformPivotTarget = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_transformPivotTarget;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_transitionEasing = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_transitionEasing;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_transitionPathRotate = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_transitionPathRotate;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Constraint_visibilityMode = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Constraint_visibilityMode;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.CoordinatorLayout = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.CoordinatorLayout;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.CoordinatorLayout_keylines = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.CoordinatorLayout_keylines;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.CoordinatorLayout_Layout = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.CoordinatorLayout_Layout;
@@ -3060,6 +4453,31 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.CustomAttribute = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.CustomAttribute;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.CustomAttribute_attributeName = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.CustomAttribute_attributeName;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.CustomAttribute_customBoolean = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.CustomAttribute_customBoolean;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.CustomAttribute_customColorDrawableValue = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.CustomAttribute_customColorDrawableValue;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.CustomAttribute_customColorValue = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.CustomAttribute_customColorValue;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.CustomAttribute_customDimension = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.CustomAttribute_customDimension;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.CustomAttribute_customFloatValue = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.CustomAttribute_customFloatValue;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.CustomAttribute_customIntegerValue = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.CustomAttribute_customIntegerValue;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.CustomAttribute_customPixelDimension = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.CustomAttribute_customPixelDimension;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.CustomAttribute_customReference = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.CustomAttribute_customReference;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.CustomAttribute_customStringValue = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.CustomAttribute_customStringValue;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.CustomAttribute_methodName = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.CustomAttribute_methodName;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.DialogPreference = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.DialogPreference;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.DialogPreference_android_dialogIcon = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.DialogPreference_android_dialogIcon;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.DialogPreference_android_dialogLayout = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.DialogPreference_android_dialogLayout;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.DialogPreference_android_dialogMessage = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.DialogPreference_android_dialogMessage;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.DialogPreference_android_dialogTitle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.DialogPreference_android_dialogTitle;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.DialogPreference_android_negativeButtonText = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.DialogPreference_android_negativeButtonText;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.DialogPreference_android_positiveButtonText = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.DialogPreference_android_positiveButtonText;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.DialogPreference_dialogIcon = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.DialogPreference_dialogIcon;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.DialogPreference_dialogLayout = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.DialogPreference_dialogLayout;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.DialogPreference_dialogMessage = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.DialogPreference_dialogMessage;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.DialogPreference_dialogTitle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.DialogPreference_dialogTitle;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.DialogPreference_negativeButtonText = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.DialogPreference_negativeButtonText;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.DialogPreference_positiveButtonText = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.DialogPreference_positiveButtonText;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.DrawerArrowToggle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.DrawerArrowToggle;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
@@ -3071,10 +4489,13 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.DrawerArrowToggle_thickness = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.DrawerLayout = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.DrawerLayout;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.DrawerLayout_elevation = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.DrawerLayout_elevation;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.EditTextPreference = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.EditTextPreference;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.EditTextPreference_useSimpleSummaryProvider = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.EditTextPreference_useSimpleSummaryProvider;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.ExtendedFloatingActionButton = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ExtendedFloatingActionButton;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout_behavior_autoHide = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout_behavior_autoHide;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout_behavior_autoShrink = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout_behavior_autoShrink;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ExtendedFloatingActionButton_collapsedSize = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ExtendedFloatingActionButton_collapsedSize;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.ExtendedFloatingActionButton_elevation = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ExtendedFloatingActionButton_elevation;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.ExtendedFloatingActionButton_extendMotionSpec = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ExtendedFloatingActionButton_extendMotionSpec;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.ExtendedFloatingActionButton_hideMotionSpec = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ExtendedFloatingActionButton_hideMotionSpec;
@@ -3121,6 +4542,7 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.FontFamily_fontProviderPackage = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.FontFamily_fontProviderQuery = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.FontFamily_fontProviderSystemFontFamily = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.FontFamily_fontProviderSystemFontFamily;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.ForegroundLinearLayout = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ForegroundLinearLayout;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
@@ -3148,12 +4570,200 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.GradientColor_android_startY = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.GradientColor_android_startY;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.GradientColor_android_tileMode = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.GradientColor_android_tileMode;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.GradientColor_android_type = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.GradientColor_android_type;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ImageFilterView = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ImageFilterView;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ImageFilterView_altSrc = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ImageFilterView_altSrc;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ImageFilterView_blendSrc = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ImageFilterView_blendSrc;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ImageFilterView_brightness = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ImageFilterView_brightness;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ImageFilterView_contrast = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ImageFilterView_contrast;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ImageFilterView_crossfade = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ImageFilterView_crossfade;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ImageFilterView_imagePanX = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ImageFilterView_imagePanX;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ImageFilterView_imagePanY = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ImageFilterView_imagePanY;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ImageFilterView_imageRotate = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ImageFilterView_imageRotate;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ImageFilterView_imageZoom = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ImageFilterView_imageZoom;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ImageFilterView_overlay = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ImageFilterView_overlay;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ImageFilterView_round = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ImageFilterView_round;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ImageFilterView_roundPercent = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ImageFilterView_roundPercent;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ImageFilterView_saturation = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ImageFilterView_saturation;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ImageFilterView_warmth = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ImageFilterView_warmth;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.include = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.include;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.include_constraintSet = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.include_constraintSet;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.Insets = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Insets;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.Insets_paddingBottomSystemWindowInsets = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Insets_paddingBottomSystemWindowInsets;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.Insets_paddingLeftSystemWindowInsets = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Insets_paddingLeftSystemWindowInsets;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.Insets_paddingRightSystemWindowInsets = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Insets_paddingRightSystemWindowInsets;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Insets_paddingTopSystemWindowInsets = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Insets_paddingTopSystemWindowInsets;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.ItemsViewRendererTheme = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ItemsViewRendererTheme;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyAttribute = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyAttribute;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyAttribute_android_alpha = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyAttribute_android_alpha;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyAttribute_android_elevation = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyAttribute_android_elevation;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyAttribute_android_rotation = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyAttribute_android_rotation;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyAttribute_android_rotationX = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyAttribute_android_rotationX;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyAttribute_android_rotationY = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyAttribute_android_rotationY;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyAttribute_android_scaleX = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyAttribute_android_scaleX;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyAttribute_android_scaleY = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyAttribute_android_scaleY;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyAttribute_android_transformPivotX = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyAttribute_android_transformPivotX;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyAttribute_android_transformPivotY = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyAttribute_android_transformPivotY;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyAttribute_android_translationX = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyAttribute_android_translationX;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyAttribute_android_translationY = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyAttribute_android_translationY;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyAttribute_android_translationZ = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyAttribute_android_translationZ;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyAttribute_curveFit = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyAttribute_curveFit;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyAttribute_framePosition = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyAttribute_framePosition;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyAttribute_motionProgress = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyAttribute_motionProgress;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyAttribute_motionTarget = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyAttribute_motionTarget;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyAttribute_transformPivotTarget = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyAttribute_transformPivotTarget;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyAttribute_transitionEasing = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyAttribute_transitionEasing;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyAttribute_transitionPathRotate = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyAttribute_transitionPathRotate;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyCycle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyCycle;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyCycle_android_alpha = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyCycle_android_alpha;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyCycle_android_elevation = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyCycle_android_elevation;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyCycle_android_rotation = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyCycle_android_rotation;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyCycle_android_rotationX = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyCycle_android_rotationX;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyCycle_android_rotationY = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyCycle_android_rotationY;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyCycle_android_scaleX = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyCycle_android_scaleX;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyCycle_android_scaleY = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyCycle_android_scaleY;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyCycle_android_translationX = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyCycle_android_translationX;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyCycle_android_translationY = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyCycle_android_translationY;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyCycle_android_translationZ = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyCycle_android_translationZ;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyCycle_curveFit = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyCycle_curveFit;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyCycle_framePosition = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyCycle_framePosition;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyCycle_motionProgress = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyCycle_motionProgress;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyCycle_motionTarget = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyCycle_motionTarget;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyCycle_transitionEasing = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyCycle_transitionEasing;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyCycle_transitionPathRotate = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyCycle_transitionPathRotate;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyCycle_waveOffset = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyCycle_waveOffset;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyCycle_wavePeriod = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyCycle_wavePeriod;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyCycle_wavePhase = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyCycle_wavePhase;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyCycle_waveShape = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyCycle_waveShape;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyCycle_waveVariesBy = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyCycle_waveVariesBy;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyFrame = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyFrame;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyFramesAcceleration = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyFramesAcceleration;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyFramesVelocity = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyFramesVelocity;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyPosition = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyPosition;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyPosition_curveFit = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyPosition_curveFit;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyPosition_drawPath = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyPosition_drawPath;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyPosition_framePosition = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyPosition_framePosition;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyPosition_keyPositionType = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyPosition_keyPositionType;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyPosition_motionTarget = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyPosition_motionTarget;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyPosition_pathMotionArc = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyPosition_pathMotionArc;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyPosition_percentHeight = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyPosition_percentHeight;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyPosition_percentWidth = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyPosition_percentWidth;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyPosition_percentX = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyPosition_percentX;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyPosition_percentY = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyPosition_percentY;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyPosition_sizePercent = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyPosition_sizePercent;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyPosition_transitionEasing = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyPosition_transitionEasing;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyTimeCycle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyTimeCycle;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyTimeCycle_android_alpha = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyTimeCycle_android_alpha;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyTimeCycle_android_elevation = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyTimeCycle_android_elevation;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyTimeCycle_android_rotation = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyTimeCycle_android_rotation;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyTimeCycle_android_rotationX = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyTimeCycle_android_rotationX;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyTimeCycle_android_rotationY = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyTimeCycle_android_rotationY;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyTimeCycle_android_scaleX = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyTimeCycle_android_scaleX;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyTimeCycle_android_scaleY = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyTimeCycle_android_scaleY;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyTimeCycle_android_translationX = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyTimeCycle_android_translationX;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyTimeCycle_android_translationY = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyTimeCycle_android_translationY;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyTimeCycle_android_translationZ = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyTimeCycle_android_translationZ;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyTimeCycle_curveFit = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyTimeCycle_curveFit;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyTimeCycle_framePosition = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyTimeCycle_framePosition;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyTimeCycle_motionProgress = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyTimeCycle_motionProgress;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyTimeCycle_motionTarget = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyTimeCycle_motionTarget;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyTimeCycle_transitionEasing = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyTimeCycle_transitionEasing;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyTimeCycle_transitionPathRotate = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyTimeCycle_transitionPathRotate;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyTimeCycle_waveDecay = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyTimeCycle_waveDecay;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyTimeCycle_waveOffset = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyTimeCycle_waveOffset;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyTimeCycle_wavePeriod = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyTimeCycle_wavePeriod;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyTimeCycle_wavePhase = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyTimeCycle_wavePhase;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyTimeCycle_waveShape = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyTimeCycle_waveShape;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyTrigger = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyTrigger;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyTrigger_framePosition = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyTrigger_framePosition;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyTrigger_motionTarget = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyTrigger_motionTarget;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyTrigger_motion_postLayoutCollision = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyTrigger_motion_postLayoutCollision;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyTrigger_motion_triggerOnCollision = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyTrigger_motion_triggerOnCollision;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyTrigger_onCross = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyTrigger_onCross;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyTrigger_onNegativeCross = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyTrigger_onNegativeCross;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyTrigger_onPositiveCross = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyTrigger_onPositiveCross;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyTrigger_triggerId = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyTrigger_triggerId;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyTrigger_triggerReceiver = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyTrigger_triggerReceiver;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyTrigger_triggerSlack = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyTrigger_triggerSlack;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyTrigger_viewTransitionOnCross = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyTrigger_viewTransitionOnCross;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyTrigger_viewTransitionOnNegativeCross = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyTrigger_viewTransitionOnNegativeCross;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.KeyTrigger_viewTransitionOnPositiveCross = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.KeyTrigger_viewTransitionOnPositiveCross;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Layout = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Layout;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Layout_android_layout_height = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Layout_android_layout_height;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Layout_android_layout_marginBottom = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Layout_android_layout_marginBottom;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Layout_android_layout_marginEnd = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Layout_android_layout_marginEnd;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Layout_android_layout_marginLeft = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Layout_android_layout_marginLeft;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Layout_android_layout_marginRight = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Layout_android_layout_marginRight;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Layout_android_layout_marginStart = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Layout_android_layout_marginStart;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Layout_android_layout_marginTop = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Layout_android_layout_marginTop;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Layout_android_layout_width = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Layout_android_layout_width;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Layout_android_orientation = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Layout_android_orientation;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Layout_barrierAllowsGoneWidgets = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Layout_barrierAllowsGoneWidgets;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Layout_barrierDirection = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Layout_barrierDirection;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Layout_barrierMargin = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Layout_barrierMargin;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Layout_chainUseRtl = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Layout_chainUseRtl;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Layout_constraint_referenced_ids = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Layout_constraint_referenced_ids;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Layout_constraint_referenced_tags = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Layout_constraint_referenced_tags;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Layout_layout_constrainedHeight = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Layout_layout_constrainedHeight;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Layout_layout_constrainedWidth = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Layout_layout_constrainedWidth;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Layout_layout_constraintBaseline_creator = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Layout_layout_constraintBaseline_creator;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Layout_layout_constraintBaseline_toBaselineOf = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Layout_layout_constraintBaseline_toBaselineOf;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Layout_layout_constraintBaseline_toBottomOf = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Layout_layout_constraintBaseline_toBottomOf;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Layout_layout_constraintBaseline_toTopOf = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Layout_layout_constraintBaseline_toTopOf;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Layout_layout_constraintBottom_creator = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Layout_layout_constraintBottom_creator;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Layout_layout_constraintBottom_toBottomOf = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Layout_layout_constraintBottom_toBottomOf;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Layout_layout_constraintBottom_toTopOf = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Layout_layout_constraintBottom_toTopOf;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Layout_layout_constraintCircle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Layout_layout_constraintCircle;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Layout_layout_constraintCircleAngle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Layout_layout_constraintCircleAngle;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Layout_layout_constraintCircleRadius = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Layout_layout_constraintCircleRadius;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Layout_layout_constraintDimensionRatio = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Layout_layout_constraintDimensionRatio;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Layout_layout_constraintEnd_toEndOf = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Layout_layout_constraintEnd_toEndOf;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Layout_layout_constraintEnd_toStartOf = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Layout_layout_constraintEnd_toStartOf;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Layout_layout_constraintGuide_begin = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Layout_layout_constraintGuide_begin;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Layout_layout_constraintGuide_end = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Layout_layout_constraintGuide_end;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Layout_layout_constraintGuide_percent = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Layout_layout_constraintGuide_percent;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Layout_layout_constraintHeight = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Layout_layout_constraintHeight;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Layout_layout_constraintHeight_default = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Layout_layout_constraintHeight_default;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Layout_layout_constraintHeight_max = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Layout_layout_constraintHeight_max;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Layout_layout_constraintHeight_min = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Layout_layout_constraintHeight_min;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Layout_layout_constraintHeight_percent = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Layout_layout_constraintHeight_percent;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Layout_layout_constraintHorizontal_bias = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Layout_layout_constraintHorizontal_bias;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Layout_layout_constraintHorizontal_chainStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Layout_layout_constraintHorizontal_chainStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Layout_layout_constraintHorizontal_weight = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Layout_layout_constraintHorizontal_weight;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Layout_layout_constraintLeft_creator = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Layout_layout_constraintLeft_creator;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Layout_layout_constraintLeft_toLeftOf = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Layout_layout_constraintLeft_toLeftOf;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Layout_layout_constraintLeft_toRightOf = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Layout_layout_constraintLeft_toRightOf;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Layout_layout_constraintRight_creator = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Layout_layout_constraintRight_creator;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Layout_layout_constraintRight_toLeftOf = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Layout_layout_constraintRight_toLeftOf;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Layout_layout_constraintRight_toRightOf = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Layout_layout_constraintRight_toRightOf;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Layout_layout_constraintStart_toEndOf = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Layout_layout_constraintStart_toEndOf;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Layout_layout_constraintStart_toStartOf = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Layout_layout_constraintStart_toStartOf;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Layout_layout_constraintTop_creator = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Layout_layout_constraintTop_creator;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Layout_layout_constraintTop_toBottomOf = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Layout_layout_constraintTop_toBottomOf;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Layout_layout_constraintTop_toTopOf = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Layout_layout_constraintTop_toTopOf;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Layout_layout_constraintVertical_bias = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Layout_layout_constraintVertical_bias;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Layout_layout_constraintVertical_chainStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Layout_layout_constraintVertical_chainStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Layout_layout_constraintVertical_weight = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Layout_layout_constraintVertical_weight;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Layout_layout_constraintWidth = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Layout_layout_constraintWidth;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Layout_layout_constraintWidth_default = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Layout_layout_constraintWidth_default;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Layout_layout_constraintWidth_max = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Layout_layout_constraintWidth_max;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Layout_layout_constraintWidth_min = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Layout_layout_constraintWidth_min;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Layout_layout_constraintWidth_percent = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Layout_layout_constraintWidth_percent;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Layout_layout_editor_absoluteX = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Layout_layout_editor_absoluteX;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Layout_layout_editor_absoluteY = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Layout_layout_editor_absoluteY;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Layout_layout_goneMarginBaseline = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Layout_layout_goneMarginBaseline;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Layout_layout_goneMarginBottom = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Layout_layout_goneMarginBottom;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Layout_layout_goneMarginEnd = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Layout_layout_goneMarginEnd;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Layout_layout_goneMarginLeft = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Layout_layout_goneMarginLeft;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Layout_layout_goneMarginRight = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Layout_layout_goneMarginRight;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Layout_layout_goneMarginStart = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Layout_layout_goneMarginStart;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Layout_layout_goneMarginTop = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Layout_layout_goneMarginTop;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Layout_layout_marginBaseline = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Layout_layout_marginBaseline;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Layout_layout_wrapBehaviorInParent = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Layout_layout_wrapBehaviorInParent;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Layout_maxHeight = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Layout_maxHeight;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Layout_maxWidth = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Layout_maxWidth;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Layout_minHeight = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Layout_minHeight;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Layout_minWidth = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Layout_minWidth;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.LinearLayoutCompat = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.LinearLayoutCompat;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
@@ -3169,9 +4779,18 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.LinearLayoutCompat_showDividers = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.LinearProgressIndicator = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.LinearProgressIndicator;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.LinearProgressIndicator_indeterminateAnimationType = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.LinearProgressIndicator_indeterminateAnimationType;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.LinearProgressIndicator_indicatorDirectionLinear = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.LinearProgressIndicator_indicatorDirectionLinear;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.ListPopupWindow = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ListPopupWindow;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ListPreference = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ListPreference;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ListPreference_android_entries = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ListPreference_android_entries;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ListPreference_android_entryValues = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ListPreference_android_entryValues;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ListPreference_entries = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ListPreference_entries;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ListPreference_entryValues = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ListPreference_entryValues;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ListPreference_useSimpleSummaryProvider = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ListPreference_useSimpleSummaryProvider;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.MaterialAlertDialog = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MaterialAlertDialog;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.MaterialAlertDialogTheme = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MaterialAlertDialogTheme;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogBodyTextStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogBodyTextStyle;
@@ -3228,6 +4847,7 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.MaterialCalendar_daySelectedStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MaterialCalendar_daySelectedStyle;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.MaterialCalendar_dayStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MaterialCalendar_dayStyle;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.MaterialCalendar_dayTodayStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MaterialCalendar_dayTodayStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.MaterialCalendar_nestedScrollable = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MaterialCalendar_nestedScrollable;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.MaterialCalendar_rangeFillColor = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MaterialCalendar_rangeFillColor;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.MaterialCalendar_yearSelectedStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MaterialCalendar_yearSelectedStyle;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.MaterialCalendar_yearStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MaterialCalendar_yearStyle;
@@ -3236,6 +4856,8 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.MaterialCardView_android_checkable = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MaterialCardView_android_checkable;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.MaterialCardView_cardForegroundColor = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MaterialCardView_cardForegroundColor;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.MaterialCardView_checkedIcon = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MaterialCardView_checkedIcon;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.MaterialCardView_checkedIconMargin = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MaterialCardView_checkedIconMargin;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.MaterialCardView_checkedIconSize = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MaterialCardView_checkedIconSize;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.MaterialCardView_checkedIconTint = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MaterialCardView_checkedIconTint;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.MaterialCardView_rippleColor = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MaterialCardView_rippleColor;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.MaterialCardView_shapeAppearance = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MaterialCardView_shapeAppearance;
@@ -3253,12 +4875,20 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.MaterialShape_shapeAppearance = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MaterialShape_shapeAppearance;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.MaterialShape_shapeAppearanceOverlay = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MaterialShape_shapeAppearanceOverlay;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.MaterialTextAppearance = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MaterialTextAppearance;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.MaterialTextAppearance_android_letterSpacing = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MaterialTextAppearance_android_letterSpacing;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.MaterialTextAppearance_android_lineHeight = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MaterialTextAppearance_android_lineHeight;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.MaterialTextAppearance_lineHeight = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MaterialTextAppearance_lineHeight;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.MaterialTextView = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MaterialTextView;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.MaterialTextView_android_lineHeight = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MaterialTextView_android_lineHeight;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.MaterialTextView_android_textAppearance = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MaterialTextView_android_textAppearance;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.MaterialTextView_lineHeight = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MaterialTextView_lineHeight;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.MaterialTimePicker = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MaterialTimePicker;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.MaterialTimePicker_clockIcon = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MaterialTimePicker_clockIcon;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.MaterialTimePicker_keyboardIcon = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MaterialTimePicker_keyboardIcon;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.MaterialToolbar = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MaterialToolbar;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.MaterialToolbar_navigationIconTint = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MaterialToolbar_navigationIconTint;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.MaterialToolbar_subtitleCentered = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MaterialToolbar_subtitleCentered;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.MaterialToolbar_titleCentered = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MaterialToolbar_titleCentered;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.MenuGroup = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MenuGroup;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.MenuGroup_android_enabled = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MenuGroup_android_enabled;
@@ -3300,6 +4930,120 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.MenuView_preserveIconSpacing = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.MenuView_subMenuArrow = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.MockView = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MockView;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.MockView_mock_diagonalsColor = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MockView_mock_diagonalsColor;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.MockView_mock_label = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MockView_mock_label;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.MockView_mock_labelBackgroundColor = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MockView_mock_labelBackgroundColor;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.MockView_mock_labelColor = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MockView_mock_labelColor;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.MockView_mock_showDiagonals = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MockView_mock_showDiagonals;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.MockView_mock_showLabel = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MockView_mock_showLabel;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Motion = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Motion;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.MotionEffect = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MotionEffect;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.MotionEffect_motionEffect_alpha = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MotionEffect_motionEffect_alpha;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.MotionEffect_motionEffect_end = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MotionEffect_motionEffect_end;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.MotionEffect_motionEffect_move = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MotionEffect_motionEffect_move;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.MotionEffect_motionEffect_start = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MotionEffect_motionEffect_start;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.MotionEffect_motionEffect_strict = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MotionEffect_motionEffect_strict;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.MotionEffect_motionEffect_translationX = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MotionEffect_motionEffect_translationX;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.MotionEffect_motionEffect_translationY = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MotionEffect_motionEffect_translationY;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.MotionEffect_motionEffect_viewTransition = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MotionEffect_motionEffect_viewTransition;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.MotionHelper = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MotionHelper;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.MotionHelper_onHide = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MotionHelper_onHide;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.MotionHelper_onShow = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MotionHelper_onShow;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.MotionLabel = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MotionLabel;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.MotionLabel_android_autoSizeTextType = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MotionLabel_android_autoSizeTextType;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.MotionLabel_android_fontFamily = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MotionLabel_android_fontFamily;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.MotionLabel_android_gravity = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MotionLabel_android_gravity;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.MotionLabel_android_shadowRadius = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MotionLabel_android_shadowRadius;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.MotionLabel_android_text = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MotionLabel_android_text;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.MotionLabel_android_textColor = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MotionLabel_android_textColor;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.MotionLabel_android_textSize = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MotionLabel_android_textSize;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.MotionLabel_android_textStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MotionLabel_android_textStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.MotionLabel_android_typeface = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MotionLabel_android_typeface;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.MotionLabel_borderRound = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MotionLabel_borderRound;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.MotionLabel_borderRoundPercent = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MotionLabel_borderRoundPercent;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.MotionLabel_scaleFromTextSize = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MotionLabel_scaleFromTextSize;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.MotionLabel_textBackground = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MotionLabel_textBackground;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.MotionLabel_textBackgroundPanX = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MotionLabel_textBackgroundPanX;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.MotionLabel_textBackgroundPanY = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MotionLabel_textBackgroundPanY;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.MotionLabel_textBackgroundRotate = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MotionLabel_textBackgroundRotate;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.MotionLabel_textBackgroundZoom = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MotionLabel_textBackgroundZoom;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.MotionLabel_textOutlineColor = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MotionLabel_textOutlineColor;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.MotionLabel_textOutlineThickness = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MotionLabel_textOutlineThickness;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.MotionLabel_textPanX = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MotionLabel_textPanX;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.MotionLabel_textPanY = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MotionLabel_textPanY;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.MotionLabel_textureBlurFactor = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MotionLabel_textureBlurFactor;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.MotionLabel_textureEffect = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MotionLabel_textureEffect;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.MotionLabel_textureHeight = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MotionLabel_textureHeight;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.MotionLabel_textureWidth = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MotionLabel_textureWidth;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.MotionLayout = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MotionLayout;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.MotionLayout_applyMotionScene = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MotionLayout_applyMotionScene;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.MotionLayout_currentState = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MotionLayout_currentState;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.MotionLayout_layoutDescription = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MotionLayout_layoutDescription;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.MotionLayout_motionDebug = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MotionLayout_motionDebug;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.MotionLayout_motionProgress = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MotionLayout_motionProgress;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.MotionLayout_showPaths = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MotionLayout_showPaths;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.MotionScene = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MotionScene;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.MotionScene_defaultDuration = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MotionScene_defaultDuration;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.MotionScene_layoutDuringTransition = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MotionScene_layoutDuringTransition;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.MotionTelltales = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MotionTelltales;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.MotionTelltales_telltales_tailColor = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MotionTelltales_telltales_tailColor;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.MotionTelltales_telltales_tailScale = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MotionTelltales_telltales_tailScale;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.MotionTelltales_telltales_velocityMode = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MotionTelltales_telltales_velocityMode;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Motion_animateCircleAngleTo = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Motion_animateCircleAngleTo;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Motion_animateRelativeTo = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Motion_animateRelativeTo;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Motion_drawPath = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Motion_drawPath;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Motion_motionPathRotate = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Motion_motionPathRotate;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Motion_motionStagger = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Motion_motionStagger;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Motion_pathMotionArc = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Motion_pathMotionArc;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Motion_quantizeMotionInterpolator = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Motion_quantizeMotionInterpolator;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Motion_quantizeMotionPhase = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Motion_quantizeMotionPhase;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Motion_quantizeMotionSteps = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Motion_quantizeMotionSteps;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Motion_transitionEasing = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Motion_transitionEasing;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.MultiSelectListPreference = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MultiSelectListPreference;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.MultiSelectListPreference_android_entries = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MultiSelectListPreference_android_entries;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.MultiSelectListPreference_android_entryValues = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MultiSelectListPreference_android_entryValues;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.MultiSelectListPreference_entries = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MultiSelectListPreference_entries;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.MultiSelectListPreference_entryValues = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.MultiSelectListPreference_entryValues;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.NavAction = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.NavAction;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.NavAction_android_id = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.NavAction_android_id;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.NavAction_destination = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.NavAction_destination;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.NavAction_enterAnim = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.NavAction_enterAnim;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.NavAction_exitAnim = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.NavAction_exitAnim;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.NavAction_launchSingleTop = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.NavAction_launchSingleTop;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.NavAction_popEnterAnim = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.NavAction_popEnterAnim;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.NavAction_popExitAnim = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.NavAction_popExitAnim;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.NavAction_popUpTo = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.NavAction_popUpTo;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.NavAction_popUpToInclusive = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.NavAction_popUpToInclusive;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.NavArgument = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.NavArgument;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.NavArgument_android_defaultValue = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.NavArgument_android_defaultValue;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.NavArgument_android_name = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.NavArgument_android_name;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.NavArgument_argType = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.NavArgument_argType;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.NavArgument_nullable = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.NavArgument_nullable;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.NavDeepLink = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.NavDeepLink;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.NavDeepLink_action = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.NavDeepLink_action;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.NavDeepLink_android_autoVerify = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.NavDeepLink_android_autoVerify;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.NavDeepLink_mimeType = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.NavDeepLink_mimeType;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.NavDeepLink_uri = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.NavDeepLink_uri;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.NavGraphNavigator = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.NavGraphNavigator;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.NavGraphNavigator_startDestination = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.NavGraphNavigator_startDestination;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.NavHost = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.NavHost;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.NavHost_navGraph = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.NavHost_navGraph;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.NavigationBarView = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.NavigationBarView;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.NavigationBarView_backgroundTint = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.NavigationBarView_backgroundTint;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.NavigationBarView_elevation = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.NavigationBarView_elevation;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.NavigationBarView_itemBackground = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.NavigationBarView_itemBackground;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.NavigationBarView_itemIconSize = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.NavigationBarView_itemIconSize;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.NavigationBarView_itemIconTint = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.NavigationBarView_itemIconTint;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.NavigationBarView_itemRippleColor = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.NavigationBarView_itemRippleColor;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.NavigationBarView_itemTextAppearanceActive = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.NavigationBarView_itemTextAppearanceActive;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.NavigationBarView_itemTextAppearanceInactive = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.NavigationBarView_itemTextAppearanceInactive;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.NavigationBarView_itemTextColor = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.NavigationBarView_itemTextColor;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.NavigationBarView_labelVisibilityMode = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.NavigationBarView_labelVisibilityMode;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.NavigationBarView_menu = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.NavigationBarView_menu;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.NavigationRailView = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.NavigationRailView;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.NavigationRailView_headerLayout = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.NavigationRailView_headerLayout;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.NavigationRailView_menuGravity = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.NavigationRailView_menuGravity;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.NavigationView = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.NavigationView;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.NavigationView_android_background = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.NavigationView_android_background;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
@@ -3322,13 +5066,125 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.NavigationView_itemTextAppearance = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.NavigationView_itemTextColor = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.NavigationView_itemTextColor;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.NavigationView_menu = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.NavigationView_menu;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.NavigationView_shapeAppearance = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.NavigationView_shapeAppearance;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.NavigationView_shapeAppearanceOverlay = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.NavigationView_shapeAppearanceOverlay;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Navigator = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Navigator;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Navigator_android_id = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Navigator_android_id;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Navigator_android_label = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Navigator_android_label;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.NavInclude = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.NavInclude;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.NavInclude_graph = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.NavInclude_graph;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.OnClick = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.OnClick;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.OnClick_clickAction = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.OnClick_clickAction;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.OnClick_targetId = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.OnClick_targetId;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.OnSwipe = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.OnSwipe;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.OnSwipe_autoCompleteMode = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.OnSwipe_autoCompleteMode;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.OnSwipe_dragDirection = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.OnSwipe_dragDirection;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.OnSwipe_dragScale = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.OnSwipe_dragScale;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.OnSwipe_dragThreshold = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.OnSwipe_dragThreshold;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.OnSwipe_limitBoundsTo = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.OnSwipe_limitBoundsTo;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.OnSwipe_maxAcceleration = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.OnSwipe_maxAcceleration;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.OnSwipe_maxVelocity = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.OnSwipe_maxVelocity;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.OnSwipe_moveWhenScrollAtTop = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.OnSwipe_moveWhenScrollAtTop;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.OnSwipe_nestedScrollFlags = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.OnSwipe_nestedScrollFlags;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.OnSwipe_onTouchUp = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.OnSwipe_onTouchUp;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.OnSwipe_rotationCenterId = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.OnSwipe_rotationCenterId;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.OnSwipe_springBoundary = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.OnSwipe_springBoundary;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.OnSwipe_springDamping = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.OnSwipe_springDamping;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.OnSwipe_springMass = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.OnSwipe_springMass;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.OnSwipe_springStiffness = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.OnSwipe_springStiffness;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.OnSwipe_springStopThreshold = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.OnSwipe_springStopThreshold;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.OnSwipe_touchAnchorId = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.OnSwipe_touchAnchorId;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.OnSwipe_touchAnchorSide = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.OnSwipe_touchAnchorSide;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.OnSwipe_touchRegionId = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.OnSwipe_touchRegionId;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.PopupWindow = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.PopupWindow;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.PopupWindowBackgroundState = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.PopupWindowBackgroundState;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.PopupWindow_android_popupBackground = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.PopupWindow_overlapAnchor = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Preference = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Preference;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.PreferenceFragment = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.PreferenceFragment;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.PreferenceFragmentCompat = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.PreferenceFragmentCompat;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.PreferenceFragmentCompat_allowDividerAfterLastItem = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.PreferenceFragmentCompat_allowDividerAfterLastItem;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.PreferenceFragmentCompat_android_divider = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.PreferenceFragmentCompat_android_divider;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.PreferenceFragmentCompat_android_dividerHeight = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.PreferenceFragmentCompat_android_dividerHeight;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.PreferenceFragmentCompat_android_layout = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.PreferenceFragmentCompat_android_layout;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.PreferenceFragment_allowDividerAfterLastItem = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.PreferenceFragment_allowDividerAfterLastItem;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.PreferenceFragment_android_divider = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.PreferenceFragment_android_divider;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.PreferenceFragment_android_dividerHeight = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.PreferenceFragment_android_dividerHeight;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.PreferenceFragment_android_layout = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.PreferenceFragment_android_layout;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.PreferenceGroup = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.PreferenceGroup;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.PreferenceGroup_android_orderingFromXml = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.PreferenceGroup_android_orderingFromXml;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.PreferenceGroup_initialExpandedChildrenCount = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.PreferenceGroup_initialExpandedChildrenCount;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.PreferenceGroup_orderingFromXml = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.PreferenceGroup_orderingFromXml;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.PreferenceImageView = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.PreferenceImageView;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.PreferenceImageView_android_maxHeight = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.PreferenceImageView_android_maxHeight;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.PreferenceImageView_android_maxWidth = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.PreferenceImageView_android_maxWidth;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.PreferenceImageView_maxHeight = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.PreferenceImageView_maxHeight;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.PreferenceImageView_maxWidth = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.PreferenceImageView_maxWidth;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.PreferenceTheme = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.PreferenceTheme;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.PreferenceTheme_checkBoxPreferenceStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.PreferenceTheme_checkBoxPreferenceStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.PreferenceTheme_dialogPreferenceStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.PreferenceTheme_dialogPreferenceStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.PreferenceTheme_dropdownPreferenceStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.PreferenceTheme_dropdownPreferenceStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.PreferenceTheme_editTextPreferenceStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.PreferenceTheme_editTextPreferenceStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.PreferenceTheme_preferenceCategoryStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.PreferenceTheme_preferenceCategoryStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.PreferenceTheme_preferenceCategoryTitleTextAppearance = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.PreferenceTheme_preferenceCategoryTitleTextAppearance;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.PreferenceTheme_preferenceFragmentCompatStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.PreferenceTheme_preferenceFragmentCompatStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.PreferenceTheme_preferenceFragmentListStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.PreferenceTheme_preferenceFragmentListStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.PreferenceTheme_preferenceFragmentStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.PreferenceTheme_preferenceFragmentStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.PreferenceTheme_preferenceInformationStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.PreferenceTheme_preferenceInformationStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.PreferenceTheme_preferenceScreenStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.PreferenceTheme_preferenceScreenStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.PreferenceTheme_preferenceStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.PreferenceTheme_preferenceStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.PreferenceTheme_preferenceTheme = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.PreferenceTheme_preferenceTheme;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.PreferenceTheme_seekBarPreferenceStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.PreferenceTheme_seekBarPreferenceStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.PreferenceTheme_switchPreferenceCompatStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.PreferenceTheme_switchPreferenceCompatStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.PreferenceTheme_switchPreferenceStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.PreferenceTheme_switchPreferenceStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Preference_allowDividerAbove = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Preference_allowDividerAbove;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Preference_allowDividerBelow = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Preference_allowDividerBelow;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Preference_android_defaultValue = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Preference_android_defaultValue;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Preference_android_dependency = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Preference_android_dependency;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Preference_android_enabled = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Preference_android_enabled;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Preference_android_fragment = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Preference_android_fragment;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Preference_android_icon = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Preference_android_icon;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Preference_android_iconSpaceReserved = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Preference_android_iconSpaceReserved;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Preference_android_key = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Preference_android_key;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Preference_android_layout = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Preference_android_layout;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Preference_android_order = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Preference_android_order;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Preference_android_persistent = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Preference_android_persistent;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Preference_android_selectable = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Preference_android_selectable;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Preference_android_shouldDisableView = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Preference_android_shouldDisableView;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Preference_android_singleLineTitle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Preference_android_singleLineTitle;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Preference_android_summary = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Preference_android_summary;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Preference_android_title = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Preference_android_title;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Preference_android_widgetLayout = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Preference_android_widgetLayout;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Preference_defaultValue = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Preference_defaultValue;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Preference_dependency = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Preference_dependency;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Preference_enableCopying = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Preference_enableCopying;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Preference_enabled = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Preference_enabled;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Preference_fragment = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Preference_fragment;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Preference_icon = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Preference_icon;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Preference_iconSpaceReserved = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Preference_iconSpaceReserved;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Preference_isPreferenceVisible = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Preference_isPreferenceVisible;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Preference_key = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Preference_key;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Preference_layout = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Preference_layout;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Preference_order = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Preference_order;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Preference_persistent = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Preference_persistent;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Preference_selectable = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Preference_selectable;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Preference_shouldDisableView = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Preference_shouldDisableView;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Preference_singleLineTitle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Preference_singleLineTitle;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Preference_summary = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Preference_summary;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Preference_title = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Preference_title;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Preference_widgetLayout = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Preference_widgetLayout;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.PropertySet = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.PropertySet;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.PropertySet_android_alpha = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.PropertySet_android_alpha;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.PropertySet_android_visibility = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.PropertySet_android_visibility;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.PropertySet_layout_constraintTag = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.PropertySet_layout_constraintTag;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.PropertySet_motionProgress = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.PropertySet_motionProgress;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.PropertySet_visibilityMode = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.PropertySet_visibilityMode;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.RadialViewGroup = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.RadialViewGroup;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.RadialViewGroup_materialCircleRadius = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.RadialViewGroup_materialCircleRadius;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.RangeSlider = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.RangeSlider;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.RangeSlider_minSeparation = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.RangeSlider_minSeparation;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.RangeSlider_values = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.RangeSlider_values;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.RecycleListView = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.RecycleListView;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
@@ -3370,7 +5226,22 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.SearchView_submitBackground = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.SearchView_submitBackground;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.SearchView_suggestionRowLayout = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.SearchView_voiceIcon = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.SeekBarPreference = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.SeekBarPreference;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.SeekBarPreference_adjustable = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.SeekBarPreference_adjustable;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.SeekBarPreference_android_layout = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.SeekBarPreference_android_layout;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.SeekBarPreference_android_max = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.SeekBarPreference_android_max;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.SeekBarPreference_min = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.SeekBarPreference_min;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.SeekBarPreference_seekBarIncrement = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.SeekBarPreference_seekBarIncrement;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.SeekBarPreference_showSeekBarValue = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.SeekBarPreference_showSeekBarValue;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.SeekBarPreference_updatesContinuously = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.SeekBarPreference_updatesContinuously;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.ShapeableImageView = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ShapeableImageView;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ShapeableImageView_contentPadding = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ShapeableImageView_contentPadding;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ShapeableImageView_contentPaddingBottom = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ShapeableImageView_contentPaddingBottom;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ShapeableImageView_contentPaddingEnd = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ShapeableImageView_contentPaddingEnd;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ShapeableImageView_contentPaddingLeft = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ShapeableImageView_contentPaddingLeft;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ShapeableImageView_contentPaddingRight = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ShapeableImageView_contentPaddingRight;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ShapeableImageView_contentPaddingStart = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ShapeableImageView_contentPaddingStart;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ShapeableImageView_contentPaddingTop = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ShapeableImageView_contentPaddingTop;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.ShapeableImageView_shapeAppearance = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ShapeableImageView_shapeAppearance;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.ShapeableImageView_shapeAppearanceOverlay = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ShapeableImageView_shapeAppearanceOverlay;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.ShapeableImageView_strokeColor = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ShapeableImageView_strokeColor;
@@ -3399,9 +5270,12 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.Slider_thumbColor = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Slider_thumbColor;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.Slider_thumbElevation = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Slider_thumbElevation;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.Slider_thumbRadius = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Slider_thumbRadius;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Slider_thumbStrokeColor = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Slider_thumbStrokeColor;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Slider_thumbStrokeWidth = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Slider_thumbStrokeWidth;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.Slider_tickColor = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Slider_tickColor;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.Slider_tickColorActive = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Slider_tickColorActive;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.Slider_tickColorInactive = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Slider_tickColorInactive;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Slider_tickVisible = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Slider_tickVisible;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.Slider_trackColor = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Slider_trackColor;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.Slider_trackColorActive = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Slider_trackColorActive;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.Slider_trackColorInactive = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Slider_trackColorInactive;
@@ -3425,6 +5299,7 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.Spinner_android_popupBackground = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Spinner_android_popupBackground;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.Spinner_android_prompt = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Spinner_android_prompt;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.Spinner_popupTheme = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.State = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.State;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.StateListDrawable = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.StateListDrawable;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.StateListDrawableItem = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.StateListDrawableItem;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.StateListDrawableItem_android_drawable = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.StateListDrawableItem_android_drawable;
@@ -3434,6 +5309,12 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.StateListDrawable_android_variablePadding = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.StateListDrawable_android_variablePadding;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.StateListDrawable_android_visible = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.StateListDrawable_android_visible;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.StateSet = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.StateSet;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.StateSet_defaultState = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.StateSet_defaultState;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.State_android_id = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.State_android_id;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.State_constraints = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.State_constraints;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.SwipeRefreshLayout = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.SwipeRefreshLayout;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.SwipeRefreshLayout_swipeRefreshLayoutProgressSpinnerBackgroundColor = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.SwipeRefreshLayout_swipeRefreshLayoutProgressSpinnerBackgroundColor;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.SwitchCompat = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.SwitchCompat;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.SwitchCompat_android_textOff = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.SwitchCompat_android_textOff;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.SwitchCompat_android_textOn = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.SwitchCompat_android_textOn;
@@ -3451,6 +5332,28 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.SwitchCompat_trackTintMode = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.SwitchMaterial = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.SwitchMaterial;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.SwitchMaterial_useMaterialThemeColors = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.SwitchMaterial_useMaterialThemeColors;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.SwitchPreference = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.SwitchPreference;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.SwitchPreferenceCompat = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.SwitchPreferenceCompat;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.SwitchPreferenceCompat_android_disableDependentsState = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.SwitchPreferenceCompat_android_disableDependentsState;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.SwitchPreferenceCompat_android_summaryOff = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.SwitchPreferenceCompat_android_summaryOff;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.SwitchPreferenceCompat_android_summaryOn = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.SwitchPreferenceCompat_android_summaryOn;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.SwitchPreferenceCompat_android_switchTextOff = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.SwitchPreferenceCompat_android_switchTextOff;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.SwitchPreferenceCompat_android_switchTextOn = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.SwitchPreferenceCompat_android_switchTextOn;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.SwitchPreferenceCompat_disableDependentsState = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.SwitchPreferenceCompat_disableDependentsState;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.SwitchPreferenceCompat_summaryOff = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.SwitchPreferenceCompat_summaryOff;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.SwitchPreferenceCompat_summaryOn = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.SwitchPreferenceCompat_summaryOn;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.SwitchPreferenceCompat_switchTextOff = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.SwitchPreferenceCompat_switchTextOff;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.SwitchPreferenceCompat_switchTextOn = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.SwitchPreferenceCompat_switchTextOn;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.SwitchPreference_android_disableDependentsState = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.SwitchPreference_android_disableDependentsState;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.SwitchPreference_android_summaryOff = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.SwitchPreference_android_summaryOff;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.SwitchPreference_android_summaryOn = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.SwitchPreference_android_summaryOn;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.SwitchPreference_android_switchTextOff = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.SwitchPreference_android_switchTextOff;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.SwitchPreference_android_switchTextOn = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.SwitchPreference_android_switchTextOn;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.SwitchPreference_disableDependentsState = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.SwitchPreference_disableDependentsState;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.SwitchPreference_summaryOff = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.SwitchPreference_summaryOff;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.SwitchPreference_summaryOn = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.SwitchPreference_summaryOn;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.SwitchPreference_switchTextOff = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.SwitchPreference_switchTextOff;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.SwitchPreference_switchTextOn = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.SwitchPreference_switchTextOn;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.TabItem = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.TabItem;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.TabItem_android_icon = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.TabItem_android_icon;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.TabItem_android_layout = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.TabItem_android_layout;
@@ -3463,6 +5366,7 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.TabLayout_tabIconTintMode = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.TabLayout_tabIconTintMode;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.TabLayout_tabIndicator = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.TabLayout_tabIndicator;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.TabLayout_tabIndicatorAnimationMode = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.TabLayout_tabIndicatorAnimationMode;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.TabLayout_tabIndicatorColor = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.TabLayout_tabIndicatorFullWidth = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.TabLayout_tabIndicatorFullWidth;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.TabLayout_tabIndicatorGravity = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.TabLayout_tabIndicatorGravity;
@@ -3498,11 +5402,28 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.TextAppearance_fontVariationSettings = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.TextAppearance_fontVariationSettings;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.TextAppearance_textAllCaps = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.TextAppearance_textAllCaps;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.TextAppearance_textLocale = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.TextAppearance_textLocale;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.TextEffects = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.TextEffects;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.TextEffects_android_fontFamily = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.TextEffects_android_fontFamily;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.TextEffects_android_shadowColor = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.TextEffects_android_shadowColor;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.TextEffects_android_shadowDx = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.TextEffects_android_shadowDx;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.TextEffects_android_shadowDy = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.TextEffects_android_shadowDy;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.TextEffects_android_shadowRadius = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.TextEffects_android_shadowRadius;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.TextEffects_android_text = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.TextEffects_android_text;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.TextEffects_android_textSize = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.TextEffects_android_textSize;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.TextEffects_android_textStyle = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.TextEffects_android_textStyle;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.TextEffects_android_typeface = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.TextEffects_android_typeface;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.TextEffects_borderRound = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.TextEffects_borderRound;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.TextEffects_borderRoundPercent = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.TextEffects_borderRoundPercent;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.TextEffects_textFillColor = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.TextEffects_textFillColor;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.TextEffects_textOutlineColor = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.TextEffects_textOutlineColor;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.TextEffects_textOutlineThickness = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.TextEffects_textOutlineThickness;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.TextInputEditText = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.TextInputEditText;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.TextInputEditText_textInputLayoutFocusedRectEnabled = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.TextInputEditText_textInputLayoutFocusedRectEnabled;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.TextInputLayout = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.TextInputLayout;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.TextInputLayout_android_enabled = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.TextInputLayout_android_enabled;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.TextInputLayout_android_hint = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.TextInputLayout_android_maxWidth = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.TextInputLayout_android_maxWidth;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.TextInputLayout_android_minWidth = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.TextInputLayout_android_minWidth;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.TextInputLayout_android_textColorHint = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.TextInputLayout_boxBackgroundMode = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.TextInputLayout_boxBackgroundMode;
@@ -3534,6 +5455,7 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.TextInputLayout_errorIconTintMode = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.TextInputLayout_errorIconTintMode;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.TextInputLayout_errorTextColor = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.TextInputLayout_errorTextColor;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.TextInputLayout_expandedHintEnabled = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.TextInputLayout_expandedHintEnabled;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.TextInputLayout_helperText = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.TextInputLayout_helperText;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance;
@@ -3606,6 +5528,37 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.Tooltip_android_text = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Tooltip_android_text;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.Tooltip_android_textAppearance = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Tooltip_android_textAppearance;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.Tooltip_backgroundTint = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Tooltip_backgroundTint;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Transform = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Transform;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Transform_android_elevation = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Transform_android_elevation;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Transform_android_rotation = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Transform_android_rotation;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Transform_android_rotationX = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Transform_android_rotationX;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Transform_android_rotationY = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Transform_android_rotationY;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Transform_android_scaleX = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Transform_android_scaleX;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Transform_android_scaleY = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Transform_android_scaleY;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Transform_android_transformPivotX = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Transform_android_transformPivotX;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Transform_android_transformPivotY = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Transform_android_transformPivotY;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Transform_android_translationX = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Transform_android_translationX;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Transform_android_translationY = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Transform_android_translationY;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Transform_android_translationZ = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Transform_android_translationZ;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Transform_transformPivotTarget = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Transform_transformPivotTarget;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Transition = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Transition;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Transition_android_id = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Transition_android_id;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Transition_autoTransition = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Transition_autoTransition;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Transition_constraintSetEnd = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Transition_constraintSetEnd;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Transition_constraintSetStart = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Transition_constraintSetStart;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Transition_duration = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Transition_duration;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Transition_layoutDuringTransition = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Transition_layoutDuringTransition;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Transition_motionInterpolator = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Transition_motionInterpolator;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Transition_pathMotionArc = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Transition_pathMotionArc;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Transition_staggered = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Transition_staggered;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Transition_transitionDisable = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Transition_transitionDisable;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Transition_transitionFlags = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Transition_transitionFlags;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Variant = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Variant;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Variant_constraints = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Variant_constraints;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Variant_region_heightLessThan = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Variant_region_heightLessThan;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Variant_region_heightMoreThan = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Variant_region_heightMoreThan;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Variant_region_widthLessThan = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Variant_region_widthLessThan;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.Variant_region_widthMoreThan = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.Variant_region_widthMoreThan;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.View = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.View;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.ViewBackgroundHelper = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ViewBackgroundHelper;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.ViewBackgroundHelper_android_background = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
@@ -3617,11 +5570,28 @@ namespace Xam.Shell.Badge.Sample.Droid
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.ViewStubCompat_android_id = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ViewStubCompat_android_id;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.ViewStubCompat_android_layout = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ViewTransition = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ViewTransition;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ViewTransition_android_id = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ViewTransition_android_id;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ViewTransition_clearsTag = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ViewTransition_clearsTag;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ViewTransition_duration = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ViewTransition_duration;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ViewTransition_ifTagNotSet = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ViewTransition_ifTagNotSet;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ViewTransition_ifTagSet = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ViewTransition_ifTagSet;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ViewTransition_motionInterpolator = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ViewTransition_motionInterpolator;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ViewTransition_motionTarget = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ViewTransition_motionTarget;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ViewTransition_onStateTransition = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ViewTransition_onStateTransition;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ViewTransition_pathMotionArc = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ViewTransition_pathMotionArc;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ViewTransition_setsTag = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ViewTransition_setsTag;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ViewTransition_SharedValue = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ViewTransition_SharedValue;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ViewTransition_SharedValueId = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ViewTransition_SharedValueId;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ViewTransition_transitionDisable = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ViewTransition_transitionDisable;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ViewTransition_upDuration = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ViewTransition_upDuration;
+			global::Xam.Shell.Badge.Droid.Resource.Styleable.ViewTransition_viewTransitionMode = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.ViewTransition_viewTransitionMode;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.View_android_focusable = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.View_android_focusable;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.View_android_theme = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.View_android_theme;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.View_paddingEnd = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.View_paddingEnd;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.View_paddingStart = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.View_paddingStart;
 			global::Xam.Shell.Badge.Droid.Resource.Styleable.View_theme = global::Xam.Shell.Badge.Sample.Droid.Resource.Styleable.View_theme;
+			global::Xam.Shell.Badge.Droid.Resource.Xml.image_share_filepaths = global::Xam.Shell.Badge.Sample.Droid.Resource.Xml.image_share_filepaths;
 			global::Xam.Shell.Badge.Droid.Resource.Xml.standalone_badge = global::Xam.Shell.Badge.Sample.Droid.Resource.Xml.standalone_badge;
 			global::Xam.Shell.Badge.Droid.Resource.Xml.standalone_badge_gravity_bottom_end = global::Xam.Shell.Badge.Sample.Droid.Resource.Xml.standalone_badge_gravity_bottom_end;
 			global::Xam.Shell.Badge.Droid.Resource.Xml.standalone_badge_gravity_bottom_start = global::Xam.Shell.Badge.Sample.Droid.Resource.Xml.standalone_badge_gravity_bottom_start;
@@ -19925,157 +21895,151 @@ namespace Xam.Shell.Badge.Sample.Droid
 			public const int btn_radio_on_to_off_mtrl_animation = 2131165279;
 			
 			// aapt resource value: 0x7F070060
-			public const int custom_circle_shape = 2131165280;
+			public const int design_fab_background = 2131165280;
 			
 			// aapt resource value: 0x7F070061
-			public const int custom_rectangle_shape = 2131165281;
+			public const int design_ic_visibility = 2131165281;
 			
 			// aapt resource value: 0x7F070062
-			public const int design_fab_background = 2131165282;
+			public const int design_ic_visibility_off = 2131165282;
 			
 			// aapt resource value: 0x7F070063
-			public const int design_ic_visibility = 2131165283;
+			public const int design_password_eye = 2131165283;
 			
 			// aapt resource value: 0x7F070064
-			public const int design_ic_visibility_off = 2131165284;
+			public const int design_snackbar_background = 2131165284;
 			
 			// aapt resource value: 0x7F070065
-			public const int design_password_eye = 2131165285;
+			public const int ic_arrow_down_24dp = 2131165285;
 			
 			// aapt resource value: 0x7F070066
-			public const int design_snackbar_background = 2131165286;
+			public const int ic_clock_black_24dp = 2131165286;
 			
 			// aapt resource value: 0x7F070067
-			public const int ic_arrow_down_24dp = 2131165287;
+			public const int ic_keyboard_black_24dp = 2131165287;
 			
 			// aapt resource value: 0x7F070068
-			public const int ic_clock_black_24dp = 2131165288;
+			public const int ic_mtrl_checked_circle = 2131165288;
 			
 			// aapt resource value: 0x7F070069
-			public const int ic_keyboard_black_24dp = 2131165289;
+			public const int ic_mtrl_chip_checked_black = 2131165289;
 			
 			// aapt resource value: 0x7F07006A
-			public const int ic_mtrl_checked_circle = 2131165290;
+			public const int ic_mtrl_chip_checked_circle = 2131165290;
 			
 			// aapt resource value: 0x7F07006B
-			public const int ic_mtrl_chip_checked_black = 2131165291;
+			public const int ic_mtrl_chip_close_circle = 2131165291;
 			
 			// aapt resource value: 0x7F07006C
-			public const int ic_mtrl_chip_checked_circle = 2131165292;
+			public const int material_cursor_drawable = 2131165292;
 			
 			// aapt resource value: 0x7F07006D
-			public const int ic_mtrl_chip_close_circle = 2131165293;
+			public const int material_ic_calendar_black_24dp = 2131165293;
 			
 			// aapt resource value: 0x7F07006E
-			public const int material_cursor_drawable = 2131165294;
+			public const int material_ic_clear_black_24dp = 2131165294;
 			
 			// aapt resource value: 0x7F07006F
-			public const int material_ic_calendar_black_24dp = 2131165295;
+			public const int material_ic_edit_black_24dp = 2131165295;
 			
 			// aapt resource value: 0x7F070070
-			public const int material_ic_clear_black_24dp = 2131165296;
+			public const int material_ic_keyboard_arrow_left_black_24dp = 2131165296;
 			
 			// aapt resource value: 0x7F070071
-			public const int material_ic_edit_black_24dp = 2131165297;
+			public const int material_ic_keyboard_arrow_next_black_24dp = 2131165297;
 			
 			// aapt resource value: 0x7F070072
-			public const int material_ic_keyboard_arrow_left_black_24dp = 2131165298;
+			public const int material_ic_keyboard_arrow_previous_black_24dp = 2131165298;
 			
 			// aapt resource value: 0x7F070073
-			public const int material_ic_keyboard_arrow_next_black_24dp = 2131165299;
+			public const int material_ic_keyboard_arrow_right_black_24dp = 2131165299;
 			
 			// aapt resource value: 0x7F070074
-			public const int material_ic_keyboard_arrow_previous_black_24dp = 2131165300;
+			public const int material_ic_menu_arrow_down_black_24dp = 2131165300;
 			
 			// aapt resource value: 0x7F070075
-			public const int material_ic_keyboard_arrow_right_black_24dp = 2131165301;
+			public const int material_ic_menu_arrow_up_black_24dp = 2131165301;
 			
 			// aapt resource value: 0x7F070076
-			public const int material_ic_menu_arrow_down_black_24dp = 2131165302;
+			public const int mtrl_dialog_background = 2131165302;
 			
 			// aapt resource value: 0x7F070077
-			public const int material_ic_menu_arrow_up_black_24dp = 2131165303;
+			public const int mtrl_dropdown_arrow = 2131165303;
 			
 			// aapt resource value: 0x7F070078
-			public const int mtrl_dialog_background = 2131165304;
+			public const int mtrl_ic_arrow_drop_down = 2131165304;
 			
 			// aapt resource value: 0x7F070079
-			public const int mtrl_dropdown_arrow = 2131165305;
+			public const int mtrl_ic_arrow_drop_up = 2131165305;
 			
 			// aapt resource value: 0x7F07007A
-			public const int mtrl_ic_arrow_drop_down = 2131165306;
+			public const int mtrl_ic_cancel = 2131165306;
 			
 			// aapt resource value: 0x7F07007B
-			public const int mtrl_ic_arrow_drop_up = 2131165307;
+			public const int mtrl_ic_error = 2131165307;
 			
 			// aapt resource value: 0x7F07007C
-			public const int mtrl_ic_cancel = 2131165308;
+			public const int mtrl_navigation_bar_item_background = 2131165308;
 			
 			// aapt resource value: 0x7F07007D
-			public const int mtrl_ic_error = 2131165309;
+			public const int mtrl_popupmenu_background = 2131165309;
 			
 			// aapt resource value: 0x7F07007E
-			public const int mtrl_navigation_bar_item_background = 2131165310;
+			public const int mtrl_popupmenu_background_dark = 2131165310;
 			
 			// aapt resource value: 0x7F07007F
-			public const int mtrl_popupmenu_background = 2131165311;
+			public const int mtrl_tabs_default_indicator = 2131165311;
 			
 			// aapt resource value: 0x7F070080
-			public const int mtrl_popupmenu_background_dark = 2131165312;
+			public const int navigation_empty_icon = 2131165312;
 			
 			// aapt resource value: 0x7F070081
-			public const int mtrl_tabs_default_indicator = 2131165313;
+			public const int notification_action_background = 2131165313;
 			
 			// aapt resource value: 0x7F070082
-			public const int navigation_empty_icon = 2131165314;
+			public const int notification_bg = 2131165314;
 			
 			// aapt resource value: 0x7F070083
-			public const int notification_action_background = 2131165315;
+			public const int notification_bg_low = 2131165315;
 			
 			// aapt resource value: 0x7F070084
-			public const int notification_bg = 2131165316;
+			public const int notification_bg_low_normal = 2131165316;
 			
 			// aapt resource value: 0x7F070085
-			public const int notification_bg_low = 2131165317;
+			public const int notification_bg_low_pressed = 2131165317;
 			
 			// aapt resource value: 0x7F070086
-			public const int notification_bg_low_normal = 2131165318;
+			public const int notification_bg_normal = 2131165318;
 			
 			// aapt resource value: 0x7F070087
-			public const int notification_bg_low_pressed = 2131165319;
+			public const int notification_bg_normal_pressed = 2131165319;
 			
 			// aapt resource value: 0x7F070088
-			public const int notification_bg_normal = 2131165320;
+			public const int notification_icon_background = 2131165320;
 			
 			// aapt resource value: 0x7F070089
-			public const int notification_bg_normal_pressed = 2131165321;
+			public const int notification_template_icon_bg = 2131165321;
 			
 			// aapt resource value: 0x7F07008A
-			public const int notification_icon_background = 2131165322;
+			public const int notification_template_icon_low_bg = 2131165322;
 			
 			// aapt resource value: 0x7F07008B
-			public const int notification_template_icon_bg = 2131165323;
+			public const int notification_tile_bg = 2131165323;
 			
 			// aapt resource value: 0x7F07008C
-			public const int notification_template_icon_low_bg = 2131165324;
+			public const int notify_panel_notification_icon_bg = 2131165324;
 			
 			// aapt resource value: 0x7F07008D
-			public const int notification_tile_bg = 2131165325;
+			public const int preference_list_divider_material = 2131165325;
 			
 			// aapt resource value: 0x7F07008E
-			public const int notify_panel_notification_icon_bg = 2131165326;
+			public const int test_custom_background = 2131165326;
 			
 			// aapt resource value: 0x7F07008F
-			public const int preference_list_divider_material = 2131165327;
+			public const int tooltip_frame_dark = 2131165327;
 			
 			// aapt resource value: 0x7F070090
-			public const int test_custom_background = 2131165328;
-			
-			// aapt resource value: 0x7F070091
-			public const int tooltip_frame_dark = 2131165329;
-			
-			// aapt resource value: 0x7F070092
-			public const int tooltip_frame_light = 2131165330;
+			public const int tooltip_frame_light = 2131165328;
 			
 			static Drawable()
 			{
@@ -20316,34 +22280,31 @@ namespace Xam.Shell.Badge.Sample.Droid
 			public const int autoCompleteToStart = 2131230807;
 			
 			// aapt resource value: 0x7F080058
-			public const int badge = 2131230808;
+			public const int barrier = 2131230808;
 			
 			// aapt resource value: 0x7F080059
-			public const int barrier = 2131230809;
-			
-			// aapt resource value: 0x7F08005A
-			public const int baseline = 2131230810;
-			
-			// aapt resource value: 0x7F08005C
-			public const int beginning = 2131230812;
+			public const int baseline = 2131230809;
 			
 			// aapt resource value: 0x7F08005B
-			public const int beginOnFirstDraw = 2131230811;
+			public const int beginning = 2131230811;
+			
+			// aapt resource value: 0x7F08005A
+			public const int beginOnFirstDraw = 2131230810;
+			
+			// aapt resource value: 0x7F08005C
+			public const int bestChoice = 2131230812;
 			
 			// aapt resource value: 0x7F08005D
-			public const int bestChoice = 2131230813;
+			public const int blocking = 2131230813;
 			
 			// aapt resource value: 0x7F08005E
-			public const int blocking = 2131230814;
+			public const int bottom = 2131230814;
 			
 			// aapt resource value: 0x7F08005F
-			public const int bottom = 2131230815;
+			public const int bottomtab_navarea = 2131230815;
 			
 			// aapt resource value: 0x7F080060
-			public const int bottomtab_navarea = 2131230816;
-			
-			// aapt resource value: 0x7F080061
-			public const int bottomtab_tabbar = 2131230817;
+			public const int bottomtab_tabbar = 2131230816;
 			
 			// aapt resource value: 0x7F080001
 			public const int BOTTOM_END = 2131230721;
@@ -20351,890 +22312,887 @@ namespace Xam.Shell.Badge.Sample.Droid
 			// aapt resource value: 0x7F080002
 			public const int BOTTOM_START = 2131230722;
 			
+			// aapt resource value: 0x7F080061
+			public const int bounce = 2131230817;
+			
 			// aapt resource value: 0x7F080062
-			public const int bounce = 2131230818;
+			public const int bounceBoth = 2131230818;
 			
 			// aapt resource value: 0x7F080063
-			public const int bounceBoth = 2131230819;
+			public const int bounceEnd = 2131230819;
 			
 			// aapt resource value: 0x7F080064
-			public const int bounceEnd = 2131230820;
+			public const int bounceStart = 2131230820;
 			
 			// aapt resource value: 0x7F080065
-			public const int bounceStart = 2131230821;
-			
-			// aapt resource value: 0x7F080066
-			public const int browser_actions_header_text = 2131230822;
-			
-			// aapt resource value: 0x7F080069
-			public const int browser_actions_menu_items = 2131230825;
-			
-			// aapt resource value: 0x7F080067
-			public const int browser_actions_menu_item_icon = 2131230823;
+			public const int browser_actions_header_text = 2131230821;
 			
 			// aapt resource value: 0x7F080068
-			public const int browser_actions_menu_item_text = 2131230824;
+			public const int browser_actions_menu_items = 2131230824;
+			
+			// aapt resource value: 0x7F080066
+			public const int browser_actions_menu_item_icon = 2131230822;
+			
+			// aapt resource value: 0x7F080067
+			public const int browser_actions_menu_item_text = 2131230823;
+			
+			// aapt resource value: 0x7F080069
+			public const int browser_actions_menu_view = 2131230825;
 			
 			// aapt resource value: 0x7F08006A
-			public const int browser_actions_menu_view = 2131230826;
+			public const int buttonPanel = 2131230826;
 			
 			// aapt resource value: 0x7F08006B
-			public const int buttonPanel = 2131230827;
+			public const int cache_measures = 2131230827;
 			
 			// aapt resource value: 0x7F08006C
-			public const int cache_measures = 2131230828;
+			public const int cancel_action = 2131230828;
 			
 			// aapt resource value: 0x7F08006D
-			public const int cancel_action = 2131230829;
+			public const int cancel_button = 2131230829;
 			
 			// aapt resource value: 0x7F08006E
-			public const int cancel_button = 2131230830;
+			public const int carryVelocity = 2131230830;
 			
 			// aapt resource value: 0x7F08006F
-			public const int carryVelocity = 2131230831;
+			public const int center = 2131230831;
 			
 			// aapt resource value: 0x7F080070
-			public const int center = 2131230832;
+			public const int center_horizontal = 2131230832;
 			
 			// aapt resource value: 0x7F080071
-			public const int center_horizontal = 2131230833;
+			public const int center_vertical = 2131230833;
 			
 			// aapt resource value: 0x7F080072
-			public const int center_vertical = 2131230834;
+			public const int chain = 2131230834;
 			
 			// aapt resource value: 0x7F080073
-			public const int chain = 2131230835;
+			public const int chains = 2131230835;
 			
 			// aapt resource value: 0x7F080074
-			public const int chains = 2131230836;
+			public const int checkbox = 2131230836;
 			
 			// aapt resource value: 0x7F080075
-			public const int checkbox = 2131230837;
+			public const int @checked = 2131230837;
 			
 			// aapt resource value: 0x7F080076
-			public const int @checked = 2131230838;
+			public const int chip = 2131230838;
 			
 			// aapt resource value: 0x7F080077
-			public const int chip = 2131230839;
+			public const int chip1 = 2131230839;
 			
 			// aapt resource value: 0x7F080078
-			public const int chip1 = 2131230840;
+			public const int chip2 = 2131230840;
 			
 			// aapt resource value: 0x7F080079
-			public const int chip2 = 2131230841;
+			public const int chip3 = 2131230841;
 			
 			// aapt resource value: 0x7F08007A
-			public const int chip3 = 2131230842;
+			public const int chip_group = 2131230842;
 			
 			// aapt resource value: 0x7F08007B
-			public const int chip_group = 2131230843;
+			public const int chronometer = 2131230843;
 			
 			// aapt resource value: 0x7F08007C
-			public const int chronometer = 2131230844;
+			public const int circle_center = 2131230844;
 			
 			// aapt resource value: 0x7F08007D
-			public const int circle_center = 2131230845;
+			public const int clear_text = 2131230845;
 			
 			// aapt resource value: 0x7F08007E
-			public const int clear_text = 2131230846;
+			public const int clip_horizontal = 2131230846;
 			
 			// aapt resource value: 0x7F08007F
-			public const int clip_horizontal = 2131230847;
+			public const int clip_vertical = 2131230847;
 			
 			// aapt resource value: 0x7F080080
-			public const int clip_vertical = 2131230848;
+			public const int clockwise = 2131230848;
 			
 			// aapt resource value: 0x7F080081
-			public const int clockwise = 2131230849;
+			public const int closest = 2131230849;
 			
 			// aapt resource value: 0x7F080082
-			public const int closest = 2131230850;
+			public const int collapseActionView = 2131230850;
 			
 			// aapt resource value: 0x7F080083
-			public const int collapseActionView = 2131230851;
+			public const int confirm_button = 2131230851;
 			
 			// aapt resource value: 0x7F080084
-			public const int confirm_button = 2131230852;
+			public const int constraint = 2131230852;
 			
 			// aapt resource value: 0x7F080085
-			public const int constraint = 2131230853;
+			public const int container = 2131230853;
 			
 			// aapt resource value: 0x7F080086
-			public const int container = 2131230854;
+			public const int content = 2131230854;
 			
 			// aapt resource value: 0x7F080087
-			public const int content = 2131230855;
+			public const int contentPanel = 2131230855;
 			
 			// aapt resource value: 0x7F080088
-			public const int contentPanel = 2131230856;
+			public const int contiguous = 2131230856;
 			
 			// aapt resource value: 0x7F080089
-			public const int contiguous = 2131230857;
+			public const int continuousVelocity = 2131230857;
 			
 			// aapt resource value: 0x7F08008A
-			public const int continuousVelocity = 2131230858;
+			public const int coordinator = 2131230858;
 			
 			// aapt resource value: 0x7F08008B
-			public const int coordinator = 2131230859;
+			public const int cos = 2131230859;
 			
 			// aapt resource value: 0x7F08008C
-			public const int cos = 2131230860;
-			
-			// aapt resource value: 0x7F08008D
-			public const int counterclockwise = 2131230861;
+			public const int counterclockwise = 2131230860;
 			
 			// aapt resource value: 0x7F080003
 			public const int CTRL = 2131230723;
 			
+			// aapt resource value: 0x7F08008D
+			public const int currentState = 2131230861;
+			
 			// aapt resource value: 0x7F08008E
-			public const int currentState = 2131230862;
+			public const int custom = 2131230862;
 			
 			// aapt resource value: 0x7F08008F
-			public const int custom = 2131230863;
+			public const int customPanel = 2131230863;
 			
 			// aapt resource value: 0x7F080090
-			public const int customPanel = 2131230864;
+			public const int cut = 2131230864;
 			
 			// aapt resource value: 0x7F080091
-			public const int cut = 2131230865;
+			public const int date_picker_actions = 2131230865;
 			
 			// aapt resource value: 0x7F080092
-			public const int date_picker_actions = 2131230866;
+			public const int decelerate = 2131230866;
 			
 			// aapt resource value: 0x7F080093
-			public const int decelerate = 2131230867;
+			public const int decelerateAndComplete = 2131230867;
 			
 			// aapt resource value: 0x7F080094
-			public const int decelerateAndComplete = 2131230868;
+			public const int decor_content_parent = 2131230868;
 			
 			// aapt resource value: 0x7F080095
-			public const int decor_content_parent = 2131230869;
+			public const int default_activity_button = 2131230869;
 			
 			// aapt resource value: 0x7F080096
-			public const int default_activity_button = 2131230870;
+			public const int deltaRelative = 2131230870;
 			
 			// aapt resource value: 0x7F080097
-			public const int deltaRelative = 2131230871;
+			public const int dependency_ordering = 2131230871;
 			
 			// aapt resource value: 0x7F080098
-			public const int dependency_ordering = 2131230872;
+			public const int design_bottom_sheet = 2131230872;
 			
 			// aapt resource value: 0x7F080099
-			public const int design_bottom_sheet = 2131230873;
+			public const int design_menu_item_action_area = 2131230873;
 			
 			// aapt resource value: 0x7F08009A
-			public const int design_menu_item_action_area = 2131230874;
+			public const int design_menu_item_action_area_stub = 2131230874;
 			
 			// aapt resource value: 0x7F08009B
-			public const int design_menu_item_action_area_stub = 2131230875;
+			public const int design_menu_item_text = 2131230875;
 			
 			// aapt resource value: 0x7F08009C
-			public const int design_menu_item_text = 2131230876;
+			public const int design_navigation_view = 2131230876;
 			
 			// aapt resource value: 0x7F08009D
-			public const int design_navigation_view = 2131230877;
+			public const int dialog_button = 2131230877;
 			
 			// aapt resource value: 0x7F08009E
-			public const int dialog_button = 2131230878;
+			public const int dimensions = 2131230878;
 			
 			// aapt resource value: 0x7F08009F
-			public const int dimensions = 2131230879;
+			public const int direct = 2131230879;
 			
 			// aapt resource value: 0x7F0800A0
-			public const int direct = 2131230880;
+			public const int disableHome = 2131230880;
 			
 			// aapt resource value: 0x7F0800A1
-			public const int disableHome = 2131230881;
+			public const int disableIntraAutoTransition = 2131230881;
 			
 			// aapt resource value: 0x7F0800A2
-			public const int disableIntraAutoTransition = 2131230882;
+			public const int disablePostScroll = 2131230882;
 			
 			// aapt resource value: 0x7F0800A3
-			public const int disablePostScroll = 2131230883;
+			public const int disableScroll = 2131230883;
 			
 			// aapt resource value: 0x7F0800A4
-			public const int disableScroll = 2131230884;
+			public const int disjoint = 2131230884;
 			
 			// aapt resource value: 0x7F0800A5
-			public const int disjoint = 2131230885;
+			public const int dragAnticlockwise = 2131230885;
 			
 			// aapt resource value: 0x7F0800A6
-			public const int dragAnticlockwise = 2131230886;
+			public const int dragClockwise = 2131230886;
 			
 			// aapt resource value: 0x7F0800A7
-			public const int dragClockwise = 2131230887;
+			public const int dragDown = 2131230887;
 			
 			// aapt resource value: 0x7F0800A8
-			public const int dragDown = 2131230888;
+			public const int dragEnd = 2131230888;
 			
 			// aapt resource value: 0x7F0800A9
-			public const int dragEnd = 2131230889;
+			public const int dragLeft = 2131230889;
 			
 			// aapt resource value: 0x7F0800AA
-			public const int dragLeft = 2131230890;
+			public const int dragRight = 2131230890;
 			
 			// aapt resource value: 0x7F0800AB
-			public const int dragRight = 2131230891;
+			public const int dragStart = 2131230891;
 			
 			// aapt resource value: 0x7F0800AC
-			public const int dragStart = 2131230892;
+			public const int dragUp = 2131230892;
 			
 			// aapt resource value: 0x7F0800AD
-			public const int dragUp = 2131230893;
+			public const int dropdown_menu = 2131230893;
 			
 			// aapt resource value: 0x7F0800AE
-			public const int dropdown_menu = 2131230894;
+			public const int easeIn = 2131230894;
 			
 			// aapt resource value: 0x7F0800AF
-			public const int easeIn = 2131230895;
+			public const int easeInOut = 2131230895;
 			
 			// aapt resource value: 0x7F0800B0
-			public const int easeInOut = 2131230896;
+			public const int easeOut = 2131230896;
 			
 			// aapt resource value: 0x7F0800B1
-			public const int easeOut = 2131230897;
+			public const int east = 2131230897;
 			
 			// aapt resource value: 0x7F0800B2
-			public const int east = 2131230898;
+			public const int edit_query = 2131230898;
 			
 			// aapt resource value: 0x7F0800B3
-			public const int edit_query = 2131230899;
+			public const int elastic = 2131230899;
 			
 			// aapt resource value: 0x7F0800B4
-			public const int elastic = 2131230900;
+			public const int end = 2131230900;
 			
 			// aapt resource value: 0x7F0800B5
-			public const int end = 2131230901;
+			public const int endToStart = 2131230901;
 			
 			// aapt resource value: 0x7F0800B6
-			public const int endToStart = 2131230902;
+			public const int end_padder = 2131230902;
 			
 			// aapt resource value: 0x7F0800B7
-			public const int end_padder = 2131230903;
+			public const int enterAlways = 2131230903;
 			
 			// aapt resource value: 0x7F0800B8
-			public const int enterAlways = 2131230904;
+			public const int enterAlwaysCollapsed = 2131230904;
 			
 			// aapt resource value: 0x7F0800B9
-			public const int enterAlwaysCollapsed = 2131230905;
-			
-			// aapt resource value: 0x7F0800BA
-			public const int exitUntilCollapsed = 2131230906;
-			
-			// aapt resource value: 0x7F0800BC
-			public const int expanded_menu = 2131230908;
+			public const int exitUntilCollapsed = 2131230905;
 			
 			// aapt resource value: 0x7F0800BB
-			public const int expand_activities_button = 2131230907;
+			public const int expanded_menu = 2131230907;
+			
+			// aapt resource value: 0x7F0800BA
+			public const int expand_activities_button = 2131230906;
+			
+			// aapt resource value: 0x7F0800BC
+			public const int fade = 2131230908;
 			
 			// aapt resource value: 0x7F0800BD
-			public const int fade = 2131230909;
-			
-			// aapt resource value: 0x7F0800BE
-			public const int fill = 2131230910;
-			
-			// aapt resource value: 0x7F0800C1
-			public const int filled = 2131230913;
-			
-			// aapt resource value: 0x7F0800BF
-			public const int fill_horizontal = 2131230911;
+			public const int fill = 2131230909;
 			
 			// aapt resource value: 0x7F0800C0
-			public const int fill_vertical = 2131230912;
+			public const int filled = 2131230912;
+			
+			// aapt resource value: 0x7F0800BE
+			public const int fill_horizontal = 2131230910;
+			
+			// aapt resource value: 0x7F0800BF
+			public const int fill_vertical = 2131230911;
+			
+			// aapt resource value: 0x7F0800C1
+			public const int fitToContents = 2131230913;
 			
 			// aapt resource value: 0x7F0800C2
-			public const int fitToContents = 2131230914;
+			public const int @fixed = 2131230914;
 			
 			// aapt resource value: 0x7F0800C3
-			public const int @fixed = 2131230915;
+			public const int flip = 2131230915;
 			
 			// aapt resource value: 0x7F0800C4
-			public const int flip = 2131230916;
+			public const int floating = 2131230916;
 			
 			// aapt resource value: 0x7F0800C5
-			public const int floating = 2131230917;
+			public const int flyoutcontent_appbar = 2131230917;
 			
 			// aapt resource value: 0x7F0800C6
-			public const int flyoutcontent_appbar = 2131230918;
+			public const int forever = 2131230918;
 			
 			// aapt resource value: 0x7F0800C7
-			public const int forever = 2131230919;
+			public const int fragment_container_view_tag = 2131230919;
 			
 			// aapt resource value: 0x7F0800C8
-			public const int fragment_container_view_tag = 2131230920;
-			
-			// aapt resource value: 0x7F0800C9
-			public const int frost = 2131230921;
+			public const int frost = 2131230920;
 			
 			// aapt resource value: 0x7F080004
 			public const int FUNCTION = 2131230724;
 			
+			// aapt resource value: 0x7F0800C9
+			public const int ghost_view = 2131230921;
+			
 			// aapt resource value: 0x7F0800CA
-			public const int ghost_view = 2131230922;
+			public const int ghost_view_holder = 2131230922;
 			
 			// aapt resource value: 0x7F0800CB
-			public const int ghost_view_holder = 2131230923;
+			public const int gone = 2131230923;
 			
 			// aapt resource value: 0x7F0800CC
-			public const int gone = 2131230924;
+			public const int graph = 2131230924;
 			
 			// aapt resource value: 0x7F0800CD
-			public const int graph = 2131230925;
-			
-			// aapt resource value: 0x7F0800CE
-			public const int graph_wrap = 2131230926;
-			
-			// aapt resource value: 0x7F0800D0
-			public const int grouping = 2131230928;
-			
-			// aapt resource value: 0x7F0800D1
-			public const int groups = 2131230929;
+			public const int graph_wrap = 2131230925;
 			
 			// aapt resource value: 0x7F0800CF
-			public const int group_divider = 2131230927;
+			public const int grouping = 2131230927;
+			
+			// aapt resource value: 0x7F0800D0
+			public const int groups = 2131230928;
+			
+			// aapt resource value: 0x7F0800CE
+			public const int group_divider = 2131230926;
+			
+			// aapt resource value: 0x7F0800D1
+			public const int guideline = 2131230929;
 			
 			// aapt resource value: 0x7F0800D2
-			public const int guideline = 2131230930;
+			public const int header_title = 2131230930;
 			
 			// aapt resource value: 0x7F0800D3
-			public const int header_title = 2131230931;
+			public const int hideable = 2131230931;
 			
 			// aapt resource value: 0x7F0800D4
-			public const int hideable = 2131230932;
+			public const int home = 2131230932;
 			
 			// aapt resource value: 0x7F0800D5
-			public const int home = 2131230933;
+			public const int homeAsUp = 2131230933;
 			
 			// aapt resource value: 0x7F0800D6
-			public const int homeAsUp = 2131230934;
+			public const int honorRequest = 2131230934;
 			
 			// aapt resource value: 0x7F0800D7
-			public const int honorRequest = 2131230935;
+			public const int horizontal_only = 2131230935;
 			
 			// aapt resource value: 0x7F0800D8
-			public const int horizontal_only = 2131230936;
+			public const int icon = 2131230936;
 			
 			// aapt resource value: 0x7F0800D9
-			public const int icon = 2131230937;
+			public const int icon_frame = 2131230937;
 			
 			// aapt resource value: 0x7F0800DA
-			public const int icon_frame = 2131230938;
+			public const int icon_group = 2131230938;
 			
 			// aapt resource value: 0x7F0800DB
-			public const int icon_group = 2131230939;
+			public const int ifRoom = 2131230939;
 			
 			// aapt resource value: 0x7F0800DC
-			public const int ifRoom = 2131230940;
+			public const int ignore = 2131230940;
 			
 			// aapt resource value: 0x7F0800DD
-			public const int ignore = 2131230941;
+			public const int ignoreRequest = 2131230941;
 			
 			// aapt resource value: 0x7F0800DE
-			public const int ignoreRequest = 2131230942;
+			public const int image = 2131230942;
 			
 			// aapt resource value: 0x7F0800DF
-			public const int image = 2131230943;
+			public const int immediateStop = 2131230943;
 			
 			// aapt resource value: 0x7F0800E0
-			public const int immediateStop = 2131230944;
+			public const int included = 2131230944;
 			
 			// aapt resource value: 0x7F0800E1
-			public const int included = 2131230945;
+			public const int info = 2131230945;
 			
 			// aapt resource value: 0x7F0800E2
-			public const int info = 2131230946;
+			public const int invisible = 2131230946;
 			
 			// aapt resource value: 0x7F0800E3
-			public const int invisible = 2131230947;
+			public const int inward = 2131230947;
 			
 			// aapt resource value: 0x7F0800E4
-			public const int inward = 2131230948;
+			public const int italic = 2131230948;
 			
 			// aapt resource value: 0x7F0800E5
-			public const int italic = 2131230949;
+			public const int item_touch_helper_previous_elevation = 2131230949;
 			
 			// aapt resource value: 0x7F0800E6
-			public const int item_touch_helper_previous_elevation = 2131230950;
+			public const int jumpToEnd = 2131230950;
 			
 			// aapt resource value: 0x7F0800E7
-			public const int jumpToEnd = 2131230951;
+			public const int jumpToStart = 2131230951;
 			
 			// aapt resource value: 0x7F0800E8
-			public const int jumpToStart = 2131230952;
+			public const int labeled = 2131230952;
 			
 			// aapt resource value: 0x7F0800E9
-			public const int labeled = 2131230953;
+			public const int layout = 2131230953;
 			
 			// aapt resource value: 0x7F0800EA
-			public const int layout = 2131230954;
+			public const int left = 2131230954;
 			
 			// aapt resource value: 0x7F0800EB
-			public const int left = 2131230955;
+			public const int leftToRight = 2131230955;
 			
 			// aapt resource value: 0x7F0800EC
-			public const int leftToRight = 2131230956;
+			public const int legacy = 2131230956;
 			
 			// aapt resource value: 0x7F0800ED
-			public const int legacy = 2131230957;
+			public const int line1 = 2131230957;
 			
 			// aapt resource value: 0x7F0800EE
-			public const int line1 = 2131230958;
+			public const int line3 = 2131230958;
 			
 			// aapt resource value: 0x7F0800EF
-			public const int line3 = 2131230959;
+			public const int linear = 2131230959;
 			
 			// aapt resource value: 0x7F0800F0
-			public const int linear = 2131230960;
+			public const int listMode = 2131230960;
 			
 			// aapt resource value: 0x7F0800F1
-			public const int listMode = 2131230961;
+			public const int list_item = 2131230961;
 			
 			// aapt resource value: 0x7F0800F2
-			public const int list_item = 2131230962;
+			public const int main_appbar = 2131230962;
 			
 			// aapt resource value: 0x7F0800F3
-			public const int lybadge = 2131230963;
+			public const int main_tablayout = 2131230963;
 			
 			// aapt resource value: 0x7F0800F4
-			public const int main_appbar = 2131230964;
+			public const int main_toolbar = 2131230964;
 			
 			// aapt resource value: 0x7F0800F5
-			public const int main_tablayout = 2131230965;
+			public const int main_viewpager = 2131230965;
 			
 			// aapt resource value: 0x7F0800F6
-			public const int main_toolbar = 2131230966;
+			public const int masked = 2131230966;
 			
 			// aapt resource value: 0x7F0800F7
-			public const int main_viewpager = 2131230967;
+			public const int match_constraint = 2131230967;
 			
 			// aapt resource value: 0x7F0800F8
-			public const int masked = 2131230968;
+			public const int match_parent = 2131230968;
 			
 			// aapt resource value: 0x7F0800F9
-			public const int match_constraint = 2131230969;
+			public const int material_clock_display = 2131230969;
 			
 			// aapt resource value: 0x7F0800FA
-			public const int match_parent = 2131230970;
+			public const int material_clock_face = 2131230970;
 			
 			// aapt resource value: 0x7F0800FB
-			public const int material_clock_display = 2131230971;
+			public const int material_clock_hand = 2131230971;
 			
 			// aapt resource value: 0x7F0800FC
-			public const int material_clock_face = 2131230972;
+			public const int material_clock_period_am_button = 2131230972;
 			
 			// aapt resource value: 0x7F0800FD
-			public const int material_clock_hand = 2131230973;
+			public const int material_clock_period_pm_button = 2131230973;
 			
 			// aapt resource value: 0x7F0800FE
-			public const int material_clock_period_am_button = 2131230974;
+			public const int material_clock_period_toggle = 2131230974;
 			
 			// aapt resource value: 0x7F0800FF
-			public const int material_clock_period_pm_button = 2131230975;
+			public const int material_hour_text_input = 2131230975;
 			
 			// aapt resource value: 0x7F080100
-			public const int material_clock_period_toggle = 2131230976;
+			public const int material_hour_tv = 2131230976;
 			
 			// aapt resource value: 0x7F080101
-			public const int material_hour_text_input = 2131230977;
+			public const int material_label = 2131230977;
 			
 			// aapt resource value: 0x7F080102
-			public const int material_hour_tv = 2131230978;
+			public const int material_minute_text_input = 2131230978;
 			
 			// aapt resource value: 0x7F080103
-			public const int material_label = 2131230979;
+			public const int material_minute_tv = 2131230979;
 			
 			// aapt resource value: 0x7F080104
-			public const int material_minute_text_input = 2131230980;
+			public const int material_textinput_timepicker = 2131230980;
 			
 			// aapt resource value: 0x7F080105
-			public const int material_minute_tv = 2131230981;
+			public const int material_timepicker_cancel_button = 2131230981;
 			
 			// aapt resource value: 0x7F080106
-			public const int material_textinput_timepicker = 2131230982;
+			public const int material_timepicker_container = 2131230982;
 			
 			// aapt resource value: 0x7F080107
-			public const int material_timepicker_cancel_button = 2131230983;
+			public const int material_timepicker_edit_text = 2131230983;
 			
 			// aapt resource value: 0x7F080108
-			public const int material_timepicker_container = 2131230984;
+			public const int material_timepicker_mode_button = 2131230984;
 			
 			// aapt resource value: 0x7F080109
-			public const int material_timepicker_edit_text = 2131230985;
+			public const int material_timepicker_ok_button = 2131230985;
 			
 			// aapt resource value: 0x7F08010A
-			public const int material_timepicker_mode_button = 2131230986;
+			public const int material_timepicker_view = 2131230986;
 			
 			// aapt resource value: 0x7F08010B
-			public const int material_timepicker_ok_button = 2131230987;
+			public const int material_value_index = 2131230987;
 			
 			// aapt resource value: 0x7F08010C
-			public const int material_timepicker_view = 2131230988;
+			public const int media_actions = 2131230988;
 			
 			// aapt resource value: 0x7F08010D
-			public const int material_value_index = 2131230989;
+			public const int media_controller_compat_view_tag = 2131230989;
 			
 			// aapt resource value: 0x7F08010E
-			public const int media_actions = 2131230990;
-			
-			// aapt resource value: 0x7F08010F
-			public const int media_controller_compat_view_tag = 2131230991;
-			
-			// aapt resource value: 0x7F080110
-			public const int message = 2131230992;
+			public const int message = 2131230990;
 			
 			// aapt resource value: 0x7F080005
 			public const int META = 2131230725;
 			
+			// aapt resource value: 0x7F08010F
+			public const int middle = 2131230991;
+			
+			// aapt resource value: 0x7F080110
+			public const int mini = 2131230992;
+			
 			// aapt resource value: 0x7F080111
-			public const int middle = 2131230993;
+			public const int month_grid = 2131230993;
 			
 			// aapt resource value: 0x7F080112
-			public const int mini = 2131230994;
+			public const int month_navigation_bar = 2131230994;
 			
 			// aapt resource value: 0x7F080113
-			public const int month_grid = 2131230995;
+			public const int month_navigation_fragment_toggle = 2131230995;
 			
 			// aapt resource value: 0x7F080114
-			public const int month_navigation_bar = 2131230996;
+			public const int month_navigation_next = 2131230996;
 			
 			// aapt resource value: 0x7F080115
-			public const int month_navigation_fragment_toggle = 2131230997;
+			public const int month_navigation_previous = 2131230997;
 			
 			// aapt resource value: 0x7F080116
-			public const int month_navigation_next = 2131230998;
+			public const int month_title = 2131230998;
 			
 			// aapt resource value: 0x7F080117
-			public const int month_navigation_previous = 2131230999;
+			public const int motion_base = 2131230999;
 			
 			// aapt resource value: 0x7F080118
-			public const int month_title = 2131231000;
-			
-			// aapt resource value: 0x7F080119
-			public const int motion_base = 2131231001;
+			public const int mtrl_anchor_parent = 2131231000;
 			
 			// aapt resource value: 0x7F08011A
-			public const int mtrl_anchor_parent = 2131231002;
+			public const int mtrl_calendar_days_of_week = 2131231002;
 			
-			// aapt resource value: 0x7F08011C
-			public const int mtrl_calendar_days_of_week = 2131231004;
+			// aapt resource value: 0x7F080119
+			public const int mtrl_calendar_day_selector_frame = 2131231001;
 			
 			// aapt resource value: 0x7F08011B
-			public const int mtrl_calendar_day_selector_frame = 2131231003;
+			public const int mtrl_calendar_frame = 2131231003;
+			
+			// aapt resource value: 0x7F08011C
+			public const int mtrl_calendar_main_pane = 2131231004;
 			
 			// aapt resource value: 0x7F08011D
-			public const int mtrl_calendar_frame = 2131231005;
+			public const int mtrl_calendar_months = 2131231005;
 			
 			// aapt resource value: 0x7F08011E
-			public const int mtrl_calendar_main_pane = 2131231006;
+			public const int mtrl_calendar_selection_frame = 2131231006;
 			
 			// aapt resource value: 0x7F08011F
-			public const int mtrl_calendar_months = 2131231007;
+			public const int mtrl_calendar_text_input_frame = 2131231007;
 			
 			// aapt resource value: 0x7F080120
-			public const int mtrl_calendar_selection_frame = 2131231008;
+			public const int mtrl_calendar_year_selector_frame = 2131231008;
 			
 			// aapt resource value: 0x7F080121
-			public const int mtrl_calendar_text_input_frame = 2131231009;
+			public const int mtrl_card_checked_layer_id = 2131231009;
 			
 			// aapt resource value: 0x7F080122
-			public const int mtrl_calendar_year_selector_frame = 2131231010;
+			public const int mtrl_child_content_container = 2131231010;
 			
 			// aapt resource value: 0x7F080123
-			public const int mtrl_card_checked_layer_id = 2131231011;
+			public const int mtrl_internal_children_alpha_tag = 2131231011;
 			
 			// aapt resource value: 0x7F080124
-			public const int mtrl_child_content_container = 2131231012;
+			public const int mtrl_motion_snapshot_view = 2131231012;
 			
 			// aapt resource value: 0x7F080125
-			public const int mtrl_internal_children_alpha_tag = 2131231013;
+			public const int mtrl_picker_fullscreen = 2131231013;
 			
 			// aapt resource value: 0x7F080126
-			public const int mtrl_motion_snapshot_view = 2131231014;
+			public const int mtrl_picker_header = 2131231014;
 			
 			// aapt resource value: 0x7F080127
-			public const int mtrl_picker_fullscreen = 2131231015;
+			public const int mtrl_picker_header_selection_text = 2131231015;
 			
 			// aapt resource value: 0x7F080128
-			public const int mtrl_picker_header = 2131231016;
+			public const int mtrl_picker_header_title_and_selection = 2131231016;
 			
 			// aapt resource value: 0x7F080129
-			public const int mtrl_picker_header_selection_text = 2131231017;
+			public const int mtrl_picker_header_toggle = 2131231017;
 			
 			// aapt resource value: 0x7F08012A
-			public const int mtrl_picker_header_title_and_selection = 2131231018;
+			public const int mtrl_picker_text_input_date = 2131231018;
 			
 			// aapt resource value: 0x7F08012B
-			public const int mtrl_picker_header_toggle = 2131231019;
+			public const int mtrl_picker_text_input_range_end = 2131231019;
 			
 			// aapt resource value: 0x7F08012C
-			public const int mtrl_picker_text_input_date = 2131231020;
+			public const int mtrl_picker_text_input_range_start = 2131231020;
 			
 			// aapt resource value: 0x7F08012D
-			public const int mtrl_picker_text_input_range_end = 2131231021;
+			public const int mtrl_picker_title_text = 2131231021;
 			
 			// aapt resource value: 0x7F08012E
-			public const int mtrl_picker_text_input_range_start = 2131231022;
+			public const int mtrl_view_tag_bottom_padding = 2131231022;
 			
 			// aapt resource value: 0x7F08012F
-			public const int mtrl_picker_title_text = 2131231023;
-			
-			// aapt resource value: 0x7F080130
-			public const int mtrl_view_tag_bottom_padding = 2131231024;
+			public const int multiply = 2131231023;
 			
 			// aapt resource value: 0x7F080131
-			public const int multiply = 2131231025;
-			
-			// aapt resource value: 0x7F080133
-			public const int navigation_bar_item_icon_view = 2131231027;
-			
-			// aapt resource value: 0x7F080134
-			public const int navigation_bar_item_labels_group = 2131231028;
-			
-			// aapt resource value: 0x7F080135
-			public const int navigation_bar_item_large_label_view = 2131231029;
-			
-			// aapt resource value: 0x7F080136
-			public const int navigation_bar_item_small_label_view = 2131231030;
-			
-			// aapt resource value: 0x7F080137
-			public const int navigation_header_container = 2131231031;
+			public const int navigation_bar_item_icon_view = 2131231025;
 			
 			// aapt resource value: 0x7F080132
-			public const int nav_controller_view_tag = 2131231026;
+			public const int navigation_bar_item_labels_group = 2131231026;
+			
+			// aapt resource value: 0x7F080133
+			public const int navigation_bar_item_large_label_view = 2131231027;
+			
+			// aapt resource value: 0x7F080134
+			public const int navigation_bar_item_small_label_view = 2131231028;
+			
+			// aapt resource value: 0x7F080135
+			public const int navigation_header_container = 2131231029;
+			
+			// aapt resource value: 0x7F080130
+			public const int nav_controller_view_tag = 2131231024;
+			
+			// aapt resource value: 0x7F080136
+			public const int never = 2131231030;
+			
+			// aapt resource value: 0x7F080137
+			public const int neverCompleteToEnd = 2131231031;
 			
 			// aapt resource value: 0x7F080138
-			public const int never = 2131231032;
-			
-			// aapt resource value: 0x7F080139
-			public const int neverCompleteToEnd = 2131231033;
-			
-			// aapt resource value: 0x7F08013A
-			public const int neverCompleteToStart = 2131231034;
-			
-			// aapt resource value: 0x7F08013D
-			public const int none = 2131231037;
-			
-			// aapt resource value: 0x7F08013E
-			public const int normal = 2131231038;
-			
-			// aapt resource value: 0x7F08013F
-			public const int north = 2131231039;
+			public const int neverCompleteToStart = 2131231032;
 			
 			// aapt resource value: 0x7F08013B
-			public const int noScroll = 2131231035;
+			public const int none = 2131231035;
 			
 			// aapt resource value: 0x7F08013C
-			public const int noState = 2131231036;
+			public const int normal = 2131231036;
+			
+			// aapt resource value: 0x7F08013D
+			public const int north = 2131231037;
+			
+			// aapt resource value: 0x7F080139
+			public const int noScroll = 2131231033;
+			
+			// aapt resource value: 0x7F08013A
+			public const int noState = 2131231034;
+			
+			// aapt resource value: 0x7F08013E
+			public const int notification_background = 2131231038;
+			
+			// aapt resource value: 0x7F08013F
+			public const int notification_main_column = 2131231039;
 			
 			// aapt resource value: 0x7F080140
-			public const int notification_background = 2131231040;
-			
-			// aapt resource value: 0x7F080141
-			public const int notification_main_column = 2131231041;
-			
-			// aapt resource value: 0x7F080142
-			public const int notification_main_column_container = 2131231042;
+			public const int notification_main_column_container = 2131231040;
 			
 			// aapt resource value: 0x7F080006
 			public const int NO_DEBUG = 2131230726;
 			
+			// aapt resource value: 0x7F080141
+			public const int off = 2131231041;
+			
+			// aapt resource value: 0x7F080142
+			public const int on = 2131231042;
+			
 			// aapt resource value: 0x7F080143
-			public const int off = 2131231043;
+			public const int outline = 2131231043;
 			
 			// aapt resource value: 0x7F080144
-			public const int on = 2131231044;
+			public const int outward = 2131231044;
 			
 			// aapt resource value: 0x7F080145
-			public const int outline = 2131231045;
+			public const int overshoot = 2131231045;
 			
 			// aapt resource value: 0x7F080146
-			public const int outward = 2131231046;
+			public const int packed = 2131231046;
 			
 			// aapt resource value: 0x7F080147
-			public const int overshoot = 2131231047;
+			public const int parallax = 2131231047;
 			
 			// aapt resource value: 0x7F080148
-			public const int packed = 2131231048;
+			public const int parent = 2131231048;
 			
 			// aapt resource value: 0x7F080149
-			public const int parallax = 2131231049;
+			public const int parentPanel = 2131231049;
 			
 			// aapt resource value: 0x7F08014A
-			public const int parent = 2131231050;
+			public const int parentRelative = 2131231050;
 			
 			// aapt resource value: 0x7F08014B
-			public const int parentPanel = 2131231051;
+			public const int parent_matrix = 2131231051;
 			
 			// aapt resource value: 0x7F08014C
-			public const int parentRelative = 2131231052;
+			public const int password_toggle = 2131231052;
 			
 			// aapt resource value: 0x7F08014D
-			public const int parent_matrix = 2131231053;
+			public const int path = 2131231053;
 			
 			// aapt resource value: 0x7F08014E
-			public const int password_toggle = 2131231054;
+			public const int pathRelative = 2131231054;
 			
 			// aapt resource value: 0x7F08014F
-			public const int path = 2131231055;
+			public const int peekHeight = 2131231055;
 			
 			// aapt resource value: 0x7F080150
-			public const int pathRelative = 2131231056;
+			public const int percent = 2131231056;
 			
 			// aapt resource value: 0x7F080151
-			public const int peekHeight = 2131231057;
+			public const int pin = 2131231057;
 			
 			// aapt resource value: 0x7F080152
-			public const int percent = 2131231058;
+			public const int position = 2131231058;
 			
 			// aapt resource value: 0x7F080153
-			public const int pin = 2131231059;
+			public const int postLayout = 2131231059;
 			
 			// aapt resource value: 0x7F080154
-			public const int position = 2131231060;
+			public const int progress_circular = 2131231060;
 			
 			// aapt resource value: 0x7F080155
-			public const int postLayout = 2131231061;
+			public const int progress_horizontal = 2131231061;
 			
 			// aapt resource value: 0x7F080156
-			public const int progress_circular = 2131231062;
+			public const int radio = 2131231062;
 			
 			// aapt resource value: 0x7F080157
-			public const int progress_horizontal = 2131231063;
+			public const int ratio = 2131231063;
 			
 			// aapt resource value: 0x7F080158
-			public const int radio = 2131231064;
+			public const int rectangles = 2131231064;
 			
 			// aapt resource value: 0x7F080159
-			public const int ratio = 2131231065;
+			public const int recycler_view = 2131231065;
 			
 			// aapt resource value: 0x7F08015A
-			public const int rectangles = 2131231066;
+			public const int reverseSawtooth = 2131231066;
 			
 			// aapt resource value: 0x7F08015B
-			public const int recycler_view = 2131231067;
+			public const int right = 2131231067;
 			
 			// aapt resource value: 0x7F08015C
-			public const int reverseSawtooth = 2131231068;
+			public const int rightToLeft = 2131231068;
 			
 			// aapt resource value: 0x7F08015D
-			public const int right = 2131231069;
+			public const int right_icon = 2131231069;
 			
 			// aapt resource value: 0x7F08015E
-			public const int rightToLeft = 2131231070;
+			public const int right_side = 2131231070;
 			
 			// aapt resource value: 0x7F08015F
-			public const int right_icon = 2131231071;
+			public const int rounded = 2131231071;
 			
 			// aapt resource value: 0x7F080160
-			public const int right_side = 2131231072;
+			public const int row_index_key = 2131231072;
 			
 			// aapt resource value: 0x7F080161
-			public const int rounded = 2131231073;
+			public const int save_non_transition_alpha = 2131231073;
 			
 			// aapt resource value: 0x7F080162
-			public const int row_index_key = 2131231074;
+			public const int save_overlay_view = 2131231074;
 			
 			// aapt resource value: 0x7F080163
-			public const int save_non_transition_alpha = 2131231075;
+			public const int sawtooth = 2131231075;
 			
 			// aapt resource value: 0x7F080164
-			public const int save_overlay_view = 2131231076;
+			public const int scale = 2131231076;
 			
 			// aapt resource value: 0x7F080165
-			public const int sawtooth = 2131231077;
+			public const int screen = 2131231077;
 			
 			// aapt resource value: 0x7F080166
-			public const int scale = 2131231078;
-			
-			// aapt resource value: 0x7F080167
-			public const int screen = 2131231079;
-			
-			// aapt resource value: 0x7F080168
-			public const int scroll = 2131231080;
-			
-			// aapt resource value: 0x7F08016C
-			public const int scrollable = 2131231084;
-			
-			// aapt resource value: 0x7F080169
-			public const int scrollIndicatorDown = 2131231081;
+			public const int scroll = 2131231078;
 			
 			// aapt resource value: 0x7F08016A
-			public const int scrollIndicatorUp = 2131231082;
+			public const int scrollable = 2131231082;
+			
+			// aapt resource value: 0x7F080167
+			public const int scrollIndicatorDown = 2131231079;
+			
+			// aapt resource value: 0x7F080168
+			public const int scrollIndicatorUp = 2131231080;
+			
+			// aapt resource value: 0x7F080169
+			public const int scrollView = 2131231081;
 			
 			// aapt resource value: 0x7F08016B
-			public const int scrollView = 2131231083;
+			public const int search_badge = 2131231083;
+			
+			// aapt resource value: 0x7F08016C
+			public const int search_bar = 2131231084;
 			
 			// aapt resource value: 0x7F08016D
-			public const int search_badge = 2131231085;
+			public const int search_button = 2131231085;
 			
 			// aapt resource value: 0x7F08016E
-			public const int search_bar = 2131231086;
+			public const int search_close_btn = 2131231086;
 			
 			// aapt resource value: 0x7F08016F
-			public const int search_button = 2131231087;
+			public const int search_edit_frame = 2131231087;
 			
 			// aapt resource value: 0x7F080170
-			public const int search_close_btn = 2131231088;
+			public const int search_go_btn = 2131231088;
 			
 			// aapt resource value: 0x7F080171
-			public const int search_edit_frame = 2131231089;
+			public const int search_mag_icon = 2131231089;
 			
 			// aapt resource value: 0x7F080172
-			public const int search_go_btn = 2131231090;
+			public const int search_plate = 2131231090;
 			
 			// aapt resource value: 0x7F080173
-			public const int search_mag_icon = 2131231091;
+			public const int search_src_text = 2131231091;
 			
 			// aapt resource value: 0x7F080174
-			public const int search_plate = 2131231092;
+			public const int search_voice_btn = 2131231092;
 			
 			// aapt resource value: 0x7F080175
-			public const int search_src_text = 2131231093;
+			public const int seekbar = 2131231093;
 			
 			// aapt resource value: 0x7F080176
-			public const int search_voice_btn = 2131231094;
-			
-			// aapt resource value: 0x7F080177
-			public const int seekbar = 2131231095;
+			public const int seekbar_value = 2131231094;
 			
 			// aapt resource value: 0x7F080178
-			public const int seekbar_value = 2131231096;
-			
-			// aapt resource value: 0x7F08017A
-			public const int selected = 2131231098;
-			
-			// aapt resource value: 0x7F08017B
-			public const int selection_type = 2131231099;
+			public const int selected = 2131231096;
 			
 			// aapt resource value: 0x7F080179
-			public const int select_dialog_listview = 2131231097;
+			public const int selection_type = 2131231097;
+			
+			// aapt resource value: 0x7F080177
+			public const int select_dialog_listview = 2131231095;
+			
+			// aapt resource value: 0x7F08017A
+			public const int sharedValueSet = 2131231098;
+			
+			// aapt resource value: 0x7F08017B
+			public const int sharedValueUnset = 2131231099;
 			
 			// aapt resource value: 0x7F08017C
-			public const int sharedValueSet = 2131231100;
+			public const int shellcontent_appbar = 2131231100;
 			
 			// aapt resource value: 0x7F08017D
-			public const int sharedValueUnset = 2131231101;
-			
-			// aapt resource value: 0x7F08017E
-			public const int shellcontent_appbar = 2131231102;
-			
-			// aapt resource value: 0x7F08017F
-			public const int shellcontent_toolbar = 2131231103;
+			public const int shellcontent_toolbar = 2131231101;
 			
 			// aapt resource value: 0x7F080007
 			public const int SHIFT = 2131230727;
 			
+			// aapt resource value: 0x7F08017E
+			public const int shortcut = 2131231102;
+			
+			// aapt resource value: 0x7F08017F
+			public const int showCustom = 2131231103;
+			
 			// aapt resource value: 0x7F080180
-			public const int shortcut = 2131231104;
+			public const int showHome = 2131231104;
 			
 			// aapt resource value: 0x7F080181
-			public const int showCustom = 2131231105;
-			
-			// aapt resource value: 0x7F080182
-			public const int showHome = 2131231106;
-			
-			// aapt resource value: 0x7F080183
-			public const int showTitle = 2131231107;
+			public const int showTitle = 2131231105;
 			
 			// aapt resource value: 0x7F080008
 			public const int SHOW_ALL = 2131230728;
@@ -21245,242 +23203,242 @@ namespace Xam.Shell.Badge.Sample.Droid
 			// aapt resource value: 0x7F08000A
 			public const int SHOW_PROGRESS = 2131230730;
 			
+			// aapt resource value: 0x7F080182
+			public const int sin = 2131231106;
+			
+			// aapt resource value: 0x7F080183
+			public const int skipCollapsed = 2131231107;
+			
 			// aapt resource value: 0x7F080184
-			public const int sin = 2131231108;
+			public const int skipped = 2131231108;
 			
 			// aapt resource value: 0x7F080185
-			public const int skipCollapsed = 2131231109;
+			public const int slide = 2131231109;
 			
 			// aapt resource value: 0x7F080186
-			public const int skipped = 2131231110;
+			public const int sliding_tabs = 2131231110;
 			
 			// aapt resource value: 0x7F080187
-			public const int slide = 2131231111;
+			public const int snackbar_action = 2131231111;
 			
 			// aapt resource value: 0x7F080188
-			public const int sliding_tabs = 2131231112;
+			public const int snackbar_text = 2131231112;
 			
 			// aapt resource value: 0x7F080189
-			public const int snackbar_action = 2131231113;
+			public const int snap = 2131231113;
 			
 			// aapt resource value: 0x7F08018A
-			public const int snackbar_text = 2131231114;
+			public const int snapMargins = 2131231114;
 			
 			// aapt resource value: 0x7F08018B
-			public const int snap = 2131231115;
+			public const int south = 2131231115;
 			
 			// aapt resource value: 0x7F08018C
-			public const int snapMargins = 2131231116;
+			public const int spacer = 2131231116;
 			
 			// aapt resource value: 0x7F08018D
-			public const int south = 2131231117;
+			public const int special_effects_controller_view_tag = 2131231117;
 			
 			// aapt resource value: 0x7F08018E
-			public const int spacer = 2131231118;
+			public const int spinner = 2131231118;
 			
 			// aapt resource value: 0x7F08018F
-			public const int special_effects_controller_view_tag = 2131231119;
+			public const int spline = 2131231119;
 			
 			// aapt resource value: 0x7F080190
-			public const int spinner = 2131231120;
+			public const int split_action_bar = 2131231120;
 			
 			// aapt resource value: 0x7F080191
-			public const int spline = 2131231121;
+			public const int spread = 2131231121;
 			
 			// aapt resource value: 0x7F080192
-			public const int split_action_bar = 2131231122;
+			public const int spread_inside = 2131231122;
 			
 			// aapt resource value: 0x7F080193
-			public const int spread = 2131231123;
+			public const int spring = 2131231123;
 			
 			// aapt resource value: 0x7F080194
-			public const int spread_inside = 2131231124;
+			public const int square = 2131231124;
 			
 			// aapt resource value: 0x7F080195
-			public const int spring = 2131231125;
+			public const int src_atop = 2131231125;
 			
 			// aapt resource value: 0x7F080196
-			public const int square = 2131231126;
+			public const int src_in = 2131231126;
 			
 			// aapt resource value: 0x7F080197
-			public const int src_atop = 2131231127;
+			public const int src_over = 2131231127;
 			
 			// aapt resource value: 0x7F080198
-			public const int src_in = 2131231128;
+			public const int standard = 2131231128;
 			
 			// aapt resource value: 0x7F080199
-			public const int src_over = 2131231129;
+			public const int start = 2131231129;
 			
 			// aapt resource value: 0x7F08019A
-			public const int standard = 2131231130;
+			public const int startHorizontal = 2131231130;
 			
 			// aapt resource value: 0x7F08019B
-			public const int start = 2131231131;
+			public const int startToEnd = 2131231131;
 			
 			// aapt resource value: 0x7F08019C
-			public const int startHorizontal = 2131231132;
+			public const int startVertical = 2131231132;
 			
 			// aapt resource value: 0x7F08019D
-			public const int startToEnd = 2131231133;
+			public const int staticLayout = 2131231133;
 			
 			// aapt resource value: 0x7F08019E
-			public const int startVertical = 2131231134;
+			public const int staticPostLayout = 2131231134;
 			
 			// aapt resource value: 0x7F08019F
-			public const int staticLayout = 2131231135;
+			public const int status_bar_latest_event_content = 2131231135;
 			
 			// aapt resource value: 0x7F0801A0
-			public const int staticPostLayout = 2131231136;
+			public const int stop = 2131231136;
 			
 			// aapt resource value: 0x7F0801A1
-			public const int status_bar_latest_event_content = 2131231137;
+			public const int stretch = 2131231137;
 			
 			// aapt resource value: 0x7F0801A2
-			public const int stop = 2131231138;
+			public const int submenuarrow = 2131231138;
 			
 			// aapt resource value: 0x7F0801A3
-			public const int stretch = 2131231139;
+			public const int submit_area = 2131231139;
 			
 			// aapt resource value: 0x7F0801A4
-			public const int submenuarrow = 2131231140;
+			public const int supportScrollUp = 2131231140;
 			
 			// aapt resource value: 0x7F0801A5
-			public const int submit_area = 2131231141;
-			
-			// aapt resource value: 0x7F0801A6
-			public const int supportScrollUp = 2131231142;
-			
-			// aapt resource value: 0x7F0801A7
-			public const int switchWidget = 2131231143;
+			public const int switchWidget = 2131231141;
 			
 			// aapt resource value: 0x7F08000B
 			public const int SYM = 2131230731;
 			
+			// aapt resource value: 0x7F0801A6
+			public const int tabMode = 2131231142;
+			
+			// aapt resource value: 0x7F0801A7
+			public const int tag_accessibility_actions = 2131231143;
+			
 			// aapt resource value: 0x7F0801A8
-			public const int tabMode = 2131231144;
+			public const int tag_accessibility_clickable_spans = 2131231144;
 			
 			// aapt resource value: 0x7F0801A9
-			public const int tag_accessibility_actions = 2131231145;
+			public const int tag_accessibility_heading = 2131231145;
 			
 			// aapt resource value: 0x7F0801AA
-			public const int tag_accessibility_clickable_spans = 2131231146;
+			public const int tag_accessibility_pane_title = 2131231146;
 			
 			// aapt resource value: 0x7F0801AB
-			public const int tag_accessibility_heading = 2131231147;
+			public const int tag_on_apply_window_listener = 2131231147;
 			
 			// aapt resource value: 0x7F0801AC
-			public const int tag_accessibility_pane_title = 2131231148;
+			public const int tag_on_receive_content_listener = 2131231148;
 			
 			// aapt resource value: 0x7F0801AD
-			public const int tag_on_apply_window_listener = 2131231149;
+			public const int tag_on_receive_content_mime_types = 2131231149;
 			
 			// aapt resource value: 0x7F0801AE
-			public const int tag_on_receive_content_listener = 2131231150;
+			public const int tag_screen_reader_focusable = 2131231150;
 			
 			// aapt resource value: 0x7F0801AF
-			public const int tag_on_receive_content_mime_types = 2131231151;
+			public const int tag_state_description = 2131231151;
 			
 			// aapt resource value: 0x7F0801B0
-			public const int tag_screen_reader_focusable = 2131231152;
+			public const int tag_transition_group = 2131231152;
 			
 			// aapt resource value: 0x7F0801B1
-			public const int tag_state_description = 2131231153;
+			public const int tag_unhandled_key_event_manager = 2131231153;
 			
 			// aapt resource value: 0x7F0801B2
-			public const int tag_transition_group = 2131231154;
+			public const int tag_unhandled_key_listeners = 2131231154;
 			
 			// aapt resource value: 0x7F0801B3
-			public const int tag_unhandled_key_event_manager = 2131231155;
+			public const int tag_window_insets_animation_callback = 2131231155;
 			
 			// aapt resource value: 0x7F0801B4
-			public const int tag_unhandled_key_listeners = 2131231156;
+			public const int test_checkbox_android_button_tint = 2131231156;
 			
 			// aapt resource value: 0x7F0801B5
-			public const int tag_window_insets_animation_callback = 2131231157;
+			public const int test_checkbox_app_button_tint = 2131231157;
 			
 			// aapt resource value: 0x7F0801B6
-			public const int test_checkbox_android_button_tint = 2131231158;
+			public const int test_radiobutton_android_button_tint = 2131231158;
 			
 			// aapt resource value: 0x7F0801B7
-			public const int test_checkbox_app_button_tint = 2131231159;
+			public const int test_radiobutton_app_button_tint = 2131231159;
 			
 			// aapt resource value: 0x7F0801B8
-			public const int test_radiobutton_android_button_tint = 2131231160;
+			public const int text = 2131231160;
 			
 			// aapt resource value: 0x7F0801B9
-			public const int test_radiobutton_app_button_tint = 2131231161;
+			public const int text2 = 2131231161;
 			
 			// aapt resource value: 0x7F0801BA
-			public const int text = 2131231162;
-			
-			// aapt resource value: 0x7F0801BB
-			public const int text2 = 2131231163;
-			
-			// aapt resource value: 0x7F0801BC
-			public const int textEnd = 2131231164;
-			
-			// aapt resource value: 0x7F0801C4
-			public const int textinput_counter = 2131231172;
-			
-			// aapt resource value: 0x7F0801C5
-			public const int textinput_error = 2131231173;
-			
-			// aapt resource value: 0x7F0801C6
-			public const int textinput_helper_text = 2131231174;
-			
-			// aapt resource value: 0x7F0801C7
-			public const int textinput_placeholder = 2131231175;
-			
-			// aapt resource value: 0x7F0801C8
-			public const int textinput_prefix_text = 2131231176;
-			
-			// aapt resource value: 0x7F0801C9
-			public const int textinput_suffix_text = 2131231177;
-			
-			// aapt resource value: 0x7F0801BD
-			public const int textSpacerNoButtons = 2131231165;
-			
-			// aapt resource value: 0x7F0801BE
-			public const int textSpacerNoTitle = 2131231166;
-			
-			// aapt resource value: 0x7F0801BF
-			public const int textStart = 2131231167;
-			
-			// aapt resource value: 0x7F0801C0
-			public const int textTop = 2131231168;
-			
-			// aapt resource value: 0x7F0801C1
-			public const int text_input_end_icon = 2131231169;
+			public const int textEnd = 2131231162;
 			
 			// aapt resource value: 0x7F0801C2
-			public const int text_input_error_icon = 2131231170;
+			public const int textinput_counter = 2131231170;
 			
 			// aapt resource value: 0x7F0801C3
-			public const int text_input_start_icon = 2131231171;
+			public const int textinput_error = 2131231171;
+			
+			// aapt resource value: 0x7F0801C4
+			public const int textinput_helper_text = 2131231172;
+			
+			// aapt resource value: 0x7F0801C5
+			public const int textinput_placeholder = 2131231173;
+			
+			// aapt resource value: 0x7F0801C6
+			public const int textinput_prefix_text = 2131231174;
+			
+			// aapt resource value: 0x7F0801C7
+			public const int textinput_suffix_text = 2131231175;
+			
+			// aapt resource value: 0x7F0801BB
+			public const int textSpacerNoButtons = 2131231163;
+			
+			// aapt resource value: 0x7F0801BC
+			public const int textSpacerNoTitle = 2131231164;
+			
+			// aapt resource value: 0x7F0801BD
+			public const int textStart = 2131231165;
+			
+			// aapt resource value: 0x7F0801BE
+			public const int textTop = 2131231166;
+			
+			// aapt resource value: 0x7F0801BF
+			public const int text_input_end_icon = 2131231167;
+			
+			// aapt resource value: 0x7F0801C0
+			public const int text_input_error_icon = 2131231168;
+			
+			// aapt resource value: 0x7F0801C1
+			public const int text_input_start_icon = 2131231169;
+			
+			// aapt resource value: 0x7F0801C8
+			public const int time = 2131231176;
+			
+			// aapt resource value: 0x7F0801C9
+			public const int title = 2131231177;
 			
 			// aapt resource value: 0x7F0801CA
-			public const int time = 2131231178;
+			public const int titleDividerNoCustom = 2131231178;
 			
 			// aapt resource value: 0x7F0801CB
-			public const int title = 2131231179;
+			public const int title_template = 2131231179;
 			
 			// aapt resource value: 0x7F0801CC
-			public const int titleDividerNoCustom = 2131231180;
+			public const int toggle = 2131231180;
 			
 			// aapt resource value: 0x7F0801CD
-			public const int title_template = 2131231181;
+			public const int toolbar = 2131231181;
 			
 			// aapt resource value: 0x7F0801CE
-			public const int toggle = 2131231182;
+			public const int top = 2131231182;
 			
 			// aapt resource value: 0x7F0801CF
-			public const int toolbar = 2131231183;
-			
-			// aapt resource value: 0x7F0801D0
-			public const int top = 2131231184;
-			
-			// aapt resource value: 0x7F0801D1
-			public const int topPanel = 2131231185;
+			public const int topPanel = 2131231183;
 			
 			// aapt resource value: 0x7F08000C
 			public const int TOP_END = 2131230732;
@@ -21488,101 +23446,98 @@ namespace Xam.Shell.Badge.Sample.Droid
 			// aapt resource value: 0x7F08000D
 			public const int TOP_START = 2131230733;
 			
+			// aapt resource value: 0x7F0801D0
+			public const int touch_outside = 2131231184;
+			
+			// aapt resource value: 0x7F0801D1
+			public const int transitionToEnd = 2131231185;
+			
 			// aapt resource value: 0x7F0801D2
-			public const int touch_outside = 2131231186;
+			public const int transitionToStart = 2131231186;
 			
 			// aapt resource value: 0x7F0801D3
-			public const int transitionToEnd = 2131231187;
+			public const int transition_current_scene = 2131231187;
 			
 			// aapt resource value: 0x7F0801D4
-			public const int transitionToStart = 2131231188;
+			public const int transition_layout_save = 2131231188;
 			
 			// aapt resource value: 0x7F0801D5
-			public const int transition_current_scene = 2131231189;
+			public const int transition_position = 2131231189;
 			
 			// aapt resource value: 0x7F0801D6
-			public const int transition_layout_save = 2131231190;
+			public const int transition_scene_layoutid_cache = 2131231190;
 			
 			// aapt resource value: 0x7F0801D7
-			public const int transition_position = 2131231191;
+			public const int transition_transform = 2131231191;
 			
 			// aapt resource value: 0x7F0801D8
-			public const int transition_scene_layoutid_cache = 2131231192;
+			public const int triangle = 2131231192;
 			
 			// aapt resource value: 0x7F0801D9
-			public const int transition_transform = 2131231193;
+			public const int @unchecked = 2131231193;
 			
 			// aapt resource value: 0x7F0801DA
-			public const int triangle = 2131231194;
+			public const int uniform = 2131231194;
 			
 			// aapt resource value: 0x7F0801DB
-			public const int txtbadge = 2131231195;
+			public const int unlabeled = 2131231195;
 			
 			// aapt resource value: 0x7F0801DC
-			public const int @unchecked = 2131231196;
+			public const int up = 2131231196;
 			
 			// aapt resource value: 0x7F0801DD
-			public const int uniform = 2131231197;
+			public const int useLogo = 2131231197;
 			
 			// aapt resource value: 0x7F0801DE
-			public const int unlabeled = 2131231198;
+			public const int vertical_only = 2131231198;
 			
 			// aapt resource value: 0x7F0801DF
-			public const int up = 2131231199;
+			public const int view_offset_helper = 2131231199;
 			
 			// aapt resource value: 0x7F0801E0
-			public const int useLogo = 2131231200;
+			public const int view_transition = 2131231200;
 			
 			// aapt resource value: 0x7F0801E1
-			public const int vertical_only = 2131231201;
+			public const int view_tree_lifecycle_owner = 2131231201;
 			
 			// aapt resource value: 0x7F0801E2
-			public const int view_offset_helper = 2131231202;
+			public const int view_tree_saved_state_registry_owner = 2131231202;
 			
 			// aapt resource value: 0x7F0801E3
-			public const int view_transition = 2131231203;
+			public const int view_tree_view_model_store_owner = 2131231203;
 			
 			// aapt resource value: 0x7F0801E4
-			public const int view_tree_lifecycle_owner = 2131231204;
+			public const int visible = 2131231204;
 			
 			// aapt resource value: 0x7F0801E5
-			public const int view_tree_saved_state_registry_owner = 2131231205;
+			public const int visible_removing_fragment_view_tag = 2131231205;
 			
 			// aapt resource value: 0x7F0801E6
-			public const int view_tree_view_model_store_owner = 2131231206;
-			
-			// aapt resource value: 0x7F0801E7
-			public const int visible = 2131231207;
+			public const int west = 2131231206;
 			
 			// aapt resource value: 0x7F0801E8
-			public const int visible_removing_fragment_view_tag = 2131231208;
+			public const int withinBounds = 2131231208;
+			
+			// aapt resource value: 0x7F0801E7
+			public const int withText = 2131231207;
 			
 			// aapt resource value: 0x7F0801E9
-			public const int west = 2131231209;
-			
-			// aapt resource value: 0x7F0801EB
-			public const int withinBounds = 2131231211;
+			public const int wrap = 2131231209;
 			
 			// aapt resource value: 0x7F0801EA
-			public const int withText = 2131231210;
+			public const int wrap_content = 2131231210;
+			
+			// aapt resource value: 0x7F0801EB
+			public const int wrap_content_constrained = 2131231211;
 			
 			// aapt resource value: 0x7F0801EC
-			public const int wrap = 2131231212;
+			public const int x_left = 2131231212;
 			
 			// aapt resource value: 0x7F0801ED
-			public const int wrap_content = 2131231213;
+			public const int x_right = 2131231213;
 			
 			// aapt resource value: 0x7F0801EE
-			public const int wrap_content_constrained = 2131231214;
-			
-			// aapt resource value: 0x7F0801EF
-			public const int x_left = 2131231215;
-			
-			// aapt resource value: 0x7F0801F0
-			public const int x_right = 2131231216;
-			
-			// aapt resource value: 0x7F0801F1
-			public const int zero_corner_chip = 2131231217;
+			public const int zero_corner_chip = 2131231214;
 			
 			static Id()
 			{
@@ -22035,163 +23990,160 @@ namespace Xam.Shell.Badge.Sample.Droid
 			public const int notification_action_tombstone = 2131427424;
 			
 			// aapt resource value: 0x7F0B0061
-			public const int notification_badge = 2131427425;
+			public const int notification_media_action = 2131427425;
 			
 			// aapt resource value: 0x7F0B0062
-			public const int notification_media_action = 2131427426;
+			public const int notification_media_cancel_action = 2131427426;
 			
 			// aapt resource value: 0x7F0B0063
-			public const int notification_media_cancel_action = 2131427427;
+			public const int notification_template_big_media = 2131427427;
 			
 			// aapt resource value: 0x7F0B0064
-			public const int notification_template_big_media = 2131427428;
+			public const int notification_template_big_media_custom = 2131427428;
 			
 			// aapt resource value: 0x7F0B0065
-			public const int notification_template_big_media_custom = 2131427429;
+			public const int notification_template_big_media_narrow = 2131427429;
 			
 			// aapt resource value: 0x7F0B0066
-			public const int notification_template_big_media_narrow = 2131427430;
+			public const int notification_template_big_media_narrow_custom = 2131427430;
 			
 			// aapt resource value: 0x7F0B0067
-			public const int notification_template_big_media_narrow_custom = 2131427431;
+			public const int notification_template_custom_big = 2131427431;
 			
 			// aapt resource value: 0x7F0B0068
-			public const int notification_template_custom_big = 2131427432;
+			public const int notification_template_icon_group = 2131427432;
 			
 			// aapt resource value: 0x7F0B0069
-			public const int notification_template_icon_group = 2131427433;
+			public const int notification_template_lines_media = 2131427433;
 			
 			// aapt resource value: 0x7F0B006A
-			public const int notification_template_lines_media = 2131427434;
+			public const int notification_template_media = 2131427434;
 			
 			// aapt resource value: 0x7F0B006B
-			public const int notification_template_media = 2131427435;
+			public const int notification_template_media_custom = 2131427435;
 			
 			// aapt resource value: 0x7F0B006C
-			public const int notification_template_media_custom = 2131427436;
+			public const int notification_template_part_chronometer = 2131427436;
 			
 			// aapt resource value: 0x7F0B006D
-			public const int notification_template_part_chronometer = 2131427437;
+			public const int notification_template_part_time = 2131427437;
 			
 			// aapt resource value: 0x7F0B006E
-			public const int notification_template_part_time = 2131427438;
+			public const int preference = 2131427438;
 			
 			// aapt resource value: 0x7F0B006F
-			public const int preference = 2131427439;
+			public const int preference_category = 2131427439;
 			
 			// aapt resource value: 0x7F0B0070
-			public const int preference_category = 2131427440;
+			public const int preference_category_material = 2131427440;
 			
 			// aapt resource value: 0x7F0B0071
-			public const int preference_category_material = 2131427441;
+			public const int preference_dialog_edittext = 2131427441;
 			
 			// aapt resource value: 0x7F0B0072
-			public const int preference_dialog_edittext = 2131427442;
+			public const int preference_dropdown = 2131427442;
 			
 			// aapt resource value: 0x7F0B0073
-			public const int preference_dropdown = 2131427443;
+			public const int preference_dropdown_material = 2131427443;
 			
 			// aapt resource value: 0x7F0B0074
-			public const int preference_dropdown_material = 2131427444;
+			public const int preference_information = 2131427444;
 			
 			// aapt resource value: 0x7F0B0075
-			public const int preference_information = 2131427445;
+			public const int preference_information_material = 2131427445;
 			
 			// aapt resource value: 0x7F0B0076
-			public const int preference_information_material = 2131427446;
+			public const int preference_list_fragment = 2131427446;
 			
 			// aapt resource value: 0x7F0B0077
-			public const int preference_list_fragment = 2131427447;
+			public const int preference_material = 2131427447;
 			
 			// aapt resource value: 0x7F0B0078
-			public const int preference_material = 2131427448;
+			public const int preference_recyclerview = 2131427448;
 			
 			// aapt resource value: 0x7F0B0079
-			public const int preference_recyclerview = 2131427449;
+			public const int preference_widget_checkbox = 2131427449;
 			
 			// aapt resource value: 0x7F0B007A
-			public const int preference_widget_checkbox = 2131427450;
+			public const int preference_widget_seekbar = 2131427450;
 			
 			// aapt resource value: 0x7F0B007B
-			public const int preference_widget_seekbar = 2131427451;
+			public const int preference_widget_seekbar_material = 2131427451;
 			
 			// aapt resource value: 0x7F0B007C
-			public const int preference_widget_seekbar_material = 2131427452;
+			public const int preference_widget_switch = 2131427452;
 			
 			// aapt resource value: 0x7F0B007D
-			public const int preference_widget_switch = 2131427453;
+			public const int preference_widget_switch_compat = 2131427453;
 			
 			// aapt resource value: 0x7F0B007E
-			public const int preference_widget_switch_compat = 2131427454;
+			public const int RootLayout = 2131427454;
 			
 			// aapt resource value: 0x7F0B007F
-			public const int RootLayout = 2131427455;
+			public const int select_dialog_item_material = 2131427455;
 			
 			// aapt resource value: 0x7F0B0080
-			public const int select_dialog_item_material = 2131427456;
+			public const int select_dialog_multichoice_material = 2131427456;
 			
 			// aapt resource value: 0x7F0B0081
-			public const int select_dialog_multichoice_material = 2131427457;
+			public const int select_dialog_singlechoice_material = 2131427457;
 			
 			// aapt resource value: 0x7F0B0082
-			public const int select_dialog_singlechoice_material = 2131427458;
+			public const int ShellContent = 2131427458;
 			
 			// aapt resource value: 0x7F0B0083
-			public const int ShellContent = 2131427459;
+			public const int support_simple_spinner_dropdown_item = 2131427459;
 			
 			// aapt resource value: 0x7F0B0084
-			public const int support_simple_spinner_dropdown_item = 2131427460;
+			public const int Tabbar = 2131427460;
 			
 			// aapt resource value: 0x7F0B0085
-			public const int Tabbar = 2131427461;
+			public const int test_action_chip = 2131427461;
 			
 			// aapt resource value: 0x7F0B0086
-			public const int test_action_chip = 2131427462;
+			public const int test_chip_zero_corner_radius = 2131427462;
 			
 			// aapt resource value: 0x7F0B0087
-			public const int test_chip_zero_corner_radius = 2131427463;
+			public const int test_design_checkbox = 2131427463;
 			
 			// aapt resource value: 0x7F0B0088
-			public const int test_design_checkbox = 2131427464;
+			public const int test_design_radiobutton = 2131427464;
 			
 			// aapt resource value: 0x7F0B0089
-			public const int test_design_radiobutton = 2131427465;
+			public const int test_navigation_bar_item_layout = 2131427465;
 			
 			// aapt resource value: 0x7F0B008A
-			public const int test_navigation_bar_item_layout = 2131427466;
+			public const int test_reflow_chipgroup = 2131427466;
 			
 			// aapt resource value: 0x7F0B008B
-			public const int test_reflow_chipgroup = 2131427467;
+			public const int test_toolbar = 2131427467;
 			
 			// aapt resource value: 0x7F0B008C
-			public const int test_toolbar = 2131427468;
+			public const int test_toolbar_custom_background = 2131427468;
 			
 			// aapt resource value: 0x7F0B008D
-			public const int test_toolbar_custom_background = 2131427469;
+			public const int test_toolbar_elevation = 2131427469;
 			
 			// aapt resource value: 0x7F0B008E
-			public const int test_toolbar_elevation = 2131427470;
-			
-			// aapt resource value: 0x7F0B008F
-			public const int test_toolbar_surface = 2131427471;
-			
-			// aapt resource value: 0x7F0B0094
-			public const int text_view_without_line_height = 2131427476;
-			
-			// aapt resource value: 0x7F0B0090
-			public const int text_view_with_line_height_from_appearance = 2131427472;
-			
-			// aapt resource value: 0x7F0B0091
-			public const int text_view_with_line_height_from_layout = 2131427473;
-			
-			// aapt resource value: 0x7F0B0092
-			public const int text_view_with_line_height_from_style = 2131427474;
+			public const int test_toolbar_surface = 2131427470;
 			
 			// aapt resource value: 0x7F0B0093
-			public const int text_view_with_theme_line_height = 2131427475;
+			public const int text_view_without_line_height = 2131427475;
 			
-			// aapt resource value: 0x7F0B0095
-			public const int Toolbar = 2131427477;
+			// aapt resource value: 0x7F0B008F
+			public const int text_view_with_line_height_from_appearance = 2131427471;
+			
+			// aapt resource value: 0x7F0B0090
+			public const int text_view_with_line_height_from_layout = 2131427472;
+			
+			// aapt resource value: 0x7F0B0091
+			public const int text_view_with_line_height_from_style = 2131427473;
+			
+			// aapt resource value: 0x7F0B0092
+			public const int text_view_with_theme_line_height = 2131427474;
+			
+			// aapt resource value: 0x7F0B0094
+			public const int Toolbar = 2131427476;
 			
 			static Layout()
 			{

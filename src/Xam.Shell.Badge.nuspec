@@ -27,7 +27,8 @@
     <tags>Xamarin.Forms Shell Badge</tags>
     <dependencies>
       <group targetFramework="netstandard2.1">
-        <dependency id="Xamarin.Forms" version="4.0" />
+        <dependency id="Xamarin.Forms" version="6.0.4" />
+        <dependency id="AsyncAwaitBestPractices" version="4.0" />
       </group>
       <group targetFramework="MonoAndroid10">
         <dependency id="Xamarin.Forms" version="4.0" />
