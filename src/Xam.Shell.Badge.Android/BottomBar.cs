@@ -7,8 +7,6 @@ namespace Xam.Shell.Badge.Droid
     /// </summary>
     public static class BottomBar
     {
-        #region Public
-
         /// <summary>
         /// The Init.
         /// </summary>
@@ -17,7 +15,5 @@ namespace Xam.Shell.Badge.Droid
             System.Diagnostics.Debug.Assert(typeof(BadgeShellItemRenderer) != null);
             System.Diagnostics.Debug.Assert(typeof(BadgeShellRenderer) != null);
         }
-
-        #endregion
     }
 }

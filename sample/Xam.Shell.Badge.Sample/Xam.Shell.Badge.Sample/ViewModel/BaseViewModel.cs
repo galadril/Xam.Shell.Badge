@@ -3,23 +3,9 @@ using System.Runtime.CompilerServices;
 
 namespace Xam.Shell.Badge.Sample
 {
-    /// <summary>
-    /// Defines the <see cref="BaseViewModel" />.
-    /// </summary>
     public abstract class BaseViewModel : INotifyPropertyChanged
     {
-        #region Constructor & Destructor
-
-        /// <summary>
-        /// Initializes a new instance of the <see cref="BaseViewModel"/> class.
-        /// </summary>
-        protected BaseViewModel()
-        {
-        }
-
-        #endregion
-
-        #region Protected
+        protected BaseViewModel() { }
 
         /// <summary>
         /// The OnPropertyChanged.
@@ -30,8 +16,6 @@ namespace Xam.Shell.Badge.Sample
             PropertyChanged?.Invoke(this,
             new PropertyChangedEventArgs(propertyName));
         }
-
-        #endregion
 
         /// <summary>
         /// Defines the PropertyChanged.
