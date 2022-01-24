@@ -26,7 +26,7 @@
     <copyright>Copyright @ Mark Heinis 2020</copyright>
     <tags>Xamarin.Forms Shell Badge</tags>
     <dependencies>
-      <group targetFramework="netstandard2.0">
+      <group targetFramework="netstandard2.1">
         <dependency id="Xamarin.Forms" version="4.0" />
       </group>
       <group targetFramework="MonoAndroid10">
@@ -41,27 +41,27 @@
 
   <files>
     <!-- Nuget icon -->
-    <file src="Xam.Shell.Badge\bin\Release\netstandard2.0\icon.png" target="images\" />
+    <file src="Xam.Shell.Badge\bin\Release\netstandard2.1\icon.png" target="images\" />
 
     <!-- .NET Standard 2.0 -->
-    <file src="Xam.Shell.Badge\bin\Release\netstandard2.0\Xam.Shell.Badge.dll" target="lib\netstandard2.0\Xam.Shell.Badge.dll" />
-    <file src="Xam.Shell.Badge\bin\Release\netstandard2.0\Xam.Shell.Badge.xml" target="lib\netstandard2.0\Xam.Shell.Badge.xml" />
+    <file src="Xam.Shell.Badge\bin\Release\netstandard2.1\Xam.Shell.Badge.dll" target="lib\netstandard2.1\Xam.Shell.Badge.dll" />
+    <file src="Xam.Shell.Badge\bin\Release\netstandard2.1\Xam.Shell.Badge.xml" target="lib\netstandard2.1\Xam.Shell.Badge.xml" />
 
     <!-- Android -->
-    <file src="Xam.Shell.Badge\bin\Release\netstandard2.0\Xam.Shell.Badge.dll" target="lib\MonoAndroid10\Xam.Shell.Badge.dll" />
-    <file src="Xam.Shell.Badge\bin\Release\netstandard2.0\Xam.Shell.Badge.xml" target="lib\MonoAndroid10\Xam.Shell.Badge.xml" />
+    <file src="Xam.Shell.Badge\bin\Release\netstandard2.1\Xam.Shell.Badge.dll" target="lib\MonoAndroid10\Xam.Shell.Badge.dll" />
+    <file src="Xam.Shell.Badge\bin\Release\netstandard2.1\Xam.Shell.Badge.xml" target="lib\MonoAndroid10\Xam.Shell.Badge.xml" />
     <file src="Xam.Shell.Badge.Android\bin\Release\Xam.Shell.Badge.Android.dll" target="lib\MonoAndroid10\Xam.Shell.Badge.Android.dll" />
     <file src="Xam.Shell.Badge.Android\bin\Release\Xam.Shell.Badge.Android.xml" target="lib\MonoAndroid10\Xam.Shell.Badge.Android.xml" />
 
     <!-- iOS Unified API -->
-    <file src="Xam.Shell.Badge\bin\Release\netstandard2.0\Xam.Shell.Badge.dll" target="lib\Xamarin.iOS\Xam.Shell.Badge.dll" />
-    <file src="Xam.Shell.Badge\bin\Release\netstandard2.0\Xam.Shell.Badge.xml" target="lib\Xamarin.iOS\Xam.Shell.Badge.xml" />
+    <file src="Xam.Shell.Badge\bin\Release\netstandard2.1\Xam.Shell.Badge.dll" target="lib\Xamarin.iOS\Xam.Shell.Badge.dll" />
+    <file src="Xam.Shell.Badge\bin\Release\netstandard2.1\Xam.Shell.Badge.xml" target="lib\Xamarin.iOS\Xam.Shell.Badge.xml" />
     <file src="Xam.Shell.Badge.iOS\bin\Release\Xam.Shell.Badge.iOS.dll" target="lib\Xamarin.iOS\Xam.Shell.Badge.iOS.dll" />
     <file src="Xam.Shell.Badge.iOS\bin\Release\Xam.Shell.Badge.iOS.xml" target="lib\Xamarin.iOS\Xam.Shell.Badge.iOS.xml" />
 
     <!-- iOS Classic API-->
-    <file src="Xam.Shell.Badge\bin\Release\netstandard2.0\Xam.Shell.Badge.dll" target="lib\MonoTouch10\Xam.Shell.Badge.dll" />
-    <file src="Xam.Shell.Badge\bin\Release\netstandard2.0\Xam.Shell.Badge.xml" target="lib\MonoTouch10\Xam.Shell.Badge.xml" />
+    <file src="Xam.Shell.Badge\bin\Release\netstandard2.1\Xam.Shell.Badge.dll" target="lib\MonoTouch10\Xam.Shell.Badge.dll" />
+    <file src="Xam.Shell.Badge\bin\Release\netstandard2.1\Xam.Shell.Badge.xml" target="lib\MonoTouch10\Xam.Shell.Badge.xml" />
     <file src="Xam.Shell.Badge.iOS\bin\Release\Xam.Shell.Badge.iOS.dll" target="lib\MonoTouch10\Xam.Shell.Badge.iOS.dll" />
     <file src="Xam.Shell.Badge.iOS\bin\Release\Xam.Shell.Badge.iOS.xml" target="lib\MonoTouch10\Xam.Shell.Badge.iOS.xml" />
   </files>
