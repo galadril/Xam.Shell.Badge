@@ -92,13 +92,17 @@ namespace Xam.Shell.Badge.Droid.Renderers
 
         private void ApplyBadge(int itemId, string badgeText, Color badgeBg, Color textColor)
         {
+            using var bottomNavigationMenuView = (BottomNavigationMenuView)_bottomNavigationView.GetChildAt(0);
+
+            var itemView = bottomNavigationMenuView.FindViewById<BottomNavigationItemView>(itemId);
+            if (default == itemView)
+                return;
+
+            var iconView = itemView.GetChildAt(0);
+
             var badgeBackgroundColor = badgeBg.ToAndroid();
             var badgeTextColor = textColor.ToAndroid();
             int.TryParse(badgeText, out var badgeNumber);
-
-            using var bottomNavigationMenuView = (BottomNavigationMenuView)_bottomNavigationView.GetChildAt(0);
-            var itemView = bottomNavigationMenuView.FindViewById<BottomNavigationItemView>(itemId);
-            var iconView = itemView.GetChildAt(0);
 
             var badge = _badgeDrawables.GetValueOrDefault(itemId, BadgeDrawable.Create(
                 new ContextThemeWrapper(_shellContext.AndroidContext, Resource.Style.Base_Theme_MaterialComponents_Bridge)));
