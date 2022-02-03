@@ -54,9 +54,9 @@
       <Version>2.1.0.4</Version>
     </PackageReference>
     <PackageReference Include="Xam.Shell.Badge">
-      <Version>1.0.13</Version>
+      <Version>1.0.15</Version>
     </PackageReference>
-    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2291" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2337" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />

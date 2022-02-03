@@ -3,7 +3,7 @@
   <!-- See for documentation: https://docs.microsoft.com/nl-nl/nuget/create-packages/overview-and-workflow -->
   <metadata>
     <id>Xam.Shell.Badge</id>
-    <version>1.0.14</version>
+    <version>1.0.15</version>
     <icon>images\icon.png</icon>
     <title>Xam.Shell.Badge</title>
     <authors>Mark Heinis</authors>
@@ -17,7 +17,7 @@
     <tags>Xamarin.Forms Shell Badge</tags>
     <dependencies>
       <group targetFramework="netstandard2.1">
-        <dependency id="Xamarin.Forms" version="6.0.4" />
+        <dependency id="Xamarin.Forms" version="4.0" />
         <dependency id="AsyncAwaitBestPractices" version="4.0" />
       </group>
       <group targetFramework="MonoAndroid10">
