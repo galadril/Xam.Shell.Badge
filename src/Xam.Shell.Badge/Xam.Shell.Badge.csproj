@@ -21,7 +21,7 @@
       <DelaySign>false</DelaySign>
       <AssemblyVersion>1.0.0.0</AssemblyVersion>
       <FileVersion>1.0.0.1</FileVersion>
-      <Version>1.0.15</Version>
+      <Version>1.0.17</Version>
       <RepositoryType>git</RepositoryType>
       <RepositoryUrl>https://github.com/galadril/Xam.Shell.Badge</RepositoryUrl>
       <AssemblyName>Xam.Shell.Badge</AssemblyName>

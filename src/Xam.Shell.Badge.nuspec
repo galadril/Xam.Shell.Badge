@@ -3,7 +3,7 @@
   <!-- See for documentation: https://docs.microsoft.com/nl-nl/nuget/create-packages/overview-and-workflow -->
   <metadata>
     <id>Xam.Shell.Badge</id>
-    <version>1.0.15</version>
+    <version>1.0.17</version>
     <icon>images\icon.png</icon>
     <title>Xam.Shell.Badge</title>
     <authors>Mark Heinis</authors>
@@ -15,19 +15,18 @@
     </description>
     <copyright>Copyright @ Mark Heinis 2020</copyright>
     <tags>Xamarin.Forms Shell Badge</tags>
-    <dependencies>
-      <group targetFramework="netstandard2.1">
-        <dependency id="Xamarin.Forms" version="4.0" />
-        <dependency id="AsyncAwaitBestPractices" version="4.0" />
-      </group>
-      <group targetFramework="MonoAndroid10">
-        <dependency id="Xamarin.Forms" version="4.0" />
-        <dependency id="Xamarin.Google.Android.Material" version="1.0.0.1" />
-      </group>
-      <group targetFramework="MonoTouch10">
-        <dependency id="Xamarin.Forms" version="4.0" />
-      </group>
-    </dependencies>
+	  <dependencies>
+		  <group targetFramework="netstandard2.1">
+			  <dependency id="Xamarin.Forms" version="5.0.0.2291" />
+			  <dependency id="AsyncAwaitBestPractices" version="6.0.4" />
+		  </group>
+		  <group targetFramework="MonoAndroid10">
+			  <dependency id="Xamarin.Forms" version="5.0.0.2291" />
+		  </group>
+		  <group targetFramework="MonoTouch10">
+			  <dependency id="Xamarin.Forms" version="5.0.0.2291" />
+		  </group>
+	  </dependencies>
   </metadata>
 
   <files>

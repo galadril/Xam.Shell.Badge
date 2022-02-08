@@ -51,6 +51,8 @@
     <MtouchArch>ARM64</MtouchArch>
     <MtouchDebug>true</MtouchDebug>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <CodesignKey>Apple Development: Mark Heinis (GY4WQNBRFK)</CodesignKey>
+    <CodesignProvision>VS: WildCard Development</CodesignProvision>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
     <DebugType>none</DebugType>
@@ -118,7 +120,7 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xam.Shell.Badge">
-      <Version>1.0.15</Version>
+      <Version>1.0.17</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2337" />
   </ItemGroup>
