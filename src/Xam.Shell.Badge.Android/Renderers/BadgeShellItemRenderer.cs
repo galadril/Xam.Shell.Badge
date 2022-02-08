@@ -48,14 +48,20 @@ namespace Xam.Shell.Badge.Droid.Renderers
             var outerlayout = base.OnCreateView(inflater, container, savedInstanceState);
 
             _bottomNavigationView = outerlayout.FindViewById<BottomNavigationView>(Resource.Id.bottomtab_tabbar);
-            _bottomNavigationView.Post(() =>
-            {
-                Device
-                    .InvokeOnMainThreadAsync(InitBadges)
-                    .SafeFireAndForget();
-            });
 
             return outerlayout;
+        }
+
+        /// <summary>
+        /// <inheritdoc/>
+        /// </summary>
+        public override void OnResume()
+        {
+            base.OnResume();
+
+            Device
+                .InvokeOnMainThreadAsync(InitBadges)
+                .SafeFireAndForget();
         }
 
         /// <summary>
@@ -92,8 +98,11 @@ namespace Xam.Shell.Badge.Droid.Renderers
 
         private void ApplyBadge(int itemId, string badgeText, Color badgeBg, Color textColor)
         {
-            using var bottomNavigationMenuView = (BottomNavigationMenuView)_bottomNavigationView.GetChildAt(0);
+            if (default == _bottomNavigationView)
+                return;
 
+            using var bottomNavigationMenuView = (BottomNavigationMenuView)_bottomNavigationView.GetChildAt(0);
+            
             var itemView = bottomNavigationMenuView.FindViewById<BottomNavigationItemView>(itemId);
             if (default == itemView)
                 return;
