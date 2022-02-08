@@ -1,7 +1,6 @@
 ﻿using Android.App;
 using Android.Content.PM;
 using Android.OS;
-using Plugin.CurrentActivity;
 using Xam.Shell.Badge.Droid;
 
 namespace Xam.Shell.Badge.Sample.Droid
@@ -17,7 +16,6 @@ namespace Xam.Shell.Badge.Sample.Droid
             base.OnCreate(savedInstanceState);
 
             Xamarin.Forms.Forms.Init(this, savedInstanceState);
-            CrossCurrentActivity.Current.Init(this, savedInstanceState);
             BottomBar.Init();
             LoadApplication(new App());
         }
