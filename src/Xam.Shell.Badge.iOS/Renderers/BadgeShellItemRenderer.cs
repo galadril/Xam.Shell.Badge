@@ -77,6 +77,9 @@ namespace Xam.Shell.Badge.iOS.Renderers
         {
             if (TabBar.Items.Any())
             {
+                if (default == TabBar.Items.ElementAtOrDefault(index))
+                    return;
+
                 int.TryParse(text, out var badgeValue);
 
                 if (!string.IsNullOrEmpty(text))
@@ -92,8 +95,8 @@ namespace Xam.Shell.Badge.iOS.Renderers
                         TabBar.Items[index].BadgeColor = bg.ToUIColor();
                     }
 
-                    TabBar.Items[index]
-                        .SetBadgeTextAttributes(new UIStringAttributes()
+                    TabBar.Items[index].SetBadgeTextAttributes(
+                        new UIStringAttributes
                         {
                             ForegroundColor = textColor.ToUIColor()
                         }, UIControlState.Normal);
