@@ -77,31 +77,37 @@ namespace Xam.Shell.Badge.iOS.Renderers
         {
             if (TabBar.Items.Any())
             {
-                int.TryParse(text, out var badgeValue);
-
-                if (!string.IsNullOrEmpty(text))
+                if (TabBar.Items.ElementAtOrDefault(index) is UITabBarItem currentTabBarItem)
                 {
+                    int.TryParse(text, out var badgeValue);
+
+                    if (string.IsNullOrEmpty(text))
+                    {
+                        currentTabBarItem.BadgeValue = default;
+                        currentTabBarItem.BadgeColor = UIColor.Clear;
+                        return;
+                    }
+
                     if (badgeValue == 0)
                     {
-                        TabBar.Items[index].BadgeValue = "●";
-                        TabBar.Items[index].BadgeColor = UIColor.Clear;
+                        currentTabBarItem.BadgeValue = "●";
+                        currentTabBarItem.BadgeColor = UIColor.Clear;
+                        currentTabBarItem.SetBadgeTextAttributes(
+                            new UIStringAttributes
+                            {
+                                ForegroundColor = bg.ToUIColor()
+                            }, UIControlState.Normal);
                     }
                     else
                     {
-                        TabBar.Items[index].BadgeValue = text;
-                        TabBar.Items[index].BadgeColor = bg.ToUIColor();
+                        currentTabBarItem.BadgeValue = text;
+                        currentTabBarItem.BadgeColor = bg.ToUIColor();
+                        currentTabBarItem.SetBadgeTextAttributes(
+                            new UIStringAttributes
+                            {
+                                ForegroundColor = textColor.ToUIColor()
+                            }, UIControlState.Normal);
                     }
-
-                    TabBar.Items[index]
-                        .SetBadgeTextAttributes(new UIStringAttributes()
-                        {
-                            ForegroundColor = textColor.ToUIColor()
-                        }, UIControlState.Normal);
-                }
-                else
-                {
-                    TabBar.Items[index].BadgeValue = default;
-                    TabBar.Items[index].BadgeColor = UIColor.Clear;
                 }
             }
         }
