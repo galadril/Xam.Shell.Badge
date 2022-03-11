@@ -29,26 +29,26 @@
 
     <TabBar x:Name="tabBar">
         <Tab Icon="baseline_accessibility_white_24"
-             Title="Test1"
-             badge:Badge.BackgroundColor="{Binding Badge1Color}"
-             badge:Badge.Text="{Binding Badge1Text}">
+             Title="Test1">
             <ShellContent ContentTemplate="{DataTemplate local:MainPage}" />
         </Tab>
         <Tab Icon="baseline_accessibility_white_24"
              Title="Test2"
+             IsVisible="False"
              badge:Badge.Text="0"
              badge:Badge.BackgroundColor="Purple">
             <ShellContent ContentTemplate="{DataTemplate local:MainPage}" />
         </Tab>
         <Tab Icon="baseline_accessibility_white_24"
              Title="Test3"
-             badge:Badge.Text="">
+             badge:Badge.BackgroundColor="{Binding Badge1Color}"
+             badge:Badge.Text="{Binding Badge1Text}">
             <ShellContent ContentTemplate="{DataTemplate local:MainPage}" />
         </Tab>
         <Tab Icon="baseline_accessibility_white_24"
              Title="Test4"
-             badge:Badge.BackgroundColor="Green"
-             badge:Badge.Text="200">
+             badge:Badge.Text="200"
+             badge:Badge.BackgroundColor="Green">
             <ShellContent ContentTemplate="{DataTemplate local:MainPage}" />
         </Tab>
     </TabBar>

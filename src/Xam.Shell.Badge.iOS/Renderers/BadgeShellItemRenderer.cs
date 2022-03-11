@@ -52,21 +52,29 @@ namespace Xam.Shell.Badge.iOS.Renderers
                 return;
 
             Device
-                .InvokeOnMainThreadAsync(() => UpdateBadge((ShellSection)sender))
+                .InvokeOnMainThreadAsync(() =>
+                {
+                    var item = (ShellSection)sender;
+                    if (item.IsVisible)
+                        UpdateBadge(item, ShellItem.Items.IndexOf(item));
+                })
                 .SafeFireAndForget();
         }
 
         private void InitBadges()
         {
-            for (int index = 0; index < ShellItem.Items.Count; index++)
+            for (int index = 0, filteredIndex = 0; index < ShellItem.Items.Count; index++)
             {
-                UpdateBadge(ShellItem.Items.ElementAtOrDefault(index));
+                var item = ShellItem.Items.ElementAtOrDefault(index);
+                if (!item.IsVisible)
+                    continue;
+                UpdateBadge(item, filteredIndex);
+                filteredIndex++;
             }
         }
 
-        private void UpdateBadge(ShellSection item)
+        private void UpdateBadge(ShellSection item, int index)
         {
-            var index = ShellItem.Items.IndexOf(item);
             var text = Badge.GetText(item);
             var textColor = Badge.GetTextColor(item);
             var bg = Badge.GetBackgroundColor(item);

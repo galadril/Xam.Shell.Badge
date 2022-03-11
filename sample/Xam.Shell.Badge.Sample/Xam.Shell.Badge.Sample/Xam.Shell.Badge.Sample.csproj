@@ -7,8 +7,11 @@
 
   <ItemGroup>
     <PackageReference Include="AsyncAwaitBestPractices" Version="6.0.4" />
-    <PackageReference Include="Xam.Shell.Badge" Version="1.0.18" />
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2337" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\src\Xam.Shell.Badge\Xam.Shell.Badge.csproj" />
   </ItemGroup>
 
   <ItemGroup>

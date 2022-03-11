@@ -26,7 +26,7 @@
     <WarningLevel>4</WarningLevel>
     <ConsolePause>false</ConsolePause>
     <MtouchArch>x86_64</MtouchArch>
-    <MtouchLink>None</MtouchLink>
+    <MtouchLink>SdkOnly</MtouchLink>
     <MtouchDebug>true</MtouchDebug>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
@@ -119,13 +119,16 @@
     <Reference Include="Xamarin.iOS" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xam.Shell.Badge">
-      <Version>1.0.18</Version>
-    </PackageReference>
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2337" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
+    <ProjectReference Include="..\..\..\src\Xam.Shell.Badge.iOS\Xam.Shell.Badge.iOS.csproj">
+      <Project>{09190fce-680f-46e0-ae0d-e74d64dc3ba1}</Project>
+      <Name>Xam.Shell.Badge.iOS</Name>
+      <IsAppExtension>false</IsAppExtension>
+      <IsWatchApp>false</IsWatchApp>
+    </ProjectReference>
     <ProjectReference Include="..\Xam.Shell.Badge.Sample\Xam.Shell.Badge.Sample.csproj">
       <Project>{047D2052-6D49-44BB-88F1-B7935C726FC8}</Project>
       <Name>Xam.Shell.Badge.Sample</Name>
