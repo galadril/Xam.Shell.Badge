@@ -1,5 +1,7 @@
 ﻿using AsyncAwaitBestPractices;
 using CoreFoundation;
+using System;
+using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
 using UIKit;
@@ -20,6 +22,9 @@ namespace Xam.Shell.Badge.iOS.Renderers
                 Badge.TextColorProperty.PropertyName,
                 Badge.BackgroundColorProperty.PropertyName
             };
+
+        private readonly Dictionary<Guid, int> _tabRealIndexByItemId =
+            new Dictionary<Guid, int>();
 
         /// <summary>
         /// <inheritdoc/>
@@ -56,18 +61,23 @@ namespace Xam.Shell.Badge.iOS.Renderers
                 {
                     var item = (ShellSection)sender;
                     if (item.IsVisible)
-                        UpdateBadge(item, ShellItem.Items.IndexOf(item));
+                    {
+                        var index = _tabRealIndexByItemId.GetValueOrDefault(item.Id, -1);
+                        UpdateBadge(item, index);
+                    }
                 })
                 .SafeFireAndForget();
         }
 
         private void InitBadges()
         {
+            _tabRealIndexByItemId.Clear();
             for (int index = 0, filteredIndex = 0; index < ShellItem.Items.Count; index++)
             {
                 var item = ShellItem.Items.ElementAtOrDefault(index);
                 if (!item.IsVisible)
                     continue;
+                _tabRealIndexByItemId[item.Id] = filteredIndex;
                 UpdateBadge(item, filteredIndex);
                 filteredIndex++;
             }
@@ -75,6 +85,9 @@ namespace Xam.Shell.Badge.iOS.Renderers
 
         private void UpdateBadge(ShellSection item, int index)
         {
+            if (index < 0)
+                return;
+
             var text = Badge.GetText(item);
             var textColor = Badge.GetTextColor(item);
             var bg = Badge.GetBackgroundColor(item);

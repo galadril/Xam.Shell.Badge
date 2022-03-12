@@ -134,7 +134,6 @@ namespace Xam.Shell.Badge.Droid.Renderers
             badge.BackgroundColor = badgeBackgroundColor;
             badge.BadgeTextColor = badgeTextColor;
             badge.VerticalOffset = (int)(iconView.Top / 1.5);
-            badge.SetVisible(true);
 
             iconView.Overlay?.Clear();
 
@@ -144,6 +143,8 @@ namespace Xam.Shell.Badge.Droid.Renderers
             }
             else
             {
+                badge.SetVisible(true);
+
                 if (badgeNumber == 0)
                 {
                     badge.ClearNumber();
