@@ -47,6 +47,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Xam.Shell.Badge">
+      <Version>1.0.18</Version>
+    </PackageReference>
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2337" />
   </ItemGroup>
   <ItemGroup>
@@ -69,10 +72,6 @@
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\src\Xam.Shell.Badge.Android\Xam.Shell.Badge.Android.csproj">
-      <Project>{4d8a3091-1219-456e-aad7-f0b50f38e1b5}</Project>
-      <Name>Xam.Shell.Badge.Android</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Xam.Shell.Badge.Sample\Xam.Shell.Badge.Sample.csproj">
       <Project>{047D2052-6D49-44BB-88F1-B7935C726FC8}</Project>
       <Name>Xam.Shell.Badge.Sample</Name>
