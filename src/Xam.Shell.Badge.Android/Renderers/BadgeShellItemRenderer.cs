@@ -141,7 +141,6 @@ namespace Xam.Shell.Badge.Droid.Renderers
             if (string.IsNullOrEmpty(badgeText))
             {
                 badge.SetVisible(false);
-                BadgeUtils.AttachBadgeDrawable(badge, iconView);
             }
             else
             {
