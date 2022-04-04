@@ -8,7 +8,7 @@
     <Shell.BindingContext>
         <local:ShellViewModel />
     </Shell.BindingContext>
-    
+
     <Shell.Resources>
         <ResourceDictionary>
             <Color x:Key="NavigationPrimary">#2196F3</Color>

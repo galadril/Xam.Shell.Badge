@@ -3,6 +3,7 @@ using Android.Views;
 using AsyncAwaitBestPractices;
 using Google.Android.Material.Badge;
 using Google.Android.Material.BottomNavigation;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -28,8 +29,8 @@ namespace Xam.Shell.Badge.Droid.Renderers
 
         private BottomNavigationView _bottomNavigationView;
 
-        private readonly Dictionary<int, BadgeDrawable> _badgeDrawables =
-            new Dictionary<int, BadgeDrawable>();
+        private readonly Dictionary<Guid, int> _tabRealIndexByItemId =
+            new Dictionary<Guid, int>();
 
         /// <summary>
         /// <inheritdoc/>
@@ -75,21 +76,37 @@ namespace Xam.Shell.Badge.Droid.Renderers
                 return;
 
             Device
-                .InvokeOnMainThreadAsync(() => UpdateBadge((ShellSection)sender))
+                .InvokeOnMainThreadAsync(() =>
+                {
+                    var item = (ShellSection)sender;
+                    if (item.IsVisible)
+                    {
+                        var index = _tabRealIndexByItemId.GetValueOrDefault(item.Id, -1);
+                        UpdateBadge(item, index);
+                    }
+                })
                 .SafeFireAndForget();
         }
 
         private void InitBadges()
         {
-            for (int index = 0; index < ShellItem.Items.Count; index++)
+            _tabRealIndexByItemId.Clear();
+            for (int index = 0, filteredIndex = 0; index < ShellItem.Items.Count; index++)
             {
-                UpdateBadge(ShellItem.Items.ElementAtOrDefault(index));
+                var item = ShellItem.Items.ElementAtOrDefault(index);
+                if (!item.IsVisible)
+                    continue;
+                _tabRealIndexByItemId[item.Id] = filteredIndex;
+                UpdateBadge(item, filteredIndex);
+                filteredIndex++;
             }
         }
 
-        private void UpdateBadge(ShellSection item)
+        private void UpdateBadge(ShellSection item, int index)
         {
-            var index = ShellItem.Items.IndexOf(item);
+            if (index < 0)
+                return;
+
             var text = Badge.GetText(item);
             var textColor = Badge.GetTextColor(item);
             var bg = Badge.GetBackgroundColor(item);
@@ -102,43 +119,41 @@ namespace Xam.Shell.Badge.Droid.Renderers
                 return;
 
             using var bottomNavigationMenuView = (BottomNavigationMenuView)_bottomNavigationView.GetChildAt(0);
-            
-            var itemView = bottomNavigationMenuView.FindViewById<BottomNavigationItemView>(itemId);
+            using var itemView = bottomNavigationMenuView.FindViewById<BottomNavigationItemView>(itemId);
             if (default == itemView)
                 return;
 
-            var iconView = itemView.GetChildAt(0);
+            using var iconView = itemView.GetChildAt(0);
 
             var badgeBackgroundColor = badgeBg.ToAndroid();
             var badgeTextColor = textColor.ToAndroid();
-            int.TryParse(badgeText, out var badgeNumber);
+            _ = int.TryParse(badgeText, out var badgeNumber);
 
-            var badge = _badgeDrawables.GetValueOrDefault(itemId, BadgeDrawable.Create(
-                new ContextThemeWrapper(_shellContext.AndroidContext, Resource.Style.Base_Theme_MaterialComponents_Bridge)));
+            var badge = BadgeDrawable.Create(new ContextThemeWrapper(
+                _shellContext.AndroidContext, Resource.Style.Base_Theme_MaterialComponents_Bridge));
             badge.BackgroundColor = badgeBackgroundColor;
             badge.BadgeTextColor = badgeTextColor;
             badge.VerticalOffset = (int)(iconView.Top / 1.5);
-            badge.SetVisible(true);
+
+            iconView.Overlay?.Clear();
 
             if (string.IsNullOrEmpty(badgeText))
             {
                 badge.SetVisible(false);
-                BadgeUtils.AttachBadgeDrawable(badge, iconView);
-                _badgeDrawables[itemId] = badge;
             }
             else
             {
+                badge.SetVisible(true);
+
                 if (badgeNumber == 0)
                 {
                     badge.ClearNumber();
                     BadgeUtils.AttachBadgeDrawable(badge, iconView);
-                    _badgeDrawables[itemId] = badge;
                 }
                 else
                 {
                     badge.Number = badgeNumber;
                     BadgeUtils.AttachBadgeDrawable(badge, iconView);
-                    _badgeDrawables[itemId] = badge;
                 }
             }
         }
