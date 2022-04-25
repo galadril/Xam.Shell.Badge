@@ -56,12 +56,22 @@ namespace Xam.Shell.Badge.Droid.Renderers
         /// <summary>
         /// <inheritdoc/>
         /// </summary>
+        public override void OnDestroyView()
+        {
+            base.OnDestroyView();
+
+            _bottomNavigationView = default;
+        }
+
+        /// <summary>
+        /// <inheritdoc/>
+        /// </summary>
         public override void OnResume()
         {
             base.OnResume();
 
             Device
-                .InvokeOnMainThreadAsync(InitBadges)
+                .InvokeOnMainThreadAsync(() => _shellContext.CurrentDrawerLayout.Post(InitBadges))
                 .SafeFireAndForget();
         }
 
