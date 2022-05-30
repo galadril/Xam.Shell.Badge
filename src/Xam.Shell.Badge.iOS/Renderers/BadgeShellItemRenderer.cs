@@ -15,6 +15,17 @@ namespace Xam.Shell.Badge.iOS.Renderers
     /// </summary>
     public class BadgeShellItemRenderer : ShellItemRenderer
     {
+        static bool? s_isiOS15OrNewer;
+        internal static bool IsiOS15OrNewer
+        {
+            get
+            {
+                if (!s_isiOS15OrNewer.HasValue)
+                    s_isiOS15OrNewer = UIDevice.CurrentDevice.CheckSystemVersion(15, 0);
+                return s_isiOS15OrNewer.Value;
+            }
+        }
+    
         private readonly string[] _applyPropertyNames =
             new string[]
             {
@@ -111,7 +122,7 @@ namespace Xam.Shell.Badge.iOS.Renderers
 
                     if (badgeValue == 0)
                     {
-                        currentTabBarItem.BadgeValue = "●";
+                        currentTabBarItem.BadgeValue = IsiOS15OrNewer ? "0" : "●";
                         currentTabBarItem.BadgeColor = UIColor.Clear;
                         currentTabBarItem.SetBadgeTextAttributes(
                             new UIStringAttributes
@@ -128,6 +139,22 @@ namespace Xam.Shell.Badge.iOS.Renderers
                             {
                                 ForegroundColor = textColor.ToUIColor()
                             }, UIControlState.Normal);
+                    }
+                    
+                    if (IsiOS15OrNewer)
+                    {
+                        var appearance = new UITabBarAppearance();
+
+                        appearance.StackedLayoutAppearance.Normal.BadgeTextAttributes = new UIStringAttributes { ForegroundColor = textColor.ToUIColor(), ParagraphStyle = NSParagraphStyle.Default };
+                        appearance.StackedLayoutAppearance.Normal.BadgeBackgroundColor = bg.ToUIColor();
+
+                        appearance.InlineLayoutAppearance.Normal.BadgeTextAttributes = new UIStringAttributes { ForegroundColor = textColor.ToUIColor(), ParagraphStyle = NSParagraphStyle.Default };
+                        appearance.InlineLayoutAppearance.Normal.BadgeBackgroundColor = bg.ToUIColor();
+
+                        appearance.CompactInlineLayoutAppearance.Normal.BadgeTextAttributes = new UIStringAttributes { ForegroundColor = textColor.ToUIColor(), ParagraphStyle = NSParagraphStyle.Default };
+                        appearance.CompactInlineLayoutAppearance.Normal.BadgeBackgroundColor = bg.ToUIColor();
+
+                        currentTabBarItem.ScrollEdgeAppearance = appearance;
                     }
                 }
             }
