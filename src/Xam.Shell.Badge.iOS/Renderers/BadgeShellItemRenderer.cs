@@ -113,48 +113,56 @@ namespace Xam.Shell.Badge.iOS.Renderers
                 {
                     int.TryParse(text, out var badgeValue);
 
-                    if (IsiOS15OrNewer)
-                    {
-                        var appearance = TabBar.ScrollEdgeAppearance;
-
-                        appearance.StackedLayoutAppearance.Normal.BadgeTextAttributes = new UIStringAttributes { ForegroundColor = textColor.ToUIColor(), ParagraphStyle = NSParagraphStyle.Default };
-                        appearance.StackedLayoutAppearance.Normal.BadgeBackgroundColor = bg.ToUIColor();
-
-                        appearance.InlineLayoutAppearance.Normal.BadgeTextAttributes = new UIStringAttributes { ForegroundColor = textColor.ToUIColor(), ParagraphStyle = NSParagraphStyle.Default };
-                        appearance.InlineLayoutAppearance.Normal.BadgeBackgroundColor = bg.ToUIColor();
-
-                        appearance.CompactInlineLayoutAppearance.Normal.BadgeTextAttributes = new UIStringAttributes { ForegroundColor = textColor.ToUIColor(), ParagraphStyle = NSParagraphStyle.Default };
-                        appearance.CompactInlineLayoutAppearance.Normal.BadgeBackgroundColor = bg.ToUIColor();
-                    }
-
                     if (string.IsNullOrEmpty(text))
                     {
                         currentTabBarItem.BadgeValue = default;
-                        currentTabBarItem.BadgeColor = UIColor.Clear;
-                        return;
+                        textColor = Color.Transparent;
+                        bg = Color.Transparent;
                     }
-
-                    if (badgeValue == 0)
+                    else if (badgeValue == 0)
                     {
-                        currentTabBarItem.BadgeValue = IsiOS15OrNewer ? "0" : "●";
-                        currentTabBarItem.BadgeColor = UIColor.Clear;
-                        currentTabBarItem.SetBadgeTextAttributes(
-                            new UIStringAttributes
-                            {
-                                ForegroundColor = bg.ToUIColor()
-                            }, UIControlState.Normal);
+                        currentTabBarItem.BadgeValue = "●";
+                        textColor = bg;
+                        bg = Color.Transparent;
                     }
                     else
                     {
                         currentTabBarItem.BadgeValue = text;
-                        currentTabBarItem.BadgeColor = bg.ToUIColor();
-                        currentTabBarItem.SetBadgeTextAttributes(
-                            new UIStringAttributes
-                            {
-                                ForegroundColor = textColor.ToUIColor()
-                            }, UIControlState.Normal);
                     }
+
+                    currentTabBarItem.BadgeColor = bg.ToUIColor();
+                    currentTabBarItem.SetBadgeTextAttributes(
+                        new UIStringAttributes
+                        {
+                            ForegroundColor = textColor.ToUIColor()
+                        }, UIControlState.Normal);
                 }
+            }
+        }
+
+        protected override void UpdateShellAppearance(ShellAppearance appearance)
+        {
+            if (IsiOS15OrNewer) {
+                // base.UpdateShellAppearance(appearance);
+
+                IShellAppearanceElement appearanceElement = appearance;
+                var backgroundColor = appearanceElement.EffectiveTabBarBackgroundColor;
+                var unselectedColor = appearanceElement.EffectiveTabBarUnselectedColor;
+                var titleColor = appearanceElement.EffectiveTabBarTitleColor;
+
+                if (!backgroundColor.IsDefault)
+                    TabBar.BackgroundColor = backgroundColor.ToUIColor();
+                    TabBar.BarTintColor = backgroundColor.ToUIColor();
+                if (!titleColor.IsDefault)
+                    TabBar.TintColor = titleColor.ToUIColor();
+
+                if (!unselectedColor.IsDefault)
+                {
+                    TabBar.UnselectedItemTintColor = unselectedColor.ToUIColor();
+                }
+
+            } else {
+                base.UpdateShellAppearance(appearance);
             }
         }
     }
