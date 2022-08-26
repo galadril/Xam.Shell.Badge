@@ -72,10 +72,12 @@ namespace Xam.Shell.Badge.iOS.Renderers
         private void InitBadges()
         {
             _tabRealIndexByItemId.Clear();
+            if (ShellItem?.Items == null)
+                return;
             for (int index = 0, filteredIndex = 0; index < ShellItem.Items.Count; index++)
             {
                 var item = ShellItem.Items.ElementAtOrDefault(index);
-                if (!item.IsVisible)
+                if (item == null || !item.IsVisible)
                     continue;
                 _tabRealIndexByItemId[item.Id] = filteredIndex;
                 UpdateBadge(item, filteredIndex);
