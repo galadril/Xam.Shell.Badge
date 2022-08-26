@@ -120,9 +120,9 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xam.Shell.Badge">
-      <Version>1.0.20</Version>
+      <Version>1.0.21</Version>
     </PackageReference>
-    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2401" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2515" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
